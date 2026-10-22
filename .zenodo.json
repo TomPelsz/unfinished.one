@@ -1,0 +1,13 @@
+{
+  "title": "unfinished.one: open reference library of service lives and preventive maintenance for built assets",
+  "upload_type": "dataset",
+  "description": "<p>An open reference library of how long building components and municipal infrastructure last, and how to maintain them. Each entry gives a median service life, the range its sources state, every source cited to the page, a confidence grade, open questions and a permanent versioned link. It also includes preventive maintenance tasks from US federal guidance, and useful lives stated in Canadian municipal asset management plans and capital asset policies (Ontario, British Columbia, Alberta), each linked to its page.</p><p>Published lives are planning, design and accounting lives, not measured replacement ages. Browse and cite individual entries at <a href=\"https://unfinished.one\">unfinished.one</a>; the same data is served as JSON, CSV and an MCP server.</p><p>Data: CC BY 4.0. Code: MIT.</p>",
+  "creators": [{ "name": "unfinished.one" }],
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "keywords": ["asset management", "service life", "useful life", "life expectancy", "preventive maintenance", "capital planning", "municipal infrastructure", "facilities management", "open data"],
+  "related_identifiers": [
+    { "identifier": "https://unfinished.one", "relation": "isDocumentedBy", "scheme": "url" }
+  ],
+  "notes": "Cite the versioned link of each entry you use (shown on its page), or this archive for the dataset as a whole. The code in this archive is licensed MIT; see LICENSE."
+}
