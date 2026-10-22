@@ -1,0 +1,109 @@
+{
+  "id": "catch-basin",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Catch basin"
+  ],
+  "aliases": [
+    "CB",
+    "storm inlet"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 1,
+      "code": "HUD CNA 3.2.2.1",
+      "label": "Catch basins, inlets, culverts",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row also covers inlets and culverts. HUD's row is for site work at US multifamily properties, not municipal networks."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 10,
+      "label": "Catch Basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "label": "Storm Sewers - Catch Basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Storm - Catch basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Sarnia: Finance-04 Tangible Capital Asset Policy, Attachment No. 1: TCA Policy Appendix A",
+      "url": "https://www.sarnia.ca/app/uploads/2020/07/Finance-04-Tangible-Capital-Asset-Policy-Attachment-No.-1-TCA-Policy-Appendix-A.pdf",
+      "page": 2,
+      "label": "Catch Basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 402,
+      "label": "Infrastructure - Water & Sewer - Catch Basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 402,
+      "label": "Infrastructure - Water & Sewer - Double Catch Basins",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD gives planning lives for US multifamily housing; the municipal rows are Ontario accounting lives. Neither is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

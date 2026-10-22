@@ -1,0 +1,17 @@
+---
+import Entry from '../../../components/Entry.astro';
+import Planned from '../../../components/Planned.astro';
+import { loadCatalogue, loadComponents, loadWithdrawn } from '../../../lib/data';
+
+export function getStaticPaths() {
+  const catalogue = loadCatalogue();
+  const withdrawn = new Map(loadWithdrawn().map((w: any) => [w.id, w]));
+  const published = loadComponents().map((c) => ({ params: { id: c.id }, props: { c } }));
+  const planned = catalogue
+    .filter((item) => !item.entry)
+    .map((item) => ({ params: { id: item.id }, props: { item, siblings: catalogue.filter((s) => s.group === item.group && s.id !== item.id), withdrawn: withdrawn.get(item.id) } }));
+  return [...published, ...planned];
+}
+const { c, item, siblings, withdrawn } = Astro.props;
+---
+{c ? <Entry entry={c.latest} versions={c.versions.map((v: any) => v.version)} pinned={false} /> : <Planned item={item} siblings={siblings} withdrawn={withdrawn} />}

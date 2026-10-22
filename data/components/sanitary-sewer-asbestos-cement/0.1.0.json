@@ -1,0 +1,47 @@
+{
+  "id": "sanitary-sewer-asbestos-cement",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3020"
+  },
+  "names": [
+    "Sanitary sewer, asbestos cement"
+  ],
+  "aliases": [
+    "AC sewer",
+    "transite sewer"
+  ],
+  "service_life": {
+    "median_years": 80,
+    "range_years": [
+      80,
+      80
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Quinte West: A09-POLICY-0034 Tangible Capital Asset Policy",
+      "url": "https://quintewest.ca/wp-content/uploads/2024/05/A09-POLICY-0034_-_Tangible_Capital_Asset_Policy.pdf",
+      "page": 37,
+      "label": "Sanitary Sewer Mains - AC",
+      "years": 80,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

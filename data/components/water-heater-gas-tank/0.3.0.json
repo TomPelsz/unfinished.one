@@ -1,0 +1,133 @@
+{
+  "id": "water-heater-gas-tank",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Water heater, gas, storage tank"
+  ],
+  "aliases": [
+    "DHW tank",
+    "HWT",
+    "hot water tank",
+    "domestic hot water heater",
+    "gas water heater"
+  ],
+  "service_life": {
+    "median_years": 12,
+    "range_years": [
+      10,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Drain tank and flush out sediment",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Remove and clean gas burner",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Inspect flue for corrosion, loose joints and sagging",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Refill and check for leaks",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Light pilot and check flame",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.6",
+      "label": "Residential hot water heater, gas or electric",
+      "years": [
+        12,
+        15
+      ],
+      "note": "Family properties 12 years, elderly 15. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Commercial Water Heating Equipment (final rule), 88 FR 69686, October 6, 2023",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-06/pdf/2023-20392.pdf",
+      "page": 70,
+      "code": "IV.F.6",
+      "label": "Table IV.21: \"Commercial gas-fired storage water heaters and storage-type instantaneous ... 10\" years average lifetime",
+      "years": 10,
+      "note": "Printed page 69755. class: commercial gas-fired storage water heaters (and storage-type instantaneous). Commercial; weighted average of a distribution."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Commercial Water Heating Equipment (final rule), 88 FR 69686, October 6, 2023",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-06/pdf/2023-20392.pdf",
+      "page": 70,
+      "code": "IV.F.6",
+      "label": "Table IV.21: \"Residential-duty gas-fired storage water heaters ... 12\" years average lifetime",
+      "years": 12,
+      "note": "Printed page 69755. class: residential-duty commercial gas-fired storage water heaters (commercial use of residential-size units)."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Water Heaters (final rule), 89 FR 37778, May 6, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-06/pdf/2024-09209.pdf",
+      "page": 82,
+      "code": "IV.F.6",
+      "label": "\"DOE estimates the average product lifetime to be around 15 years for storage water heaters\"",
+      "years": 15,
+      "note": "Printed page 37859. residential: consumer gas-fired storage water heaters. Value is \"around 15 years\" (a later DOE rule cites about 14.5 years for gas-fired storage). Also on p.4 (printed 37781)."
+    }
+  ],
+  "confidence": {
+    "grade": "B",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD's row is for residential water heaters; commercial storage heaters may differ.",
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

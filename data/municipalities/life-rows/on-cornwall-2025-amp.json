@@ -1,0 +1,1221 @@
+{
+  "document": {
+    "id": "on-cornwall-2025-amp",
+    "municipality": "on-cornwall",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan City of Cornwall",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://media-003-ca.cdn.govstack.com/cornwall-ca/media/zf1flyyr/2025-asset-management-plan.pdf",
+    "sha256": "d10faff37daa0e5bcc85954748e49bf77090400d1090ae61c44d98fbfe1733d6",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-cornwall-2025-amp-r1",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 73.7,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r2",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 66.2,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r3",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 66,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r4",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 65.1,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r5",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r6",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 47.9,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r7",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r8",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r9",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 12.2,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r10",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 26.1,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r11",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Streetlight",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r12",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 17.6,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r13",
+      "page": 252,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 27.6,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r14",
+      "page": 253,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r15",
+      "page": 253,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r16",
+      "page": 253,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r17",
+      "page": 299,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 99.6,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r18",
+      "page": 299,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 58.9,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r19",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, asbestos cement",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r20",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 120,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r21",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r22",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, PVC",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r23",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r24",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r25",
+      "page": 300,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, clay",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r26",
+      "page": 316,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 108.3,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary forcemain",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r27",
+      "page": 316,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 94.7,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r28",
+      "page": 316,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r29",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, asbestos cement",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r30",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r31",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r32",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, ductile iron",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r33",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, polyethylene",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r34",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, PVC",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r35",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r36",
+      "page": 317,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer, vitrified clay",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r37",
+      "page": 335,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 101.5,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r38",
+      "page": 335,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r40",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, asbestos cement",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r41",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r42",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r43",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r44",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, polyethylene",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r45",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, PVC",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r46",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r47",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r48",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r49",
+      "page": 336,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer, clay",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r50",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 95.6,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r51",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 67,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r52",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 81.5,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Watermain, cast iron",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r53",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Watermain, concrete pressure pipe",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r54",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r55",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Watermain, ductile iron",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r56",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 110,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Watermain, PVC",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r57",
+      "page": 354,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 55,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply, steel",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r58",
+      "page": 372,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r59",
+      "page": 372,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r60",
+      "page": 372,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r61",
+      "page": 372,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r62",
+      "page": 372,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 63.5,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r63",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r64",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r65",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r66",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r67",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 78,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-cornwall-2025-amp-r68",
+      "page": 386,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 62.6,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    }
+  ]
+}

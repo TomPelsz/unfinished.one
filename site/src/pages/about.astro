@@ -1,0 +1,47 @@
+---
+import Docs from '../layouts/Docs.astro';
+import { loadCatalogue } from '../lib/data';
+import { isInfrastructure } from '../lib/groups';
+const catalogue = loadCatalogue();
+const building = catalogue.filter((c: any) => !isInfrastructure(c.group)).length;
+const written = catalogue.filter((c: any) => c.entry).length;
+const gradeB = catalogue.filter((c: any) => c.entry?.confidence.grade === 'B').length;
+import GradeLegend from '../components/GradeLegend.astro';
+---
+<Docs title="About · unfinished.one" description="What unfinished.one is, why it is called unfinished, what the confidence grades mean and how it stays neutral." canonical="https://unfinished.one/about">
+  <h1>About</h1>
+  <p class="lede">unfinished.one is an open reference library for built assets: how long building components last (service life) and how to maintain them (preventive maintenance tasks).</p>
+  <p>Each entry is a citeable page, a JSON file and an answer from an <a href="/agents">MCP server</a>. Every answer carries its source, a confidence grade and a permanent versioned link. The data is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+
+  <h2 id="unfinished">Why “unfinished”</h2>
+  <p>A reference like this is never complete. Sources disagree, components change and some numbers rest on a single estimate. Rather than hide that, each entry lists its open questions and says how strong its evidence is. Gaps are published, not hidden.</p>
+
+  <h2 id="confidence">Confidence grades</h2>
+  <p>Every entry has one grade for the strength of its service-life evidence.</p>
+  <GradeLegend />
+  <p>Most entries start at C or D. A grade can change as evidence is added; any change to an entry is a new version with its own permanent link. Where the sources come from is set out in the <a href="/sourcing">sourcing policy</a>.</p>
+
+  <h2 id="sources">Where the numbers come from</h2>
+  <p>Published, checkable sources first, each cited to its page. Today the library draws on three kinds:</p>
+  <ul>
+    <li><strong>US federal documents</strong>, which are public domain: HUD's useful life table for capital needs assessments, equipment lifetimes from Department of Energy efficiency standards, and maintenance checklists from the Department of Energy and Department of Defense.</li>
+    <li><strong>Canadian municipal capital asset policies</strong>, which set accounting lives for amortization, often per building system and per pipe material.</li>
+    <li><strong>Ontario municipal asset management plans</strong>, which set planning lives for forecasting replacement, mostly for infrastructure.</li>
+  </ul>
+  <p>Each entry labels every value with its kind of life: planning, accounting or design. None is a measured replacement age yet. Manufacturer literature, standards referenced by clause number and open research come next; expert estimates are allowed but labelled, and they are the lowest grade. Every cited document is listed on <a href="/sources">Sources</a>.</p>
+  <p>Over time the strongest evidence will be observed replacements: install and removal dates from real buildings, shared opt-in and published only as aggregates.</p>
+
+  <h2 id="neutrality">Neutrality</h2>
+  <p>The library is meant to be safe for competing maintenance software vendors, consultants and governments to build on. No company gets special access: the pages, the JSON and the MCP server are the same for everyone, and anyone may use the data under CC BY 4.0.</p>
+
+  <h2 id="privacy">Privacy</h2>
+  <p>Observed data, when it is added, is opt-in, anonymized and published only as aggregates above a minimum sample size. Public output never identifies an owner, building or address; observations are described by region and building type only.</p>
+
+  <h2 id="status">Pre-release status</h2>
+  <p>This site is a pre-release. The first public release is targeted for mid-2027. The catalogue covers {catalogue.length} components: {building} building components across HVAC, controls, plumbing, electrical, fire protection, envelope, conveying and arenas and pools, and {catalogue.length - building} municipal infrastructure assets across water, wastewater, stormwater, roads and bridges. {written} have entries today, {gradeB} of them at grade B.</p>
+  <p>Progress is public: the <a href="/#coverage">coverage grid</a> on the home page shows which components have entries and which are still planned.</p>
+  <p>Until then, entries may be incomplete and most rest on one or two published sources. The first version of one entry held placeholder values, marked as such in its open questions; it stays at its permanent link. The format may change. Versioned links will keep working.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Corrections, sources and questions: <a href="mailto:hello@unfinished.one">hello@unfinished.one</a>.</p>
+</Docs>

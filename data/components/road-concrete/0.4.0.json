@@ -1,0 +1,69 @@
+{
+  "id": "road-concrete",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Road, concrete pavement"
+  ],
+  "aliases": [
+    "concrete road",
+    "rigid pavement"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Patrol Class 3 municipal roads to check for the conditions set out in the regulation (potholes, cracks, discontinuities, drop-offs)",
+      "frequency": "P1W",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 3 highways)"
+    },
+    {
+      "task": "Patrol Class 4 municipal roads to check for the conditions set out in the regulation",
+      "frequency": "P2W",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 4 highways)"
+    },
+    {
+      "task": "Patrol Class 5 municipal roads to check for the conditions set out in the regulation",
+      "frequency": "P30D",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 5 highways)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 7,
+      "label": "Infrastructure - Transportation - Concrete Road Surface",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "A municipal minimum standard tied to the statutory defence in s.44 of the Municipal Act, 2001; patrolling is a drive-by observation of the whole road, not a component-level inspection. Not an official version."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

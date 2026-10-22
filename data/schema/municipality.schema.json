@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unfinished.one/schema/municipality.schema.json",
+  "title": "unfinished.one Municipal Plan Index: municipality",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "province",
+    "tier",
+    "upper_tier",
+    "population_2021",
+    "website",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[a-z0-9]+)+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "province": {
+      "enum": [
+        "ON",
+        "BC",
+        "AB"
+      ]
+    },
+    "tier": {
+      "enum": [
+        "single",
+        "lower",
+        "upper"
+      ]
+    },
+    "upper_tier": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z]{2}(-[a-z0-9]+)+$"
+    },
+    "population_2021": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "statcan_csd": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{7}$"
+    },
+    "website": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "population_source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

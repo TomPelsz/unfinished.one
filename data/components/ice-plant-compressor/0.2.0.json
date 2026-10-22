@@ -1,0 +1,71 @@
+{
+  "id": "ice-plant-compressor",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D3030"
+  },
+  "names": [
+    "Ice plant compressor"
+  ],
+  "aliases": [
+    "refrigeration compressor",
+    "arena compressor",
+    "NH3 compressor",
+    "ammonia compressor"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 8,
+      "label": "Arena - Air Conditioner, Brine Chillers, Compressors, Dehumidifiers",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. Both rows give one life for several arena items, compressors among them."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Orillia: 4.1.8.1 Tangible Capital Assets Policy Manual",
+      "url": "https://orillia.civicweb.net/document/366955/",
+      "page": 19,
+      "label": "Arena - Condenser/refrigeration, compressor, HVAC, heating units",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 52,
+      "code": "REFR",
+      "label": "Compressors (for refrigeration, 15kw and above)",
+      "years": 20,
+      "note": "Printed page 52. Refrigeration compressors 15 kW and above (ice plant compressors are in this class). Refrigeration category. Printed DV 10%, SL 7%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

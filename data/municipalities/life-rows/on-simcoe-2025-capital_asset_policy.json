@@ -1,0 +1,249 @@
+{
+  "document": {
+    "id": "on-simcoe-2025-capital_asset_policy",
+    "municipality": "on-simcoe",
+    "document_type": "capital_asset_policy",
+    "title": "POL-FIN-004 Tangible Capital Assets Policy (Schedule 3 to AUC 2026-046)",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://simcoe.civicweb.net/document/155626/",
+    "sha256": "5bb357b7038a77364350a223e06a789ae5a655f0fe311efa4e08a9d8a4a0d110",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r1",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Electrical",
+      "systems": [
+        "D50"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r2",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Exterior enclosure",
+      "systems": [
+        "B20"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r3",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior construction",
+      "systems": [
+        "C10"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r4",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r5",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r6",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r7",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r8",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r9",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r10",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Streetlight",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r11",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Stormwater management pond",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r12",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-simcoe-2025-capital_asset_policy-r13",
+      "page": 21,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

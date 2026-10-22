@@ -1,0 +1,21 @@
+{
+  "name": "unfinished.one",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "site",
+    "mcp"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.mjs && node scripts/validate-catalogue.mjs",
+    "bundle": "node scripts/bundle.mjs",
+    "build": "npm run validate && npm run bundle && npm run build --workspace site",
+    "dev": "npm run dev --workspace site",
+    "check": "npm run build && npm test && npm run typecheck --workspace mcp && npm test --workspace mcp",
+    "test": "node --test 'scripts/test/*.test.mjs'"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

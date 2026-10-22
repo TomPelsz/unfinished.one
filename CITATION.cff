@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these data, cite the versioned link of each entry you use (shown on its page), or this dataset as below."
+type: dataset
+title: "unfinished.one: an open reference library of service lives and preventive maintenance for built assets"
+authors:
+  - name: "unfinished.one"
+    website: "https://unfinished.one"
+license: CC-BY-4.0
+url: "https://unfinished.one"
+keywords:
+  - asset management
+  - service life
+  - useful life
+  - preventive maintenance
+  - capital planning
+  - municipal infrastructure

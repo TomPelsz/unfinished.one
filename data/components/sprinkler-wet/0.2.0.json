@@ -1,0 +1,101 @@
+{
+  "id": "sprinkler-wet",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D4010"
+  },
+  "names": [
+    "Sprinkler system, wet pipe"
+  ],
+  "aliases": [
+    "wet system",
+    "sprinkler",
+    "wet sprinkler"
+  ],
+  "service_life": {
+    "median_years": 32.5,
+    "range_years": [
+      20,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 14,
+      "code": "HUD CNA 3.6.1.1",
+      "label": "Building fire suppression sprinklers, standpipes",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing. Neither HUD nor the municipal rows separate wet from dry systems."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "The Blue Mountains: POL.COR.19.04 Tangible Capital Assets Policy",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+      "page": 11,
+      "label": "Sprinkler System",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 11,
+      "label": "Sprinkler System",
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Meaford: By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+      "url": "https://meaford.civicweb.net/document/103944/",
+      "page": 17,
+      "label": "Fire Protection - Sprinkler System",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 8,
+      "label": "Plumbing - Sprinkler System",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Parksville: Policy No. 6.16 Tangible Capital Assets",
+      "url": "https://parksville.civicweb.net/document/27036",
+      "page": 9,
+      "label": "Sprinkler System",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "The sources disagree by a factor of two (20 to 50 years). Do the shorter municipal lives reflect accounting choices or real replacement?",
+    "HUD gives planning lives for US multifamily housing; the municipal rows are Ontario accounting lives. Neither is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

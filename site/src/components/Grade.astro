@@ -1,0 +1,8 @@
+---
+import { gradeInfo } from '../lib/grades';
+interface Props { grade: string; align?: 'start' | 'end' }
+const { grade, align = 'start' } = Astro.props;
+const info = gradeInfo(grade);
+const tip = info ? `Grade ${grade}: ${info.detail}` : `Grade ${grade}`;
+---
+<a class={`grade grade-${grade}${align === 'end' ? ' tip-end' : ''}`} href="/about#confidence" aria-label={`Confidence g${tip.slice(1)} (what the grades mean)`} data-tip={tip}>{grade}</a>

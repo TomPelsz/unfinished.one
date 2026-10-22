@@ -1,0 +1,295 @@
+{
+  "document": {
+    "id": "on-peterborough-county-2025-amp",
+    "municipality": "on-peterborough-county",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025 - Peterborough County",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://media-002-ca.cdn.govstack.com/thekawarthas-012-ca/media/juqptohr/asset-management-plan-2025.pdf",
+    "sha256": "6ac1594be7d8a2740e322930e8527e13b673c360e84db7a22dc8d4e96f0a8799",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-peterborough-county-2025-amp-r1",
+      "page": 44,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r2",
+      "page": 44,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r3",
+      "page": 44,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r4",
+      "page": 44,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r5",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 61.5,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r6",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r7",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r8",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r9",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r10",
+      "page": 71,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Catch basin",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r11",
+      "page": 71,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm manhole",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r12",
+      "page": 71,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r13",
+      "page": 82,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 47.3,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r14",
+      "page": 82,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 52.9,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r15",
+      "page": 82,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 51.5,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-peterborough-county-2025-amp-r16",
+      "page": 82,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 49.8,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    }
+  ]
+}

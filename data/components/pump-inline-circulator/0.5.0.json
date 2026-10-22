@@ -1,0 +1,85 @@
+{
+  "id": "pump-inline-circulator",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D3040"
+  },
+  "names": [
+    "Pump, inline circulator"
+  ],
+  "aliases": [
+    "circulator",
+    "circ pump",
+    "inline pump"
+  ],
+  "service_life": {
+    "median_years": 15.25,
+    "range_years": [
+      10.5,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check and secure all pump mountings",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check motor condition by temperature or vibration analysis",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 12,
+      "code": "HUD CNA 3.4.2.2.8",
+      "label": "Hydronic/Water Circulating Pumps",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row covers hydronic circulating pumps of any mounting."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Circulator Pumps (final rule), 89 FR 44464, May 20, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-20/pdf/2024-07873.pdf",
+      "page": 3,
+      "label": "\"the average lifetime of circulator pumps, which is estimated to be 10.5 years\"",
+      "years": 10.5,
+      "note": "Printed page 44466. all circulator pumps, overall average across varieties."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

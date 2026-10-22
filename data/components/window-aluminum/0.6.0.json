@@ -1,0 +1,77 @@
+{
+  "id": "window-aluminum",
+  "version": "0.6.0",
+  "classification": {
+    "uniformat": "B2020"
+  },
+  "names": [
+    "Window, aluminum frame"
+  ],
+  "aliases": [
+    "aluminum window",
+    "storefront window"
+  ],
+  "service_life": {
+    "median_years": 37.5,
+    "range_years": [
+      35,
+      40
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect the building envelope, including doors and windows, every year",
+      "frequency": "P1Y",
+      "reference": "Coastal Construction Manual: Principles and Practices of Planning, Siting, Designing, Constructing, and Maintaining Residential Buildings in Coastal Areas (Fourth Edition), Volume II (FEMA P-55)",
+      "url": "https://www.maine.gov/DACF/lupc/laws_rules/materials_incorporated/CoastalConstructionManual_VolumeII_2011.pdf",
+      "page": 332,
+      "checklist": "14.2 Building Elements That Require Frequent Maintenance"
+    },
+    {
+      "task": "Check window glazing for cracked panes, fogging between insulated glass panes, nicks and failed sealant",
+      "frequency": "P1Y",
+      "reference": "Coastal Construction Manual: Principles and Practices of Planning, Siting, Designing, Constructing, and Maintaining Residential Buildings in Coastal Areas (Fourth Edition), Volume II (FEMA P-55)",
+      "url": "https://www.maine.gov/DACF/lupc/laws_rules/materials_incorporated/CoastalConstructionManual_VolumeII_2011.pdf",
+      "page": 333,
+      "checklist": "Table 14-1 Maintenance Inspection Checklist (Windows/Doors)"
+    },
+    {
+      "task": "Check window and door trim for decay, discoloration, open joints and dried-out or separated caulking",
+      "frequency": "P1Y",
+      "reference": "Coastal Construction Manual: Principles and Practices of Planning, Siting, Designing, Constructing, and Maintaining Residential Buildings in Coastal Areas (Fourth Edition), Volume II (FEMA P-55)",
+      "url": "https://www.maine.gov/DACF/lupc/laws_rules/materials_incorporated/CoastalConstructionManual_VolumeII_2011.pdf",
+      "page": 333,
+      "checklist": "Table 14-1 Maintenance Inspection Checklist (Windows/Doors)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 8,
+      "code": "HUD CNA 3.3.3.2.3",
+      "label": "Aluminum",
+      "years": [
+        35,
+        40
+      ],
+      "note": "Family properties 35 years, elderly 40. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for residential buildings in coastal areas, where the annual inspection is recommended because of salt, wind-borne debris and moisture; the interval may be conservative for inland buildings. Mirror copy hosted on maine.gov."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

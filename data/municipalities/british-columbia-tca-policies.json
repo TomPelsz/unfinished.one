@@ -1,0 +1,189 @@
+[
+  {
+    "municipality": "bc-cranbrook",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 40-701 Tangible Capital Assets Policy",
+    "year": 2010,
+    "url": "https://cranbrook.civicweb.net/document/59810",
+    "found_via": "https://cranbrook.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Schedule \"A\" on p9 (folio \"Page 9 of 12\", footer dated September 13, 2010). The text layer prints the lives as a separate block after the labels, so every value was confirmed on a rendered image of the page: Permanent buildings - Brick, stone or cement 50; Permanent buildings - Log, frame and other 40; No foundation (eg: greenhouse) 20; Temporary/portable structures 20; Building improvements: Flooring **10, HVAC, plumbing, lighting, etc **20, where ** means subject to the remaining life of the parent asset when the improvement is not a betterment. Same construction-type rows and numbers as the Comox Valley Regional District table, which says it is based on the provincial May 2008 amortization guide.",
+    "lineage": {
+      "id": "bc-construction-type-table",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "bc-duncan",
+    "document_type": "capital_asset_policy",
+    "title": "Council Policy: Capital Assets",
+    "year": 2011,
+    "url": "https://duncan.civicweb.net/document/43168",
+    "found_via": "https://duncan.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Approval date April 18, 2011 (p1). Appendix B \"ASSET CLASSES & USEFUL LIFE - General Guidelines\" on p17 (folio \"Page 17 of 19\"), checked against the text layer and an OCR of the page: 301 Arenas and Stadiums 50; 302 Building Structure (other than Arenas and Stadiums) 40; 303 Building Roof 20; 304 Building Other (Electrical, Mechanical, etc.) 25; 305 Building Other (HVAC) 15; 306 Minor Buildings 25; 307 Portable Structures 20; 308 Building Improvements 20. Identical building lives and codes to North Cowichan (2009), whose policy came first; thresholds differ.",
+    "lineage": {
+      "id": "cowichan-asset-classes",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-north-cowichan",
+    "document_type": "capital_asset_policy",
+    "title": "Council Policy: Capital Asset Policy",
+    "year": 2014,
+    "url": "https://www.northcowichan.ca/sites/default/files/2023-10/Capital%20Asset%20Policy.pdf",
+    "found_via": "https://www.northcowichan.ca/municipal-hall/policies",
+    "notes": "Found by site crawl on 2026-10-21; PDF opened. Approved March 4, 2009, amended April 21, 2010 and July 2, 2014 (p1). Appendix I \"ASSET CLASSES & USEFUL LIFE - General Guidelines\" on p9: 301 Arenas and Stadiums 50; 302 Building Structure (other than Arenas and Stadiums) 40 (footnote: amended 2010-04-21); 303 Building Roof 20; 304 Building Other (Electrical, Mechanical, etc.) 25; 305 Building Other (HVAC) 15; 306 Minor Buildings 25; 307 Portable Structures 20; 308 Building Improvements 20 (added 2010-04-21). Same lives as Duncan.",
+    "lineage": {
+      "id": "cowichan-asset-classes",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-lantzville",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 6000-2 Tangible Capital Assets",
+    "year": 2019,
+    "url": "https://www.lantzville.ca/cms/wpattachments/wpID725atID4717.pdf",
+    "found_via": null,
+    "notes": "Found by site crawl of lantzville.ca on 2026-10-21; PDF opened. Implemented November 23, 2009 (C148-09), amended February 25, 2019 (C19-34) (p1). The schedule pages are scanned with no text layer; p11 was read by OCR of the rendered page and the rows below are as the OCR placed them on each line: 301 Buildings 60; 302 Minor Buildings (washrooms, picnic shelters, etc.) 25; 303 Portable Buildings 15; 304 Building Roof 20; 305 HVAC 15; 306 Electrical, Mechanical, Plumbing 25; 307 Improvements 20. Same opening text and 3xx code layout as North Cowichan, with different numbers.",
+    "lineage": {
+      "id": "cowichan-asset-classes",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "bc-fort-st-james",
+    "document_type": "capital_asset_policy",
+    "title": "Policy 2.3 Tangible Capital Asset",
+    "year": 2010,
+    "url": "https://fortstjames.civicweb.net/document/108537",
+    "found_via": "https://fortstjames.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21 (also linked from https://www.fortstjames.ca/government/bylaws-policies); PDF opened. Adopted August 18, 2010 (p1). Schedule 'A' - Asset Useful Life (General Guidelines) on p5: Building Structure 40 - 75; Building Improvements: Exterior Envelope 30 - 40, HVAC Systems 10 - 12, Roofs 15 - 20, Electrical/Plumbing/Fire 15 - 20. Same table as Tumbler Ridge, Revelstoke, Rossland and Sicamous.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-tumbler-ridge",
+    "document_type": "capital_asset_policy",
+    "title": "Policy T.R.37 Tangible Capital Asset Policy",
+    "year": 2010,
+    "url": "https://tumblerridge.civicweb.net/document/29698",
+    "found_via": "https://tumblerridge.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Date of policy February 15, 2010, motion 10-05-05 (p1). Schedule 'A' on p5 (folio 'Page 5 of 5'): Building Structure 40 - 75; Exterior Envelope 30 - 40; HVAC Systems 10 - 12; Roofs 15 - 20; Electrical/Plumbing/Fire 15 - 20. A December 2, 2024 staff report (https://tumblerridge.civicweb.net/document/47248) proposes a revised FIN-02 schedule with new lives for assets from January 1, 2024; its two-column red-line table could not be read reliably by position, so it was not recorded and its adoption was not confirmed.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-telkwa",
+    "document_type": "capital_asset_policy",
+    "title": "Policy 2013-03 Tangible Capital Asset (council agenda attachment)",
+    "year": null,
+    "url": "https://telkwa.civicweb.net/document/257",
+    "found_via": "https://telkwa.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. This copy is the attachment to the March 11, 2013 council agenda (\"Policy 2013-03 Tangible Capital Asset For Agenda\"); the adopted version and date were not found. Attachment 1 \"ASSET USEFUL LIFE - General Guidelines\" on p8: Washrooms, Concessions, Picnic Shelters 20; Building Structure 50; Building Systems: Exterior Envelope 20, HVAC Systems 20, Roofs 20, Electrical/Plumbing/Fire 20. Same form as the Fort St. James/Revelstoke table with single values.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "bc-parksville",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 6.16 Tangible Capital Assets",
+    "year": 2023,
+    "url": "https://parksville.civicweb.net/document/27036",
+    "found_via": "https://parksville.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Effective February 15, 2010 (10-043), revised March 16, 2015 (15-071) and November 20, 2023 (23-278) (p1). The file path in the header still reads \"2023 - DRAFT\"; the same table is in the November 20, 2023 council report (https://parksville.civicweb.net/document/65641, p13). Appendix I \"ASSET THRESHOLDS AND USEFUL ECONOMIC LIFES (General Guidelines)\" on p9: Buildings and Building Improvements 50 (non-componentized); componentized: Electrical Infrastructure 20, Elevators 25, Exterior Wall 50, Fire Protection 20-50 (Sprinkler System 50, Fire Suppression 20, Alarm System 20), Floor Structure 50, Foundation 50, Frame 50, HVAC 20, Interior Construction 50 (interior walls, doors, etc), Plumbing Infrastructure 50, Roof Finish 20-30 (Metal Cladding 30, Sealed Membrane 20, Asphalt Shingles 25), Roof Structure 50, Miscellaneous Building Components 20 (decks, fountains, patios, canopies). Yard Improvements 30 (paving, sidewalks) not recorded."
+  },
+  {
+    "municipality": "bc-revelstoke",
+    "document_type": "capital_asset_policy",
+    "title": "Policy F-10 Capital Asset Policy",
+    "year": 2008,
+    "url": "https://revelstoke.civicweb.net/document/70690",
+    "found_via": "https://revelstoke.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Approval date March 25, 2008 (p1). Schedule I \"ASSET USEFUL LIFE - General Guidelines\" on p9 (folio \"Page 9 of 9\"; the file continues with attachments to p36). Scanned page with a jumbled text layer, so values were confirmed on a rendered image: Washrooms, Concessions, Picnic Shelters 40 - 50; Outdoor pools, spray pools 50 - 60; Building Structure 40 - 75; Exterior Envelope 30 - 40; HVAC Systems 10 - 12; Roofs 15 - 20; Electrical/Plumbing/Fire 15 - 20.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-rossland",
+    "document_type": "capital_asset_policy",
+    "title": "AD-25 Tangible Capital Asset Policy",
+    "year": 2025,
+    "url": "https://rossland.civicweb.net/document/23837",
+    "found_via": "https://rossland.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Effective February 11, 2008; last update October 2025 (p1). Attachment 1 \"ASSET USEFUL LIFE - General Guidelines\" on p7 (folio \"Page 7 of 7\"): Washrooms, Concessions, Picnic Shelters 40 - 50; Outdoor pools, spray pools 50 - 60; Building Structure 40 - 75; Exterior Envelope 30 - 40; HVAC Systems 10 - 12; Roofs 15 - 20; Electrical/Plumbing/Fire 15 - 20.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-sicamous",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. F-7 Tangible Capital Asset Policy",
+    "year": 2011,
+    "url": "https://sicamous.civicweb.net/document/119286",
+    "found_via": "https://sicamous.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Date of resolution February 25, 2009, amended March 23, 2011 (p1). The PDF has no usable text layer; it was read by OCR of rendered pages. Attachment I \"ASSET USEFUL LIFE - General Guidelines\" on p9: Washrooms, Concessions, Picnic Shelters 40 - 50; Outdoor pools, spray pools 50 - 60; Building Structure 40 - 75; Exterior Envelope 30 - 40; HVAC Systems 10 - 12; Roofs 15 - 20; Electrical/Plumbing/Fire 15 - 20.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "bc-tofino",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Policy",
+    "year": 2009,
+    "url": "https://tofino.civicweb.net/document/93164",
+    "found_via": "https://tofino.civicweb.net/api/documents/search?all=tangible%20capital%20asset%20policy",
+    "notes": "Found by CivicWeb document search on 2026-10-21; PDF opened. Resolution 256-09, dated 2009-May-26 (p1). Appendix B \"Useful Life and Thresholds\" on p12: Buildings - permanent: Structure 40, Roof 25, Systems - mechanical, electrical, HVAC 25; Buildings - washrooms, concessions, picnic shelters 40; Buildings - portable 25. Checked against the text layer and an OCR of the page."
+  },
+  {
+    "municipality": "bc-salmo",
+    "document_type": "capital_asset_policy",
+    "title": "Policy F-008 Capital Asset Policy",
+    "year": 2016,
+    "url": "https://salmo.ca/wp-content/uploads/2023/03/F-008-Capital-Asset-Policy.pdf",
+    "found_via": "https://salmo.ca/council/policies/",
+    "notes": "Found by site crawl on 2026-10-21; PDF opened. Resolution 3-3-16, effective 2016 02 09 (p1). Attachment I \"ASSET USEFUL LIFE - General Guidelines\" on p6: Washrooms, Concessions, Picnic Shelters 20-40; Outdoor pools, spray pools 50 - 60; Building Structure 20-50; Exterior Envelope 30-40; HVAC Systems 10 - 12; Roofs 15 -20; Electrical/Plumbing/Fire 15 - 20. Same form as Revelstoke and Rossland; building structure and washroom lives differ.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "bc-okanagan-similkameen",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Asset Policy",
+    "year": 2023,
+    "url": "https://rec.rdos.bc.ca/assets/BOARD/Policies/Tangible-Capital-Asset-Policy.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Board resolution dated August 3, 2023 (p1). Attachment I \"7.0 ASSET USEFUL LIFE - General Guidelines\" on p11 (folio \"Page 11 of 11\"): Building Structure 40 - 75; Exterior Envelope 30 - 40; HVAC Systems 10 - 12; Roofs 10 - 20; Electrical/Plumbing/Fire 15 - 20. Same form as the municipal \"General Guidelines\" table, with a shorter minimum roof life.",
+    "lineage": {
+      "id": "bc-asset-useful-life-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "bc-comox-valley",
+    "document_type": "capital_asset_policy",
+    "title": "Policy P31 Tangible Capital Asset Reporting Policy",
+    "year": 2010,
+    "url": "https://www.comoxvalleyrd.ca/sites/default/files/docs/About/Legislative_Services/p31_tangible_capital_asset_reporting_policy_yyyymmdd.pdf",
+    "found_via": "https://www.comoxvalleyrd.ca/about/board-directors/board-policies",
+    "notes": "Found by site crawl on 2026-10-21; PDF opened. Approval date October 26, 2010 (p1). Appendix A on p6 says it is \"based on the Ministry of Community Services document Amortization of Tangible Capital Assets (May 2008)\". Buildings: Brick, Stone, Cement 50; Log, Frame, Steel or Other 40; Temporary or Portable 20; Building improvements: HVAC systems, mechanical, plumbing, wiring, etc. 20. Checked against the text layer and an OCR of the page.",
+    "lineage": {
+      "id": "bc-construction-type-table",
+      "shared": "layout"
+    }
+  }
+]

@@ -1,0 +1,1245 @@
+{
+  "document": {
+    "id": "on-brantford-2025-amp-transportation",
+    "municipality": "on-brantford",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+    "sha256": "1873d507cda4e85fca1fe0c0ece2e21e328f21be982ee21e3e7e75c695f716b3",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-brantford-2025-amp-transportation-r1",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Bridge, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r2",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Bridge, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r3",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r4",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r5",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r6",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r7",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r8",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r9",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r10",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r11",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r12",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r13",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r14",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r15",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r16",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r17",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r18",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r19",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer, PVC",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r20",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r21",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, concrete",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r22",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, steel",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r23",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r24",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, wood",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r25",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, PVC",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r26",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r27",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r28",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r29",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r30",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r31",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r32",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 85,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Road base, granular",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r33",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r34",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r35",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r36",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Road, gravel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r37",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r38",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 21,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r39",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 7,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r40",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting, wood",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r41",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting, steel",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r42",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r43",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r44",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting, concrete",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r45",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r46",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r47",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r48",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r49",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r50",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r51",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r52",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r53",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Guardrail",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r54",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Guardrail",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r55",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sidewalk, concrete",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r56",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r57",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways, asphalt",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r58",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical, steel",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r59",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r60",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r61",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r62",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 4,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r63",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 8,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r64",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r65",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r66",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 4,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r67",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 8,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r68",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-brantford-2025-amp-transportation-r69",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

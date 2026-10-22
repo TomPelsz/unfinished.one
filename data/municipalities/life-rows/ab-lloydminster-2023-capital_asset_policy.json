@@ -1,0 +1,159 @@
+{
+  "document": {
+    "id": "ab-lloydminster-2023-capital_asset_policy",
+    "municipality": "ab-lloydminster",
+    "document_type": "capital_asset_policy",
+    "title": "Policy 134-13 Tangible Capital Asset Policy",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://media-001-ca.cdn.govstack.com/lloydminster-006-ca/media/d1no2oo5/134-13-tangible-capital-asset-policy.pdf",
+    "sha256": "f0f341076b37a5b26f1e0496adc9a12a9506e4e58b2b18d6b418b032ce743852",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r1",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r2",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Electrical",
+      "systems": [
+        "D50"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r3",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r4",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r5",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r6",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Electrical",
+      "systems": [
+        "D50"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r7",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "ab-lloydminster-2023-capital_asset_policy-r8",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    }
+  ]
+}

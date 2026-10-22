@@ -1,0 +1,153 @@
+[
+  {
+    "municipality": "on-toronto",
+    "document_type": "AMP",
+    "title": "City of Toronto 2025 Corporate Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.toronto.ca/legdocs/mmis/2025/ex/bgrd/backgroundfile-255042.pdf",
+    "found_via": "https://www.toronto.ca/city-government/accountability-operations-customer-service/long-term-vision-plans-and-strategies/city-asset-management/",
+    "notes": "Linked as '2025 Corporate Asset Management Plan'. PDF opened: 395 pages. Council item 2025.EX23.7.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Read by hand on 2026-10-21 (all 395 pages searched for life values). No component lives. Each service area has an inventory table with Average Age and Average ESL by asset class, weighted by replacement value; for buildings these are whole-building figures, e.g. Corporate Real Estate facilities ESL 50 (p165), Library Branches 50 (p117), Subsidized Housing 32 (p204), Heritage Buildings 265 (p108)."
+    }
+  },
+  {
+    "municipality": "on-peel",
+    "document_type": "AMP",
+    "title": "2026 Enterprise Asset Management Plan: Executive summary",
+    "year": 2026,
+    "url": "https://peelregion.ca/sites/default/files/2026-06/2026-eamp-executive-summary.pdf",
+    "found_via": "https://peelregion.ca/about/finance/enterprise-asset-management",
+    "notes": "Peel publishes the 2026 plan as separate PDFs on the found_via page: introduction (eamp-introduction.pdf), reinvestment plan (eamp-region.pdf), one PDF per service (water, wastewater, roads, police, paramedics, housing, etc.) and appendices I-V. This URL is the executive summary (8 pages, opened). Extraction needs the service chapters too.",
+    "extraction": {
+      "status": "skipped",
+      "reason": "The linked file is an 8-page executive summary with no useful-life tables. The full plan is split into about 25 chapter PDFs that still need collecting."
+    }
+  },
+  {
+    "municipality": "on-york",
+    "document_type": "AMP",
+    "title": "The Regional Municipality of York 2024 Corporate Asset Management Plan",
+    "year": 2024,
+    "url": "https://www.york.ca/media/119076",
+    "found_via": "https://www.york.ca/york-region/plans-reports-and-strategies/corporate-asset-management",
+    "notes": "PDF opened (143 pages, May 2024); the link redirects to https://www.york.ca/media/119076/download. The same page links 2025 and 2026 Corporate Asset Management Progress Reports, which are progress reports, not new plans.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Read by hand on 2026-10-21 (all 143 pages searched for life values). No building component lives. The only facility lives are transit total-life replacement figures on p67: garage structures 50, terminals 50, garage equipment 5 to 25, transit stop platforms 10 to 15, transit stop shelters 15 years."
+    }
+  },
+  {
+    "municipality": "on-ottawa",
+    "document_type": "AMP",
+    "title": "City of Ottawa 2025 Asset Management Plans",
+    "year": 2025,
+    "url": null,
+    "found_via": null,
+    "notes": "Not found. ottawa.ca returned a bot-protection page to both curl and WebFetch, and search did not surface the PDFs. A third-party meeting listing (ottwatch.ca) shows Finance and Corporate Services Committee report ACS2025-IWS-AM-0002 attaching the 2025 Asset Management Plans as Documents 1-12; look there or on the City's eScribe meeting portal. Ottawa publishes per-service plans (e.g. a 2022 wastewater AMP on documents.ottawa.ca)."
+  },
+  {
+    "municipality": "on-durham",
+    "document_type": "AMP",
+    "title": "2025-COW-25 2025 Asset Management Plan (full package)",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/durham-ca/media/04fgwlue/2025-cow-25-2025-asset-management-plan.pdf",
+    "found_via": "https://www.durham.ca/regional-government/budget-and-financial/asset-management/",
+    "notes": "Linked as 'Learn more in our 2025 Asset Management report'. PDF opened: 183 pages, Committee of the Whole report dated June 11, 2025 with the plan and service attachments."
+  },
+  {
+    "municipality": "on-halton",
+    "document_type": "AMP",
+    "title": "Halton Region 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.halton.ca/repository/halton-region-asset-management-plan",
+    "found_via": "https://www.halton.ca/repository/halton-region-asset-management-plan",
+    "notes": "Found by web search on halton.ca and opened directly (288-page PDF, title '2025 Halton Region Asset Management Plan'). The halton.ca landing page that links to it was not located."
+  },
+  {
+    "municipality": "on-waterloo-region",
+    "document_type": "AMP",
+    "title": "Region of Waterloo 2025 Asset Management Plan: Executive Summary and Report",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/regionofwaterloo-018-ca/media/pvxp1jgw/asset-management-plan_2025_access.pdf",
+    "found_via": "https://www.regionofwaterloo.ca/government-and-council/plans-budget-and-performance/2026-annual-review-of-asset-management-planning-progress/",
+    "notes": "Appendices are a separate PDF on the same page: https://media-003-ca.cdn.govstack.com/regionofwaterloo-018-ca/media/ipicu25g/asset-management-plan_2025_appendices_access.pdf. The old 2025-asset-management-plan page now redirects to the 2026 annual review page.",
+    "extraction": {
+      "status": "blocked",
+      "reason": "The PDF is malformed enough that pages cannot be cut out of it automatically, and at 27 MB it is too large to send whole. It needs repairing or splitting by hand."
+    }
+  },
+  {
+    "municipality": "on-hamilton",
+    "document_type": "AMP",
+    "title": "Corporate Asset Management - Proposed Levels of Service",
+    "year": 2025,
+    "url": "https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf",
+    "found_via": "https://www.hamilton.ca/city-council/plans-strategies/strategies/corporate-asset-management",
+    "notes": "PDF opened: 476 pages. Hamilton also publishes a 2025 Corporate Asset Management Overview (Appendix B) and per-service AMPs from 2022-2024 (transportation, waterworks, fire, library, etc.) on the same page; useful-life tables may sit in the service plans."
+  },
+  {
+    "municipality": "on-niagara",
+    "document_type": "AMP",
+    "title": "Niagara Region 2025 Corporate Asset Management Plan",
+    "year": 2025,
+    "url": null,
+    "found_via": null,
+    "notes": "Not found. Search snippets say a 2025 Corporate Asset Management Plan exists and was approved in 2025, but the former page niagararegion.ca/projects/asset-management/ now returns 404 (site appears to have been restructured) and its sitemap has no asset management page."
+  },
+  {
+    "municipality": "on-london",
+    "document_type": "AMP",
+    "title": "2023 Corporate Asset Management Plan",
+    "year": 2023,
+    "url": "https://london.ca/sites/default/files/2023-10/Corporate%20Asset%20Management%20Plan%202023.pdf",
+    "found_via": "https://london.ca/government/property-taxes-finance/corporate-asset-management",
+    "notes": "Seen linked as '2023 CAM Plan' on the found_via page (read with WebFetch). london.ca returned 403 to curl, so the PDF itself was not opened. The page also links 2024-2025 AMPs for agencies (police, library, transit, LMCH and others). No 2025 corporate plan was linked."
+  },
+  {
+    "municipality": "on-simcoe",
+    "document_type": "AMP",
+    "title": "County of Simcoe 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://simcoe.ca/wp-content/uploads/2025/06/2025-Asset-Management-Plan.pdf",
+    "found_via": "https://simcoe.ca/simcoe-business/finance/corporate-strategies/",
+    "notes": "Linked as 'Asset Management Plan'. PDF opened: 243 pages, created June 2025."
+  },
+  {
+    "municipality": "on-windsor",
+    "document_type": "AMP",
+    "title": "City of Windsor Corporate Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://www.citywindsor.ca/documents/city-hall/financial-documents/Windsor2025AMP_FINAL_AODA-Compliant.pdf",
+    "found_via": "https://www.citywindsor.ca/city-hall/financial-documents/asset-management-plan",
+    "notes": "PDF opened: 283 pages. The 2025 plan extends the 2024 plan (WindsorAMP_2024_FINAL.pdf, linked on the same page), which holds the state-of-infrastructure and lifecycle content."
+  },
+  {
+    "municipality": "on-essex-county",
+    "document_type": "AMP",
+    "title": "County of Essex 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.countyofessex.ca/media/yuvjaiu4/2025-asset-management-plan_20250611_ua.pdf",
+    "found_via": "https://www.countyofessex.ca/county-government/reports-plans-and-publications/",
+    "notes": "PDF found by web search on countyofessex.ca and opened (153 pages, title '2025 Asset Management Plan'). The found_via page links '2025 Asset Management Plan' to a Laserfiche viewer instead: https://portal.laserfiche.ca/Portal/DocView.aspx?id=3095980&repo=r-0001d2748399."
+  },
+  {
+    "municipality": "on-greater-sudbury",
+    "document_type": "AMP",
+    "title": "Enterprise Asset Management Plan (2023)",
+    "year": 2023,
+    "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+    "found_via": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/",
+    "notes": "PDF opened (61 pages). The same page has a link labelled 'Enterprise Asset Management Plan 2026', but it serves the 2026 Enterprise Asset Management Policy, not a plan. Service plans are linked separately as Appendices C1-C9 (roads, stormwater, water/wastewater, fleet, parking, buildings, parks, solid waste)."
+  },
+  {
+    "municipality": "on-barrie",
+    "document_type": "AMP",
+    "title": "City of Barrie Corporate Asset Management Plan: Proposed Levels of Service",
+    "year": 2025,
+    "url": "https://www.barrie.ca/Corporate-Asset-Management-Plan.pdf",
+    "found_via": "https://www.barrie.ca/planning-building-infrastructure/infrastructure/asset-management-planning",
+    "notes": "PDF opened: 213 pages, created June 2025."
+  }
+]

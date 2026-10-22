@@ -1,0 +1,208 @@
+{
+  "id": "roof-built-up",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "B3010"
+  },
+  "names": [
+    "Roof, built-up"
+  ],
+  "aliases": [
+    "BUR",
+    "tar and gravel"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      10,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check ceilings and underside of deck for signs of leaks",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Walk the building perimeter; check walls, gutters, scuppers and downspouts for leaks",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check for ponding (roof should drain within 48 hours) and plant growth",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check for punctures, patches and debris near drains",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check for wrinkles, buckles, blisters, soft spots and loose gravel",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check flashing for wind damage, missing caulking and loose fasteners",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 44,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check roof-to-wall and expansion joints",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check coping for rust, open seams and cracks",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check rooftop equipment is supported, flashed and secured",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Clean out and refill pitch pockets where filler is cracked",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check ballast for even spread",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check roof hatches and access doors: seals, latches, swing",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Remove trash and loose material from roof",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check gutters, roof drains and downspouts are attached, sealed and clear",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Check drain grates, strainers and screens; replace missing ones",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Test downspout heaters, if fitted",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Check for scouring where downspouts discharge onto lower roofs",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 8,
+      "code": "HUD CNA 3.3.4.2.1",
+      "label": "Low slope-Built-up Roof, with gravel finish",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD gives 20 years with a gravel finish and 10 without."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 8,
+      "code": "HUD CNA 3.3.4.2.2",
+      "label": "Low slope-Built-up Roof, no mineral or gravel finish",
+      "years": 10,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Trent Lakes: 5.17 Capital Asset Policy",
+      "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+      "page": 10,
+      "label": "Roofing - Tar & Gravel",
+      "years": 15,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD gives planning lives for US multifamily housing; the municipal rows are Ontario accounting lives. Neither is observed replacement data.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

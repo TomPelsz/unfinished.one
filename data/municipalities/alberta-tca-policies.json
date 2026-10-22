@@ -1,0 +1,47 @@
+[
+  {
+    "municipality": "ab-vulcan-county",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 12-2214 Tangible Capital Assets Policy",
+    "year": 2024,
+    "url": "https://www.vulcancounty.ab.ca/document/3808/",
+    "found_via": "https://www.vulcancounty.ab.ca/your-government/policies/",
+    "notes": "Found by site crawl on 2026-10-21 (an older copy is on CivicWeb: https://vulcancounty.civicweb.net/document/63710, amended September 2, 2015, p3, same building lives); PDF opened. Effective November 1, 2009, amended February 7, 2024 (p1). Appendix A \"Tangible Capital Assets - Estimated Useful Lives\" on p5: Permanent Structures: Structural (wood, steel, concrete) 30 - 50; Interior 30; Roof 30; HVAC (electrical, mechanical) 20 - 30; Portable Structures 20 - 25."
+  },
+  {
+    "municipality": "ab-canmore",
+    "document_type": "capital_asset_policy",
+    "title": "Policy FIN-008 Tangible Capital Assets Policy",
+    "year": 2025,
+    "url": "https://canmore.ca/public/download/files/232488",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Date in effect July 8, 2025 (p1). Scanned with no text layer; read by OCR of rendered pages. Asset classes table on p10 (folio \"Page 10 of 13\"), \"Maximum Useful Life\": Buildings, Permanent structures: Envelope 50, Foundation 50, Mechanical 25, Roof 25; Single unit structures 25; Portable structures 25."
+  },
+  {
+    "municipality": "ab-westlock",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. P-96-2021 Tangible Capital Asset Policy",
+    "year": 2021,
+    "url": "https://www.westlock.ca/media/btxfj4rk/p962021tangiblecapitalasset.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Resolution 2021-0193, June 28/21 (p1). Life table checked against the text layer and an OCR of each page. p9: Permanent Structures: Frame 50 - 75, Metal 50 - 75, Concrete 75; Portable Structures: Metal 25, Frame 25; Building Improvements: Roof 25 - 30. p11 (under Machinery and Equipment): HVAC 15 - 20. The rest of the table follows the common Alberta frame/metal/concrete layout."
+  },
+  {
+    "municipality": "ab-lloydminster",
+    "document_type": "capital_asset_policy",
+    "title": "Policy 134-13 Tangible Capital Asset Policy",
+    "year": 2023,
+    "url": "https://media-001-ca.cdn.govstack.com/lloydminster-006-ca/media/d1no2oo5/134-13-tangible-capital-asset-policy.pdf",
+    "found_via": "https://www.lloydminster.ca/council-administration/policies/",
+    "notes": "Found by site crawl on 2026-10-21; PDF opened. Date of adoption October 2, 2023, resolution 351-2023 (p1). Schedule \"B\" Framework of Major, Minor and Subclass Asset Categories, Maximum Useful Life, p11, confirmed on a rendered image: Buildings / Permanent Structures: Structure 50, Electrical 20, HVAC 20, Mechanical equipment 20; Portable Structures: Structure 25, Electrical 20, HVAC 20, Mechanical equipment 20; Leasehold improvements variable. Lloydminster straddles the Alberta-Saskatchewan border; population_2021 is the sum of both census parts (19,739 AB + 11,843 SK) and statcan_csd is the Alberta part."
+  },
+  {
+    "municipality": "ab-leduc",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 12.02:11 Tangible Capital Assets Financial Reporting Policy",
+    "year": 2019,
+    "url": "https://www.leduc.ca/wp-content/uploads/2025/10/Leduc-Tangible-Capital-Assets-Financial-Reporting.pdf",
+    "found_via": "https://www.leduc.ca/government/bylaws-policies",
+    "notes": "Found by site crawl on 2026-10-21; PDF opened. Approval date December 4, 2019, effective January 1, 2020 (p1). Appendix B \"Major and Minor Asset Classes and Recommended Useful Life\" on p13 (folio \"Page 13 of 15\"), confirmed on a rendered image: Buildings: Permanent Structures 50, Portable Structures 25; Building Improvements (Betterments): Major Overhaul 50, Minor Restorations (not maintenance) 25, Mechanical Systems 25, Leasehold Improvements variable."
+  }
+]

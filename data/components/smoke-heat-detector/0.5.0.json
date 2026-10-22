@@ -1,0 +1,73 @@
+{
+  "id": "smoke-heat-detector",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D5030"
+  },
+  "names": [
+    "Smoke and heat detectors"
+  ],
+  "aliases": [
+    "smoke detector",
+    "heat detector"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Test heat detectors with a heat source",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 35,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Test smoke detectors with approved smoke simulant",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 35,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Test smoke detector sensitivity",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 36,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "UFM 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (Unified Facilities Manual, 13 March 2026)",
+      "by": "U.S. Department of Defense (Unified Facilities Criteria program)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_601_02_2026.pdf",
+      "page": 32,
+      "code": "Table 2-1",
+      "label": "Fire Detection and Alarm System ITM Tasks, frequency \"20 Years and As Part of Other Building Inspection (not part of ITM requirements)\": \"Smoke Detectors not monitored internally or by the control panel for sensitivity or obscuration as appropriate, (single-station detectors, and system detectors)\" - \"Replace detectors.\"",
+      "years": 20,
+      "note": "Printed page 25. System (and single-station) smoke detectors whose sensitivity is not monitored by the device or panel. Smoke detectors only; heat detectors have no replacement interval in the table (restorable heat detectors are tested every 2 years). Detectors whose sensitivity is monitored have no fixed replacement interval here."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

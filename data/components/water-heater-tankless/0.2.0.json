@@ -1,0 +1,74 @@
+{
+  "id": "water-heater-tankless",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Water heater, tankless gas"
+  ],
+  "aliases": [
+    "on-demand water heater",
+    "instantaneous water heater",
+    "tankless"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      17,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.4",
+      "label": "External tankless heater, gas or electric",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row covers gas and electric tankless heaters."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Commercial Water Heating Equipment (final rule), 88 FR 69686, October 6, 2023",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-06/pdf/2023-20392.pdf",
+      "page": 70,
+      "code": "IV.F.6",
+      "label": "Table IV.21: \"Gas-fired instantaneous water heaters and hot water supply boilers: Tankless water heaters ... 17\" years",
+      "years": 17,
+      "note": "Printed page 69755. class: commercial gas-fired tankless (instantaneous) water heaters."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters (final rule), 89 FR 105188, December 26, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-12-26/pdf/2024-30369.pdf",
+      "page": 43,
+      "code": "IV.F.6",
+      "label": "\"DOE estimates the average product lifetime to be around 20 years for instantaneous water heaters\"",
+      "years": 20,
+      "note": "Printed page 105230. residential: consumer gas-fired instantaneous water heaters (<2 gal, >50,000 Btu/h). Table V.2 (p.75, printed 105262) shows 20.0 years average lifetime at every efficiency level."
+    }
+  ],
+  "confidence": {
+    "grade": "B",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

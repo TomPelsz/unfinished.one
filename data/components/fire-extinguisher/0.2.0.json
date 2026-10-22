@@ -1,0 +1,109 @@
+{
+  "id": "fire-extinguisher",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D4030"
+  },
+  "names": [
+    "Portable fire extinguisher"
+  ],
+  "aliases": [
+    "extinguisher",
+    "ABC extinguisher"
+  ],
+  "service_life": {
+    "median_years": 12.5,
+    "range_years": [
+      10,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Fire extinguisher inspection (by a competent person)",
+      "frequency": "P1Y",
+      "reference": "Good estate management for schools: Compliance tracker",
+      "url": "https://assets.publishing.service.gov.uk/media/5f84b003e90e077041376d18/Compliance_Tracker.xlsx",
+      "checklist": "Compliance tracker, sheet \"Tracker\", ref 12"
+    },
+    {
+      "task": "Maintain and inspect extinguisher: visual check, contents and stored pressure",
+      "frequency": "P1Y",
+      "reference": "Good estate management for schools: Health and safety",
+      "url": "https://www.gov.uk/guidance/good-estate-management-for-schools/health-and-safety",
+      "checklist": "Fire safety - Extinguishers"
+    },
+    {
+      "task": "Visual check: in place, unobstructed, charged, in good order",
+      "frequency": "P1M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 304,
+      "checklist": "FLSF-FEX-01-01M Fire Extinguishers - Inspection"
+    },
+    {
+      "task": "Annual maintenance of stored-pressure extinguishers",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 310,
+      "checklist": "FLSF-FEX-02-01Y Fire Extinguishers - Stored Pressure with Gauge"
+    },
+    {
+      "task": "Six-year maintenance of stored-pressure extinguishers (non-stainless shells)",
+      "frequency": "P6Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 312,
+      "checklist": "FLSF-FEX-02-06Y Fire Extinguishers - Stored Pressure With Gauge (Non-Stainless Steel Shell)"
+    },
+    {
+      "task": "Hydrostatic test (CO2, water, foam, stainless dry chemical)",
+      "frequency": "P5Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 306,
+      "checklist": "FLSF-FEX-01-05Y Fire Extinguishers - Hydrostatic Testing, Carbon Dioxide, Stored Pressure and AFFF"
+    },
+    {
+      "task": "Hydrostatic test (dry chemical, halon, cartridge types)",
+      "frequency": "P12Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 308,
+      "checklist": "FLSF-FEX-01-12Y Fire Extinguishers - Hydrostatic Testing, Halon, Dry Powder, Stored Pressure, Cartridge Operated"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.1.4",
+      "label": "Fire extinguishers",
+      "years": [
+        10,
+        15
+      ],
+      "note": "Family properties 10 years, elderly 15. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for schools in England; several rows are statutory safety checks under UK law rather than equipment maintenance.",
+    "Written for schools in England.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

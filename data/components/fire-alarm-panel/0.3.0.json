@@ -1,0 +1,172 @@
+{
+  "id": "fire-alarm-panel",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D5030"
+  },
+  "names": [
+    "Fire alarm control panel"
+  ],
+  "aliases": [
+    "FACP",
+    "fire panel",
+    "fire alarm"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      15,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect panel condition: connections, fuses and LEDs (unmonitored panels)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Resolve any trouble indications (unmonitored panels)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Test receipt of alarm, supervisory and trouble signals and operation of outputs",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Verify all lamps and LEDs are lit",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Load test backup batteries with a meter",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Check condition of power supplies and batteries",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Check manual pull stations are accessible",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 34,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Test notification appliances (horns, strobes, speakers) work",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 35,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Operate manual pull stations to check alarm is received",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 35,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    },
+    {
+      "task": "Test supervisory devices (low air, temperature, water level) signal the panel",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 35,
+      "checklist": "Table 2-1 Fire Detection and Alarm System ITM Tasks"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.2.7",
+      "label": "Smoke and fire detection system, central panel",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Meaford: By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+      "url": "https://meaford.civicweb.net/document/103944/",
+      "page": 17,
+      "label": "Fire Protection - Alarm Panel",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "The Blue Mountains: POL.COR.19.04 Tangible Capital Assets Policy",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+      "page": 11,
+      "label": "Fire Alarms",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 11,
+      "label": "Fire Alarms",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 43,
+      "code": "BDFO",
+      "label": "Alarm systems (fire)",
+      "years": 20,
+      "note": "Printed page 43. Fire alarm system; the panel is the core of the system (detectors have their own rows). BDFO Building fit-out (when in books separately from building cost). Printed DV 10%, SL 7%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

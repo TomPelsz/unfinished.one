@@ -1,0 +1,160 @@
+{
+  "id": "evaporative-condenser",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D3030"
+  },
+  "names": [
+    "Evaporative condenser"
+  ],
+  "aliases": [
+    "ice plant condenser",
+    "condenser"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect louvers, casing and access doors",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Inspect water distribution piping and spray nozzles",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check float valve and bleed line",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check cold water basin for corrosion",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check sump screens and drain valves",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check alignment of gear, motor and fans",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 365,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Change gear reducer oil",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Inspect bearings, belts and pulleys",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Inspect and clean condenser coil",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check spray nozzles for clogging",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check and lubricate spray pump",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check water treatment equipment",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    },
+    {
+      "task": "Check motor amps and volts at load",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 366,
+      "checklist": "HVAC-ACR-06-01Y Evaporative Condenser"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 8,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. Both rows are arena refrigeration condensers; neither says evaporative."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Orillia: 4.1.8.1 Tangible Capital Assets Policy Manual",
+      "url": "https://orillia.civicweb.net/document/366955/",
+      "page": 19,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,49 @@
+---
+import Library from '../layouts/Library.astro';
+import { groupName } from '../lib/groups';
+import MunicipalLives from './MunicipalLives.astro';
+interface Props { item: any; siblings: any[]; withdrawn?: any }
+const { item, siblings, withdrawn } = Astro.props;
+---
+<Library title={`${item.name} · not written yet · unfinished.one`} description={`${item.name} is planned for unfinished.one v1 and has no entry yet.`} noindex current={item.id}>
+  <style>
+    .status { border: 1.5px dashed var(--line); border-radius: 8px; padding: 14px 16px; margin: 16px 0 8px; }
+    .status strong { display: block; margin-bottom: 4px; }
+    .siblings { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 0; list-style: none; font-size: 14px; }
+    .siblings li { margin: 0; }
+    .siblings .planned { color: var(--muted); }
+  </style>
+  <p class="muted small" style="margin-bottom: 4px">Uniformat {item.uniformat} · {groupName(item.group)}</p>
+  <h1>{item.name}</h1>
+  {item.aliases.length > 0 && <p class="muted">Also called {item.aliases.join(', ')}</p>}
+
+  {withdrawn ? (
+    <div class="status">
+      <strong>Entry withdrawn</strong>
+      Version {withdrawn.latest.version} withdrew this entry on {withdrawn.latest.last_reviewed}: {withdrawn.latest.withdrawn_reason} Nothing here is a value you can use. Earlier versions stay at their permanent links: {withdrawn.history.map((v: any, i: number) => <>{i > 0 && ', '}<a href={`/c/${item.id}/v/${v.version}`}>{v.version}</a></>)}.
+    </div>
+  ) : (
+    <div class="status">
+      <strong>Not written yet</strong>
+      This component is in the catalogue but has no entry: no service life, no maintenance tasks. Nothing here is a value you can use.
+    </div>
+  )}
+
+  <MunicipalLives uniformat={item.uniformat} />
+
+  <h2>What this entry needs</h2>
+  <ul>
+    <li><strong>Service life sources:</strong> municipal asset management plans and capital asset policies that state a life for it, manufacturer literature, or open research.</li>
+    <li><strong>Maintenance tasks:</strong> manufacturer manual requirements, and standards referenced by clause number.</li>
+    <li><strong>Replacement records:</strong> install and removal dates from real buildings. These are what eventually earn an entry grade A.</li>
+  </ul>
+  <p>Have a source? Send it to <a href="mailto:hello@unfinished.one">hello@unfinished.one</a>. Read the <a href="/sourcing">sourcing policy</a> first: paywalled tables can't be used.</p>
+
+  <h2>For agents</h2>
+  <p><code>map_classification</code> on the <a href="/agents">MCP server</a> already matches asset register names like {item.aliases[0] ? <>“{item.aliases[0]}”</> : <>“{item.name}”</>} to <code>{item.id}</code>, and returns <code>entry_published: false</code> until an entry exists.</p>
+
+  <h2>Other {groupName(item.group)} components</h2>
+  <ul class="siblings">
+    {siblings.map((s) => <li><a class={s.entry ? undefined : 'planned'} href={`/c/${s.id}`}>{s.name}</a></li>)}
+  </ul>
+</Library>

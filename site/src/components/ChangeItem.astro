@@ -1,0 +1,7 @@
+---
+// One line of the changelog: a kind tag and the change, linked to the version it made.
+interface Props { c: { kind: string; text: string; href?: string } }
+const { c } = Astro.props;
+const LABEL: Record<string, string> = { new: 'New', updated: 'Updated', withdrawn: 'Withdrawn', removed: 'Removed', documents: 'Municipal' };
+---
+<li><span class={`tag ${c.kind}`}>{LABEL[c.kind]}</span><span>{c.href ? <a href={c.href}>{c.text}</a> : c.text}</span></li>

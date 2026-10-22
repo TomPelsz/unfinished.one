@@ -1,0 +1,119 @@
+{
+  "document": {
+    "id": "ab-canmore-2025-capital_asset_policy",
+    "municipality": "ab-canmore",
+    "document_type": "capital_asset_policy",
+    "title": "Policy FIN-008 Tangible Capital Assets Policy",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://canmore.ca/public/download/files/232488",
+    "sha256": "3e5c5350918aacd78b4383664d08acc99462aca062ac3cc67891a54099f1ddb1",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r1",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Exterior enclosure",
+      "systems": [
+        "B20"
+      ]
+    },
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r2",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Foundations",
+      "systems": [
+        "A10"
+      ]
+    },
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r3",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r4",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r5",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-canmore-2025-capital_asset_policy-r6",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    }
+  ]
+}

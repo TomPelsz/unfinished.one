@@ -1,0 +1,57 @@
+{
+  "id": "ice-plant-compressor",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3030"
+  },
+  "names": [
+    "Ice plant compressor"
+  ],
+  "aliases": [
+    "refrigeration compressor",
+    "arena compressor",
+    "NH3 compressor",
+    "ammonia compressor"
+  ],
+  "service_life": {
+    "median_years": 22.5,
+    "range_years": [
+      20,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 8,
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. Both rows give one life for several arena items, compressors among them."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Orillia: 4.1.8.1 Tangible Capital Assets Policy Manual",
+      "url": "https://orillia.civicweb.net/document/366955/",
+      "page": 19,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,93 @@
+---
+// One comparison page: every municipal useful life stated for a family of components, by component,
+// beside the library's own entry. Each life links to the page of the document it comes from.
+import Library from '../../layouts/Library.astro';
+import LifeStrip from '../../components/LifeStrip.astro';
+import Grade from '../../components/Grade.astro';
+import Copy from '../../components/Copy.astro';
+import { loadCatalogue, municipalityName, provincesOf, SITE } from '../../lib/data';
+import { TOPICS, livesByComponent } from '../../lib/compare';
+import { commonName } from '../../lib/answer';
+
+export function getStaticPaths() {
+  return TOPICS.map((t) => ({ params: { topic: t.id }, props: { topic: t } }));
+}
+const { topic: t } = Astro.props;
+const catalogue = loadCatalogue();
+const lives = livesByComponent(new Map(catalogue.map((c: any) => [c.id, c.name])));
+const items = t.components.map((id: string) => {
+  const c = catalogue.find((x: any) => x.id === id)!;
+  return { id, c, name: commonName(id, c.name), s: lives.get(id) };
+}).filter((i: any) => i.s || i.c.entry);
+const withLives = items.filter((i: any) => i.s);
+const allRows = withLives.flatMap((i: any) => i.s.entries.flatMap((e: any) => e.rows));
+const municipalities = new Set(allRows.map((r: any) => r.municipality));
+const documents = new Set(allRows.map((r: any) => r.document.url));
+const scaleMax = Math.max(20, ...withLives.map((i: any) => Math.ceil((i.s.high * 1.1) / 10) * 10));
+const yrs = (lo: number, hi: number) => (lo === hi ? `${lo}` : `${lo}–${hi}`);
+const KIND: Record<string, string> = { accounting: 'Policy (accounting)', planning: 'Plan (planning)' };
+const year = new Date().getFullYear();
+const url = `${SITE}/lives/${t.id}`;
+const citation = `unfinished.one (${year}). ${t.title}. ${url}`;
+const description = `${t.title}: ${allRows.length} stated lives from ${municipalities.size} municipalities in ${provincesOf(municipalities)}, each linked to its page, beside sourced library entries.`;
+---
+<Library title={`${t.title}: what ${municipalities.size} municipalities assume · unfinished.one`} description={description} canonical={url}>
+  <style>
+    .summary td:first-child { min-width: 11rem; }
+    .comp { scroll-margin-top: 16px; }
+    .comp .stat { margin: 0 0 8px; }
+    .rows td { font-size: 14px; }
+  </style>
+  <p class="muted small" style="margin-bottom: 4px"><a href="/lives">Useful life comparisons</a></p>
+  <h1>{t.title}</h1>
+  <p class="lede">What {municipalities.size} municipalities in {provincesOf(municipalities)} state in {documents.size} published asset management plans and capital asset policies, component by component, beside the library's sourced entry. Every life links to the page it comes from.</p>
+  <p class="note small">These are lives municipalities <em>assume</em>: amortization periods in capital asset policies (accounting lives) and replacement forecasts in asset management plans (planning lives). None is a measured age at replacement. Policies that copy one shared table count once.</p>
+
+  <div class="scroll">
+    <table class="summary">
+      <thead><tr><th>Component</th><th class="num">Municipal median</th><th class="num">Range</th><th class="num">Tables</th><th class="num">Library entry</th></tr></thead>
+      <tbody>
+        {items.map((i: any) => (
+          <tr>
+            <td><a href={i.s ? `#${i.id}` : `/c/${i.id}`}>{i.name}</a></td>
+            <td class="num">{i.s ? `${i.s.median} years` : '—'}</td>
+            <td class="num">{i.s ? yrs(i.s.low, i.s.high) : '—'}</td>
+            <td class="num">{i.s ? i.s.sources : 0}</td>
+            <td class="num">{i.c.entry ? <><a href={`/c/${i.id}`}>{i.c.entry.service_life.median_years} years</a> <Grade grade={i.c.entry.confidence.grade} align="end" /></> : <span class="muted">not written</span>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="muted small">Municipal median: the median of the distinct stated lives (a range counts at its midpoint). Tables: independent tables behind them. The library entry combines these with US federal sources; its page shows how.</p>
+
+  {withLives.map((i: any) => (
+    <section class="comp" id={i.id}>
+      <h2>{i.name}</h2>
+      <p class="stat">{i.s.municipalities} {i.s.municipalities === 1 ? 'municipality states' : 'municipalities state'} a life in {i.s.sources} distinct {i.s.sources === 1 ? 'table' : 'tables'}: <strong>{yrs(i.s.low, i.s.high)} years</strong>, median {i.s.median}.{i.c.entry && <> Library entry: <a href={`/c/${i.id}`}>{i.c.entry.service_life.median_years} years</a>, grade {i.c.entry.confidence.grade}.</>}</p>
+      <LifeStrip system={i.s} scaleMax={scaleMax} label={i.name} />
+      <details>
+        <summary>All {i.s.entries.reduce((n: number, e: any) => n + e.rows.length, 0)} stated lives</summary>
+        <div class="scroll">
+          <table class="rows">
+            <thead><tr><th>Municipality</th><th class="num">Years</th><th>Kind</th><th>Document</th></tr></thead>
+            <tbody>
+              {i.s.entries.flatMap((e: any) => e.rows).sort((a: any, b: any) => municipalityName(a.municipality).localeCompare(municipalityName(b.municipality))).map((r: any) => (
+                <tr>
+                  <td><a href={`/m/${r.municipality}`}>{municipalityName(r.municipality)}</a></td>
+                  <td class="num">{yrs(r.min, r.max)}</td>
+                  <td class="muted">{KIND[r.life_type] ?? r.life_type}</td>
+                  <td><a href={`${r.document.url}#page=${r.page}`}>{r.document.year ?? 'undated'}, p{r.page}</a>{r.review_method === 'text_check' && <span class="muted"> · matched automatically</span>}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+  ))}
+
+  <h2>Cite this comparison</h2>
+  <Copy label="Citation" text={citation} />
+  <p class="muted small">This page grows as documents are added. To cite a fixed value, cite the municipal document and page, or the component's versioned entry. Rows marked "matched automatically" were found in the page text by a script; follow the link before relying on one. <a href="/api/municipal-lives.csv">Every row as CSV</a> · <a href="/sourcing">Sourcing policy</a></p>
+</Library>

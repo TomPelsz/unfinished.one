@@ -1,0 +1,33 @@
+{
+  "document": {
+    "id": "on-chatham-kent-2024-amp-facilities",
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Facilities Services Detailed Asset Management Plan 2024",
+    "year": 2024,
+    "prepared_by": null,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Facilities.pdf",
+    "sha256": "871ed2774472fa37dccfb7d0dca4edb552eec4088333ef3e62a8bbcdeca1d313",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-chatham-kent-2024-amp-facilities-r1",
+      "page": 34,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Superstructure, concrete",
+      "systems": [
+        "B10"
+      ]
+    }
+  ]
+}

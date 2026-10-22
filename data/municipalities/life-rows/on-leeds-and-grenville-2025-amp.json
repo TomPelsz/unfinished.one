@@ -1,0 +1,123 @@
+{
+  "document": {
+    "id": "on-leeds-and-grenville-2025-amp",
+    "municipality": "on-leeds-and-grenville",
+    "document_type": "AMP",
+    "title": "The United Counties of Leeds and Grenville Asset Management Plan 2025",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://media-003-ca.cdn.govstack.com/leedsgrenville-ca/media/05rpljra/master-amp-2025-2.pdf",
+    "sha256": "15db0c5db8287e02ca66b9a9711e2192d1c607cec9358e1af69865a4244fcf29",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r1",
+      "page": 49,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r2",
+      "page": 49,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r3",
+      "page": 49,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, corrugated steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r4",
+      "page": 69,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r5",
+      "page": 69,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-leeds-and-grenville-2025-amp-r6",
+      "page": 69,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

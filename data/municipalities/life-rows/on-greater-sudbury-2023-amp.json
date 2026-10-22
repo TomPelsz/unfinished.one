@@ -1,0 +1,609 @@
+{
+  "document": {
+    "id": "on-greater-sudbury-2023-amp",
+    "municipality": "on-greater-sudbury",
+    "document_type": "AMP",
+    "title": "Enterprise Asset Management Plan (2023)",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+    "sha256": "6fdeee7c6abeddfe9dcc93eecd245135aeb5d5097f9ee9bf5e0e33d9531264e6",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-greater-sudbury-2023-amp-r1",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r2",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Road, gravel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r3",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting, concrete",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r4",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r5",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r6",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting, steel",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r7",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r8",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 105,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Watermain, PVC",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r9",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Watermain, cast iron",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r10",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 95,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water supply, concrete",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r11",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Watermain, HDPE",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r12",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Fire hydrant",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r13",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r14",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Watermain valve",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r15",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water service connection",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r16",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 105,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, PVC",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r17",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 55,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, asbestos cement",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r18",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, concrete; Storm sewer, concrete",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r19",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, cast iron",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r20",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, polyethylene",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r21",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, steel",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r22",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r23",
+      "page": 28,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water service connection",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r24",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer, polyethylene",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r25",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer, steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r26",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer, concrete; Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r27",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 55,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer, asbestos cement",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r28",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Catch basin",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r29",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r30",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r31",
+      "page": 30,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Stormwater management pond",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r32",
+      "page": 34,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-sudbury-2023-amp-r33",
+      "page": 34,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways, gravel",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

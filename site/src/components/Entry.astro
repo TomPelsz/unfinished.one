@@ -1,0 +1,183 @@
+---
+import Library from '../layouts/Library.astro';
+import Grade from './Grade.astro';
+import { bibtex as toBibtex } from '../lib/cite';
+import Copy from './Copy.astro';
+import LifeBar from './LifeBar.astro';
+import MunicipalLives from './MunicipalLives.astro';
+import { routine, visitsByMonth, workOrders } from '../../../mcp/src/schedule.ts';
+import { loadCatalogue } from '../lib/data';
+import { answer, commonName, pageTitle } from '../lib/answer';
+import { topicFor as compareTopic } from '../lib/compare';
+interface Props { entry: any; versions: string[]; pinned: boolean; withdrawn?: any }
+const { entry: e, versions, pinned, withdrawn } = Astro.props;
+const name = e.names[0];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: `${name} — service life and maintenance`,
+  url: e.canonical_url,
+  version: e.version,
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  dateModified: e.last_reviewed,
+  creator: { '@type': 'Organization', name: 'unfinished.one' },
+  distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `https://unfinished.one/api/c/${e.id}/${e.version}.json` }],
+};
+const bibtex = toBibtex(e);
+const latest = versions[0];
+// Independent documents behind the service life; one means the number is a single source's figure.
+const sourceCount = new Set(e.basis.map((b: any) => b.url ?? b.title)).size;
+// Shortest interval first; columns appear only when some task has a value for them.
+const DAYS: Record<string, number> = { Y: 365, M: 30, W: 7, D: 1 };
+const days = (iso: string) => [...iso.matchAll(/(\d+)([YMWD])/g)].reduce((n, m) => n + Number(m[1]) * DAYS[m[2]], 0);
+const tasks = [...e.pm_tasks].sort((a: any, b: any) => days(a.frequency) - days(b.frequency));
+const orders = workOrders(e.pm_tasks);
+const routineOrders = routine(e.pm_tasks);
+// Month numbers rather than dates: the page is a template, not anyone's calendar.
+const visits = visitsByMonth(e.pm_tasks, 12);
+const datedOrders = orders.filter((w) => !routineOrders.some((r) => r.frequency === w.frequency));
+const nested = datedOrders.length > 1
+  ? `the ${datedOrders.at(-1)!.name.toLowerCase()} visit also covers the ${datedOrders.slice(0, -1).map((w) => w.name.toLowerCase()).join(', ').replace(/, ([^,]*)$/, ' and $1')} tasks`
+  : '';
+const link = (t: any) => (t.url ? (t.page ? `${t.url}#page=${t.page}` : t.url) : undefined);
+const hasTrade = tasks.some((t: any) => t.trade);
+const hasHours = tasks.some((t: any) => t.labour_h != null);
+const hasCrit = tasks.some((t: any) => t.criticality);
+// The page leads with the everyday name and a one-sentence answer, which is also its description.
+const group = loadCatalogue().find((c: any) => c.id === e.id)?.group;
+const common = commonName(e.id, name);
+const lead = answer(e, sourceCount, group);
+const alsoListed = [...new Set([name, ...(e.aliases ?? [])].filter((a) => a.toLowerCase() !== common.toLowerCase()))];
+const title = pinned ? `${common}, version ${e.version} · unfinished.one` : `${pageTitle(e, group)} · unfinished.one`;
+const description = `${lead} Sources, confidence grade ${e.confidence.grade}, ${e.pm_tasks.length ? `${e.pm_tasks.length} maintenance tasks and ` : ''}a permanent citation link.`;
+---
+<Library title={title} description={description} canonical={pinned ? e.versioned_url : e.canonical_url} current={e.id}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <style>
+    .meta { display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 0; list-style: none; font-size: 14px; color: var(--muted); }
+    .meta li { margin: 0; }
+    .life { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin: 0 0 14px; }
+    .life .big { font-size: 2rem; font-weight: 650; line-height: 1.1; }
+    .life .range { color: var(--muted); }
+    .year { display: grid; grid-template-columns: repeat(12, 1fr); gap: 3px; padding: 0; margin: 4px 0 6px; list-style: none; }
+    .year li { margin: 0; border: 1.5px dashed var(--line); border-radius: 6px; min-height: 44px; padding: 3px 4px; font-size: 12px; display: flex; flex-direction: column; justify-content: space-between; }
+    .year li span { color: var(--muted); }
+    .year li b { font-weight: 600; font-size: 11px; line-height: 1.1; overflow: hidden; text-overflow: ellipsis; }
+    .year li.due { border-style: solid; border-color: var(--accent); }
+    .year li.f-2 { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+    .year li.f-3 { background: color-mix(in srgb, var(--accent) 24%, transparent); }
+    .year li.f-4, .year li.f-5 { background: color-mix(in srgb, var(--accent) 36%, transparent); }
+    .answer { margin: 4px 0 6px; }
+    .basis { padding-left: 20px; }
+    .basis li { margin-bottom: 12px; }
+    .basis li .small { margin-top: 2px; }
+    .wo h3 { margin-bottom: 4px; }
+    .open li::marker { content: '? '; color: var(--c); font-weight: 600; }
+  </style>
+
+  <p class="muted small" style="margin-bottom: 4px">
+    Uniformat {e.classification.uniformat}{e.classification.omniclass && <> · OmniClass {e.classification.omniclass}</>}
+  </p>
+  <h1>{common}</h1>
+  <p class="lede answer">{lead}</p>
+  {alsoListed.length > 0 && <p class="muted small">Also listed as {alsoListed.join(', ')}</p>}
+  <ul class="meta">
+    <li>Confidence <Grade grade={e.confidence.grade} />{e.confidence.sample_size != null && <> · n = {e.confidence.sample_size}</>}</li>
+    <li>Version {e.version}{pinned && ' (permanent link)'}</li>
+    <li>Reviewed {e.last_reviewed}</li>
+  </ul>
+  {pinned && withdrawn && (
+    <p class="note small"><strong>Withdrawn.</strong> This is version {e.version}. The entry was withdrawn in version {withdrawn.version} ({withdrawn.last_reviewed}): {withdrawn.withdrawn_reason} <a href={`/c/${e.id}`}>Current status</a>.</p>
+  )}
+  {pinned && !withdrawn && e.version !== latest && (
+    <p class="note small">This is version {e.version}. The latest is <a href={`/c/${e.id}`}>{latest}</a>.</p>
+  )}
+
+  <h2>Service life</h2>
+  <div class="life">
+    <span class="big">{e.service_life.median_years} years</span>
+    <span class="range">{e.service_life.range_basis === 'source_spread' ? sourceCount === 1 && e.service_life.range_years[0] === e.service_life.range_years[1] ? <>as stated by one source</> : <>median of the stated lives · sources say {e.service_life.range_years[0] === e.service_life.range_years[1] ? e.service_life.range_years[0] : `${e.service_life.range_years[0]}–${e.service_life.range_years[1]}`} years</> : <>median · {e.service_life.range_years[0]}–{e.service_life.range_years[1]} years p10–p90</>}</span>
+  </div>
+  <LifeBar median={e.service_life.median_years} range={e.service_life.range_years} basis={e.service_life.range_basis} />
+  <p class="small"><a href={`/calculator?c=${e.id}`}>Work out when yours is due for replacement</a>{group && compareTopic(e.id) && <> · <a href={`/lives/${compareTopic(e.id)!.id}`}>Compare with what municipalities assume</a></>}</p>
+  {sourceCount === 1 && (
+    <p class="note small"><strong>One source.</strong> This value rests on a single document ({e.basis[0].title}{e.basis[0].page && `, p${e.basis[0].page}`}). Treat it as that source's figure, not a settled life, until others confirm it.</p>
+  )}
+  {e.service_life.modifiers?.length > 0 && (
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Modifier</th><th class="num">Effect</th></tr></thead>
+        <tbody>{e.service_life.modifiers.map((m: any) => <tr><td>{m.factor}</td><td class="num">{m.effect_years > 0 ? '+' : ''}{m.effect_years} years</td></tr>)}</tbody>
+      </table>
+    </div>
+  )}
+
+  <h2>Basis</h2>
+  <ul class="basis">{e.basis.map((b: any) => (
+    <li>
+      {b.years !== undefined && <strong>{Array.isArray(b.years) ? `${b.years[0]}–${b.years[1]}` : b.years} years · </strong>}
+      {b.title ? (b.url ? <a href={b.page ? `${b.url}#page=${b.page}` : b.url}>{b.title}</a> : b.title) : b.type.replaceAll('_', ' ')}
+      {b.page && <span class="muted">, p{b.page}</span>}
+      {(b.code || b.label) && <span class="muted"> · {b.code && <>{b.code} </>}{b.label && <>“{b.label}”</>}</span>}
+      {b.by && <> — {b.by}</>}
+      {b.life_type && <span class="muted"> ({b.life_type} life)</span>}
+      {b.note && <div class="muted small">{b.note}</div>}
+    </li>
+  ))}</ul>
+  <p class="muted small">How sources are chosen and recorded: <a href="/sourcing">sourcing policy</a>.</p>
+
+  <MunicipalLives uniformat={e.classification.uniformat} />
+
+  <h2>Preventive maintenance</h2>
+  {e.pm_tasks.length === 0 ? <p class="muted">No maintenance tasks are sourced for this component yet.</p> : <>
+    <p>{e.pm_tasks.length} tasks in {orders.length} work {orders.length === 1 ? 'order' : 'orders'}.{nested && <> Intervals that fall due together are one visit: {nested}.</>}</p>
+    {visits.length > 0 && (
+      <>
+        <ol class="year" aria-label="Visits in the first 12 months">
+          {Array.from({ length: 12 }, (_, i) => {
+            const v = visits.find((x) => x.month === i + 1);
+            return <li class={v ? `due f-${v.frequencies.length}` : ''} title={v ? `Month ${i + 1}: ${v.work_order}, ${v.tasks.length} tasks` : `Month ${i + 1}: no dated visit`}><span>{i + 1}</span><b>{v ? v.work_order.replace('Semi-annual', 'Semi').replace('Quarterly', 'Qtr') : ''}</b></li>;
+          })}
+        </ol>
+        <p class="muted small">Months from the schedule start. {routineOrders.length > 0 && <>Daily and weekly rounds run in between. </>}<a href={`/api/c/${e.id}/pm.csv`}>Download the tasks as CSV</a> for a CMMS, or ask the MCP tool <code>get_pm_schedule</code> for dated visits.</p>
+      </>
+    )}
+    {visits.length === 0 && <p class="muted small"><a href={`/api/c/${e.id}/pm.csv`}>Download the tasks as CSV</a></p>}
+    {orders.map((w) => {
+      const one = new Set(w.tasks.map((t: any) => t.url)).size === 1 ? (w.tasks[0] as any) : null;
+      return (
+        <section class="wo">
+          <h3>{w.name} <span class="muted small">· {w.tasks.length} {w.tasks.length === 1 ? 'task' : 'tasks'}</span></h3>
+          {one && <p class="muted small">Source: {one.url ? <a href={one.url}>{one.reference}</a> : one.reference}{one.checklist && <>, {one.checklist}</>}</p>}
+          <div class="scroll">
+            <table>
+              <thead><tr><th>Task</th>{hasTrade && <th>Trade</th>}{hasHours && <th class="num">Hours</th>}{hasCrit && <th>Criticality</th>}<th class="num">{one ? 'Page' : 'Source'}</th></tr></thead>
+              <tbody>{w.tasks.map((t: any) => (
+                <tr>
+                  <td>{t.task}</td>
+                  {hasTrade && <td>{t.trade}</td>}
+                  {hasHours && <td class="num">{t.labour_h}</td>}
+                  {hasCrit && <td>{t.criticality}</td>}
+                  <td class={one ? 'num small' : 'small'}>{link(t) ? <a href={link(t)}>{one ? `p${t.page}` : <>{t.reference}{t.page && `, p${t.page}`}</>}</a> : t.reference}</td>
+                </tr>
+              ))}</tbody>
+            </table>
+          </div>
+        </section>
+      );
+    })}
+    <p class="muted small">Frequencies are ISO 8601 durations in the data (<code>P3M</code> = every 3 months).</p>
+  </>}
+
+  <h2>Open questions</h2>
+  <ul class="open">{e.open_questions.map((q: string) => <li>{q}</li>)}</ul>
+  <p class="muted small">Know the answer? Send it with a source to <a href="mailto:hello@unfinished.one">hello@unfinished.one</a>.</p>
+
+  <h2 id="cite">Cite this</h2>
+  <Copy label="Citation" text={e.citation} />
+  <Copy label="BibTeX" text={bibtex} />
+  <p class="muted small">
+    Licence <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="/cite">How to cite</a> · <a href={`/api/c/${e.id}/${e.version}.json`}>JSON</a> · Versions:{' '}
+    {versions.map((v, i) => <>{i > 0 && ', '}<a href={`/c/${e.id}/v/${v}`}>{v}</a></>)}
+  </p>
+</Library>

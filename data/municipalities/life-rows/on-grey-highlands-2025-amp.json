@@ -1,0 +1,87 @@
+{
+  "document": {
+    "id": "on-grey-highlands-2025-amp",
+    "municipality": "on-grey-highlands",
+    "document_type": "AMP",
+    "title": "Municipality of Grey Highlands Asset Management Plan (Hemson, June 5, 2025)",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://greyhighlands.civicweb.net/document/375124/",
+    "sha256": "17f5607b6141e880b2fed775cdbf2dc390fe40caed1ff15965fd059020bfe16a",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-grey-highlands-2025-amp-r1",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-grey-highlands-2025-amp-r2",
+      "page": 64,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 30,
+      "life_years_max": 75,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-grey-highlands-2025-amp-r3",
+      "page": 69,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 60,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-grey-highlands-2025-amp-r4",
+      "page": 70,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 40,
+      "life_type": "planning",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

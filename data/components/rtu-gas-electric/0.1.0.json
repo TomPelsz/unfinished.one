@@ -1,0 +1,30 @@
+{
+  "id": "rtu-gas-electric",
+  "version": "0.1.0",
+  "classification": { "uniformat": "D3050", "omniclass": "23-33 25 00" },
+  "names": ["Rooftop unit, gas heat / DX cooling"],
+  "aliases": ["RTU", "packaged rooftop unit"],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [12, 20],
+    "modifiers": [
+      { "factor": "coastal salt exposure", "effect_years": -3 },
+      { "factor": "PM completion above 90%", "effect_years": 2 }
+    ]
+  },
+  "pm_tasks": [
+    { "task": "Replace filters", "frequency": "P3M", "trade": "HVAC tech", "labour_h": 0.5, "criticality": "high" },
+    { "task": "Inspect heat exchanger, test combustion", "frequency": "P1Y", "trade": "Gas fitter", "labour_h": 1.5, "criticality": "high" },
+    { "task": "Verify economizer operation", "frequency": "P6M", "trade": "Controls tech", "labour_h": 0.5, "criticality": "medium" }
+  ],
+  "basis": [
+    { "type": "expert_estimate", "by": "unfinished.one editors" }
+  ],
+  "confidence": { "grade": "D", "sample_size": null },
+  "open_questions": [
+    "PLACEHOLDER ENTRY: values are illustrative and not yet sourced.",
+    "Does life differ for units under 10 tons vs over 25 tons?"
+  ],
+  "contributors": ["unfinished.one editors"],
+  "last_reviewed": "2026-10-20"
+}

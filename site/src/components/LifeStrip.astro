@@ -1,0 +1,67 @@
+---
+// Municipal lives on a year axis: a dot per single value, a bar per range, and a tick
+// at the median. Marks that would overlap stack upward, so ten policies at 20 years read as ten.
+// Shared tables arrive already counted once (see scripts/life-rows.mjs).
+import { municipalityName } from '../lib/data';
+interface Props { system: any; scaleMax?: number; axis?: boolean; label?: string }
+const { system: s, axis = true, label } = Astro.props;
+const step = 10;
+const max = Astro.props.scaleMax ?? Math.max(step * 2, Math.ceil((s.high * 1.1) / step) * step);
+const W = 600, left = 8, right = 592, R = 4.5, ROW = 11;
+const x = (y: number) => left + (Math.min(y, max) / max) * (right - left);
+const ticks = Array.from({ length: Math.floor(max / step) + 1 }, (_, i) => i * step).filter((t) => max <= 60 || t % 20 === 0);
+
+// Greedy interval packing in pixel space: each mark takes the lowest free level. Dots fill the
+// levels nearest the axis; ranges get their own levels above them, so a bar never cuts a stack.
+function pack(items: any[], offset: number) {
+  const ends: number[] = [];
+  const placed = items.sort((a, b) => a.from - b.from || a.to - b.to).map((m) => {
+    let level = ends.findIndex((end) => end + 2 <= m.from);
+    if (level === -1) level = ends.push(0) - 1;
+    ends[level] = m.to;
+    return { ...m, level: level + offset };
+  });
+  return { placed, used: ends.length };
+}
+const dots = pack(s.entries.filter((e: any) => e.min === e.max).map((e: any) => ({ e, from: x(e.min) - R, to: x(e.min) + R })), 0);
+const bars = pack(s.entries.filter((e: any) => e.min !== e.max).map((e: any) => ({ e, from: x(e.min), to: Math.max(x(e.max), x(e.min) + 2) })), dots.used);
+const marks = [...dots.placed, ...bars.placed];
+const levels = Math.max(dots.used + bars.used, 1);
+// Past about 16 levels the rows tighten (and the marks shrink) so the chart stays about 180px tall.
+const row = Math.max(5, Math.min(ROW, 176 / levels));
+const r = Math.min(R, row / 2 - 0.25);
+const base = 6 + levels * row; // y of the lowest level's centre
+const y = (level: number) => base - level * row - row / 2;
+const H = base + (axis ? 26 : 6);
+
+const who = (e: any) => {
+  const names = [...new Set(e.rows.map((r: any) => municipalityName(r.municipality)))];
+  return names.length > 2 ? `${names.slice(0, 2).join(', ')} and ${names.length - 2} more` : names.join(' and ');
+};
+const years = (e: any) => (e.min === e.max ? `${e.min}` : `${e.min}–${e.max}`);
+const tip = (e: any) => `${who(e)}: ${e.rows[0].label}, ${years(e)} years`;
+---
+<svg class="strip" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`${label ?? s.code}: ${s.entries.length} lives from ${s.sources} distinct tables, ${s.low} to ${s.high} years, median ${s.median}`}>
+  {ticks.map((t) => <line class="grid" x1={x(t)} x2={x(t)} y1="2" y2={base} />)}
+  <line class="median" x1={x(s.median)} x2={x(s.median)} y1="2" y2={base + 3}><title>{`Median ${s.median} years`}</title></line>
+  {marks.map((m) => m.e.min === m.e.max
+    ? <circle class={m.e.rows[0].life_type === 'planning' ? 'dot plan' : 'dot'} cx={x(m.e.min)} cy={y(m.level)} r={r}><title>{tip(m.e)}</title></circle>
+    : <rect class={m.e.rows[0].life_type === 'planning' ? 'range plan' : 'range'} x={m.from} y={y(m.level) - Math.min(3.5, r)} width={m.to - m.from} height={Math.min(7, 2 * r)} rx={Math.min(3.5, r)}><title>{tip(m.e)}</title></rect>)}
+  {axis && (
+    <g class="axis">
+      <line x1={left} x2={right} y1={base + 3} y2={base + 3} />
+      {ticks.map((t) => <text x={x(t)} y={base + 20} text-anchor="middle">{t}</text>)}
+    </g>
+  )}
+</svg>
+<style>
+  .strip { width: 100%; height: auto; display: block; overflow: visible; }
+  .strip .grid { stroke: var(--line); stroke-width: 1; }
+  .strip .axis line { stroke: var(--line); stroke-width: 1.5; }
+  .strip .axis text { fill: var(--muted); font: 12px system-ui, sans-serif; }
+  .strip .range { fill: var(--accent); fill-opacity: 0.45; stroke: var(--bg); stroke-width: 1.5; }
+  .strip .dot { fill: var(--accent); stroke: var(--bg); stroke-width: 1.5; }
+  .strip .median { stroke: var(--fg); stroke-width: 2; stroke-dasharray: 3 3; }
+  .strip .plan { fill: var(--bg); fill-opacity: 1; stroke: var(--accent); stroke-width: 1.75; }
+  .strip .range:hover, .strip .dot:hover { fill-opacity: 1; stroke: var(--fg); }
+</style>

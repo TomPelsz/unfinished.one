@@ -1,0 +1,319 @@
+{
+  "document": {
+    "id": "on-chatham-kent-2025-amp-roads",
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Roads 2025",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Roads.pdf",
+    "sha256": "e96f50e50dd566ba211234e270243d96c9f26db21583917d708c3a16b66ac2ce",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r1",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r2",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r3",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r4",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r5",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sidewalk, concrete",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r6",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r7",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r8",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r9",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r10",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r11",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r12",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r13",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r14",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Guardrail",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r15",
+      "page": 10,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Curb and gutter, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r16",
+      "page": 24,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Road surface, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-roads-r17",
+      "page": 24,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Road surface, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

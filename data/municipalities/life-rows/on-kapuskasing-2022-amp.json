@@ -1,0 +1,213 @@
+{
+  "document": {
+    "id": "on-kapuskasing-2022-amp",
+    "municipality": "on-kapuskasing",
+    "document_type": "AMP",
+    "title": "2022 Corporation of the Town of Kapuskasing Asset Management Plan",
+    "year": 2022,
+    "prepared_by": null,
+    "url": "https://media-001-ca.cdn.govstack.com/kapuskasing-004-ca/media/h3sj5owc/2022-kapuskasing-asset-management-plan_2.pdf",
+    "sha256": "372bfb8b92633420de1d7d66455dced05a4a2cbf0cdcf31f9d0ab47911b312a0",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-kapuskasing-2022-amp-r1",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 60,
+      "life_years_max": 80,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r2",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r3",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r4",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r5",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r6",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r7",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r8",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r9",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 40,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r10",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 80,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-kapuskasing-2022-amp-r11",
+      "page": 7,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

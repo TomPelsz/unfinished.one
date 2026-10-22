@@ -1,0 +1,133 @@
+{
+  "id": "transformer-pad-mounted",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D5010"
+  },
+  "names": [
+    "Transformer, pad-mounted liquid-filled"
+  ],
+  "aliases": [
+    "pad mount transformer"
+  ],
+  "service_life": {
+    "median_years": 31,
+    "range_years": [
+      30,
+      32
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect solid insulation for discoloration",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 165,
+      "checklist": "Table 20-5 Transformers (primary distribution)"
+    },
+    {
+      "task": "Oil dielectric strength test",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 165,
+      "checklist": "Table 20-5 Transformers (primary distribution)"
+    },
+    {
+      "task": "Oil acidity test",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 165,
+      "checklist": "Table 20-5 Transformers (primary distribution)"
+    },
+    {
+      "task": "Oil color test",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 165,
+      "checklist": "Table 20-5 Transformers (primary distribution)"
+    },
+    {
+      "task": "Verify transformer alarms",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 165,
+      "checklist": "Table 20-5 Transformers (primary distribution)"
+    },
+    {
+      "task": "Inspect transformer enclosure for rust and oil leaks",
+      "frequency": "P2Y",
+      "reference": "UFM 3-550-07 Operation and Maintenance (O&M): Exterior Power Distribution Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_550_07_2026.pdf",
+      "page": 89,
+      "checklist": "5-2.2.4.1 Time-Base Preventative Maintenance (transformers)"
+    },
+    {
+      "task": "Check and record transformer gauges",
+      "frequency": "P2Y",
+      "reference": "UFM 3-550-07 Operation and Maintenance (O&M): Exterior Power Distribution Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_550_07_2026.pdf",
+      "page": 89,
+      "checklist": "5-2.2.4.1 Time-Base Preventative Maintenance (transformers)"
+    },
+    {
+      "task": "Take oil sample for dissolved gas analysis (DGA)",
+      "frequency": "P2Y",
+      "reference": "UFM 3-550-07 Operation and Maintenance (O&M): Exterior Power Distribution Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_550_07_2026.pdf",
+      "page": 90,
+      "checklist": "5-2.2.4.2 Time-Based Predictive Maintenance (transformers)"
+    },
+    {
+      "task": "Infrared scan for hot spots under load",
+      "frequency": "P2Y",
+      "reference": "UFM 3-550-07 Operation and Maintenance (O&M): Exterior Power Distribution Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_550_07_2026.pdf",
+      "page": 90,
+      "checklist": "5-2.2.4.2 Time-Based Predictive Maintenance (transformers)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 3,
+      "code": "HUD CNA 3.2.8.2.3",
+      "label": "Transformer",
+      "years": 30,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row is a site electric utility transformer."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Distribution Transformers (final rule), 89 FR 29834, April 22, 2024",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-04-22/pdf/2024-07480.pdf",
+      "page": 113,
+      "code": "IV.F.8",
+      "label": "Transformer Service Lifetime: \"a distribution of lifetimes, with an estimated average of 32 years and a maximum of 60 years\"",
+      "years": 32,
+      "note": "Printed page 29946. Covers all distribution transformers, including low-voltage dry-type (building dry-type) and medium-voltage liquid-immersed (pad-mounted). Mean of a distribution; the maximum is 60 years. Same value also stated on p.5 (printed 29838) and in Table IV summary on p.101 (printed 29934)."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "unfinished-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run --prefix .. bundle && wrangler dev",
+    "deploy": "npm run --prefix .. bundle && wrangler deploy",
+    "typecheck": "tsc",
+    "test": "npm run --prefix .. bundle && node --test 'test/*.test.ts'"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261021.1",
+    "typescript": "^5.9.0",
+    "wrangler": "^4.151.0"
+  }
+}

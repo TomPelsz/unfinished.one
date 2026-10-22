@@ -1,0 +1,12 @@
+---
+// The plans section: municipalities with documents on the left, the overview or one municipality on the right.
+import Split from './Split.astro';
+import MunicipalNav from '../components/MunicipalNav.astro';
+interface Props { title: string; description?: string; canonical?: string; noindex?: boolean; current?: string }
+const { current, ...base } = Astro.props;
+---
+<Split {...base} fold="Browse municipalities">
+  <slot name="head" slot="head" />
+  <MunicipalNav slot="side" current={current} />
+  <slot />
+</Split>

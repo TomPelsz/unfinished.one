@@ -1,0 +1,129 @@
+{
+  "id": "road-gravel",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Road, gravel"
+  ],
+  "aliases": [
+    "gravel road",
+    "loose top road"
+  ],
+  "service_life": {
+    "median_years": 75,
+    "range_years": [
+      8,
+      80
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Patrol Class 3 municipal roads to check for the conditions set out in the regulation (potholes, cracks, discontinuities, drop-offs)",
+      "frequency": "P1W",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 3 highways)"
+    },
+    {
+      "task": "Patrol Class 4 municipal roads to check for the conditions set out in the regulation",
+      "frequency": "P2W",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 4 highways)"
+    },
+    {
+      "task": "Patrol Class 5 municipal roads to check for the conditions set out in the regulation",
+      "frequency": "P30D",
+      "reference": "O. Reg. 239/02: Minimum Maintenance Standards for Municipal Highways (Municipal Act, 2001), consolidated from May 3, 2018",
+      "url": "https://www.ontario.ca/laws/regulation/020239",
+      "checklist": "s.3 Table Patrolling Frequency (Class 5 highways)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Chapple: Schedule A - By-law 1873: Asset Useful Life - General Guidelines",
+      "url": "https://chapple.civicweb.net/document/32784/",
+      "page": 1,
+      "label": "Roads - gravel",
+      "years": 80,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Greater Sudbury: Enterprise Asset Management Plan (2023)",
+      "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+      "page": 22,
+      "label": "Gravel Road",
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "label": "Road Network - Gravel",
+      "years": 10,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Roads - Surface - Gravel",
+      "years": 8,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Rainy River: F-9 Tangible Capital Assets Policy",
+      "url": "https://rainyriver.ca/uploads/plans-policies/finance-department/f9-tangible-capital-assets-policy.pdf",
+      "page": 11,
+      "label": "Roads - Gravel",
+      "years": 80,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+      "page": 13,
+      "label": "Roads - Local – Gravel",
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Rainy River: Asset Management Plan 2025-2035",
+      "url": "https://www.rainyriver.ca/uploads/plans-policies/Rainy%20River%20AMP%20version%2003-16-26.pdf",
+      "page": 17,
+      "label": "Roads - Gravel",
+      "years": 80,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "A municipal minimum standard tied to the statutory defence in s.44 of the Municipal Act, 2001; patrolling is a drive-by observation of the whole road, not a component-level inspection. Not an official version."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

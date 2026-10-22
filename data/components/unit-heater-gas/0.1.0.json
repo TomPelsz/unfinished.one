@@ -1,0 +1,47 @@
+{
+  "id": "unit-heater-gas",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Unit heater, gas-fired"
+  ],
+  "aliases": [
+    "gas unit heater",
+    "UH"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Napanee: By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+      "url": "https://greaternapanee.civicweb.net/document/45679",
+      "page": 16,
+      "label": "E20 Mechanical - Boilers, Fire Panel/Alarm, Unit Heaters, HVAC",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. The row names unit heaters among other mechanical items, without the fuel."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

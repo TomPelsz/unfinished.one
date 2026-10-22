@@ -1,0 +1,131 @@
+{
+  "document": {
+    "id": "ab-westlock-2021-capital_asset_policy",
+    "municipality": "ab-westlock",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. P-96-2021 Tangible Capital Asset Policy",
+    "year": 2021,
+    "prepared_by": null,
+    "url": "https://www.westlock.ca/media/btxfj4rk/p962021tangiblecapitalasset.pdf",
+    "sha256": "5b40416896b44844b72f97c715e511405deba9d19f617a3f8312a8b416cf0df6",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r1",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r2",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r3",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down), concrete",
+      "systems": []
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r4",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r5",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r6",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "ab-westlock-2021-capital_asset_policy-r7",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    }
+  ]
+}

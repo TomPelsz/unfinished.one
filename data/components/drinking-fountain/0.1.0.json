@@ -1,0 +1,49 @@
+{
+  "id": "drinking-fountain",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D2010"
+  },
+  "names": [
+    "Drinking fountain or bottle filler"
+  ],
+  "aliases": [
+    "water fountain",
+    "bottle filling station"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 44,
+      "code": "BDFO",
+      "label": "Plumbing fixtures",
+      "years": 25,
+      "note": "Printed page 44. Plumbing fixtures: toilets, urinals, basins, drinking fountains. Note the separate row 'Sanitary appliances' (8 years), which under NZ Building Code usage means appliances such as dish and clothes washers, not fixtures; it is not mapped. BDFO Building fit-out (when in books separately from building cost). Printed DV 8%, SL 6%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

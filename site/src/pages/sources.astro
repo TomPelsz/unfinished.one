@@ -1,0 +1,42 @@
+---
+import Docs from '../layouts/Docs.astro';
+import { loadComponents, loadTcaPolicies } from '../lib/data';
+
+// Every document the latest entries cite, grouped by URL, with the entries that cite it.
+const entries = loadComponents().map((c: any) => c.latest);
+const docs = new Map<string, any>();
+for (const e of entries) {
+  for (const b of e.basis) {
+    const key = b.url ?? `${b.type}:${b.title ?? b.by}`;
+    if (!docs.has(key)) docs.set(key, { title: b.title ?? b.type.replaceAll('_', ' '), by: b.by, url: b.url, life_type: b.life_type, rows: 0, entries: new Map() });
+    const d = docs.get(key);
+    d.rows++;
+    d.entries.set(e.id, e.names[0]);
+  }
+}
+const list = [...docs.values()].sort((a, b) => b.entries.size - a.entries.size || a.title.localeCompare(b.title));
+const policies = loadTcaPolicies().length;
+const LIFE: Record<string, string> = { planning: 'Planning', accounting: 'Accounting', design: 'Design', observed: 'Observed' };
+---
+<Docs title="Sources · unfinished.one" description="Every document the unfinished.one library cites, and the entries that use it." canonical="https://unfinished.one/sources">
+  <h1>Sources</h1>
+  <p class="lede">Every document the current entries cite, with the entries that use it. Each value on an entry page links to the page of its source.</p>
+  <p>{list.length} documents are cited by {entries.length} entries. The kind of life matters: <strong>planning</strong> lives are what an owner budgets for, <strong>accounting</strong> lives are amortization periods, and neither is a measured replacement age.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Source</th><th>Kind of life</th><th class="num">Entries</th></tr></thead>
+      <tbody>
+        {list.map((d) => (
+          <tr>
+            <td>{d.url ? <a href={d.url}>{d.title}</a> : d.title}{d.by && <span class="muted small"><br />{d.by}</span>}
+              <details><summary>Cited by</summary><span class="small">{[...d.entries].map(([id, name], i) => <>{i > 0 && ', '}<a href={`/c/${id}`}>{name}</a></>)}</span></details>
+            </td>
+            <td>{LIFE[d.life_type] ?? '—'}</td>
+            <td class="num">{d.entries.size}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p>The {policies} Ontario capital asset policies behind the system-level lives on component pages are listed on <a href="/plans#policies">Municipal plans</a>. How sources are chosen: <a href="/sourcing">sourcing policy</a>.</p>
+</Docs>

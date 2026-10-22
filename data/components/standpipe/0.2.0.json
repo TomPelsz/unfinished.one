@@ -1,0 +1,169 @@
+{
+  "id": "standpipe",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D4020"
+  },
+  "names": [
+    "Standpipe and hose system"
+  ],
+  "aliases": [
+    "FDC",
+    "fire hose cabinet"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check control valve position (unsupervised valves)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 46,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Inspect hose connections and pressure-reducing valves",
+      "frequency": "P6M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 46,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check fire department connection access and condition",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check FDC for obstructions if caps are missing",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check system check valve is not leaking",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check FDC gaskets are present",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Lubricate FDC swivels if stiff",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check ball drip drain works before cold season",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Inspect piping and pipe supports",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Operate control valves through full travel",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Lubricate control valve stems",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Check valve supervisory switches detect valve movement",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Flow test standpipe for flow and discharge pressure",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Hydrostatic test (dry standpipes only)",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    },
+    {
+      "task": "Flow test pressure-reducing hose valves",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 47,
+      "checklist": "Table 2-9 Standpipe Systems ITM Tasks"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 14,
+      "code": "HUD CNA 3.6.1.1",
+      "label": "Building fire suppression sprinklers, standpipes",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD gives sprinklers and standpipes one row."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

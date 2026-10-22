@@ -1,0 +1,87 @@
+{
+  "document": {
+    "id": "on-quinte-west-2025-amp",
+    "municipality": "on-quinte-west",
+    "document_type": "AMP",
+    "title": "Water and Wastewater Asset Management Plan",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://quintewest.ca/wp-content/uploads/2025/07/Water-and-Wastewater-Asset-Management-Plan-2025-Final.pdf",
+    "sha256": "66df62391e0d93c6d54c0f41114c110b4afaaa71d122871e40b4b3b723c6cb16",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-quinte-west-2025-amp-r1",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-quinte-west-2025-amp-r2",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-quinte-west-2025-amp-r3",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-quinte-west-2025-amp-r4",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    }
+  ]
+}

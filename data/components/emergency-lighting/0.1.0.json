@@ -1,0 +1,62 @@
+{
+  "id": "emergency-lighting",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D5090"
+  },
+  "names": [
+    "Emergency lighting unit"
+  ],
+  "aliases": [
+    "battery pack",
+    "emergency light"
+  ],
+  "service_life": {
+    "median_years": 10,
+    "range_years": [
+      5,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.2.6",
+      "label": "Emergency lights, illuminated signs",
+      "years": [
+        5,
+        10
+      ],
+      "note": "Family properties 5 years, elderly 10. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Meaford: By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+      "url": "https://meaford.civicweb.net/document/103944/",
+      "page": 17,
+      "label": "Electrical - Emergency Lighting",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD gives planning lives for US multifamily housing; the municipal rows are Ontario accounting lives. Neither is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

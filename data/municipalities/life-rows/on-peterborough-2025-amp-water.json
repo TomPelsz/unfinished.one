@@ -1,0 +1,591 @@
+{
+  "document": {
+    "id": "on-peterborough-2025-amp-water",
+    "municipality": "on-peterborough",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan Water Services, The Corporation of The City of Peterborough",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.peterborough.ca/media/120kfqhg/2025-waterservices_amp-final.pdf",
+    "sha256": "578184e72184576e4efc0a53ad71a56115fae05f54033580d30c107d10d21cbc",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-peterborough-2025-amp-water-r1",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r2",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r3",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r4",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r5",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water service connection",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r6",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water service connection",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r7",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain valve",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r8",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r9",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Fire hydrant",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r10",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water meter",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r11",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water meter",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r12",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r13",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r14",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 130,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r15",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r16",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r17",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r18",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r19",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r20",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r21",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r22",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r23",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r24",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r25",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r26",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r27",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r28",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 85,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r29",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r30",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r31",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-peterborough-2025-amp-water-r32",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    }
+  ]
+}

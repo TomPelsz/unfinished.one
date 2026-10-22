@@ -1,0 +1,139 @@
+{
+  "document": {
+    "id": "bc-sicamous-2011-capital_asset_policy",
+    "municipality": "bc-sicamous",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. F-7 Tangible Capital Asset Policy",
+    "year": 2011,
+    "prepared_by": null,
+    "url": "https://sicamous.civicweb.net/document/119286",
+    "sha256": "a2f0b1bbffb5c39539c83543ff74a738331373546099596cd87b504b3dcef7b3",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r1",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r2",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 60,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r3",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r4",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 30,
+      "life_years_max": 40,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Exterior enclosure",
+      "systems": [
+        "B20"
+      ]
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r5",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 12,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r6",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "bc-sicamous-2011-capital_asset_policy-r7",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Plumbing, Fire protection, Electrical",
+      "systems": [
+        "D20",
+        "D40",
+        "D50"
+      ]
+    }
+  ]
+}

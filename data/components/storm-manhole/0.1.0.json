@@ -1,0 +1,56 @@
+{
+  "id": "storm-manhole",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Storm manhole"
+  ],
+  "aliases": [
+    "storm maintenance hole"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "label": "Storm Sewers - Manholes",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 403,
+      "label": "Infrastructure - Water & Sewer - Storm Manhole",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

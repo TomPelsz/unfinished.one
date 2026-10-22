@@ -1,0 +1,212 @@
+{
+  "document": {
+    "id": "on-centre-hastings-na-capital_asset_policy",
+    "municipality": "on-centre-hastings",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-003 Capital Asset Policy",
+    "year": null,
+    "prepared_by": null,
+    "url": "https://centrehastings.com/media/fohda5zt/fin-003-capital-asset-policy.pdf",
+    "sha256": "fbe44f8f5ff7f593b0660c5dc1892e2555b498c75bdd9f2f3690319563d4fdc6",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r1",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r2",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r3",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r4",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior construction",
+      "systems": [
+        "C10"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r5",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, Electrical",
+      "systems": [
+        "D20",
+        "D50"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r6",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Fire protection",
+      "systems": [
+        "D40"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r7",
+      "page": 4,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r8",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Road base, granular",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r9",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r10",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 60,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-centre-hastings-na-capital_asset_policy-r11",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    }
+  ]
+}

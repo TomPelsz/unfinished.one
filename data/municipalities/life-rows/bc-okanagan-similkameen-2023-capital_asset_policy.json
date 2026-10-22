@@ -1,0 +1,107 @@
+{
+  "document": {
+    "id": "bc-okanagan-similkameen-2023-capital_asset_policy",
+    "municipality": "bc-okanagan-similkameen",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Asset Policy",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://rec.rdos.bc.ca/assets/BOARD/Policies/Tangible-Capital-Asset-Policy.pdf",
+    "sha256": "33ddf7098bbf51ccda044709cd73b25c0b751916581f799fe91e08442f57dc00",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "bc-okanagan-similkameen-2023-capital_asset_policy-r1",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "bc-okanagan-similkameen-2023-capital_asset_policy-r2",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 30,
+      "life_years_max": 40,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Exterior enclosure",
+      "systems": [
+        "B20"
+      ]
+    },
+    {
+      "id": "bc-okanagan-similkameen-2023-capital_asset_policy-r3",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 12,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "bc-okanagan-similkameen-2023-capital_asset_policy-r4",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "bc-okanagan-similkameen-2023-capital_asset_policy-r5",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, Fire protection, Electrical",
+      "systems": [
+        "D20",
+        "D40",
+        "D50"
+      ]
+    }
+  ]
+}

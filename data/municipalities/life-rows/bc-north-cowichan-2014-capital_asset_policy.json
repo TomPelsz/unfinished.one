@@ -1,0 +1,152 @@
+{
+  "document": {
+    "id": "bc-north-cowichan-2014-capital_asset_policy",
+    "municipality": "bc-north-cowichan",
+    "document_type": "capital_asset_policy",
+    "title": "Council Policy: Capital Asset Policy",
+    "year": 2014,
+    "prepared_by": null,
+    "url": "https://www.northcowichan.ca/sites/default/files/2023-10/Capital%20Asset%20Policy.pdf",
+    "sha256": "54ad7323724681cdd9b4f3d301aa67050470a8af69e7356a6511fc5f6f9b90db",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r1",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r2",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r3",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r4",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC, Electrical",
+      "systems": [
+        "D30",
+        "D50"
+      ]
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r5",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r6",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r7",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-north-cowichan-2014-capital_asset_policy-r8",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    }
+  ]
+}

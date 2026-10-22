@@ -1,0 +1,467 @@
+{
+  "document": {
+    "id": "on-greater-madawaska-2025-capital_asset_policy",
+    "municipality": "on-greater-madawaska",
+    "document_type": "capital_asset_policy",
+    "title": "By-Law 21-2025 Tangible Capital Asset Policy (Finance Policy 4-02)",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://greatermadawaska.civicweb.net/document/95484",
+    "sha256": "335cac9a92aba3bae462954a1b5848289839973addc679e743a5f3460be9823a",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r1",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r2",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 95,
+      "life_years_max": 110,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Foundations",
+      "systems": [
+        "A10"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r3",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 35,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r4",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 55,
+      "life_years_max": 85,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Exterior enclosure",
+      "systems": [
+        "B20"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r5",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 35,
+      "life_years_max": 85,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior construction",
+      "systems": [
+        "C10"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r6",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r7",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r8",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r9",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Electrical",
+      "systems": [
+        "D50"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r10",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r11",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing",
+      "systems": [
+        "D20"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r12",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r13",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r14",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r15",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Conveying",
+      "systems": [
+        "D10"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r16",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Road base, granular",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r17",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Road surface, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r18",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Road surface treatment",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r19",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r20",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r21",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r22",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r23",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r24",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r25",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-greater-madawaska-2025-capital_asset_policy-r26",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    }
+  ]
+}

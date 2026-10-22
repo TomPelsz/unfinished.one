@@ -1,0 +1,193 @@
+---
+import Plans from '../layouts/Plans.astro';
+import { loadMunicipalities, loadPilotPlans, loadPlans, loadTcaPolicies, policyCoverage, transcribedRows, livesBySystem, loadLifeRows } from '../lib/data';
+import { systemName } from '../lib/uniformat';
+import LifeBox from '../components/LifeBox.astro';
+const municipalities = loadMunicipalities();
+const byId = new Map(municipalities.map((m: any) => [m.id, m]));
+const plans = loadPilotPlans();
+const policies = loadTcaPolicies();
+const found = plans.filter((p: any) => p.url).length;
+const pilotIds = new Set(plans.map((p: any) => p.municipality));
+// Plans collected after the pilot: the next municipalities by population, and those whose capital asset policy is on file.
+const more = loadPlans().filter((p: any) => !pilotIds.has(p.municipality));
+const moreMunicipalities = new Set(more.map((p: any) => p.municipality));
+const STATUS: Record<string, [string, string]> = { queued: ['queued', 'queued'], skipped: ['summary only', 'missing'], blocked: ['needs repair', 'missing'], no_component_lives: ['no component lives', 'missing'] };
+const status = (p: any) => (p.url ? STATUS[p.extraction?.status ?? 'queued'] : ['not found', 'missing']);
+const lifeRows = loadLifeRows();
+const planRows = (p: any) => lifeRows.filter((r: any) => p.url && r.document.url === p.url).length;
+const policyRows = (p: any) => lifeRows.filter((r: any) => r.document.url === p.url).length;
+const LINEAGE: Record<string, string> = {
+  'hastings-range-table': 'Hastings County range table',
+  'quinte-west-2024': 'Quinte West 2024 table',
+  'northern-general-guidelines': 'Northern “General Guidelines” form',
+  'grey-county-rows': 'Grey County row set',
+  'four-row-consultant': 'Four-row consultant table',
+};
+const tables = new Set(policies.map((p: any) => (p.lineage?.shared === 'values' ? p.lineage.id : p.municipality))).size;
+const lineages = new Set(policies.map((p: any) => p.lineage?.id ?? p.municipality)).size;
+const rowsBy = transcribedRows();
+const totalRows = [...rowsBy.values()].reduce((a, b) => a + b, 0);
+const lives = [...livesBySystem().values()];
+// This section is about the policies; plan rows are counted with the plans.
+const approvedRows = loadLifeRows().filter((r: any) => r.document.document_type === 'capital_asset_policy');
+const reviewed = approvedRows.length;
+const byPage = approvedRows.filter((r: any) => r.review_method === 'page').length;
+const byImage = approvedRows.filter((r: any) => r.review_method === 'image_check').length;
+const livesMax = Math.ceil(Math.max(0, ...lives.map((l: any) => l.high)) / 10) * 10;
+const systems = [...policyCoverage()].sort(([a], [b]) => a.localeCompare(b));
+// The full municipal list exists for Ontario only; other provinces list municipalities with a policy.
+const ontario = municipalities.filter((m: any) => m.province === 'ON');
+const ranked = [...ontario].sort((a: any, b: any) => (b.population_2021 ?? 0) - (a.population_2021 ?? 0));
+const TIER: Record<string, string> = { single: 'Single', lower: 'Lower', upper: 'Upper' };
+const count = (t: string) => ontario.filter((m: any) => m.tier === t).length;
+const fmt = (n: number | null) => (n == null ? '—' : n.toLocaleString('en-CA'));
+---
+<Plans title="Municipal plans · unfinished.one" description="An open index of Ontario municipal asset management plans and the asset lives they assume." current="overview">
+  <style>
+    .filter { width: 100%; padding: 8px 10px; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; margin: 0 0 10px; }
+    .status { display: inline-block; font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+    .status.queued { border-color: var(--accent); color: var(--accent); }
+    a.status { text-decoration: none; }
+    .status.missing { color: var(--muted); }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; padding: 0; list-style: none; }
+    .stats li { margin: 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; }
+    .stats strong { display: block; font-size: 1.6rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .stats span { color: var(--muted); font-size: 14px; }
+    .lives-grid { display: grid; gap: 6px; margin: 12px 0 4px; }
+    .lives-row { display: grid; grid-template-columns: 10rem 1fr 6.5rem; gap: 12px; align-items: center; }
+    .lives-label { font-size: 14px; line-height: 1.25; }
+    .lives-label span { display: block; font-size: 12px; }
+    .lives-label a { color: var(--fg); text-decoration: none; }
+    .lives-sum { text-align: right; font-variant-numeric: tabular-nums; line-height: 1.25; }
+    .lives-sum span { display: block; font-size: 12px; }
+    @media (max-width: 560px) { .lives-row { grid-template-columns: 1fr 5.5rem; gap: 2px 8px; } .lives-row svg { grid-column: 1 / -1; grid-row: 2; } }
+    #all tbody tr[hidden] { display: none; }
+  </style>
+  <h1>Municipal plans</h1>
+  <p class="lede">Ontario municipalities publish asset management plans under Ontario Regulation 588/17. Many state how long they expect each type of asset to last. Capital asset policies in Ontario, British Columbia and Alberta set the accounting life of each asset class. This index collects both so their assumptions can be compared and cited, page by page.</p>
+  <p>Pick a municipality on the left to see its documents and every life row taken from them, each linked to its page.</p>
+
+  <h2 id="pilot">Pilot plans</h2>
+  <p>The most recent plan for each of the 15 most populous single-tier and upper-tier municipalities. {found} of {plans.length} found; {plans.filter((p: any) => planRows(p) > 0).length} have published life rows. Hover a status for details.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Municipality</th><th class="num">Population</th><th>Plan</th><th>Status</th></tr></thead>
+      <tbody>
+        {plans.map((p: any) => {
+          const m: any = byId.get(p.municipality);
+          return (
+            <tr>
+              <td>{p.url ? <a href={`/m/${p.municipality}`}>{m?.name ?? p.municipality}</a> : m?.name ?? p.municipality}</td>
+              <td class="num">{fmt(m?.population_2021)}</td>
+              <td>{p.url ? <a href={p.url}>{p.title}</a> : <span class="muted">{p.title ?? 'Not found'}</span>}{p.year && <span class="muted"> · {p.year}</span>}</td>
+              <td>{planRows(p) ? <a class="status queued" href={`/m/${p.municipality}`}>{planRows(p)} rows</a> : <span class={`status ${status(p)[1]}`} title={p.extraction?.reason ?? p.notes}>{status(p)[0]}</span>}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="more">More plans</h2>
+  <p>Plans for {moreMunicipalities.size} more Ontario municipalities: the next 30 single-tier and upper-tier municipalities by population, and those whose capital asset policy is on file. Some publish a plan per service, so there are {more.length} documents. {more.filter((p: any) => planRows(p) > 0).length} have published life rows. Many plans built in Citywide-style templates show lives only as weighted averages in charts; where the charts print their values, those were read from the page, and each such document's notes say so. Plans whose lives come from the municipality's own policy are counted with the policy, not as a second source.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Municipality</th><th>Plan</th><th>Status</th></tr></thead>
+      <tbody>
+        {more.map((p: any) => (
+          <tr>
+            <td><a href={`/m/${p.municipality}`}>{byId.get(p.municipality)?.name ?? p.municipality}</a></td>
+            <td>{p.url ? <a href={p.url}>{p.title}</a> : <span class="muted">{p.title}</span>}{p.year && <span class="muted"> · {p.year}</span>}</td>
+            <td>{planRows(p) ? <a class="status queued" href={`/m/${p.municipality}`}>{planRows(p)} rows</a> : <span class={`status ${status(p)[1]}`} title={p.extraction?.reason ?? p.notes}>{p.extraction ? status(p)[0] : 'checking'}</span>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="muted small">Know where a missing plan is published? Tell us at <a href="mailto:hello@unfinished.one">hello@unfinished.one</a>.</p>
+
+  <h2 id="policies">Capital asset policies</h2>
+  <p>Large municipalities' plans give lives by asset segment ("building, 50 years"), not by component. Their tangible capital asset policies often do break buildings down: HVAC, roofing, elevators, electrical. These are accounting lives used for amortization, so they are recorded as such and never mixed with observed lives.</p>
+  <ul class="stats">
+    <li><strong>{policies.length}</strong><span>policies with building component lives</span></li>
+    <li><strong>{tables}</strong><span>distinct life tables</span></li>
+    <li><strong>{lineages}</strong><span>independent lineages</span></li>
+  </ul>
+  <p>Policies copy each other. Four Hastings County townships use one range table, which appears to be a US school-district list (its rows include “Classroom and office furniture” and “Buses”) with each value widened into a range. Greater Madawaska’s 2025 policy repeats Quinte West’s 2024 lives. Policies that share a table are cited as one source, so {policies.length} policies count as about {lineages} independent sources.</p>
+  <p>Where municipalities share a form but set their own numbers, they genuinely disagree. Within Grey County, building structure ranges from 40 to 100 years and sprinkler systems from 25 to 40.</p>
+
+  {lives.length > 0 && (
+    <>
+      <h3 id="lives">What they say</h3>
+      <p>Approved municipal lives by building system and infrastructure type: accounting lives from capital asset policies and, for infrastructure, planning lives from asset management plans. The whisker runs from the shortest to the longest stated life, the band covers the middle half, and the dark tick is the median; a stated range counts at its midpoint. Policies that copy the same table count once. None of these is a measured life. Each system's page lists every value.</p>
+      <div class="lives-grid">
+        {lives.map((l: any, i: number) => (
+          <div class="lives-row">
+            <div class="lives-label"><a href={`#sys-${l.code}`}>{systemName(l.code)}</a><span class="muted">{l.code} · {l.sources} {l.sources === 1 ? 'table' : 'tables'}</span></div>
+            <LifeBox system={l} scaleMax={livesMax} axis={i === lives.length - 1} label={`${systemName(l.code)} (${l.code})`} />
+            <div class="lives-sum small">median <strong>{l.median}</strong><span class="muted">{l.low}–{l.high} years</span></div>
+          </div>
+        ))}
+      </div>
+      <p class="muted small">Years. Data: <a href="/api/life-rows.json">approved rows JSON</a>.</p>
+    </>
+  )}
+
+  <h3 id="systems">What they cover</h3>
+  <p>The policies set lives for building systems and for infrastructure: water and sewer mains, roads, bridges, culverts and streetlights. Building lives are mostly per system; infrastructure lives are often per material. {reviewed === 0 ? <>{totalRows} rows have been typed from them and are waiting to be checked against their pages. No values are shown until then.</> : <>{totalRows} rows have been typed from them and {reviewed} are approved: {[[byPage, 'checked against their page by an editor'], [byImage, 'compared with an image of their page'], [reviewed - byPage - byImage, 'matched to the text of their cited page automatically']].filter(([n]) => (n as number) > 0).map(([n, how]) => `${n} ${how}`).join(', ')}.</>}</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>System</th><th>Uniformat</th><th class="num">Policies</th><th class="num">Rows</th></tr></thead>
+      <tbody>{systems.map(([code, c]) => <tr id={`sys-${code}`}><td>{systemName(code)}</td><td>{code}</td><td class="num">{c.municipalities.size}</td><td class="num">{c.rows}</td></tr>)}</tbody>
+    </table>
+  </div>
+
+  <h3 id="policy-list">The policies</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Municipality</th><th>Policy</th><th>Shared table</th><th class="num">Approved</th></tr></thead>
+      <tbody>
+        {policies.map((p: any) => (
+          <tr>
+            <td><a href={`/m/${p.municipality}`}>{byId.get(p.municipality)?.name ?? p.municipality}</a></td>
+            <td><a href={p.url}>{p.title}</a>{p.year && <span class="muted"> · {p.year}</span>}</td>
+            <td class="small">{p.lineage ? <>{LINEAGE[p.lineage.id] ?? p.lineage.id}<span class="muted"> · {p.lineage.shared === 'values' ? 'same lives' : 'same form, own lives'}</span></> : <span class="muted">—</span>}</td>
+            <td class="num">{policyRows(p) ? <a class="status queued" href={`/m/${p.municipality}`}>{policyRows(p)} rows</a> : rowsBy.get(p.municipality) ? <span class="status missing" title="Rows typed, waiting to be checked against the page">{rowsBy.get(p.municipality)} typed</span> : <span class="status missing">not typed</span>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="muted small">Each policy’s <code>lineage</code> field in the <a href="/api/policies.json">policies JSON</a> records which table it shares.</p>
+
+  <h2 id="all">All Ontario municipalities</h2>
+  <p>{ontario.length} municipalities: {count('single')} single-tier, {count('lower')} lower-tier and {count('upper')} upper-tier (counties, regions and the District of Muskoka). Upper-tier populations are the sum of their lower tiers.</p>
+  <label class="muted small" for="q">Filter by name</label>
+  <input class="filter" id="q" type="search" placeholder="e.g. Barrie, county, township" autocomplete="off" />
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Municipality</th><th>Tier</th><th class="num">Population 2021</th></tr></thead>
+      <tbody>
+        {ranked.map((m: any) => (
+          <tr data-name={m.name.toLowerCase()}>
+            <td>{m.website ? <a href={m.website}>{m.name}</a> : m.name}{m.upper_tier && <span class="muted small"> · {byId.get(m.upper_tier)?.name}</span>}</td>
+            <td>{TIER[m.tier]}</td>
+            <td class="num">{fmt(m.population_2021)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="muted small">
+    Sources: Ontario Ministry of Municipal Affairs and Housing, <a href="https://www.ontario.ca/page/list-ontario-municipalities">List of Ontario municipalities</a>; Statistics Canada, <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201">2021 Census, table 98-10-0002-01</a>. Data: <a href="/api/municipalities.json">municipalities JSON</a> · <a href="/api/plans.json">plans JSON</a>.
+  </p>
+  <script is:inline>
+    const q = document.getElementById('q');
+    const rows = [...document.querySelectorAll('#all ~ .scroll tbody tr')];
+    q.addEventListener('input', () => {
+      const v = q.value.trim().toLowerCase();
+      for (const r of rows) r.hidden = v !== '' && !r.dataset.name.includes(v);
+    });
+  </script>
+</Plans>

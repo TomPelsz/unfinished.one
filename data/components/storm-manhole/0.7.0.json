@@ -1,0 +1,150 @@
+{
+  "id": "storm-manhole",
+  "version": "0.7.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Storm manhole"
+  ],
+  "aliases": [
+    "storm maintenance hole"
+  ],
+  "service_life": {
+    "median_years": 62.5,
+    "range_years": [
+      50,
+      80
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect frame and top slab",
+      "frequency": "P1Y",
+      "reference": "TSPWG Manual 3-260-03.04-6 Inspection of Pavement Drainage Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/STC/tspwg_m_3-260-03_04-6.pdf",
+      "page": 10,
+      "checklist": "Table 2-1 Inspection Schedule for Catch Basins, Manholes, Handholes, and Drop Inlets"
+    },
+    {
+      "task": "Inspect structural condition",
+      "frequency": "P1Y",
+      "reference": "TSPWG Manual 3-260-03.04-6 Inspection of Pavement Drainage Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/STC/tspwg_m_3-260-03_04-6.pdf",
+      "page": 10,
+      "checklist": "Table 2-1 Inspection Schedule for Catch Basins, Manholes, Handholes, and Drop Inlets"
+    },
+    {
+      "task": "Inspect ladder",
+      "frequency": "P1Y",
+      "reference": "TSPWG Manual 3-260-03.04-6 Inspection of Pavement Drainage Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/STC/tspwg_m_3-260-03_04-6.pdf",
+      "page": 10,
+      "checklist": "Table 2-1 Inspection Schedule for Catch Basins, Manholes, Handholes, and Drop Inlets"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Napanee: By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+      "url": "https://greaternapanee.civicweb.net/document/45679",
+      "page": 17,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Compared with an image of the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 403,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Amherstburg: Asset Management Plan Town of Amherstburg 2025",
+      "url": "https://www.amherstburg.ca/media/w5qhko4r/2025-amp-final-2025-06-30-rm-with-appendices.pdf",
+      "page": 62,
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Bruce: Asset Management Plan 2025, Bruce County",
+      "url": "https://www.brucecounty.on.ca/sites/default/files/BruceCounty_2025AMP_FINAL.pdf",
+      "page": 67,
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Chatham-Kent: Detailed Asset Management Plan: Stormwater 2025",
+      "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Stormwater.pdf",
+      "page": 11,
+      "years": 80,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Kirkland Lake: Asset Management Plan 2025 Town of Kirkland Lake",
+      "url": "https://kirklandlake.civicweb.net/document/32531/",
+      "page": 95,
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Orillia: City of Orillia Asset Management Plan 2025",
+      "url": "https://www.orillia.ca/media/pjgfhy24/asset-management-plan-2025.pdf",
+      "page": 146,
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Peterborough: Asset Management Plan 2025 - Peterborough County",
+      "url": "https://media-002-ca.cdn.govstack.com/thekawarthas-012-ca/media/juqptohr/asset-management-plan-2025.pdf",
+      "page": 71,
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Stormont: Asset Management Plan 2025",
+      "url": "https://www.sdgcounties.ca/sites/default/files/2026-01/SDG_2025%20AMP_Website.pdf",
+      "page": 27,
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

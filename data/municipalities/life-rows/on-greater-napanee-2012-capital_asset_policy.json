@@ -1,0 +1,353 @@
+{
+  "document": {
+    "id": "on-greater-napanee-2012-capital_asset_policy",
+    "municipality": "on-greater-napanee",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+    "year": 2012,
+    "prepared_by": null,
+    "url": "https://greaternapanee.civicweb.net/document/45679",
+    "sha256": "13503b55bdd4fa3875dd06e6d3af52910d2db39fb1f5a99dcb41f45af5601d5c",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r1",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r2",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r3",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Unit heater, gas-fired; Unit heater, hydronic",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r4",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC, Electrical",
+      "systems": [
+        "D30",
+        "D50"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r5",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Ice plant brine chiller",
+      "systems": [
+        "D20",
+        "D30"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r6",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r7",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Streetlight",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r8",
+      "page": 16,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways, asphalt",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r9",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r10",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Bridge, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r11",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r12",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Storm manhole",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r13",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r14",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Catch basin",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r15",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r16",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r17",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r18",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-greater-napanee-2012-capital_asset_policy-r19",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 125,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Other asset, PVC",
+      "systems": []
+    }
+  ]
+}

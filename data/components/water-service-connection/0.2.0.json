@@ -1,0 +1,67 @@
+{
+  "id": "water-service-connection",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Water service connection"
+  ],
+  "aliases": [
+    "water service",
+    "water lateral"
+  ],
+  "service_life": {
+    "median_years": 60,
+    "range_years": [
+      50,
+      60
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Greater Sudbury: Enterprise Asset Management Plan (2023)",
+      "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+      "page": 26,
+      "label": "Service Connection",
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "London: 2023 Corporate Asset Management Plan",
+      "url": "https://london.ca/sites/default/files/2023-10/Corporate%20Asset%20Management%20Plan%202023.pdf",
+      "page": 70,
+      "label": "Service Connections",
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Welland: FIN-001-0012 Tangible Capital Assets Policy",
+      "url": "https://media-003-ca.cdn.govstack.com/welland-ca/media/up1n0par/tangible-capital-assets.pdf",
+      "page": 9,
+      "label": "Water Systems (by component) - Water Services (includes fittings)",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

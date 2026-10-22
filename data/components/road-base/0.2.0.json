@@ -1,0 +1,198 @@
+{
+  "id": "road-base",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Road base, granular"
+  ],
+  "aliases": [
+    "road base",
+    "granular base",
+    "road structure"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      20,
+      200
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Centre Hastings: FIN-003 Capital Asset Policy",
+      "url": "https://centrehastings.com/media/fohda5zt/fin-003-capital-asset-policy.pdf",
+      "page": 5,
+      "label": "Road base",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Madawaska: By-Law 21-2025 Tangible Capital Asset Policy (Finance Policy 4-02)",
+      "url": "https://greatermadawaska.civicweb.net/document/95484",
+      "page": 16,
+      "label": "Roads - Base",
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 10,
+      "label": "Granular A Base",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 10,
+      "label": "Granular B Base",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Roads - Base",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Quinte West: A09-POLICY-0034 Tangible Capital Asset Policy",
+      "url": "https://quintewest.ca/wp-content/uploads/2024/05/A09-POLICY-0034_-_Tangible_Capital_Asset_Policy.pdf",
+      "page": 36,
+      "label": "Roads - Base",
+      "years": 35,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Rainy River: F-9 Tangible Capital Assets Policy",
+      "url": "https://rainyriver.ca/uploads/plans-policies/finance-department/f9-tangible-capital-assets-policy.pdf",
+      "page": 11,
+      "label": "Roads - base",
+      "years": 80,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Trent Lakes: 5.17 Capital Asset Policy",
+      "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+      "page": 10,
+      "label": "Roads - Base",
+      "years": 60,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+      "page": 13,
+      "label": "Roads - Base",
+      "years": 85,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Bruce: Asset Management Plan 2025, Bruce County",
+      "url": "https://www.brucecounty.on.ca/sites/default/files/BruceCounty_2025AMP_FINAL.pdf",
+      "page": 44,
+      "label": "Road Network - Road Base (weighted avg EUL)",
+      "years": 70.9,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Huron: Corporation of the County of Huron Asset Management Plan June 2025",
+      "url": "https://www.huroncounty.ca/wp-content/uploads/2025/06/2025-HURON-AMP-Approved.pdf",
+      "page": 17,
+      "label": "Roads Base",
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Meaford: Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+      "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+      "page": 40,
+      "label": "Rural/Semi-Urban - Asphalt Base",
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Meaford: Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+      "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+      "page": 40,
+      "label": "Rural - LCB Base",
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Meaford: Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+      "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+      "page": 40,
+      "label": "Urban – Asphalt Base",
+      "years": 80,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Prescott and Russell: The United Counties of Prescott and Russell's 2025 Asset Management Plan",
+      "url": "https://en.prescott-russell.on.ca/UserFiles/Servers/Server_2375121/File/Finances/UCPR_2025_Asset_Management_Plan_Accessible.pdf",
+      "page": 46,
+      "label": "Road base",
+      "years": 70,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Rainy River: Asset Management Plan 2025-2035",
+      "url": "https://www.rainyriver.ca/uploads/plans-policies/Rainy%20River%20AMP%20version%2003-16-26.pdf",
+      "page": 17,
+      "label": "Roads - base",
+      "years": 200,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

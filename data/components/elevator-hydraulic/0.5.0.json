@@ -1,0 +1,142 @@
+{
+  "id": "elevator-hydraulic",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D1010"
+  },
+  "names": [
+    "Elevator, hydraulic"
+  ],
+  "aliases": [
+    "hydraulic elevator",
+    "hydro elevator"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      35
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Full test of standby (emergency) power operation",
+      "frequency": "P1Y",
+      "reference": "NAVFAC MO-118 Inspection of Vertical Transportation Equipment",
+      "url": "https://nibs-s3-wbdg3-production.s3.us-east-1.amazonaws.com/NAVFAC/OPER/mo118.pdf",
+      "page": 76,
+      "checklist": "2.7 Periodic Inspection and Tests (electric elevators)"
+    },
+    {
+      "task": "Test door closing force",
+      "frequency": "P1Y",
+      "reference": "NAVFAC MO-118 Inspection of Vertical Transportation Equipment",
+      "url": "https://nibs-s3-wbdg3-production.s3.us-east-1.amazonaws.com/NAVFAC/OPER/mo118.pdf",
+      "page": 76,
+      "checklist": "2.7 Periodic Inspection and Tests (electric elevators)"
+    },
+    {
+      "task": "Full test of firefighters' service",
+      "frequency": "P60D",
+      "reference": "NAVFAC MO-118 Inspection of Vertical Transportation Equipment",
+      "url": "https://nibs-s3-wbdg3-production.s3.us-east-1.amazonaws.com/NAVFAC/OPER/mo118.pdf",
+      "page": 76,
+      "checklist": "2.7 Periodic Inspection and Tests (electric elevators)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Brockton: Policy F06-2009-03 Capital Asset Amortization",
+      "url": "https://brockton.ca/media/xsyhwhoe/policy-f06-2009-03-capital-asset-amortization.pdf",
+      "page": 2,
+      "label": "Elevator - Mechanical Elevator",
+      "years": 35,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. None of the policies says hydraulic or traction; the same rows are cited for both types."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 11,
+      "label": "Elevator",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 15,
+      "label": "Buildings - Elevator",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Buildings - Elevators",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Sarnia: Finance-04 Tangible Capital Asset Policy, Attachment No. 1: TCA Policy Appendix A",
+      "url": "https://www.sarnia.ca/app/uploads/2020/07/Finance-04-Tangible-Capital-Asset-Policy-Attachment-No.-1-TCA-Policy-Appendix-A.pdf",
+      "page": 1,
+      "label": "Elevators",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 400,
+      "label": "Building Components - Elevators",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Welland: FIN-001-0012 Tangible Capital Assets Policy",
+      "url": "https://media-003-ca.cdn.govstack.com/welland-ca/media/up1n0par/tangible-capital-assets.pdf",
+      "page": 8,
+      "label": "Elevator",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Parksville: Policy No. 6.16 Tangible Capital Assets",
+      "url": "https://parksville.civicweb.net/document/27036",
+      "page": 9,
+      "label": "Elevators",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "Elevator tasks come from NAVFAC MO-118 (1988), which restates the elevator code tests of its time; check them against the current ASME A17.1 and local requirements."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

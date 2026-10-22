@@ -1,0 +1,177 @@
+{
+  "document": {
+    "id": "on-york-2024-amp",
+    "municipality": "on-york",
+    "document_type": "AMP",
+    "title": "The Regional Municipality of York 2024 Corporate Asset Management Plan",
+    "year": 2024,
+    "prepared_by": null,
+    "url": "https://www.york.ca/media/119076",
+    "sha256": "268718debc9f4d6c1401e145b47946b7655958f66f727c5af1931d28dc23b30b",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-york-2024-amp-r1",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r2",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Culvert, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r3",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Culvert, corrugated steel",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r4",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 35,
+      "life_years_max": 75,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r5",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 35,
+      "life_years_max": 75,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r6",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r7",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r8",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-york-2024-amp-r9",
+      "page": 53,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 35,
+      "life_years_max": 75,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

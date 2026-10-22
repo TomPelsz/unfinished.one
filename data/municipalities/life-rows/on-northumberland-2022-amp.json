@@ -1,0 +1,141 @@
+{
+  "document": {
+    "id": "on-northumberland-2022-amp",
+    "municipality": "on-northumberland",
+    "document_type": "AMP",
+    "title": "Asset Management Plan: Core Assets – Roads, Structures and Storm Sewer",
+    "year": 2022,
+    "prepared_by": null,
+    "url": "https://northumberland.ca/wp-content/uploads/2025/07/2022-Asset-Management-Plan.pdf",
+    "sha256": "56afbe0501a8556a8b4b44b10f2f9068d7f65bcf48c9c31ec5a91f6405cbc572",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-northumberland-2022-amp-r1",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r2",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r3",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r4",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r5",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r6",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 60,
+      "life_years_max": 80,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-northumberland-2022-amp-r7",
+      "page": 62,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 60,
+      "life_years_max": 80,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

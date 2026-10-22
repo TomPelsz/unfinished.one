@@ -1,0 +1,78 @@
+{
+  "id": "sanitary-service-lateral",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "G3020"
+  },
+  "names": [
+    "Sanitary service lateral"
+  ],
+  "aliases": [
+    "sewer lateral",
+    "sanitary service connection"
+  ],
+  "service_life": {
+    "median_years": 60,
+    "range_years": [
+      50,
+      60
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Rod building drain and sewer piping",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 141,
+      "checklist": "Table 18-1 Drain and vent system"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Barrie: City of Barrie Corporate Asset Management Plan: Proposed Levels of Service",
+      "url": "https://www.barrie.ca/Corporate-Asset-Management-Plan.pdf",
+      "page": 165,
+      "label": "Sewer Laterals",
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Sewer - Sanitary Laterals (Pooled)",
+      "years": 60,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 222,
+      "code": "5.2.4",
+      "label": "Below ground drainage and manholes: 60 years",
+      "years": 60,
+      "note": "Printed page 222. On-site below-ground drainage and manholes of a school, not a municipal network; foul or surface water not stated. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    }
+  ],
+  "confidence": {
+    "grade": "B",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

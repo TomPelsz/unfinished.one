@@ -1,0 +1,107 @@
+{
+  "document": {
+    "id": "on-london-2023-capital_asset_policy",
+    "municipality": "on-london",
+    "document_type": "capital_asset_policy",
+    "title": "London Public Library Tangible Capital Assets Policy",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://www.lpl.ca/sites/default/files/2023-04/Tangible%20Capital%20Assets%20policy%20for%20web.pdf",
+    "sha256": "6edb6c3017d16f9706a1f1fddf7532ad2e196955843100516f41357f8d2cc61f",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-london-2023-capital_asset_policy-r1",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-london-2023-capital_asset_policy-r2",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Exterior enclosure, Roofing",
+      "systems": [
+        "B20",
+        "B30"
+      ]
+    },
+    {
+      "id": "on-london-2023-capital_asset_policy-r3",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Exterior enclosure, Interior construction",
+      "systems": [
+        "B20",
+        "C10"
+      ]
+    },
+    {
+      "id": "on-london-2023-capital_asset_policy-r4",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, HVAC, Electrical",
+      "systems": [
+        "D20",
+        "D30",
+        "D50"
+      ]
+    },
+    {
+      "id": "on-london-2023-capital_asset_policy-r5",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    }
+  ]
+}

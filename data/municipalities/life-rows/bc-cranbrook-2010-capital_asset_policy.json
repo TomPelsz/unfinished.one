@@ -1,0 +1,117 @@
+{
+  "document": {
+    "id": "bc-cranbrook-2010-capital_asset_policy",
+    "municipality": "bc-cranbrook",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 40-701 Tangible Capital Assets Policy",
+    "year": 2010,
+    "prepared_by": null,
+    "url": "https://cranbrook.civicweb.net/document/59810",
+    "sha256": "0c8c404f10c0ed950f8b23c281793d1098fbf5ff8e76576e72043a259524e3e2",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r1",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r2",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r3",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r4",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r5",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior finishes",
+      "systems": [
+        "C30"
+      ]
+    },
+    {
+      "id": "bc-cranbrook-2010-capital_asset_policy-r6",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, HVAC, Electrical",
+      "systems": [
+        "D20",
+        "D30",
+        "D50"
+      ]
+    }
+  ]
+}

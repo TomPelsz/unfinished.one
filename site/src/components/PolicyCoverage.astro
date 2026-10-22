@@ -1,0 +1,14 @@
+---
+// How many municipal capital asset policies set a life for this component's Uniformat system.
+// Counts only: the rows are unreviewed, so no values are shown.
+import { policyCoverage, provincesOf } from '../lib/data';
+import { systemCode, systemName } from '../lib/uniformat';
+interface Props { uniformat: string }
+const code = systemCode(Astro.props.uniformat);
+const c = policyCoverage().get(code);
+---
+{c && (
+  <p class="note small">
+    <strong>Waiting for review:</strong> {c.municipalities.size} capital asset {c.municipalities.size === 1 ? 'policy' : 'policies'} from {provincesOf(c.municipalities)} {c.municipalities.size === 1 ? 'sets' : 'set'} an accounting life for {systemName(code).replace(/^[A-Z][a-z]/, (s) => s.toLowerCase())} ({code}) as a whole, in {c.rows} table {c.rows === 1 ? 'row' : 'rows'}. They describe the system, not this component specifically. Once each row is checked against its page, it will appear here as accounting-life evidence. <a href="/plans#policies">About the policies</a>
+  </p>
+)}

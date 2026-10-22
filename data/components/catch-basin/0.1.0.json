@@ -1,0 +1,49 @@
+{
+  "id": "catch-basin",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Catch basin"
+  ],
+  "aliases": [
+    "CB",
+    "storm inlet"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 1,
+      "code": "HUD CNA 3.2.2.1",
+      "label": "Catch basins, inlets, culverts",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row also covers inlets and culverts. HUD's row is for site work at US multifamily properties, not municipal networks."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

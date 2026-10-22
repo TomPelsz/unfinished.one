@@ -1,0 +1,87 @@
+{
+  "document": {
+    "id": "on-middlesex-2022-amp",
+    "municipality": "on-middlesex",
+    "document_type": "AMP",
+    "title": "County of Middlesex Asset Management Plan: Core Assets",
+    "year": 2022,
+    "prepared_by": null,
+    "url": "https://www.middlesex.ca/sites/default/files/2022-06/County%20of%20Middlesex%20Asset%20Management%20Plan%20Core%20Assets.pdf",
+    "sha256": "d6ed039bb8248a6ae4c30095992a0a9996874cc433e35197dd6ddf30d87100bc",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-middlesex-2022-amp-r1",
+      "page": 12,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 18,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Road surface, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-middlesex-2022-amp-r2",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-middlesex-2022-amp-r3",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-middlesex-2022-amp-r4",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, corrugated steel",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

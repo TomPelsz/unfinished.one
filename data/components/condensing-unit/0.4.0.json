@@ -1,0 +1,147 @@
+{
+  "id": "condensing-unit",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3030"
+  },
+  "names": [
+    "Condensing unit, split system"
+  ],
+  "aliases": [
+    "CU",
+    "condensing unit",
+    "split AC outdoor unit"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Remove debris from air screen and clean under unit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 443,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Pressure wash condenser coil with coil cleaner and rinse",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Straighten coil fins with a fin comb",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check electrical connections for tightness",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check unit mounts and refrigerant line supports",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Clean and treat rusted areas; touch up paint",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Leak test refrigerant circuit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check refrigerant charge",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Inspect disconnect switches and contactors for arcing or overheating",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check compressor crankcase heater",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check condenser fan blades for dirt and wear",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Run unit with gauges; check compressor, controls and refrigerant pressures",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 12,
+      "code": "HUD CNA 3.4.3.1.2",
+      "label": "Electric AC condenser, pad or rooftop",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

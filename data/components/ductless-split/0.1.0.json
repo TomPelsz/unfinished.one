@@ -1,0 +1,62 @@
+{
+  "id": "ductless-split",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Ductless mini-split heat pump"
+  ],
+  "aliases": [
+    "mini split",
+    "ductless split",
+    "DMS"
+  ],
+  "service_life": {
+    "median_years": 12.5,
+    "range_years": [
+      10,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 238,
+      "code": "5.4.4",
+      "label": "Air source heat pumps: 15 years",
+      "years": 15,
+      "note": "Printed page 238. Air source heat pumps, type not stated; in UK schools these are often air-to-water units for wet heating, so the match to air-to-air splits and rooftop units is loose. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 43,
+      "code": "BDFO",
+      "label": "Air conditioners (split system)",
+      "years": 10,
+      "note": "Printed page 43. Split-system air conditioners. In New Zealand this class is dominated by ductless wall/ceiling splits; also covers ducted split condensing units. BDFO Building fit-out (when in books separately from building cost). Printed DV 20%, SL 13.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

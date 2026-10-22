@@ -1,0 +1,98 @@
+---
+// The plans section's left-hand list: every municipality with a policy or plan on file, by province,
+// with how many approved life rows it has. Search text and scroll position persist between pages.
+import { loadLifeRows, loadMunicipalities, loadPlans, loadTcaPolicies } from '../lib/data';
+interface Props { current?: string }
+const { current } = Astro.props;
+const PROVINCES: Record<string, string> = { ON: 'Ontario', BC: 'British Columbia', AB: 'Alberta' };
+const docs = [...loadTcaPolicies(), ...loadPlans().filter((p: any) => p.url)];
+const rows = new Map<string, number>();
+for (const r of loadLifeRows()) rows.set(r.municipality, (rows.get(r.municipality) ?? 0) + 1);
+const withDocs = new Set(docs.map((d: any) => d.municipality));
+const municipalities = loadMunicipalities()
+  .filter((m: any) => withDocs.has(m.id))
+  .sort((a: any, b: any) => a.name.localeCompare(b.name));
+const provinces = Object.entries(PROVINCES)
+  .map(([code, name]) => ({ code, name, items: municipalities.filter((m: any) => m.province === code) }))
+  .filter((p) => p.items.length);
+const short = (name: string) => name.split(', ')[0];
+---
+<nav class="libnav" aria-label="Municipalities" data-libnav data-key="munnav">
+  <label class="visually-hidden" for="munnav-q">Search municipalities</label>
+  <input id="munnav-q" class="libnav-q" type="search" placeholder={`Filter ${municipalities.length} municipalities`} autocomplete="off" />
+  <div class="libnav-list" data-libnav-list>
+    <ul><li data-search="overview all plans policies"><a href="/plans" aria-current={current === 'overview' ? 'page' : undefined}><i class="dot all" aria-hidden="true"></i><span class="nm">Overview</span><span class="yr"></span></a></li></ul>
+    {provinces.map((p) => (
+      <section class="libnav-group">
+        <p class="libnav-head"><span>{p.name}</span><span class="muted">{p.items.length}</span></p>
+        <ul>
+          {p.items.map((m: any) => (
+            <li data-search={`${m.name} ${m.id}`.toLowerCase()}>
+              <a href={`/m/${m.id}`} aria-current={m.id === current ? 'page' : undefined} class={rows.get(m.id) ? undefined : 'planned'}>
+                <i class={rows.get(m.id) ? 'dot has' : 'dot'} aria-hidden="true"></i>
+                <span class="nm">{short(m.name)}</span>
+                <span class="yr">{rows.get(m.id) ? `${rows.get(m.id)} rows` : ''}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <p class="libnav-empty muted small" hidden data-libnav-empty>No municipality matches.</p>
+  </div>
+  <p class="libnav-key muted small"><span><i class="dot has" aria-hidden="true"></i>has approved life rows</span><span><i class="dot" aria-hidden="true"></i>documents only</span></p>
+</nav>
+<script is:inline>
+  (() => {
+    const nav = document.querySelector('[data-libnav]');
+    if (!nav) return;
+    const key = nav.dataset.key || 'libnav';
+    const q = nav.querySelector('input');
+    const list = nav.querySelector('[data-libnav-list]');
+    const empty = nav.querySelector('[data-libnav-empty]');
+    const store = { get: (k) => { try { return sessionStorage.getItem(k); } catch { return null; } }, set: (k, v) => { try { sessionStorage.setItem(k, v); } catch {} } };
+    const filter = () => {
+      const v = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const li of list.querySelectorAll('li')) {
+        const hit = !v || li.dataset.search.includes(v);
+        li.hidden = !hit;
+        if (hit) shown++;
+      }
+      for (const g of list.querySelectorAll('.libnav-group')) g.hidden = ![...g.querySelectorAll('li')].some((li) => !li.hidden);
+      empty.hidden = shown > 0;
+      store.set(key + '-q', q.value);
+    };
+    q.value = store.get(key + '-q') || '';
+    filter();
+    q.addEventListener('input', filter);
+    const saved = Number(store.get(key + '-scroll'));
+    if (saved) list.scrollTop = saved;
+    const cur = list.querySelector('[aria-current="page"]');
+    if (cur) {
+      const a = cur.getBoundingClientRect(), b = list.getBoundingClientRect();
+      if (a.top < b.top || a.bottom > b.bottom) cur.scrollIntoView({ block: 'center' });
+    }
+    addEventListener('pagehide', () => store.set(key + '-scroll', String(list.scrollTop)));
+  })();
+</script>
+<style>
+  .libnav { display: flex; flex-direction: column; min-height: 0; }
+  .libnav-q { width: 100%; padding: 8px 10px; font: inherit; font-size: 15px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; margin: 0 0 8px; }
+  .libnav-list { overflow-y: auto; min-height: 0; flex: 1; padding-right: 4px; }
+  .libnav-head { display: flex; justify-content: space-between; margin: 10px 0 2px; font-size: 14px; font-weight: 600; }
+  .libnav ul { list-style: none; margin: 0; padding: 0; }
+  .libnav li { margin: 0; }
+  .libnav li a { display: grid; grid-template-columns: 12px 1fr auto; align-items: center; gap: 8px; padding: 3px 6px; border-radius: 5px; color: var(--fg); text-decoration: none; font-size: 14px; line-height: 1.35; }
+  .libnav li a.planned { color: var(--muted); }
+  .libnav li a:hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
+  .libnav li a[aria-current] { background: color-mix(in srgb, var(--accent) 18%, transparent); font-weight: 600; }
+  .libnav .yr { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .libnav .dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px dashed var(--line); display: inline-block; }
+  .libnav .dot.has, .libnav .dot.all { border-style: solid; border-color: var(--accent); background: var(--accent); }
+  .libnav .dot.all { border-radius: 2px; }
+  .libnav-key { display: flex; flex-wrap: wrap; gap: 2px 12px; margin: 8px 0 0; padding-top: 8px; border-top: 1px solid var(--line); line-height: 1.5; }
+  .libnav-key span { white-space: nowrap; }
+  .libnav-key .dot { vertical-align: -1px; margin-right: 4px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>

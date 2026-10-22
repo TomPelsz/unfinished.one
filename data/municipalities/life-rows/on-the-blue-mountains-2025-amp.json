@@ -1,0 +1,277 @@
+{
+  "document": {
+    "id": "on-the-blue-mountains-2025-amp",
+    "municipality": "on-the-blue-mountains",
+    "document_type": "AMP",
+    "title": "Town of The Blue Mountains Asset Management Plan 2025",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.thebluemountains.ca/sites/default/files/2026-03/2025%20Asset%20Management%20Plan.pdf",
+    "sha256": "ef2bef4da954298f4747e67eec1f8e0134580a9813b6a7cd11565dfe5f4becc3",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-the-blue-mountains-2025-amp-r1",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply, asbestos cement",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r2",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, cast iron",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r3",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, ductile iron",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r4",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, HDPE",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r5",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Water supply, polyethylene",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r6",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, PVC",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r7",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, PVC",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r8",
+      "page": 26,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Watermain, PVC",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r9",
+      "page": 107,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r10",
+      "page": 107,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, corrugated steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r11",
+      "page": 107,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Culvert, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r12",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, concrete",
+      "systems": []
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r13",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, asphalt",
+      "systems": []
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r14",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset, wood",
+      "systems": []
+    },
+    {
+      "id": "on-the-blue-mountains-2025-amp-r15",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    }
+  ]
+}

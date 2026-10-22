@@ -1,0 +1,66 @@
+{
+  "id": "sensor-pressure-flow",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Pressure or flow sensor"
+  ],
+  "aliases": [
+    "DP sensor",
+    "differential pressure transmitter",
+    "flow meter"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check all sensors (temperature, pressure, humidity, flow) read expected values",
+      "frequency": "P6M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Calibrate all sensors (temperature, pressure, humidity, flow)",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 323,
+      "code": "5.11.4",
+      "label": "Sensors and actuators: 15 years",
+      "years": 15,
+      "note": "Printed page 323. BMS sensors and actuators, types not stated. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

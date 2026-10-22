@@ -1,0 +1,59 @@
+---
+// Approved municipal lives for a component's Uniformat system, or, until some are approved, how many
+// policy rows are waiting. Capital asset policies give accounting lives and asset management plans
+// give planning lives; the two are labelled apart and neither is presented as an observed life.
+import LifeStrip from './LifeStrip.astro';
+import PolicyCoverage from './PolicyCoverage.astro';
+import { livesBySystem, municipalityName, provincesOf } from '../lib/data';
+import { systemCode, systemName } from '../lib/uniformat';
+interface Props { uniformat: string }
+const code = systemCode(Astro.props.uniformat);
+const s = livesBySystem().get(code);
+const name = systemName(code).replace(/^[A-Z][a-z]/, (c) => c.toLowerCase());
+const years = (e: any) => (e.min === e.max ? `${e.min}` : `${e.min}–${e.max}`);
+const pageLink = (r: any) => `${r.document.url}#page=${r.page}`;
+// How the rows were checked, largest group first; text-check rows carry a reminder to follow the link.
+const checks = s ? [
+  [s.checked.page, 'checked against {its} page by an editor'],
+  [s.checked.image_check, 'compared with an image of {its} page'],
+  [s.checked.text_check, 'matched to {its} page automatically (the label and number appear in the page text)'],
+].filter(([n]) => n > 0) : [];
+const total = checks.reduce((n, [k]) => n + (k as number), 0);
+const checkedSentence = checks.length === 1
+  ? `Every row was ${(checks[0][1] as string).replace('{its}', 'its')}.`
+  : `Of ${total} rows, ${checks.map(([n, how]) => `${n} ${n === 1 ? 'was' : 'were'} ${(how as string).replace('{its}', n === 1 ? 'its' : 'their')}`).join('; ')}.`;
+const KIND: Record<string, string> = { accounting: 'accounting', planning: 'planning' };
+const accounting = s?.life_types.accounting ?? 0, planning = s?.life_types.planning ?? 0;
+const kinds = planning && accounting
+  ? `${accounting} ${accounting === 1 ? 'row comes' : 'rows come'} from capital asset policies (accounting lives, used for amortization) and ${planning} from asset management plans (planning lives, used to forecast replacement)`
+  : planning ? 'These come from asset management plans: planning lives, used to forecast replacement'
+  : 'These come from capital asset policies: accounting lives, used for amortization';
+---
+{s ? (
+  <section class="lives">
+    <h3 id="municipal-lives">Municipal lives for {name} ({code})</h3>
+    <p>{s.municipalities} {s.municipalities === 1 ? 'municipality' : 'municipalities'} in {provincesOf(s.entries.flatMap((e: any) => e.rows.map((r: any) => r.municipality)))} {s.municipalities === 1 ? 'states' : 'state'} a life for {name} as a whole, in {s.sources} distinct {s.sources === 1 ? 'table' : 'tables'}: <strong>{s.low === s.high ? s.low : `${s.low}–${s.high}`} years</strong>, median {s.median}. {kinds}. They describe the system rather than this component, and none is a measured life.</p>
+    <LifeStrip system={s} label={`${systemName(code)} (${code})`} />
+    <p class="muted small" style="margin-top: 2px">Years. Each dot is one stated life and each bar a stated range; equal values stack.{planning > 0 && accounting > 0 && ' Hollow marks are planning lives from asset management plans; filled marks are accounting lives from policies.'} The dashed line is the median. Policies that copy the same table count once.</p>
+    <details>
+      <summary>All {s.entries.length} stated lives</summary>
+      <div class="scroll">
+      <table>
+        <thead><tr><th>Municipality</th><th>Covers</th><th class="num">Years</th><th>Kind</th><th>Source</th></tr></thead>
+        <tbody>
+          {s.entries.map((e: any) => (
+            <tr>
+              <td>{[...new Set(e.rows.map((r: any) => municipalityName(r.municipality)))].join(', ')}{e.rows.length > 1 && <span class="muted small"> · same table</span>}</td>
+              <td>{e.rows[0].label}</td>
+              <td class="num">{years(e)}</td>
+              <td class="small muted">{KIND[e.rows[0].life_type] ?? e.rows[0].life_type}</td>
+              <td class="small">{e.rows.map((r: any, i: number) => <>{i > 0 && ', '}<a href={pageLink(r)}>p{r.page}</a></>)}{e.rows[0].document.year && <span class="muted"> · {e.rows[0].document.year}</span>}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      </div>
+    </details>
+    <p class="muted small">{checkedSentence}{s.checked.text_check > 0 && ' Follow the page link before relying on an automatically matched row.'} <a href="/plans#policies">About the policies</a> · <a href="/api/life-rows.json">All approved rows as JSON</a></p>
+  </section>
+) : <PolicyCoverage uniformat={Astro.props.uniformat} />}

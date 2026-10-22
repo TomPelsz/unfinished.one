@@ -1,0 +1,136 @@
+---
+import SiteSearch from '../components/SiteSearch.astro';
+interface Props { title: string; description?: string; canonical?: string; noindex?: boolean; wide?: boolean }
+// The mark is a square left unfinished: its last side is missing.
+const { title, description = 'The open, agent-native reference library for built assets.', canonical, noindex = false, wide = false } = Astro.props;
+// With build.format 'file' the pathname can end in .html (e.g. /about.html, /index.html).
+const path = Astro.url.pathname.replace(/\.html$/, '').replace(/(\/index)?\/?$/, '') || '/';
+const nav = [
+  { href: '/', label: 'Library', active: path === '/' || path.startsWith('/c/') },
+  { href: '/lives', label: 'Compare', active: path.startsWith('/lives') },
+  { href: '/calculator', label: 'Calculator', active: path === '/calculator' },
+  { href: '/plans', label: 'Plans', active: path === '/plans' || path.startsWith('/m/') },
+  { href: '/agents', label: 'Agents', active: path === '/agents' },
+  { href: '/cite', label: 'Cite', active: path === '/cite' },
+  { href: '/about', label: 'About', active: ['/about', '/sourcing', '/sources', '/changes'].includes(path) },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+    <link rel="alternate" type="application/rss+xml" href="/changes.xml" title="unfinished.one changes" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:site_name" content="unfinished.one" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:image" content="https://unfinished.one/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <slot name="head" />
+    <style is:global>
+      :root {
+        --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a65; --line: #e2e0d9; --accent: #2f6f4f;
+        --code-bg: #f1efe9;
+        --a: #2f6f4f; --b: #3d6a8f; --c: #8a6a1c; --d: #8c4a3c;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #161615; --fg: #ecebe6; --muted: #9a9890; --line: #2e2d2a; --accent: #7cc39a;
+          --code-bg: #20201e;
+          --a: #7cc39a; --b: #8bb6db; --c: #dcb661; --d: #e09a88;
+        }
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; overflow-wrap: break-word; }
+      .wrap { max-width: 760px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+      body.wide .wrap { max-width: 1240px; }
+      main { padding-top: 24px; padding-bottom: 64px; }
+      a { color: var(--accent); text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+      a:hover { text-decoration-color: currentColor; }
+      td a, .small a, footer.site a { text-decoration: none; }
+      td a:hover, .small a:hover, footer.site a:hover { text-decoration: underline; }
+      h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+      h2 { font-size: 1.2rem; margin: 40px 0 12px; padding-top: 24px; border-top: 1px solid var(--line); }
+      h3 { font-size: 1rem; margin: 28px 0 8px; }
+      p, ul, ol, dl { margin: 0 0 14px; }
+      li { margin-bottom: 4px; }
+      header.site .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 16px; padding-top: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+      header.site .home { color: var(--fg); text-decoration: none; font-weight: 650; display: inline-flex; align-items: center; gap: 8px; }
+      .mark { width: 20px; height: 20px; flex: none; align-self: center; }
+      .mark path { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 15px; }
+      header.site nav a { color: var(--muted); text-decoration: none; }
+      header.site nav a:hover, header.site nav a[aria-current] { color: var(--fg); }
+      header.site nav a[aria-current] { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 6px; }
+      footer.site .wrap { padding-top: 20px; padding-bottom: 40px; border-top: 1px solid var(--line); font-size: 14px; }
+
+      .scroll { overflow-x: auto; margin: 0 0 14px; }
+      table { width: 100%; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; }
+      th, td { text-align: left; padding: 8px 14px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+      th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+      th:last-child, td:last-child { padding-right: 0; }
+      td.num, th.num { text-align: right; white-space: nowrap; }
+      .muted { color: var(--muted); }
+      details > summary { cursor: pointer; color: var(--accent); font-size: 14px; margin: 6px 0 10px; }
+      .small { font-size: 14px; }
+      code, pre { font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+      :not(pre) > code { background: var(--code-bg); padding: 1px 4px; border-radius: 4px; }
+      pre { background: var(--code-bg); border: 1px solid var(--line); padding: 12px; margin: 0; overflow-x: auto; border-radius: 6px; white-space: pre-wrap; word-break: break-word; }
+
+      .copy { position: relative; margin: 0 0 14px; }
+      .copy pre { padding-right: 64px; }
+      .copy-label { margin: 0 0 4px; font-size: 14px; color: var(--muted); }
+      .copy-btn { position: absolute; top: 6px; right: 6px; font: 12px/1 system-ui, sans-serif; padding: 6px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--fg); cursor: pointer; }
+      .copy-btn:hover { border-color: var(--muted); }
+
+      .grade { position: relative; display: inline-block; min-width: 1.6em; padding: 0 6px; border: 1.5px solid currentColor; border-radius: 4px; font: 600 13px/1.5 ui-monospace, monospace; text-align: center; text-decoration: none; }
+      .grade-A { color: var(--a); } .grade-B { color: var(--b); } .grade-C { color: var(--c); } .grade-D { color: var(--d); }
+      .grade[data-tip]:hover::after, .grade[data-tip]:focus-visible::after {
+        content: attr(data-tip); position: absolute; left: 0; top: calc(100% + 6px); z-index: 1; width: max-content; max-width: min(260px, 70vw);
+        padding: 6px 8px; border-radius: 4px; background: var(--fg); color: var(--bg); font: 13px/1.4 system-ui, sans-serif; text-align: left; white-space: normal;
+      }
+      .grade.tip-end[data-tip]::after { left: auto; right: 0; }
+      .legend { display: grid; gap: 6px; margin: 0 0 14px; font-size: 14px; }
+      .legend div { display: flex; gap: 10px; align-items: baseline; }
+      .legend dt { flex: none; }
+      .legend dd { margin: 0; }
+
+      @media (max-width: 480px) { table { font-size: 14px; } th, td { padding-right: 10px; } }
+      .note { border-left: 3px solid var(--c); padding: 4px 0 4px 12px; margin: 0 0 14px; }
+      .lede { font-size: 1.05rem; }
+    </style>
+  </head>
+  <body class={wide ? 'wide' : undefined}>
+    <header class="site">
+      <div class="wrap">
+        <a class="home" href="/"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 24V8h16v9" /></svg>unfinished.one</a>
+        <SiteSearch />
+        <nav aria-label="Site">
+          {nav.map((n) => <a href={n.href} aria-current={n.active ? 'page' : undefined}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site muted"><div class="wrap">Contact and corrections: <a href="mailto:hello@unfinished.one">hello@unfinished.one</a> · Data licence <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="/sourcing">Sourcing</a> · <a href="/changes">Changes</a> (<a href="/changes.xml">RSS</a>) · <a href="/llms.txt">llms.txt</a></div></footer>
+    <script is:inline>
+      document.addEventListener('click', (ev) => {
+        const btn = ev.target.closest && ev.target.closest('[data-copy]');
+        if (!btn || !navigator.clipboard) return;
+        navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+          btn.textContent = 'Copied';
+          setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+        });
+      });
+    </script>
+  </body>
+</html>

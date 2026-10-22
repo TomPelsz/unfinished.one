@@ -1,0 +1,105 @@
+{
+  "document": {
+    "id": "on-chatham-kent-2025-amp-bridges",
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Bridges & Culverts 2025",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Bridges.pdf",
+    "sha256": "89bb702fdda2149974bbc016f743f4c6765223cb2011eebf9f82912f2ce30ce3",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-chatham-kent-2025-amp-bridges-r1",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-bridges-r2",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-bridges-r3",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-bridges-r4",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-chatham-kent-2025-amp-bridges-r5",
+      "page": 9,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

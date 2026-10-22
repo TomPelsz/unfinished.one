@@ -1,0 +1,55 @@
+{
+  "id": "escalator",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D1020"
+  },
+  "names": [
+    "Escalator"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Perform escalator periodic inspections and tests",
+      "frequency": "P1Y",
+      "reference": "NAVFAC MO-118 Inspection of Vertical Transportation Equipment",
+      "url": "https://nibs-s3-wbdg3-production.s3.us-east-1.amazonaws.com/NAVFAC/OPER/mo118.pdf",
+      "page": 185,
+      "checklist": "7.3 Periodic Inspection and Tests (escalators)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 14,
+      "code": "HUD CNA 3.5.1.10",
+      "label": "Escalators",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far, HUD's 50 years for escalators. HUD's single row does not separate the truss, which can last that long, from drives, steps, handrails and controls, which usually need major work much sooner. A second openly licensed source is needed before relying on 50 years.",
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Elevator tasks come from NAVFAC MO-118 (1988), which restates the elevator code tests of its time; check them against the current ASME A17.1 and local requirements."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "culvert-csp",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Culvert, corrugated steel"
+  ],
+  "aliases": [
+    "CSP culvert",
+    "corrugated steel pipe"
+  ],
+  "service_life": {
+    "median_years": 35,
+    "range_years": [
+      20,
+      75
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Chapple: Schedule A - By-law 1873: Asset Useful Life - General Guidelines",
+      "url": "https://chapple.civicweb.net/document/32784/",
+      "page": 1,
+      "label": "Culverts - steel",
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kapuskasing: By-law No. 3103, Tangible Capital Assets Policy",
+      "url": "https://kapuskasing.civicweb.net/document/6872/",
+      "page": 15,
+      "label": "Culverts - Steel",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "label": "Storm Sewers - Culvert - STL",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Meaford: By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+      "url": "https://meaford.civicweb.net/document/103944/",
+      "page": 19,
+      "label": "Linear - Culverts - Corrugated Steel",
+      "years": [
+        25,
+        40
+      ],
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Simcoe: County of Simcoe 2025 Asset Management Plan",
+      "url": "https://simcoe.ca/wp-content/uploads/2025/06/2025-Asset-Management-Plan.pdf",
+      "page": 68,
+      "label": "Culverts - Corrugated Steel",
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "The Blue Mountains: POL.COR.19.04 Tangible Capital Assets Policy",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+      "page": 12,
+      "label": "Linear - Culverts - Corrugated Steel",
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "York: The Regional Municipality of York 2024 Corporate Asset Management Plan",
+      "url": "https://www.york.ca/media/119076",
+      "page": 53,
+      "label": "Corrugated steel pipe culverts: Replacement",
+      "years": 35,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

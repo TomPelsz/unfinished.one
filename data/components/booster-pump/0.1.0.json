@@ -1,0 +1,49 @@
+{
+  "id": "booster-pump",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Domestic water booster pump"
+  ],
+  "aliases": [
+    "booster set",
+    "pressure booster"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 9,
+      "code": "HUD CNA 3.4.1.1.6",
+      "label": "Domestic Cold Water Pumps",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row is \"domestic cold water pumps\", which in multifamily buildings are mostly booster pumps."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

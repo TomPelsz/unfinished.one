@@ -1,0 +1,24 @@
+---
+import Library from '../../layouts/Library.astro';
+import { loadCatalogue, provincesOf } from '../../lib/data';
+import { TOPICS, livesByComponent } from '../../lib/compare';
+
+const catalogue = loadCatalogue();
+const lives = livesByComponent(new Map(catalogue.map((c: any) => [c.id, c.name])));
+const topics = TOPICS.map((t) => {
+  const rows = t.components.flatMap((id: string) => lives.get(id)?.entries.flatMap((e: any) => e.rows) ?? []);
+  return { ...t, rows: rows.length, municipalities: new Set(rows.map((r: any) => r.municipality)) };
+});
+const all = new Set(topics.flatMap((t) => [...t.municipalities]));
+---
+<Library title="Useful life comparisons: what Canadian municipalities assume · unfinished.one" description="Side-by-side useful lives for watermains, sewers, roads, bridges, culverts and building components from Canadian municipal asset management plans and capital asset policies, each linked to its page." canonical="https://unfinished.one/lives">
+  <h1>Useful life comparisons</h1>
+  <p class="lede">How long {all.size} municipalities in {provincesOf(all)} expect their assets to last, compared component by component. Each stated life links to the page of the plan or policy it comes from.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Comparison</th><th class="num">Stated lives</th><th class="num">Municipalities</th></tr></thead>
+      <tbody>{topics.map((t) => <tr><td><a href={`/lives/${t.id}`}>{t.title}</a></td><td class="num">{t.rows}</td><td class="num">{t.municipalities.size}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="muted small">Municipal lives are assumptions for amortization and replacement planning, not measured ages. <a href="/plans">About the plans and policies</a> · <a href="/api/municipal-lives.csv">Every row as CSV</a></p>
+</Library>

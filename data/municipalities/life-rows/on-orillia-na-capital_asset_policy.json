@@ -1,0 +1,527 @@
+{
+  "document": {
+    "id": "on-orillia-na-capital_asset_policy",
+    "municipality": "on-orillia",
+    "document_type": "capital_asset_policy",
+    "title": "4.1.8.1 Tangible Capital Assets Policy Manual",
+    "year": null,
+    "prepared_by": null,
+    "url": "https://orillia.civicweb.net/document/366955/",
+    "sha256": "14430dcb1da7a70020307748f2d894da0d4e466ce696c58b34613c68c1249888",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-orillia-na-capital_asset_policy-r1",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r2",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r3",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r4",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r5",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r6",
+      "page": 19,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Ice plant compressor; Evaporative condenser",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r7",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots, concrete",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r8",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r9",
+      "page": 18,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Parking lots",
+      "systems": [
+        "G2020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r10",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r11",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 60,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r12",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Fire hydrant",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r13",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r14",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 2,
+      "life_years_max": 8,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r15",
+      "page": 22,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 10,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r16",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r17",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r18",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r19",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r20",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Streetlight",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r21",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting, concrete",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r22",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting, wood",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r23",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r24",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 3,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r25",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r26",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r27",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r28",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-orillia-na-capital_asset_policy-r29",
+      "page": 23,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

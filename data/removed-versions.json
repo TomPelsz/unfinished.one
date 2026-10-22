@@ -1,0 +1,310 @@
+{
+  "about": "Published versions removed on purpose, with the reason. Permanent links normally never change; a version is removed only when a source it cited may not be republished. scripts/check-immutable.mjs accepts the deletion of a path listed here and nothing else.",
+  "removed": [
+    {
+      "path": "data/components/baseboard-hydronic/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/boiler-hw-condensing/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/boiler-hw-noncondensing/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/boiler-steam/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/booster-pump/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/chiller-air-cooled/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/chiller-water-cooled/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/cooling-tower/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/culvert-concrete/0.9.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/culvert-csp/0.7.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/curtain-wall/0.2.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/door-exterior-hollow-metal/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/door-overhead/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/ductless-split/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/energy-recovery-ventilator/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/exhaust-fan/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/fan-coil/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/fire-alarm-panel/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/fire-extinguisher/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/fire-pump/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/furnace-gas/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/gas-detection/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/generator-diesel/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/generator-natural-gas/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/guardrail/0.2.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/ice-resurfacer/0.2.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/infrared-heater-gas/0.1.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/lighting-fluorescent/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/make-up-air-unit/0.1.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/panelboard/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/road-concrete/0.2.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/road-surface-treatment/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/roof-asphalt-shingle/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/roof-built-up/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/roof-metal/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/roof-modified-bitumen/0.1.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sanitary-sewer-asbestos-cement/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sanitary-sewer-clay/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sanitary-sewer-concrete/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sanitary-sewer-pvc/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sensor-co2/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/smoke-heat-detector/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sprinkler-dry/0.6.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/sprinkler-wet/0.6.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/supply-return-fan/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/thermostat/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/unit-heater-gas/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/vfd/0.1.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-closet/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-heater-tankless/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-heater-tankless/0.6.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-meter/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-meter/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/water-source-heat-pump/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/window-aluminum/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/window-aluminum/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/window-vinyl/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/window-vinyl/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited sources without a public-domain status or an explicit reuse permission (CMHC, Ontario Housing Corporation, BC Residential Tenancy Branch, Minnesota TRM, Utah State University, state DOT and state regulation documents, manufacturer manuals). Live for about an hour."
+    },
+    {
+      "path": "data/components/culvert-concrete/0.4.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited maintenance specifications from Waka Kotahi NZ Transport Agency, whose publications are now licensed CC BY-NC; a non-commercial licence does not meet the sourcing policy."
+    },
+    {
+      "path": "data/components/culvert-csp/0.3.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited maintenance specifications from Waka Kotahi NZ Transport Agency, whose publications are now licensed CC BY-NC; a non-commercial licence does not meet the sourcing policy."
+    },
+    {
+      "path": "data/components/streetlight/0.5.0.json",
+      "removed_on": "2026-10-22",
+      "reason": "Cited maintenance specifications from Waka Kotahi NZ Transport Agency, whose publications are now licensed CC BY-NC; a non-commercial licence does not meet the sourcing policy."
+    }
+  ]
+}

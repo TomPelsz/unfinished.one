@@ -1,0 +1,47 @@
+{
+  "id": "sanitary-service-lateral",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3020"
+  },
+  "names": [
+    "Sanitary service lateral"
+  ],
+  "aliases": [
+    "sewer lateral",
+    "sanitary service connection"
+  ],
+  "service_life": {
+    "median_years": 60,
+    "range_years": [
+      60,
+      60
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Sewer - Sanitary Laterals (Pooled)",
+      "years": 60,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

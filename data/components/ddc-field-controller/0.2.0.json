@@ -1,0 +1,13 @@
+{
+  "id": "ddc-field-controller",
+  "version": "0.2.0",
+  "status": "withdrawn",
+  "withdrawn_reason": "Its only sources were outside North America, which the library no longer uses. No US or Canadian source is available yet.",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Unitary or field DDC controller"
+  ],
+  "last_reviewed": "2026-10-22"
+}

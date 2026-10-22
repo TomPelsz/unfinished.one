@@ -1,0 +1,109 @@
+{
+  "id": "water-heater-electric-tank",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Water heater, electric, storage tank"
+  ],
+  "aliases": [
+    "electric hot water tank",
+    "electric water heater"
+  ],
+  "service_life": {
+    "median_years": 13.5,
+    "range_years": [
+      12,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Drain tank and flush out sediment",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 99,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Remove and clean immersion elements; new gasket",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 99,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Remove and reinstall magnesium anode",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 99,
+      "checklist": "Table 12-1 Domestic water system"
+    },
+    {
+      "task": "Refill, check for leaks and check operation",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 100,
+      "checklist": "Table 12-1 Domestic water system"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.6",
+      "label": "Residential hot water heater, gas or electric",
+      "years": [
+        12,
+        15
+      ],
+      "note": "Family properties 12 years, elderly 15. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Commercial Water Heating Equipment (final rule), 88 FR 69686, October 6, 2023",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-06/pdf/2023-20392.pdf",
+      "page": 79,
+      "label": "\"commercial electric and gas-fired storage water heaters ... estimated average useful lifetimes of these two types of equipment are 12 and 10 years\"",
+      "years": 12,
+      "note": "Printed page 69764. class: commercial electric storage water heaters. Stated in the shipments analysis; electric units were not regulated by this rule, so no LCC table covers them."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Water Heaters (final rule), 89 FR 37778, May 6, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-06/pdf/2024-09209.pdf",
+      "page": 82,
+      "code": "IV.F.6",
+      "label": "\"DOE estimates the average product lifetime to be around 15 years for storage water heaters\"",
+      "years": 15,
+      "note": "Printed page 37859. residential: consumer electric storage water heaters, including heat pump water heaters (DOE found no lifetime difference)."
+    }
+  ],
+  "confidence": {
+    "grade": "B",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD's row is for residential water heaters; commercial storage heaters may differ.",
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

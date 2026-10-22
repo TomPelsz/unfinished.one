@@ -1,0 +1,92 @@
+{
+  "id": "door-overhead",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "B2030"
+  },
+  "names": [
+    "Overhead door, sectional"
+  ],
+  "aliases": [
+    "OH door",
+    "garage door",
+    "roll-up door",
+    "overhead door"
+  ],
+  "service_life": {
+    "median_years": 30,
+    "range_years": [
+      30,
+      30
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect door, mechanism, mountings, counterbalance and weather-stripping; tighten and adjust",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 27,
+      "checklist": "ARCS-DOR-03-06M Door - Manual, Overhead"
+    },
+    {
+      "task": "Inspect lift cables for frayed or broken strands and rust",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 27,
+      "checklist": "ARCS-DOR-03-06M Door - Manual, Overhead"
+    },
+    {
+      "task": "Inspect winding drum for tightness and cable tracking",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 27,
+      "checklist": "ARCS-DOR-03-06M Door - Manual, Overhead"
+    },
+    {
+      "task": "Raise and lower door by hand; check it tracks evenly",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 27,
+      "checklist": "ARCS-DOR-03-06M Door - Manual, Overhead"
+    },
+    {
+      "task": "Lubricate; remove old or excess lubricant",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 27,
+      "checklist": "ARCS-DOR-03-06M Door - Manual, Overhead"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 7,
+      "code": "HUD CNA 3.3.2.8.9",
+      "label": "Overhead Door",
+      "years": 30,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD gives the automatic opener its own row, 20 years (3.3.2.8.10)."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

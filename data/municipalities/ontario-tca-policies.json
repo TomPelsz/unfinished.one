@@ -1,0 +1,292 @@
+[
+  {
+    "municipality": "on-sarnia",
+    "document_type": "capital_asset_policy",
+    "title": "Finance-04 Tangible Capital Asset Policy, Attachment No. 1: TCA Policy Appendix A",
+    "year": null,
+    "url": "https://www.sarnia.ca/app/uploads/2020/07/Finance-04-Tangible-Capital-Asset-Policy-Attachment-No.-1-TCA-Policy-Appendix-A.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Page 1 lists building components with lives: Structure 50, HVAC 15, Elevators 20, Roof 25, Services 50 years. Upload path suggests July 2020; the policy's own date is not on the appendix."
+  },
+  {
+    "municipality": "on-centre-hastings",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-003 Capital Asset Policy",
+    "year": null,
+    "url": "https://centrehastings.com/media/fohda5zt/fin-003-capital-asset-policy.pdf",
+    "found_via": "https://www.centrehastings.com/our-municipality/policies-plans-and-reports/",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Page 4 useful-life table: Buildings 40-50, HVAC Systems 20-25, Roofing 20-25, Interior Construction 25-30, Electrical/Plumbing 25-30, Sprinkler/Fire System 20-25 years. Policy dated March 22, 2018 (By-Law 2018-36) on page 1. Same building rows as Wollaston, Bancroft and Hastings Highlands: a shared template, see pipeline/tca-templates.md.",
+    "lineage": {
+      "id": "hastings-range-table",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-wollaston",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 72-08, a by-law to create a Tangible Capital Assets Policy",
+    "year": 2008,
+    "url": "https://wollaston.ca/bfd_download/2008-0072-create-tangible-capital-assets-policy/",
+    "found_via": "https://wollaston.ca/township-hall/bylaws-2000-2009/",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Read a third time and passed December 2008 (p2; scanned by-law with a text layer). p5 useful-life table: Buildings 40-50, HVAC Systems 20-25, Roofing 20-25, Interior Construction 25-30, Carpet Replacement 5-7, Electrical/Plumbing 25-30, Sprinkler/Fire System 20-25. Same template as Centre Hastings, Bancroft and Hastings Highlands.",
+    "lineage": {
+      "id": "hastings-range-table",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-bancroft",
+    "document_type": "capital_asset_policy",
+    "title": "FS-005 Capital Asset Policy",
+    "year": null,
+    "url": "https://bancroft.civicweb.net/document/25570",
+    "found_via": "https://bancroft.civicweb.net/filepro/documents/25561",
+    "notes": "Found by web search on 2026-10-21; PDF opened. p5: Buildings 40-50, HVAC Systems 20-25, Roofing 20-25, Interior Construction 25-30, Carpet Replacement 5-7, Electrical/Plumbing 25-30, Sprinkler/Fire System 20-25. No adoption year stated. Same template as Wollaston and Centre Hastings.",
+    "lineage": {
+      "id": "hastings-range-table",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-hastings-highlands",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-04 Capital Assets Policy (By-law 2017-040)",
+    "year": 2017,
+    "url": "https://www.hastingshighlands.ca/media/vhmfgspi/capital-assets-policy_2017.pdf",
+    "found_via": "https://www.hastingshighlands.ca/municipal-services/budget-and-finance/financial-policies/",
+    "notes": "Found by web search on 2026-10-21; PDF opened. p6 (years printed before each label): 40-50 Buildings, 20-25 Heating, Ventilation and Air Conditioning, 20-25 Roofing, 20-25 Fire System and Sprinklers, 25-30 Interior Construction, 25-30 Electrical and Plumbing, 5-7 Carpe Replacement [sic]. Same template as Wollaston and Centre Hastings, reworded.",
+    "lineage": {
+      "id": "hastings-range-table",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-trent-lakes",
+    "document_type": "capital_asset_policy",
+    "title": "5.17 Capital Asset Policy",
+    "year": 2009,
+    "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Effective January 01, 2009 (p1). p9: Buildings 40, Temporary buildings 25. p10: Exterior Shell Brick / Masonry/Steel 40, Vinyl 25, Wood Finishing maintenance 10, Windows 20; Roofing Asphalt 15, Steel 40, Tar & Gravel 15, EPDM 20; Carpet Replacement 5-8; HVAC systems 10; Electrical 40; Mechanical Systems Piping 30, Fixtures 15. Row labels and examples follow the Louisiana Legislative Auditor's \"Suggested Useful Lives\" list; p9 also names OMBI's \"Municipal Guide for Accounting for Tangible Capital Assets\"."
+  },
+  {
+    "municipality": "on-brockton",
+    "document_type": "capital_asset_policy",
+    "title": "Policy F06-2009-03 Capital Asset Amortization",
+    "year": 2009,
+    "url": "https://brockton.ca/media/xsyhwhoe/policy-f06-2009-03-capital-asset-amortization.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Dated December 2009. p2 Table 2 Building - Useful Life: Building Structure 40; Mechanical/Electrical (Heating/Cooling System, Refridgerating System [sic]) 40; Elevator Mechanical Elevator 35."
+  },
+  {
+    "municipality": "on-quinte-west",
+    "document_type": "capital_asset_policy",
+    "title": "A09-POLICY-0034 Tangible Capital Asset Policy",
+    "year": 2024,
+    "url": "https://quintewest.ca/wp-content/uploads/2024/05/A09-POLICY-0034_-_Tangible_Capital_Asset_Policy.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Effective 2024-05-15 (p1). p38 (useful life, threshold): Single Asset Buildings 30; Compound Buildings: Substructure 95 . 110, Shell - Roof 15 . 35, Shell - Other 55 . 85, Interior 35 . 85, HVAC 25, Services - Other 25, Special Construction 25, Process Equipment 30, Electrical 40, Instrumentation 20, Piping 50, Building and Process Structure 60, Architectural 20, Services 20. The text layer renders the range dash as \" . \". Greater Madawaska's 2025 policy repeats these lives.",
+    "lineage": {
+      "id": "quinte-west-2024",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-greater-madawaska",
+    "document_type": "capital_asset_policy",
+    "title": "By-Law 21-2025 Tangible Capital Asset Policy (Finance Policy 4-02)",
+    "year": 2025,
+    "url": "https://greatermadawaska.civicweb.net/document/95484",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. Passed March 20, 2025 (p1). p17: Single Asset Buildings 30; Substructure 95 . 110; Shell - Roof 15 . 35; Shell - Other 55 . 85; Interior 35 . 85; HVAC 25; Services - Other 25; Special Construction 25; Electrical 40; Instrumentation 20; Piping 50; Building and Process Structure 60; Architectural 20; Services 20; Services Conveying 25 . 30. Same lives as Quinte West's 2024 policy (smaller thresholds); the range dash renders as \" . \".",
+    "lineage": {
+      "id": "quinte-west-2024",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "on-kirkland-lake",
+    "document_type": "capital_asset_policy",
+    "title": "FIN2020-005 Tangible Capital Asset Policy",
+    "year": 2020,
+    "url": "https://kirklandlake.civicweb.net/document/32506/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. Approved July 2012, reviewed October 2020 (p1). p10 Schedule A: Buildings and Improvements: Building Structure 50 years, Mechanical/Electrical 25 years, Roof 25 years."
+  },
+  {
+    "municipality": "on-kapuskasing",
+    "document_type": "capital_asset_policy",
+    "title": "By-law No. 3103, Tangible Capital Assets Policy",
+    "year": 2009,
+    "url": "https://kapuskasing.civicweb.net/document/6872/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. Enacted October 26, 2009 (p1). p14 Appendix A \"ASSET USEFUL LIFE - General Guidelines\": Building and Improvements: Building Structure/Sheds 40 years, HVAC Systems 15 years, Roofs 20 years.",
+    "lineage": {
+      "id": "northern-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-chapple",
+    "document_type": "capital_asset_policy",
+    "title": "Schedule A - By-law 1873: Asset Useful Life - General Guidelines",
+    "year": null,
+    "url": "https://chapple.civicweb.net/document/32784/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. p1 \"ASSET USEFUL LIFE - General Guidelines\": Building Structure 50; Building Improvements: Exterior Envelope 50, HVAC Systems 20, Roofs 20. No year stated on the schedule. Same heading and row style as Rainy River and Kapuskasing.",
+    "lineage": {
+      "id": "northern-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-rainy-river",
+    "document_type": "capital_asset_policy",
+    "title": "F-9 Tangible Capital Assets Policy",
+    "year": 2010,
+    "url": "https://rainyriver.ca/uploads/plans-policies/finance-department/f9-tangible-capital-assets-policy.pdf",
+    "found_via": "https://www.rainyriver.ca/en/your-government/plans-policies",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Approved by Motion #10-186, October 12, 2010 (p12). p11 Attachment I \"ASSET USEFUL LIFE - General Guidelines\": Building Structure/sewer lift station wet well 60; Building Improvements: Exterior Envelope 50, HVAC Systems/Generator 20, Roofs 15, Electrical/Plumbing 25.",
+    "lineage": {
+      "id": "northern-general-guidelines",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-orillia",
+    "document_type": "capital_asset_policy",
+    "title": "4.1.8.1 Tangible Capital Assets Policy Manual",
+    "year": null,
+    "url": "https://orillia.civicweb.net/document/366955/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. p19 Appendix 4: Buildings 40-50; Roof 20; Construction - Minor 20; Construction - Major 40; Facility - HVAC, Boiler 20-25; Leaseholds 10. In the text layer each number sits just above its label; read by position. Only a resolution reference \"(R. 2010-246 10.09.27)\" dates the manual."
+  },
+  {
+    "municipality": "on-severn",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+    "year": 2019,
+    "url": "https://severn.civicweb.net/document/10628/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. p1: by-law 2019-04 adopts the policy manual. p400 Useful Life Guide (scanned, OCR text): Buildings/Structures mostly 40 (Treatment Plant and Arena 50); Building Components: Elevators 20, Air Conditioner 20, Furnace/Heating System 25, Condenser 25."
+  },
+  {
+    "municipality": "on-simcoe",
+    "document_type": "capital_asset_policy",
+    "title": "POL-FIN-004 Tangible Capital Assets Policy (Schedule 3 to AUC 2026-046)",
+    "year": 2025,
+    "url": "https://simcoe.civicweb.net/document/155626/",
+    "found_via": null,
+    "notes": "Found through the municipality's CivicWeb document search on 2026-10-21; PDF opened. Date Approved 2025-01-01 (p1). p19 building components, pooled by cost centre: Electrical 40, Envelope 20 (includes the roof, windows, cladding), Interior 20, Mechanical 30, Structure 40. The 2018 version (AUC 2022-034 Schedule 3, p14) has the same component lives; its version chart dates the building components to August 15, 2013."
+  },
+  {
+    "municipality": "on-kingston",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Assets Policy",
+    "year": 2016,
+    "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+    "found_via": "https://www.cityofkingston.ca/council-and-city-administration/city-policies/",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Approved July 20, 2010, revised July 18, 2016 (p1). p15 Water Facilities (and p16 Sewer Facilities): Building Structure 50, Building Fixtures 15, Mechanical Equipment 25, Electrical Equipment 10, Tankage 75. General buildings are not componentized (Buildings 40)."
+  },
+  {
+    "municipality": "on-greater-napanee",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+    "year": 2012,
+    "url": "https://greaternapanee.civicweb.net/document/45679",
+    "found_via": "https://greaternapanee.civicweb.net/filepro/documents/41639",
+    "notes": "Found by web search on 2026-10-21; PDF opened. p16 (scanned, OCR text): Buildings & Building Improvements: B25 Roof, Storage Domes 25 (OCR reads \"825\"); B50 Admin Buildings, Arenas, Fire Stations ... - Structure 50; B100 Plants & Facilities 100. Under Machinery & Equipment: E20 Mechanical - Boilers, Fire Panel/Alarm, Unit Heaters, HVAC ... 20; E25 Plant Mechanical & Electrical 25. Appendix B was replaced by By-law 2015-0062, whose scan is too garbled to read."
+  },
+  {
+    "municipality": "on-prince-edward",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-12 Tangible Capital Assets Policy",
+    "year": 2022,
+    "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+    "found_via": "https://www.thecounty.ca/government/municipal-projects/corporate-strategic-initiatives/bylaw-policy-review/",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Policy dated 2022-05-12 (CW-118-2022). p34 Appendix D: Buildings: HVAC 20 years, Roof 20 years, Main Bldg 50 years, Elevators 20 years. Appendix pages carry the footer \"Watson & Associates Economists Ltd.\".",
+    "lineage": {
+      "id": "four-row-consultant",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-welland",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-001-0012 Tangible Capital Assets Policy",
+    "year": 2021,
+    "url": "https://media-003-ca.cdn.govstack.com/welland-ca/media/up1n0par/tangible-capital-assets.pdf",
+    "found_via": "https://www.welland.ca/city-hall/by-laws-and-policies/policy-index/",
+    "notes": "Found by crawling the municipality's policy page on 2026-10-21; PDF opened. Approved April 20, 2010, revised August 10, 2021 (p1). p8 Appendix A: Buildings, Major Facilities (by component): Main Building 50 yr, Roof 20 yr, HVAC/Electrical/Mechanical 20 yr, Elevator 20 yr, Indoor Pool 20 yr, Indoor Skating Rinks 25 yr; Minor Facilities 30 yr.",
+    "lineage": {
+      "id": "four-row-consultant",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-kenora",
+    "document_type": "capital_asset_policy",
+    "title": "AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+    "year": 2026,
+    "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. By-law 34-2026, February 9, 2026 (p1). p15 \"Generic Municipal Asset Categories\" (threshold, useful life): Buildings Structure 75, Exterior Components 50, Interior Components 25, Mechanical System 20, Electrical System 20, Security System 20, Elevator 20, Site Services 50."
+  },
+  {
+    "municipality": "on-the-blue-mountains",
+    "document_type": "capital_asset_policy",
+    "title": "POL.COR.19.04 Tangible Capital Assets Policy",
+    "year": 2019,
+    "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+    "found_via": "https://www.thebluemountains.ca/town-hall/laws-maps-policies/corporate-policies",
+    "notes": "Found by web search on 2026-10-21; PDF opened. Approved June 3, 2019. p11 Appendix A, Building: Structure 40; Roofing Metal 30, Flat 25, Asphalt Shingles 25, Tile 30; HVAC System 25, Furnace 15; Plumbing System 30, Sprinkler System 25, Cistern 50, Boiler 20, Septic System 25; Electrical System 25, Interior Lighting 20, Ice Surface Lighting 20, Exterior Lighting 15, Fire Alarms 20; Windows and Doors 25; Flooring Carpet 15, Vinyl 20, Concrete 20, Tile 20, Hardwood 20.",
+    "lineage": {
+      "id": "grey-county-rows",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-grey-highlands",
+    "document_type": "capital_asset_policy",
+    "title": "By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+    "year": 2026,
+    "url": "https://greyhighlands.civicweb.net/document/406218/",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Passed June 3, 2026. p11 Appendix A09-F-03 Estimated Useful Life, Buildings & Facility Systems: Structure (Building Frame) 75; Metal Roof 25; Flat Roof 20; Asphalt Shingles 20; Elevator 20; HVAC 20; Furnace 15; Sprinkler System 40; Boiler 25; Septic System 30; Interior Lighting 20; Ice Surface Lighting 20; Exterior Lighting 15; Fire Alarms 20; Windows & Doors 25; Flooring Systems 20.",
+    "lineage": {
+      "id": "grey-county-rows",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-meaford",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+    "year": 2020,
+    "url": "https://meaford.civicweb.net/document/103944/",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. Passed December 14, 2020 (p1). pp16-17 Buildings: Foundations Standard 100, Slab On-grade 75-100; Superstructure Wood Framing & Trusses 100, Concrete Block 100; Exterior Closure Concrete Block 50, Metal Cladding 50, Wood Cladding 40, Vinyl Siding 30, Windows 25; Roof Metal 40-50, Flat 30, Asphalt Shingles 25, Tile 30; Interior Construction Gypsum Board 45; Plumbing System 50, Fixtures 20, Boiler 20; HVAC System 50, Furnace 15-25, Air Distribution 20; Fire Protection Sprinkler System 25, Alarm Panel 25; Electrical System 50, Interior Lighting - Standard 20, Exterior Lighting 15. Flooring rows continue on p18.",
+    "lineage": {
+      "id": "grey-county-rows",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "on-amherstburg",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+    "year": 2026,
+    "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+    "found_via": null,
+    "notes": "Found by crawling amherstburg.ca on 2026-10-21; PDF opened. Approved Aug. 10, 2026, replacing the December 15, 2025 version (p1); an earlier version had no component lives. p8 Buildings and Improvement: Structures 40; Exterior Envelops (Roof, Windows, Doors, Concrete) 20; Interior Envelops (Flooring, Furniture & Fixtures) 20; Mechanical/Electrical (HVA [sic], Lighting, Security systems, Electrical Panel) 20; Fire Safety (Control Panel, Smoke Detectors) 20; Plumbing (Sprinkler System) 20; Site Works 20. Arena: Air Conditioner, Brine Chillers, Compressors, Dehumidifiers 20; Ice Resurfacing Machinery 15; Ice Surface Lights 25; Refrigeration Condenser, Scoreboard, Sound System 25."
+  },
+  {
+    "municipality": "on-london",
+    "document_type": "capital_asset_policy",
+    "title": "London Public Library Tangible Capital Assets Policy",
+    "year": 2023,
+    "url": "https://www.lpl.ca/sites/default/files/2023-04/Tangible%20Capital%20Assets%20policy%20for%20web.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-21; PDF opened. A policy of the London Public Library board, not the City; p4 says it is applied \"in conjunction with the City of London policy\", which is not published online (the City's 2023 financial statements give only Buildings and building improvements 10-40, p64). Effective April 20, 2023 (p1). p2: Building Structures 60; Building Components: Shell (siding, windows, roofing) 20, Interiors (partitions, doors) 30, Services (HVAC, lighting, communication, plumbing etc.) 20, Site works (parking lots etc.) 20."
+  }
+]

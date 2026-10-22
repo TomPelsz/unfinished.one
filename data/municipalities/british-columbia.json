@@ -1,0 +1,167 @@
+[
+  {
+    "id": "bc-cranbrook",
+    "name": "Cranbrook, City of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 20499,
+    "statcan_csd": "5901022",
+    "website": "https://cranbrook.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-duncan",
+    "name": "Duncan, City of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 5047,
+    "statcan_csd": "5919012",
+    "website": "https://duncan.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-north-cowichan",
+    "name": "North Cowichan, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 31990,
+    "statcan_csd": "5919008",
+    "website": "https://www.northcowichan.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-lantzville",
+    "name": "Lantzville, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 3817,
+    "statcan_csd": "5921008",
+    "website": "https://www.lantzville.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-fort-st-james",
+    "name": "Fort St. James, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 1386,
+    "statcan_csd": "5951013",
+    "website": "https://www.fortstjames.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-tumbler-ridge",
+    "name": "Tumbler Ridge, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 2399,
+    "statcan_csd": "5955003",
+    "website": "https://www.districtoftumblerridge.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-telkwa",
+    "name": "Telkwa, Village of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 1474,
+    "statcan_csd": "5951038",
+    "website": "https://www.telkwa.com/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-parksville",
+    "name": "Parksville, City of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 13642,
+    "statcan_csd": "5921018",
+    "website": "https://parksville.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-revelstoke",
+    "name": "Revelstoke, City of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 8275,
+    "statcan_csd": "5939019",
+    "website": "https://revelstoke.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-rossland",
+    "name": "Rossland, City of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 4140,
+    "statcan_csd": "5905023",
+    "website": "https://rossland.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-sicamous",
+    "name": "Sicamous, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 2613,
+    "statcan_csd": "5939045",
+    "website": "https://www.sicamous.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-tofino",
+    "name": "Tofino, District of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 2516,
+    "statcan_csd": "5923025",
+    "website": "https://tofino.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-salmo",
+    "name": "Salmo, Village of",
+    "province": "BC",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 1140,
+    "statcan_csd": "5903011",
+    "website": "https://salmo.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-okanagan-similkameen",
+    "name": "Okanagan-Similkameen, Regional District of",
+    "province": "BC",
+    "tier": "upper",
+    "upper_tier": null,
+    "population_2021": null,
+    "statcan_csd": null,
+    "website": "https://www.rdos.bc.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  },
+  {
+    "id": "bc-comox-valley",
+    "name": "Comox Valley, Regional District of",
+    "province": "BC",
+    "tier": "upper",
+    "upper_tier": null,
+    "population_2021": null,
+    "statcan_csd": null,
+    "website": "https://www.comoxvalleyrd.ca/",
+    "source": "https://www.civicinfo.bc.ca/municipalities"
+  }
+]

@@ -1,0 +1,9 @@
+---
+import Grade from './Grade.astro';
+import { GRADES } from '../lib/grades';
+---
+<dl class="legend">
+  {GRADES.map((g) => (
+    <div><dt><Grade grade={g.grade} /></dt><dd><strong>{g.label}.</strong> {g.detail}</dd></div>
+  ))}
+</dl>

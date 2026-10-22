@@ -1,0 +1,47 @@
+{
+  "id": "watermain-cast-iron",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Watermain, cast iron"
+  ],
+  "aliases": [
+    "CI watermain",
+    "cast iron pipe"
+  ],
+  "service_life": {
+    "median_years": 75,
+    "range_years": [
+      75,
+      75
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kingston: Tangible Capital Assets Policy",
+      "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+      "page": 15,
+      "label": "Water Utility - Water Pipes: CI",
+      "years": 75,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

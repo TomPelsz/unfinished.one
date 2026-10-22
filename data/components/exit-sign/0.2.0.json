@@ -1,0 +1,76 @@
+{
+  "id": "exit-sign",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D5090"
+  },
+  "names": [
+    "Exit sign"
+  ],
+  "aliases": [
+    "exit light",
+    "running man sign"
+  ],
+  "service_life": {
+    "median_years": 7.5,
+    "range_years": [
+      5,
+      10
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect exit sign condition and mounting",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 86,
+      "checklist": "Table 2-28 Egress Marking System ITM Tasks"
+    },
+    {
+      "task": "Check exit sign lamp or light source works",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 86,
+      "checklist": "Table 2-28 Egress Marking System ITM Tasks"
+    },
+    {
+      "task": "Run battery-backed exit signs on battery for 90 minutes",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 86,
+      "checklist": "Table 2-28 Egress Marking System ITM Tasks"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.2.6",
+      "label": "Emergency lights, illuminated signs",
+      "years": [
+        5,
+        10
+      ],
+      "note": "Family properties 5 years, elderly 10. US multifamily housing. HUD gives emergency lights and illuminated signs one row."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

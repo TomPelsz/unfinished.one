@@ -1,0 +1,675 @@
+[
+  {
+    "municipality": "on-amherstburg",
+    "document_type": "AMP",
+    "title": "Asset Management Plan Town of Amherstburg 2025",
+    "year": 2025,
+    "url": "https://www.amherstburg.ca/media/w5qhko4r/2025-amp-final-2025-06-30-rm-with-appendices.pdf",
+    "found_via": null,
+    "notes": "459-page file dated June 30, 2025 including appendices (Watson D.C. background study, OCWA 2023 water/wastewater AMP, capital project sheets). Main plan (pp.1-~150) has an 'Asset Condition & Age' table with Estimate(d) Useful Life (Yrs) per segment for each category: p.36 roads, p.51 bridges & culverts, p.62 stormwater, p.75 buildings, p.88 vehicles, p.100 machinery & equipment, p.113 parks/land improvements, p.124 natural assets, p.135 water, p.144 wastewater. Found via: search (amherstburg.ca media library."
+  },
+  {
+    "municipality": "on-bancroft",
+    "document_type": "AMP",
+    "title": "Town of Bancroft Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://bancroft.civicweb.net/document/138249",
+    "found_via": "https://bancroft.civicweb.net/filepro/documents/46981",
+    "notes": "182-page all-asset plan dated May 2025, prepared by PSD Citywide (file title '2025 Asset Management Plan - 20250513 - Town of Bancroft', linked from bancroft.ca Corporate Planning > Comprehensive Asset Management). EUL charts on pp.46, 59, 69, 81, 93, 105, 116, 127, 139. We hold the TCA policy; no AMP rows to compare.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-belleville",
+    "document_type": "AMP",
+    "title": "Asset Management Plan - Comprehensive Citywide AMP - City of Belleville",
+    "year": 2022,
+    "url": "https://opencouncil.ca/wp-content/uploads/2024/08/Belleville_AMP_Final.pdf",
+    "found_via": "https://opencouncil.ca/belleville-asset-management/",
+    "notes": "City of Belleville Comprehensive Citywide AMP dated June 27, 2022, prepared by GHD (project 11214626), 121 pages. Appendix B-1-2 'Useful Life Assumptions' has pipe useful-life tables by material and diameter (Tables B 4-B 6, pp.117-119). Superseded by the 2025 SLBC plan, which prints no life values. Found via: third-party mirror of council attachment; not on belleville.ca."
+  },
+  {
+    "municipality": "on-brantford",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan: Environmental Services, City of Brantford, Ontario",
+    "year": 2025,
+    "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/11mjuktj/environmental_services_2025_amp.pdf",
+    "found_via": "https://www.brantford.ca/your-government/city-plans-and-projects/corporate-projects-and-initiatives/asset-management/",
+    "notes": "78 pages. Table 3 (pp.10-11) gives the estimated service life by asset and material; checked against rendered page images. The 2025 AMP is published as an Overview (584 pp.) plus separate service-area AMPs, all June 2025, linked from the same page.",
+    "part": "environmental-services"
+  },
+  {
+    "municipality": "on-brantford",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan: Facilities, City of Brantford, Ontario",
+    "year": 2025,
+    "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/deijw24y/facilities_2025_amp.pdf",
+    "found_via": "https://www.brantford.ca/your-government/city-plans-and-projects/corporate-projects-and-initiatives/asset-management/",
+    "notes": "41 pages. Table 3 (p.10) gives building sub-system and site-works service lives. The 2025 AMP is published as an Overview (584 pp.) plus separate service-area AMPs, all June 2025, linked from the same page.",
+    "part": "facilities"
+  },
+  {
+    "municipality": "on-brantford",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+    "year": 2025,
+    "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+    "found_via": "https://www.brantford.ca/your-government/city-plans-and-projects/corporate-projects-and-initiatives/asset-management/",
+    "notes": "68 pages. Table 3 (pp.12-13) gives the estimated service life by asset class and material. Table 7 gives replacement-weighted averages (not transcribed). The 2025 AMP is published as an Overview (584 pp.) plus separate service-area AMPs, all June 2025, linked from the same page.",
+    "part": "transportation"
+  },
+  {
+    "municipality": "on-brockton",
+    "document_type": "AMP",
+    "title": "Municipality of Brockton Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-002-ca.cdn.govstack.com/brockton-009-ca/media/d5ef2zlb/2025-asset-management-plan.pdf",
+    "found_via": "https://www.brockton.ca/municipal-government/budget-and-finances/asset-management-plan/",
+    "notes": "202-page all-asset plan dated July 2025, prepared by PSD Citywide (adopted by By-law 2025-054). EUL charts on pp.69, 83, 95, 105, 117, 128, 138, 148, 158, 170. We hold the TCA policy; no AMP rows to compare.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-bruce",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025, Bruce County",
+    "year": 2025,
+    "url": "https://www.brucecounty.on.ca/sites/default/files/BruceCounty_2025AMP_FINAL.pdf",
+    "found_via": null,
+    "notes": "186 pages, September 2025, data as of December 2023. There is no useful-life table. Each asset chapter has an 'Estimated Useful Life vs. Asset Age' bar chart giving replacement-cost-weighted average EUL per asset type. Values were read from rendered page images: the hollow outline bar is the EUL and the filled bar is the age. Fleet, furniture/equipment and technology charts (pp.102, 114, 125) were not transcribed. Found via: search (brucecounty.on.ca); the County news release https://www.brucecounty.on.ca/news/2024-aug-16/bruce-county-asset-management-plan-endorsed covers the prior plan."
+  },
+  {
+    "municipality": "on-centre-hastings",
+    "document_type": "AMP",
+    "title": "Municipality of Centre Hastings Asset Management Plan (Final Report, June 26, 2025)",
+    "year": 2025,
+    "url": "https://centrehastings.com/media/lz0pzrzf/2025-asset-management-plan_centre-hastings.pdf",
+    "found_via": null,
+    "notes": "71-page Hemson final report dated June 26, 2025 (supersedes Hemson's October 2023 plan). No useful-life table in the body; Appendix A asset-category dashboards (pp.58-66) each print one 'Estimated Useful Life' figure per category. Roads have no useful life ('the Municipality maintains the roads based on its condition and not on age', p.13 footnote). Machinery and Equipment (3-30) and Vehicles dashboards not transcribed. Found via: search (centrehastings.com media library."
+  },
+  {
+    "municipality": "on-chapple",
+    "document_type": "AMP",
+    "title": "Township of Chapple 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://chapple.on.ca/wp-content/uploads/2025/06/Chapple_2025-AMP-Final.pdf",
+    "found_via": "https://chapple.on.ca/finance/",
+    "notes": "Township of Chapple 2025 AMP (June 2025), 157 pages, prepared by PSD (Citywide). No life table; each asset category has a labelled 'Average Age vs Average EUL' chart weighted by replacement cost (Figures 10, 17, 24, 31, 38, 45). Land improvements, machinery & equipment, vehicles charts not transcribed. Gravel roads have no EUL (footnote p.55: limitless with maintenance)."
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Bridges & Culverts 2025",
+    "year": 2025,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Bridges.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "54 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "bridges"
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Facilities Services Detailed Asset Management Plan 2024",
+    "year": 2024,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Facilities.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "86 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "facilities"
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Roads 2025",
+    "year": 2025,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Roads.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "64 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "roads"
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Stormwater 2025",
+    "year": 2025,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Stormwater.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "57 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "stormwater"
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Wastewater 2025",
+    "year": 2025,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Wastewater.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "81 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "wastewater"
+  },
+  {
+    "municipality": "on-chatham-kent",
+    "document_type": "AMP",
+    "title": "Detailed Asset Management Plan: Water Services",
+    "year": 2025,
+    "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Water%20Services.pdf",
+    "found_via": "https://www.chatham-kent.ca/localgovernment/budget/Pages/Asset-Management-Plan.aspx",
+    "notes": "93 pages. One of the Detailed Asset Management Plans (DAMPs) by service; the core-infrastructure DAMPs were presented to Council on April 28, 2025. . Found via: lists the April 28, 2025 council report 'Core Infrastructure Detailed Asset Management Plans'; the combined 'Detailed Asset Management Plans and Overview Document' link goes to a login-only SharePoint). The individual DAMP PDFs were found by web search in the public /DAMP Reports/2024/ folder..",
+    "part": "water"
+  },
+  {
+    "municipality": "on-cornwall",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan City of Cornwall",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/cornwall-ca/media/zf1flyyr/2025-asset-management-plan.pdf",
+    "found_via": "https://www.cornwall.ca/en/government-council/budget-and-finance/asset-management/",
+    "notes": "City of Cornwall 2025 AMP, 425 pages, all service areas; consultant not named. No life table: each subservice has 'Service Life Profile (Weighted by Replacement Cost)' bar charts with printed labels 'Age: x yrs | ESL: y yrs' per asset class and, for pipes, per material. Transcribed transportation, combined/sanitary/storm sewers, water distribution and water/wastewater treatment charts; facilities, fleet, parks, housing, LTC charts not transcribed."
+  },
+  {
+    "municipality": "on-dufferin",
+    "document_type": "AMP",
+    "title": "County of Dufferin 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.dufferincounty.ca/wp-content/uploads/2025/06/Asset-Management-Plan-FINAL-2025-06-13.pdf",
+    "found_via": null,
+    "notes": "County of Dufferin 2025 AMP (FINAL 2025-06-13), 73 pages, prepared in consultation with SLBC Inc. No life table: estimated service lives appear only as unlabeled bar charts of replacement-value-weighted average age vs. estimated service life per asset type (Figures 2-2, 2-4, 2-6, 2-8, 2-10, 2-12, 2-14, 2-16). Natural-asset (forest) appendix pp.66-71 gives tree expected service lives; not transcribed. 2022 AMP uses the same chart-only format. Found via: county site media library; earlier plan https://www.dufferincounty.ca/wp-content/uploads/2024/02/AMP-2022.pdf.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Lives appear only as unlabelled bars in a chart of replacement-cost-weighted averages (p17). Values cannot be read exactly, so none are recorded."
+    }
+  },
+  {
+    "municipality": "on-elgin",
+    "document_type": "AMP",
+    "title": "Elgin County 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.elgincounty.ca/wp-content/uploads/2026/02/Elgin-County-Asset-Management-Plan.pdf",
+    "found_via": null,
+    "notes": "Elgin County 2025 AMP, adopted by Council January 13, 2026, 63 pages; consultant not named. No life table; the only life values are prose in Section 2.3 Age Summary (pp.10-11). Found via: county site media library; previous plan https://www.elgincounty.ca/wp-content/uploads/2024/09/Corporate-Asset-Management-Plan.pdf."
+  },
+  {
+    "municipality": "on-greater-madawaska",
+    "document_type": "AMP",
+    "title": "Township of Greater Madawaska Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/greatermadawaska-ca/media/lkbcvbzb/2025-asset-management-plan.pdf",
+    "found_via": "https://greatermadawaska.com/township/plans-reports-and-studies/",
+    "notes": "124-page all-asset plan built in Citywide software. Each category's 'Asset Condition & Age' table gives Estimated Useful Life (Years) by segment (p.43 roads, p.57 buildings, p.66 vehicles, p.75 machinery & equipment, p.83 land improvements). Buildings and land improvement rows are departmental groupings with wide ranges (e.g. Government Services 15-50) and were left out as whole-class spreads; vehicles and equipment not transcribed."
+  },
+  {
+    "municipality": "on-greater-napanee",
+    "document_type": "AMP",
+    "title": "Town of Greater Napanee Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://greaternapanee-003-ca.govstack.com/media/q0vptucz/2025amp_greaternapanee_final-draft.pdf",
+    "found_via": null,
+    "notes": "158-page all-asset plan, cover dated March 2026, file named 'final draft'; prepared by PSD Citywide. EUL charts on pp.79, 86, 92, 97, 102, 107, 112, 117, 122. We hold the TCA policy; no AMP rows to compare. Found via: search (no listing page found on greaternapanee.com.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-grey",
+    "document_type": "AMP",
+    "title": "2023 Asset Management Plan",
+    "year": 2023,
+    "url": "https://countyofgrey.sharepoint.com/:b:/s/Grey_County_Site/Ed44V1NRsshDoGLn82x89GMB1oqBJDdqn4452fFTV87H0Q?e=GAA8bt",
+    "found_via": "https://www.grey.ca/government/budget-finances-purchasing/asset-management",
+    "notes": "The County page lists 2023, 2021 and 2016 Asset Management Plans. All three link to countyofgrey.sharepoint.com share links, which redirect to a Microsoft login. No 2024/2025 County AMP was found, and no public copy was found by web search (results were lower-tier municipalities' plans). Title is the link text; the cover was not seen.",
+    "extraction": {
+      "status": "blocked",
+      "reason": "AMP PDFs are hosted on SharePoint and redirect to login.microsoftonline.com; no public copy found."
+    }
+  },
+  {
+    "municipality": "on-grey-highlands",
+    "document_type": "AMP",
+    "title": "Municipality of Grey Highlands Asset Management Plan (Hemson, June 5, 2025)",
+    "year": 2025,
+    "url": "https://greyhighlands.civicweb.net/document/375124/",
+    "found_via": "https://www.greyhighlands.ca/your-government/asset-management/",
+    "notes": "77-page Hemson plan dated June 5, 2025, approved by Council June 18, 2025 (staff report FIN.25.07). No useful-life table in the body; Appendix A category dashboards (pp.61-71) print one 'Estimated Useful Life' range per category. Roads and Buildings have no useful life ('no acquisition date or useful life information is available as the Municipality maintains them based on its condition', p.12). The Appendix A pages use a shifted font encoding in the PDF text layer (each character offset by 29); values were read after decoding. Found via: link '2025 Asset Management Plan' -> https://greyhighlands.civicweb.net/filepro/documents/?preview=375124."
+  },
+  {
+    "municipality": "on-guelph",
+    "document_type": "AMP",
+    "title": "City of Guelph Corporate Asset Management Plan 2025 – Updating the 2024 AMP",
+    "year": 2025,
+    "url": "https://guelph.ca/wp-content/uploads/2025-corporate-asset-management-plan.pdf",
+    "found_via": "https://guelph.ca/plans-and-strategies/asset-management-program/",
+    "notes": "241 pages, May 2025. guelph.ca sits behind a Cloudflare browser challenge, so the copy read was the Wayback Machine capture (web.archive.org/web/2026id_/ + the URL). The plan says an EUL is recorded for every asset type (p.28) but publishes no table of lives; ages are shown as a percentage of EUL. The 2024 Corporate AMP (https://guelph.ca/wp-content/uploads/2024-corporate-asset-management-plan.pdf, 467 pp.) was also checked: same approach (Figures 24, 25, 36, 44, 54 show age as % of EUL), with only scattered prose lives (e.g. buses 12 years, fleet 7 years) and no per-asset table.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Neither the 2025 nor the 2024 AMP prints per-asset useful lives; ages are given only as a percentage of EUL, plus a few prose mentions for vehicles."
+    }
+  },
+  {
+    "municipality": "on-haldimand",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://media-001-ca.cdn.govstack.com/haldimandcounty-008-ca/media/cxnnlhik/fca-2025-asset-management-plan.pdf",
+    "found_via": "https://www.haldimandcounty.ca/asset-management",
+    "notes": "Haldimand County 2025 AMP (attachment to report FCA-2025), 154 pages, prepared with PSD Citywide (asset register and forecasts in Citywide). No life table; each asset appendix has a labelled bar chart 'Average Age vs Average EUL' weighted by replacement cost (Figures 13, 22, 31, 37, 43, 49). Land improvements, vehicles and machinery charts not transcribed."
+  },
+  {
+    "municipality": "on-hastings-highlands",
+    "document_type": "AMP",
+    "title": "Municipality of Hastings Highlands Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-001-ca.cdn.govstack.com/hastingshighlands-002-ca/media/xhjm1i2r/hastings-highlands-2025-asset-management-plan_final.pdf",
+    "found_via": "https://hastingshighlands.ca/municipal-services/budget-and-finance/asset-management-plan",
+    "notes": "144-page all-asset plan dated June 2025, prepared by PSD Citywide (supersedes the 2024 plan, which has the same chart-only format). 'Average Age vs Average EUL' charts on pp.49, 63, 74, 85, 96, 106. We hold the TCA policy; no AMP rows to compare.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-huron",
+    "document_type": "AMP",
+    "title": "Corporation of the County of Huron Asset Management Plan June 2025",
+    "year": 2025,
+    "url": "https://www.huroncounty.ca/wp-content/uploads/2025/06/2025-HURON-AMP-Approved.pdf",
+    "found_via": null,
+    "notes": "Huron County AMP June 2025, 116 pages, prepared in-house. Each service chapter has a 'General Lifecycle of the Asset' table (Asset Type / Useful Life), mostly described as the County's PSAB tangible capital asset accounting lives. EMS fleet (p.83: ambulances 6, rapid response units 6) and forestry equipment not transcribed. Found via: county site media library; prior plan https://huroncounty.ca/wp-content/uploads/2024/06/2024-APPROVED-HURON-AMP.pdf."
+  },
+  {
+    "municipality": "on-kapuskasing",
+    "document_type": "AMP",
+    "title": "2022 Corporation of the Town of Kapuskasing Asset Management Plan",
+    "year": 2022,
+    "url": "https://media-001-ca.cdn.govstack.com/kapuskasing-004-ca/media/h3sj5owc/2022-kapuskasing-asset-management-plan_2.pdf",
+    "found_via": "https://www.kapuskasing.ca/fr/conseil-et-administration/plans-rapports-et-etudes/",
+    "notes": "Kapuskasing 2022 core-asset AMP (June 2022), 47 pages. Table 4.1 Asset Inventory Summary (p.7) has a 'Useful Life' column per core asset category; p.9 states an industry-standard 80-year life for all piping. The town's plans page also lists 2024 and 2025 AMPs, but they are hosted only as Adobe Acrobat cloud viewer links (acrobat.adobe.com/id/urn:aaid:sc:VA6C2:b6c05cce-... and ...:a3795bfe-d417-4c2e-8ea2-3e0e1755d4ec, titled '2025 Kapuskasing Asset Management Plan', 63 pages) with no direct PDF; not downloaded or read, so the 2022 plan is transcribed instead."
+  },
+  {
+    "municipality": "on-kawartha-lakes",
+    "document_type": "AMP",
+    "title": "Asset Management Plan, City of Kawartha Lakes",
+    "year": 2025,
+    "url": "https://www.kawarthalakes.ca/media/o5qbtyvk/kawartha-lakes-2025-asset-management-plan.pdf",
+    "found_via": null,
+    "notes": "91 pages, June 16, 2025, prepared by Watson & Associates Economists Ltd. Condition is reported as Useful Life Consumed % (ULC%) with average ages and replacement costs; no useful-life values are printed per asset type. The 2022 core-assets AMP (https://www.kawarthalakes.ca/media/d35pf2y2/kawartha-lakes-amp-for-core-assets.pdf, 49 pp., also Watson) was checked and uses the same ULC% approach without a life table. Found via: search (kawarthalakes.ca media file.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Plan reports ULC% and average ages only; the underlying useful lives are not published."
+    }
+  },
+  {
+    "municipality": "on-kenora",
+    "document_type": "AMP",
+    "title": "City of Kenora Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/kenora-018-ca/media/15odjpff/city-of-kenora_2025-amp-final-v4.pdf",
+    "found_via": "https://www.kenora.ca/your-government/plans-studies-and-reports/asset-management-plan/",
+    "notes": "188-page all-asset plan in the PSD Citywide format (2025, O. Reg. 588/17 July 2025 requirements). EUL charts on pp.49, 61, 73, 84, 95, 107, 119, 129, 140, 150. Text notes the City's EULs largely come from PSAB 3150 implementation (p.49). We hold the City's TCA policy; no AMP rows to compare.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-kingston",
+    "document_type": "AMP",
+    "title": "City of Kingston 2024 Asset Management Plan, Volume 1: Infrastructure, Transportation, Transit, & Emergency Services",
+    "year": 2024,
+    "url": "https://getinvolved.cityofkingston.ca/46640/widgets/197062/documents/145814/download",
+    "found_via": "https://getinvolved.cityofkingston.ca/asset-management-plan/documents",
+    "notes": "140 pages. The 2024 AMP (non-core assets) is split into an Executive Summary and Volumes 1-5; Volume 1 tables 2-2, 3-2, 4-2, 5-2, 6-2, 7-2 and 8-2 give an Expected Useful Life per asset type. Appendix A 'Expected Useful Life' is said to be in a separate document (not located). Core assets (roads, bridges, stormwater) are in the separate 2022 Core AMP (documents/145811, 67 pp., prepared with GMBP), which shows ESLs only as bar charts (Figures 5 and 16); the 2023 Facilities AMP (documents/145809) also shows ESLs only as charts (Figures 10, 12). Water/wastewater are managed by Utilities Kingston. Fleet, equipment, bins and tree rows were left out. The download URL is an EngagementHQ link that redirects to a signed S3 PDF."
+  },
+  {
+    "municipality": "on-kirkland-lake",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025 Town of Kirkland Lake",
+    "year": 2025,
+    "url": "https://kirklandlake.civicweb.net/document/32531/",
+    "found_via": "https://kirklandlake.civicweb.net/filepro/documents/32611",
+    "notes": "Town of Kirkland Lake AMP 2025 (Updated September 2025, Attachment 1), 207 pages, prepared by PSD (Citywide asset register). No life table; each chapter's Age Profile has a labelled bar chart 'Estimated Useful Life vs. Asset Age' (Figures 23, 30, 37, 44, 51, 58), replacement-cost weighted. Land improvements, fleet, machinery & equipment and airport charts not transcribed. p.40 prose: ten bridges each with an EUL of 65 years (template example text; not used as a row). Earlier phases also in the same CivicWeb folder (Phase 3 Amended 2024 = document/32542). Found via: CivicWeb Document Center > Plans and Reports > Asset Management Plan; listed as 'Asset Management Plan - Phase 4 (2025)'."
+  },
+  {
+    "municipality": "on-lambton",
+    "document_type": "AMP",
+    "title": "County of Lambton 2025 Corporate Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.lambtoncounty.ca/media/pmrd1ldn/2025-corporate-asset-management-plan.pdf",
+    "found_via": "https://www.lambtoncounty.ca/county-government/asset-management/",
+    "notes": "146 pages. No useful-life table. Lives are given in prose per department and as replacement-value-weighted average EUL bar charts (Figures A-1, B-1, C-1, I-1, K-2, L-1, M-1); vehicle/equipment EULs appear in per-asset inventory tables (pp.60-63). County owns no water/wastewater. Only the infrastructure lives stated in prose are recorded."
+  },
+  {
+    "municipality": "on-lanark",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2022",
+    "year": 2022,
+    "url": "https://www.lanarkcounty.ca/wp-content/uploads/2025/06/2022-Asset-Management-Plan.pdf",
+    "found_via": "https://www.lanarkcounty.ca/government/budget-finance/",
+    "notes": "Lanark County Asset Management Plan 2022 (dated May 2023), 203 pages, prepared by Dillon Consulting; covers core and non-core assets. No consolidated life table; each chapter has an 'Expected Useful Life' subsection (x.1.3) stated in prose, plus Table 3-3 for bridges. A 4-page 2025 Green Infrastructure appendix (https://www.lanarkcounty.ca/wp-content/uploads/2025/07/2025-Asset-Management-Plan-Update-Green-Infrastructure.pdf) gives only remaining service life per trail bridge; not transcribed. Fleet (Table 7-2), emergency services and IT lives not transcribed."
+  },
+  {
+    "municipality": "on-leeds-and-grenville",
+    "document_type": "AMP",
+    "title": "The United Counties of Leeds and Grenville Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/leedsgrenville-ca/media/05rpljra/master-amp-2025-2.pdf",
+    "found_via": "https://www.leedsgrenville.com/council-administration-and-government/finance/asset-management/",
+    "notes": "231 pages, September 2025. Table 3-2 (p.49) gives the expected useful life by structure type. Stormwater component lives are in prose (p.69). Road lifecycle tables 2-4/2-5 (pp.43-44) set reconstruction at year 45 (PCI 45) for rural and urban roads. Vehicle (Table 7-6, p.113) and equipment (Table 8-6, p.124) life tables were not transcribed (fleet/equipment)."
+  },
+  {
+    "municipality": "on-meaford",
+    "document_type": "AMP",
+    "title": "Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+    "year": 2022,
+    "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+    "found_via": null,
+    "notes": "188-page core-asset plan (2022) made of an overview plus separate sections per asset class, each with its own 'Table 2.5.1 Useful Life'. The newer Watson & Associates 'Asset Management Plan - Non-core Assets' final report (February 26, 2025, 44 pages, https://meaford.ca/wp-content/uploads/2026/06/meaford-non-core-assets-current-levels-of-service-final-report.pdf) was checked: condition is based on % of useful service life consumed but no life values are tabulated. No 2025 all-asset plan with proposed levels of service was found. Found via: search (meaford.ca uploads; no asset management listing page found on meaford.ca.",
+    "lives_from": "https://meaford.civicweb.net/document/103944/"
+  },
+  {
+    "municipality": "on-middlesex",
+    "document_type": "AMP",
+    "title": "County of Middlesex Asset Management Plan: Core Assets",
+    "year": 2022,
+    "url": "https://www.middlesex.ca/sites/default/files/2022-06/County%20of%20Middlesex%20Asset%20Management%20Plan%20Core%20Assets.pdf",
+    "found_via": null,
+    "notes": "24 pages, effective June 30, 2022 (core assets: roads, bridges and culverts). Lives are stated in prose only. Superseded by the 2025 AMP, which publishes no lives. Found via: search (middlesex.ca."
+  },
+  {
+    "municipality": "on-muskoka",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan - Bridging the Gap: Enhancing Muskoka's Infrastructure Asset Management",
+    "year": 2025,
+    "url": "https://muskoka.civicweb.net/document/43475/",
+    "found_via": "https://www.muskoka.on.ca/en/finance-and-administration/financial-management-and-reporting.aspx",
+    "notes": "District of Muskoka 2025 AMP (July 2025), served as PDF 'Asset Management 2025-2026.pdf' (376 pages incl. report). Only life values are whole-service-area averages in Figure G5.1 (p.40, chart) and p.41 text: Wastewater 60, Water 54, Facilities & Support Services 37, Corporate Fleet 12, Paramedic Services 9 years. No per-asset life table. Transportation uses PCI/BCI instead of age/EUSL.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Plan gives only service-area average estimated useful lives (chart Figure G5.1, p.40-41); no per-asset or per-component life table."
+    }
+  },
+  {
+    "municipality": "on-norfolk",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.norfolkcounty.ca/media/bgrja3po/attachment-1-2025-amp-final.pdf",
+    "found_via": "https://norfolkcounty.ca/council-administration-and-government/budget-fees-and-finances/asset-management-plans",
+    "notes": "Norfolk County 2025 AMP, June 2025, 111 pages, all service areas. No standalone useful-life table; each service-area chapter has an inventory table with an 'Average ESL' column per asset type (Tables 10-4, 11-3, 12-3, 13-3, 15-3). Fleet/equipment, IT and parks & recreation inventory ESLs (pp. 82, 89, 97-98) not transcribed."
+  },
+  {
+    "municipality": "on-north-bay",
+    "document_type": "AMP",
+    "title": "Corporate Asset Management Plan 2024 North Bay",
+    "year": 2024,
+    "url": "https://northbay.ca/media/ak5fl1pr/2024-asset-management-plan-watermark-removed.pdf",
+    "found_via": "https://northbay.ca/AssetManagement2025",
+    "notes": "City of North Bay Corporate AMP 2024 (watermark-removed version), 168 pages, developed with PSD Citywide. Only life values are category-level averages in the p.35 summary table ('Average Estimated Useful Life': Bridges and Culverts 75, Facilities 30, Fleet & Equipment 12, Land Improvements 23, Machinery and Equipment 9, Roads 30, Stormwater 75, Wastewater 75, Water 75) plus prose (p.136: water treatment facility 75-year EUL; membranes anticipated 10-year life). Draft-watermark copy at https://northbay.ca/media/wokdcu4y/2024-asset-management-plan.pdf.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Only whole-category average estimated useful lives (p.35 table); no per-asset or per-component life table."
+    }
+  },
+  {
+    "municipality": "on-northumberland",
+    "document_type": "AMP",
+    "title": "Asset Management Plan: Core Assets – Roads, Structures and Storm Sewer",
+    "year": 2022,
+    "url": "https://northumberland.ca/wp-content/uploads/2025/07/2022-Asset-Management-Plan.pdf",
+    "found_via": "https://northumberland.ca/county-government/budgets-and-finance/",
+    "notes": "114 pages, V1 May 19, 2022 (core assets). It is the only AMP linked from the County's Budgets and Finance and Reports pages. The page says comprehensive plans also exist for facilities, fleet and natural heritage, but no 2024/2025 all-asset AMP PDF was found. Table 5.3 (p.62) lists useful lives."
+  },
+  {
+    "municipality": "on-orillia",
+    "document_type": "AMP",
+    "title": "City of Orillia Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://www.orillia.ca/media/pjgfhy24/asset-management-plan-2025.pdf",
+    "found_via": "https://www.orillia.ca/my-government/strategic-planning/asset-management/",
+    "notes": "354-page all-asset plan (adopted June 23, 2025 per City page). Each service chapter has an 'Average Age and Estimated Useful Life' table (Tables 14, 26, 37, 48, 77, 86, 96, 105). Printed folios equal physical page numbers. Fire, fleet/transit and IT tables (Tables 59, 68, 114) not transcribed (vehicles/equipment)."
+  },
+  {
+    "municipality": "on-oxford",
+    "document_type": "AMP",
+    "title": "Oxford County Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://webresources.oxfordcounty.ca/documents/Oxford%20County%20Asset%20Management%20Plan-6-25.pdf",
+    "found_via": "https://www.oxfordcounty.ca/your-government/asset-management",
+    "notes": "484 pages, June 2025, all assets. Each service-area chapter has a 'Table 2.1.1 - Inventory' with an 'Anticipated Useful Life (years)' column (42 such tables: 10 wastewater systems, 4 water systems, bridges, transportation, stormwater, facilities, fleet, IT, waste, housing, LTC, paramedics, library). Section 3.5 says lives are based on a run-to-failure strategy. The 2024 AMP is also linked from the same page."
+  },
+  {
+    "municipality": "on-peterborough",
+    "document_type": "AMP",
+    "title": "2025 City of Peterborough Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.peterborough.ca/media/rsuldk1u/2025_amp_final-combined.pdf",
+    "found_via": null,
+    "notes": "492 pages (combined: overview plus service-area AMPs). Each service-area chapter has a 'Table 4/5: ... Remaining Useful Life' with an (average) Expected Useful Life per asset class. Footnotes say these are weighted or simple averages of asset classes, not component lives. Water is in a separate Water Services AMP (separate record). A non-combined file (https://www.peterborough.ca/media/hm0hicq0/2025_amp_final.pdf) also exists. Found via: search (peterborough.ca media files); City asset management page not separately confirmed.",
+    "part": "overview"
+  },
+  {
+    "municipality": "on-peterborough",
+    "document_type": "AMP",
+    "title": "2025 Asset Management Plan Water Services, The Corporation of The City of Peterborough",
+    "year": 2025,
+    "url": "https://www.peterborough.ca/media/120kfqhg/2025-waterservices_amp-final.pdf",
+    "found_via": null,
+    "notes": "324 pages. Table 8 (p.15) gives vertical asset lives per named facility; Table 11 (p.19) gives linear asset lives by sub-class and diameter. Both were checked against rendered page images. Found via: search (peterborough.ca media files); City asset management page not separately confirmed.",
+    "part": "water"
+  },
+  {
+    "municipality": "on-peterborough-county",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025 - Peterborough County",
+    "year": 2025,
+    "url": "https://media-002-ca.cdn.govstack.com/thekawarthas-012-ca/media/juqptohr/asset-management-plan-2025.pdf",
+    "found_via": "https://www.ptbocounty.ca/county-government/departments/finance/asset-management/",
+    "notes": "Peterborough County AMP 2025 (October 2025), 168 pages, all assets; prepared by PSD (\"Empowering your organization through advanced asset management, budgeting & GIS solutions\" tagline; Citywide asset register). No life table: each chapter's Age Profile has a labelled bar chart of replacement-cost-weighted average age vs. weighted average EUL. Earlier plans: 2022 core and 2024 non-core AMPs on https://www.ptbocounty.ca/county-government/plans-reports-and-studies/asset-management-plan/. Land improvements, fleet, equipment charts not transcribed."
+  },
+  {
+    "municipality": "on-prescott-and-russell",
+    "document_type": "AMP",
+    "title": "The United Counties of Prescott and Russell's 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://en.prescott-russell.on.ca/UserFiles/Servers/Server_2375121/File/Finances/UCPR_2025_Asset_Management_Plan_Accessible.pdf",
+    "found_via": "https://en.prescott-russell.on.ca/stay/finance/asset_management_plan",
+    "notes": "97 pages, June 25, 2025, prepared by Public Works and Finance staff. There is no useful-life table. Lives are stated in prose and in labelled stacked-bar charts of average age vs. useful life (pp.47, 53, 57), which were read from rendered page images. The County owns no water/wastewater. Vehicle and machinery lives are not printed per type."
+  },
+  {
+    "municipality": "on-prince-edward",
+    "document_type": "AMP",
+    "title": "Asset Management Plan for Tax-supported Assets, County of Prince Edward - Final Report",
+    "year": 2025,
+    "url": "https://www.thecounty.ca/wp-content/uploads/2025/11/Prince-Edward-County-Asset-Management-Plan-Final-Report.pdf",
+    "found_via": null,
+    "notes": "Prince Edward County AMP Final Report (November 13, 2025, phase 3 for July 2025 O. Reg. 588/17 requirements), 88 pages, prepared by Watson & Associates Economists Ltd. Covers tax-supported assets only; water and wastewater excluded (to be addressed in the 2027-2031 rate study). Inventory tables give quantity, average age and replacement cost; condition uses PCI/BCI/FCI and, for fleet/equipment, % of useful service life consumed (ULC%) without printing the useful lives. Road lifecycle modelled in Brightly Predictor. Found via: search (thecounty.ca uploads); council notices at https://www.thecounty.ca/county_news_notices/presentation-of-final-draft-of-asset-management-plan-moved-to-october-9/.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No per-asset useful-life values printed; lives are used only implicitly via ULC% and Brightly Predictor modelling."
+    }
+  },
+  {
+    "municipality": "on-quinte-west",
+    "document_type": "AMP",
+    "title": "Water and Wastewater Asset Management Plan",
+    "year": 2025,
+    "url": "https://quintewest.ca/wp-content/uploads/2025/07/Water-and-Wastewater-Asset-Management-Plan-2025-Final.pdf",
+    "found_via": "https://quintewest.ca/property-taxes-finance/asset-management/",
+    "notes": "Quinte West 2025 Water and Wastewater AMP, 54 pages. Pipe condition derived from age vs lifespan, but lifespans by material are not printed. Only life numbers are the pipe rehabilitation table on p.22."
+  },
+  {
+    "municipality": "on-rainy-river",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025-2035",
+    "year": 2026,
+    "url": "https://www.rainyriver.ca/uploads/plans-policies/Rainy%20River%20AMP%20version%2003-16-26.pdf",
+    "found_via": "https://www.rainyriver.ca/en/municipal-services/finance-services/asset-management",
+    "notes": "Town of Rainy River AMP 2025-2035, 'Updated as of Monday, March 16, 2026', 45 pages, prepared in-house. Section 5.1 'Full Lifecycle of the Assets' (p.17) lists estimated useful lives and refers to the Tangible Capital Asset Policy; condition is age-based per the TCA policy (p.16). Machinery & equipment, vehicles, IT and Land (1000) rows not transcribed. Previous plan: Infrastructure Solutions Inc. 'Asset Management Plan 2016-2025' (https://rainyriver.ca/uploads/financial-services/asset-management/amp-rainy-river-2016-2025.pdf), Appendix B p.50, which used different lives (e.g. sewerline storm 85, waste water 80, waterlines 75, hydrants 50, HCB/LCB roads 50).",
+    "lives_from": "https://rainyriver.ca/uploads/plans-policies/finance-department/f9-tangible-capital-assets-policy.pdf"
+  },
+  {
+    "municipality": "on-renfrew-county",
+    "document_type": "AMP",
+    "title": "County of Renfrew Asset Management Plan and Long Term Financial Plan, Version 3.2",
+    "year": 2025,
+    "url": "https://media-003-ca.cdn.govstack.com/countyofrenfrew-on-ca/media/iu4d1jox/asset-management-plan-and-long-term-financial-plan-v32-oct-22_25.pdf",
+    "found_via": "https://www.countyofrenfrew.on.ca/county-government/reports-plans-and-studies/",
+    "notes": "28 pages, October 22, 2025; an update to Version 3.0 (May 16, 2024). Mostly 10-year project lists, with no useful-life values (one project line mentions 'Asphalt shingles (30 years)'). Version 3.0 (https://media-003-ca.cdn.govstack.com/countyofrenfrew-on-ca/media/5pwlvgol/assetmanagementplan2024.pdf, 70 pp.) has an 'expected lifespan of assets' table on p.11, but it covers only vehicles and equipment (heavy-duty truck 14 years/300,000 km, grader 20 years/10,000 hours, etc.); there is no infrastructure or facility life table. Roads and bridges are managed by PCI/BCI condition.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No infrastructure or facility useful lives are published; the only lifespan table (v3.0 p.11) covers fleet and equipment."
+    }
+  },
+  {
+    "municipality": "on-sarnia",
+    "document_type": "AMP",
+    "title": "Corporate Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://www.sarnia.ca/app/uploads/2025/07/Corporate-Asset-Managment-Plan-2025.pdf",
+    "found_via": "https://www.sarnia.ca/living-here/municipal-services/asset-management-planning/",
+    "notes": "158-page City of Sarnia corporate plan (O. Reg. 588/17, July 2025). Only generic examples: p.14 attribute example 'Estimated Service Life 60 years' (park shelter) and p.15 'Examples of Target Re-investment Rates' (service life 5/10/25/50/75/100 years mapped to example asset groups). The 2024 corporate AMP (https://www.sarnia.ca/app/uploads/2024/06/Corporate-Asset-Management-Plan-2024-2.pdf) was also checked and has the same generic content only.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No per-asset useful-life table; service lives appear only as illustrative examples for target reinvestment rates (p.15) and one attribute example (p.14)."
+    }
+  },
+  {
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Facility Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT-City-of-Sault-Ste.-Marie-Asset-Management-Plan-Facility-Update-2025-06-23.pdf",
+    "found_via": "https://saultstemarie.ca/government/city-departments/public-works-engineering-services/asset-management/",
+    "notes": "58 pages, Final, June 2025, prepared by AECOM. One of the City's Phase 3 service-area AMPs (Roads and Bridges, Stormwater, Wastewater, Roadway Appurtenances, Active Transportation, Facilities, Fleet, Parks and Cemetery, Protective Services, Solid Waste). Water is provided by PUC Services and is not among them. ",
+    "part": "facilities"
+  },
+  {
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Roads and Bridges Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT-City-of-Sault-Ste-Marie-Roads-Bridges-Asset-Management-Plan-Final-June-2025.pdf",
+    "found_via": "https://saultstemarie.ca/government/city-departments/public-works-engineering-services/asset-management/",
+    "notes": "64 pages, Final, June 2025, prepared by AECOM. One of the City's Phase 3 service-area AMPs (Roads and Bridges, Stormwater, Wastewater, Roadway Appurtenances, Active Transportation, Facilities, Fleet, Parks and Cemetery, Protective Services, Solid Waste). Water is provided by PUC Services and is not among them. Road and bridge lives are given only in this chart.",
+    "part": "roads-and-bridges"
+  },
+  {
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Roadway Appurtenance Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT-City-of-Sault-Ste-Marie-Asset-Management-Plan-Roadway-Appurtenances_Final_June-2025.pdf",
+    "found_via": "https://saultstemarie.ca/government/city-departments/public-works-engineering-services/asset-management/",
+    "notes": "45 pages, Final, June 2025, prepared by AECOM. One of the City's Phase 3 service-area AMPs (Roads and Bridges, Stormwater, Wastewater, Roadway Appurtenances, Active Transportation, Facilities, Fleet, Parks and Cemetery, Protective Services, Solid Waste). Water is provided by PUC Services and is not among them. ",
+    "part": "roadway-appurtenances"
+  },
+  {
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Stormwater Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT_City-of-Sault-Ste-Marie-Asset-Management-Plan-Stormwater_Final_June_2025.pdf",
+    "found_via": "https://saultstemarie.ca/government/city-departments/public-works-engineering-services/asset-management/",
+    "notes": "57 pages, Final, June 2025, prepared by AECOM. One of the City's Phase 3 service-area AMPs (Roads and Bridges, Stormwater, Wastewater, Roadway Appurtenances, Active Transportation, Facilities, Fleet, Parks and Cemetery, Protective Services, Solid Waste). Water is provided by PUC Services and is not among them. ",
+    "part": "stormwater"
+  },
+  {
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Wastewater Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT-City-of-Sault-Ste.-Marie-Asset-Management-Plan-Wastewater-Update-2025-06.pdf",
+    "found_via": "https://saultstemarie.ca/government/city-departments/public-works-engineering-services/asset-management/",
+    "notes": "59 pages, Final, June 2025, prepared by AECOM. One of the City's Phase 3 service-area AMPs (Roads and Bridges, Stormwater, Wastewater, Roadway Appurtenances, Active Transportation, Facilities, Fleet, Parks and Cemetery, Protective Services, Solid Waste). Water is provided by PUC Services and is not among them. ",
+    "part": "wastewater"
+  },
+  {
+    "municipality": "on-severn",
+    "document_type": "AMP",
+    "title": "Township of Severn Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://media-001-ca.cdn.govstack.com/severn-005-ca/media/he0ddzkq/severn-2025-asset-management-plan_final.pdf",
+    "found_via": "https://www.severn.ca/our-government/plans-reports-and-studies",
+    "notes": "135-page all-asset plan in the PSD Citywide format. 'Average Age vs Average EUL' charts on pp.24, 33, 39, 45, 50, 55, 61, 67, 72. We hold the TCA policy; no AMP rows to compare.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "No useful-life table. Lives appear only as replacement-cost-weighted average EUL per segment in bar charts (\"Estimated Useful Life vs. Asset Age\" / \"Average Age vs Average EUL\" figures, one per asset category); category axis labels are not extractable as text from most charts, so values were not transcribed."
+    }
+  },
+  {
+    "municipality": "on-stormont-dundas-and-glengarry",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://www.sdgcounties.ca/sites/default/files/2026-01/SDG_2025%20AMP_Website.pdf",
+    "found_via": null,
+    "notes": "United Counties of SDG AMP dated December 15, 2025, 58 pages; consolidates the 2022 core and 2024 non-core plans (both prepared by PSD Citywide). Each asset chapter has an 'Asset Condition, Age & Useful Life' table with an Estimated Useful Life (Years) column per segment. Road table on p.17 is an embedded image (read visually). Machinery & equipment and vehicle tables (p.37, p.43) not transcribed. Found via: search (sdgcounties.ca file listing); PDF opened directly."
+  },
+  {
+    "municipality": "on-the-blue-mountains",
+    "document_type": "AMP",
+    "title": "Town of The Blue Mountains Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://www.thebluemountains.ca/sites/default/files/2026-03/2025%20Asset%20Management%20Plan.pdf",
+    "found_via": "https://www.thebluemountains.ca/town-hall/budgets-finance/asset-management",
+    "notes": "183-page all-asset plan (prepared in-house; posted March 2026 upload folder). Only one tabulated life table: Table 7 Watermain Material Type (p.26) with Estimated Useful Life by pipe material. Other categories show 'Average Age and Remaining Service Life' bar charts; lives for bridges/culverts (p.107) and trails (p.133) are stated in text. p.31 states 'The useful life of an asset class is defined in the Town's Tangible Capital Asset Policy.'",
+    "lives_from": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf"
+  },
+  {
+    "municipality": "on-thunder-bay",
+    "document_type": "AMP",
+    "title": "Future-Ready Roadmap: Asset Management Plan Phase Three",
+    "year": 2025,
+    "url": "https://www.thunderbay.ca/media/wuwp4vvv/asset-management-plan-phase-three_web.pdf",
+    "found_via": "https://www.thunderbay.ca/city-hall/reports-studies-policies-and-plans/asset-management-plan/",
+    "notes": "271 pages, June 2025, all asset classes. There is no useful-life table; EULs appear only as labelled bar charts (Figures 3.10-3.13, 4.3, 5.2, 6.2, 7.2; fleet/equipment/land improvements in Figures 8.2, 9.2, 10.2 not transcribed). Values were read from rendered page images of the charts, where each bar is labelled with its number."
+  },
+  {
+    "municipality": "on-trent-lakes",
+    "document_type": "AMP",
+    "title": "Municipality of Trent Lakes Asset Management Plan (Final Report, May 24, 2024)",
+    "year": 2024,
+    "url": "https://www.trentlakes.ca/media/bkejx2ag/2024-asset-management-plan.pdf",
+    "found_via": null,
+    "notes": "78-page Hemson final report dated May 24, 2024 (all assets). Appendix B report cards (pp.61-69) each have a 'Summary of Inventory' table with Useful Life (Years). No 2025 all-asset update found; OCWA's 'Asset Management Plan for Water Systems' (Dec 6, 2024, https://www.trentlakes.ca/media/u2tmx2os/asset-management-plan-for-water-systems.pdf) was checked and has no life table. Table columns are separated in the text layer; rows were paired by position on the page. Found via: search (trentlakes.ca media library.",
+    "lives_from": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf"
+  },
+  {
+    "municipality": "on-welland",
+    "document_type": "AMP",
+    "title": "City of Welland Corporate Asset Management Plan 2025",
+    "year": 2025,
+    "url": "https://welland.ca/Engineering/pdfs/AssetManagementPlan2025.pdf",
+    "found_via": null,
+    "notes": "238-page corporate plan prepared by City staff with GEI Consultants Canada Ltd. (CAO endorsement May 23, 2025). Each asset chapter has an 'Average Age vs. ESL' figure (e.g. Figure 2-3, p.40 sanitary); the figures are images with no text layer. Text (p.40) says ESLs were updated from the 2021 AMP to vary by pipe material. Found via: search; the welland.ca URL now returns 404 (site moved), PDF retrieved from the Internet Archive capture https://web.archive.org/web/20260516174126/https://www.welland.ca/Engineering/pdfs/AssetManagementPlan2025.pdf.",
+    "extraction": {
+      "status": "no_component_lives",
+      "reason": "Estimated service lives appear only in 'Average Age vs. ESL' bar-chart images per asset category; no table and no extractable values."
+    }
+  },
+  {
+    "municipality": "on-wellington",
+    "document_type": "AMP",
+    "title": "County of Wellington 2025 Asset Management Plan",
+    "year": 2025,
+    "url": "https://www.wellington.ca/media/file/2025-asset-management-planpdf",
+    "found_via": null,
+    "notes": "238 pages, based on actuals to Dec. 31, 2023. Lives are given in small per-chapter tables: Table 3.1-1 bridges and culverts (p.51), Table 3.4-2 roads (p.95), Table 3.5-2 retaining walls (p.117, mis-captioned 'County roadside elements inventory, 2023'), and Table 3.6-3 stormwater (p.133). Traffic signals (p.118) and building structure (p.75, also p.87) lives appear in prose. Vehicle and equipment tables 3.7-2 and 3.7-3 (p.152) were not transcribed (fleet). Found via: search (wellington.ca media file); the 2024 AMP and the 2022 Core Assets AMP are also hosted on wellington.ca."
+  },
+  {
+    "municipality": "on-wollaston",
+    "document_type": "AMP",
+    "title": "Township of Wollaston Asset Management Plan 2024",
+    "year": 2024,
+    "url": "https://wollaston.ca/wp-content/uploads/2024/08/Wollaston-AMP-update-Final-Report-2024.pdf",
+    "found_via": "https://wollaston.ca/township-hall/reports-studies-plans/",
+    "notes": "651-page file (108 MB) by The Greer Galloway Group, June 2024, updating Greenview's 2022 AMP; includes appended studies (road needs, OSIM, building study, etc.). No type-level useful-life table. 'Asset Life Expectancy' appears only as a column in the per-asset detailed summary tables 3a-3h (pp.~47-109: each road section, bridge, building, vehicle, catch basin, pipe run and sign listed individually), and in the priority lists of section 7 as remaining life. The text layer of these landscape register tables is column-scrambled. Found via: link '2024 Asset Management Plan' -> https://wollaston.ca/bfd_download/2024-asset-management-plan-2/, which redirects to the PDF.",
+    "extraction": {
+      "status": "skipped",
+      "reason": "Lives exist only as per-asset entries in large inventory registers (Tables 3a-3h) whose extracted columns cannot be reliably paired with labels; no per-type life table to transcribe."
+    }
+  }
+]

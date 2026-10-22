@@ -1,0 +1,267 @@
+{
+  "document": {
+    "id": "on-wellington-2025-amp",
+    "municipality": "on-wellington",
+    "document_type": "AMP",
+    "title": "County of Wellington 2025 Asset Management Plan",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.wellington.ca/media/file/2025-asset-management-planpdf",
+    "sha256": "4601986848d704c4421ab0b754c99271b71f190a1d11ad847d44dbe3ab06cc08",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-wellington-2025-amp-r1",
+      "page": 51,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r2",
+      "page": 51,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 84.08,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r3",
+      "page": 51,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r4",
+      "page": 51,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 73,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r5",
+      "page": 95,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r6",
+      "page": 95,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 33.75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "label only",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r7",
+      "page": 117,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r8",
+      "page": 117,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways, wood",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r9",
+      "page": 118,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r10",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r11",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r12",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r13",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer, concrete",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-wellington-2025-amp-r14",
+      "page": 75,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Superstructure",
+      "systems": [
+        "B10"
+      ]
+    }
+  ]
+}

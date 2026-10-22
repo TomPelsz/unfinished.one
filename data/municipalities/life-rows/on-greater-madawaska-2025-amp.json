@@ -1,0 +1,51 @@
+{
+  "document": {
+    "id": "on-greater-madawaska-2025-amp",
+    "municipality": "on-greater-madawaska",
+    "document_type": "AMP",
+    "title": "Township of Greater Madawaska Asset Management Plan 2025",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://media-003-ca.cdn.govstack.com/greatermadawaska-ca/media/lkbcvbzb/2025-asset-management-plan.pdf",
+    "sha256": "12364062bd689c3a702d2fe6585915995b0861e34fbe377bb1558d948aab0ac0",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-greater-madawaska-2025-amp-r1",
+      "page": 43,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-greater-madawaska-2025-amp-r2",
+      "page": 43,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 25,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

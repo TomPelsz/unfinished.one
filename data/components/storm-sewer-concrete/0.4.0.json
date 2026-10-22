@@ -1,0 +1,67 @@
+{
+  "id": "storm-sewer-concrete",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Storm sewer, concrete"
+  ],
+  "aliases": [
+    "concrete storm main",
+    "RCP storm"
+  ],
+  "service_life": {
+    "median_years": 75,
+    "range_years": [
+      50,
+      90
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Brockton: Policy F06-2009-03 Capital Asset Amortization",
+      "url": "https://brockton.ca/media/xsyhwhoe/policy-f06-2009-03-capital-asset-amortization.pdf",
+      "page": 3,
+      "label": "Storm Drains - Concrete",
+      "years": 75,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Greater Sudbury: Enterprise Asset Management Plan (2023)",
+      "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+      "page": 28,
+      "label": "Concrete Sewer",
+      "years": 90,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kapuskasing: By-law No. 3103, Tangible Capital Assets Policy",
+      "url": "https://kapuskasing.civicweb.net/document/6872/",
+      "page": 15,
+      "label": "Storm Sewer System - Concrete",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

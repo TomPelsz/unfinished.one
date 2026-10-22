@@ -1,0 +1,49 @@
+{
+  "id": "water-closet",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D2010"
+  },
+  "names": [
+    "Water closet"
+  ],
+  "aliases": [
+    "toilet",
+    "WC"
+  ],
+  "service_life": {
+    "median_years": 40,
+    "range_years": [
+      40,
+      40
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 11,
+      "code": "HUD CNA 3.4.1.3.5",
+      "label": "Toilets/bidets/urinals",
+      "years": 40,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "booster-pump",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Domestic water booster pump"
+  ],
+  "aliases": [
+    "booster set",
+    "pressure booster"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Shut down or re-sequence pumps that are not needed",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check and secure all pump mountings",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check motor condition by temperature or vibration analysis",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 9,
+      "code": "HUD CNA 3.4.1.1.6",
+      "label": "Domestic Cold Water Pumps",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row is \"domestic cold water pumps\", which in multifamily buildings are mostly booster pumps."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

@@ -1,0 +1,195 @@
+{
+  "document": {
+    "id": "on-toronto-2025-amp",
+    "municipality": "on-toronto",
+    "document_type": "AMP",
+    "title": "City of Toronto 2025 Corporate Asset Management Plan",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.toronto.ca/legdocs/mmis/2025/ex/bgrd/backgroundfile-255042.pdf",
+    "sha256": "f06121a118e6884cf7708046ceda6dde264874db020f1a88805e92f65b39f0f6",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-toronto-2025-amp-r1",
+      "page": 294,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 70,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r2",
+      "page": 294,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r3",
+      "page": 295,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r4",
+      "page": 295,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r5",
+      "page": 295,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r6",
+      "page": 295,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r7",
+      "page": 295,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 28,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Traffic signals and other site electrical",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r8",
+      "page": 355,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 100,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r9",
+      "page": 366,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 150,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "on-toronto-2025-amp-r10",
+      "page": 379,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 150,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

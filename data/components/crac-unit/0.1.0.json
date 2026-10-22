@@ -1,0 +1,49 @@
+{
+  "id": "crac-unit",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Computer room air conditioner"
+  ],
+  "aliases": [
+    "CRAC",
+    "server room AC"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Standards for Computer Room Air Conditioners and Air-Cooled, Three-Phase, Small Commercial Package Air Conditioning and Heating Equipment (notification of data availability and RFI), 85 FR 60642, September 25, 2020",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-09-25/pdf/2020-18778.pdf",
+      "page": 30,
+      "code": "III.D.1",
+      "label": "Equipment Lifetime: \"DOE used a 15-year lifetime for all CRAC equipment classes\"",
+      "years": 15,
+      "note": "Printed page 60671. Direct match: all computer room air conditioner classes."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

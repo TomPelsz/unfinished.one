@@ -1,0 +1,114 @@
+{
+  "id": "sensor-temperature",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Temperature sensor"
+  ],
+  "aliases": [
+    "temp sensor",
+    "RTD",
+    "thermistor"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      5,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check all sensors (temperature, pressure, humidity, flow) read expected values",
+      "frequency": "P6M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Calibrate all sensors (temperature, pressure, humidity, flow)",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 13,
+      "code": "HUD CNA 3.4.3.2.2",
+      "label": "Heat sensors",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 13,
+      "code": "HUD CNA 3.4.3.2.3",
+      "label": "Outdoor temperature sensor",
+      "years": 10,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 323,
+      "code": "5.11.4",
+      "label": "Sensors and actuators: 15 years",
+      "years": 15,
+      "note": "Printed page 323. BMS sensors and actuators, types not stated. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 365,
+      "code": "6.4.4",
+      "label": "Environmental sensors: 15 years",
+      "years": 15,
+      "note": "Printed page 365. Building technologies section; environmental sensors (room temperature, CO2, humidity). Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 52,
+      "code": "REFR",
+      "label": "Temperature probes (fixed)",
+      "years": 5,
+      "note": "Printed page 52. Fixed temperature probes in refrigeration plant. Refrigeration category. Printed DV 40%, SL 30%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

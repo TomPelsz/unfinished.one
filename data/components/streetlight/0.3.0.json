@@ -1,0 +1,210 @@
+{
+  "id": "streetlight",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "G4020"
+  },
+  "names": [
+    "Streetlight"
+  ],
+  "aliases": [
+    "street light",
+    "streetlight pole",
+    "roadway luminaire"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      15,
+      40
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 3,
+      "code": "HUD CNA 3.2.8.2.7",
+      "label": "Pole mounted lights",
+      "years": 25,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row is pole-mounted site lights. HUD's row is for site work at US multifamily properties, not municipal networks."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 8,
+      "label": "Other - Pooled Assets - Streetlights",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Chapple: Schedule A - By-law 1873: Asset Useful Life - General Guidelines",
+      "url": "https://chapple.civicweb.net/document/32784/",
+      "page": 1,
+      "label": "Street Lights",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Napanee: By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+      "url": "https://greaternapanee.civicweb.net/document/45679",
+      "page": 16,
+      "label": "LA15 Street Lights",
+      "years": 15,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 10,
+      "label": "Streetlights",
+      "years": 30,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Halton: Halton Region 2025 Asset Management Plan",
+      "url": "https://www.halton.ca/repository/halton-region-asset-management-plan",
+      "page": 107,
+      "label": "Streetlights",
+      "years": 25,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 16,
+      "label": "Miscellaneous - Streetlights",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kingston: Tangible Capital Assets Policy",
+      "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+      "page": 14,
+      "label": "Roads and Related - Streetlights",
+      "years": 35,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "London: 2023 Corporate Asset Management Plan",
+      "url": "https://london.ca/sites/default/files/2023-10/Corporate%20Asset%20Management%20Plan%202023.pdf",
+      "page": 159,
+      "label": "Street Lights",
+      "years": 30,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Orillia: 4.1.8.1 Tangible Capital Assets Policy Manual",
+      "url": "https://orillia.civicweb.net/document/366955/",
+      "page": 23,
+      "label": "Roads: Street Lights",
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "label": "Pooled Equipment - Street Lights",
+      "years": 30,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Rainy River: F-9 Tangible Capital Assets Policy",
+      "url": "https://rainyriver.ca/uploads/plans-policies/finance-department/f9-tangible-capital-assets-policy.pdf",
+      "page": 11,
+      "label": "Street Lights",
+      "years": 30,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Sarnia: Finance-04 Tangible Capital Asset Policy, Attachment No. 1: TCA Policy Appendix A",
+      "url": "https://www.sarnia.ca/app/uploads/2020/07/Finance-04-Tangible-Capital-Asset-Policy-Attachment-No.-1-TCA-Policy-Appendix-A.pdf",
+      "page": 2,
+      "label": "Street Lighting",
+      "years": 30,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Simcoe: POL-FIN-004 Tangible Capital Assets Policy (Schedule 3 to AUC 2026-046)",
+      "url": "https://simcoe.civicweb.net/document/155626/",
+      "page": 21,
+      "label": "Streetlights",
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "The Blue Mountains: POL.COR.19.04 Tangible Capital Assets Policy",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+      "page": 12,
+      "label": "Linear - Streetlights",
+      "years": 30,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Trent Lakes: 5.17 Capital Asset Policy",
+      "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+      "page": 10,
+      "label": "Streetlights",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Welland: FIN-001-0012 Tangible Capital Assets Policy",
+      "url": "https://media-003-ca.cdn.govstack.com/welland-ca/media/up1n0par/tangible-capital-assets.pdf",
+      "page": 9,
+      "label": "Street Lights",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD gives planning lives for US multifamily housing; the municipal rows are Ontario accounting lives. Neither is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

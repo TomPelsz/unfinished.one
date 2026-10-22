@@ -1,0 +1,57 @@
+---
+// Reference pages (About, Sourcing, Sources, Cite, Agents): a list of those pages on the left, with
+// the current page's sections under it, built from its h2 headings.
+import Split from './Split.astro';
+interface Props { title: string; description?: string; canonical?: string; noindex?: boolean }
+const path = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '');
+const pages = [
+  { href: '/about', label: 'About' },
+  { href: '/sourcing', label: 'Sourcing policy' },
+  { href: '/sources', label: 'Sources' },
+  { href: '/cite', label: 'Cite' },
+  { href: '/agents', label: 'For agents' },
+  { href: '/changes', label: 'Changes' },
+];
+---
+<Split {...Astro.props} fold="Pages">
+  <slot name="head" slot="head" />
+  <nav class="docnav" slot="side" aria-label="Reference pages">
+    <ul>
+      {pages.map((p) => (
+        <li>
+          <a href={p.href} aria-current={path === p.href ? 'page' : undefined}>{p.label}</a>
+          {path === p.href && <ul class="docnav-toc" data-toc></ul>}
+        </li>
+      ))}
+    </ul>
+  </nav>
+  <slot />
+  <script is:inline>
+    // Section links for the current page, from its h2 headings (ids added where missing).
+    (() => {
+      const toc = document.querySelector('[data-toc]');
+      if (!toc) return;
+      const slug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      for (const h of document.querySelectorAll('.split-main h2')) {
+        if (!h.id) h.id = slug(h.textContent);
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.dataset.toc ?? h.textContent;
+        li.append(a);
+        toc.append(li);
+      }
+    })();
+  </script>
+  <style>
+    .docnav ul { list-style: none; margin: 0; padding: 0; }
+    .docnav li { margin: 0; }
+    .docnav > ul > li > a { display: block; padding: 4px 8px; border-radius: 5px; color: var(--fg); text-decoration: none; font-size: 15px; }
+    .docnav > ul > li > a:hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
+    .docnav > ul > li > a[aria-current] { background: color-mix(in srgb, var(--accent) 18%, transparent); font-weight: 600; }
+    .docnav-toc { margin: 6px 0 10px 12px !important; border-left: 1px solid var(--line); }
+    /* The section links are added by the script above, so scoped styles would not reach them. */
+    .docnav-toc :global(a) { display: block; padding: 3px 12px; color: var(--muted); text-decoration: none; font-size: 13.5px; line-height: 1.4; }
+    .docnav-toc :global(a:hover) { color: var(--fg); }
+  </style>
+</Split>

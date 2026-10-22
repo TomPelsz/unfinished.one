@@ -1,0 +1,296 @@
+{
+  "id": "fire-pump",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D4010"
+  },
+  "names": [
+    "Fire pump"
+  ],
+  "aliases": [
+    "fire pump controller"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      20,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect pump house condition, ventilation and heating",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check packing leakage",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check pump room drainage",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check gauge readings and that gauges work",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check controller is in AUTO",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Inspect controller electrical connections",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Operate manual and automatic starting",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check battery charge",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Start and churn pump (electric 10 min, engine 30 min)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check relief valve operation",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check fuel level (engine-driven)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Inspect exhaust system for leaks (engine-driven)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Start again on second battery set and churn (engine-driven)",
+      "frequency": "P1M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 44,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Change engine fluids per manufacturer",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Change engine filters per manufacturer",
+      "frequency": "P1Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Calibrate controller pressure switches",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Exercise controller breakers and switches",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Inspect controller fuses",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check coupling alignment",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check pump shaft endplay",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Lubricate pump bearings",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Lubricate couplings",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Calibrate relief valves",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Test emergency power supply for the pump motor",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Sample and test fuel (engine-driven)",
+      "frequency": "P2Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Flow test pump",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Calibrate or replace flow meter before flow test",
+      "frequency": "P5Y",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    },
+    {
+      "task": "Check fuel level if not supervised (engine-driven)",
+      "frequency": "P6M",
+      "reference": "UFC 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (7 October 2021, with Change 1, 18 April 2025)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_601_02_2021_c1.pdf",
+      "page": 45,
+      "checklist": "Table 2-7 Fire Pump ITM Tasks"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.1.2",
+      "label": "Fire pumps",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 51,
+      "code": "PUMP",
+      "label": "Fire main pumps",
+      "years": 25,
+      "note": "Printed page 51. Pumping sets category. Printed DV 8%, SL 6%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 51,
+      "code": "PUMP",
+      "label": "Sprinkler pumps",
+      "years": 25,
+      "note": "Printed page 51. Pumping sets category. Printed DV 8%, SL 6%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

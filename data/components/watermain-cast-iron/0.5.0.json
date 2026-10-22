@@ -1,0 +1,143 @@
+{
+  "id": "watermain-cast-iron",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Watermain, cast iron"
+  ],
+  "aliases": [
+    "CI watermain",
+    "cast iron pipe"
+  ],
+  "service_life": {
+    "median_years": 72.5,
+    "range_years": [
+      50,
+      140
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Flush distribution mains to remove deposits",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 117,
+      "checklist": "6-3.3 Flushing (text)"
+    },
+    {
+      "task": "Flow test all parts of the distribution system",
+      "frequency": "P5Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 132,
+      "checklist": "7-2.1.2 Hydrant-Flow Tests (text)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Barrie: City of Barrie Corporate Asset Management Plan: Proposed Levels of Service",
+      "url": "https://www.barrie.ca/Corporate-Asset-Management-Plan.pdf",
+      "page": 148,
+      "years": 80,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Greater Sudbury: Enterprise Asset Management Plan (2023)",
+      "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+      "page": 26,
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 17,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kingston: Tangible Capital Assets Policy",
+      "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+      "page": 15,
+      "years": 75,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Quinte West: A09-POLICY-0034 Tangible Capital Asset Policy",
+      "url": "https://quintewest.ca/wp-content/uploads/2024/05/A09-POLICY-0034_-_Tangible_Capital_Asset_Policy.pdf",
+      "page": 37,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Belleville: Asset Management Plan - Comprehensive Citywide AMP - City of Belleville",
+      "url": "https://opencouncil.ca/wp-content/uploads/2024/08/Belleville_AMP_Final.pdf",
+      "page": 118,
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Belleville: Asset Management Plan - Comprehensive Citywide AMP - City of Belleville",
+      "url": "https://opencouncil.ca/wp-content/uploads/2024/08/Belleville_AMP_Final.pdf",
+      "page": 118,
+      "years": 80,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Belleville: Asset Management Plan - Comprehensive Citywide AMP - City of Belleville",
+      "url": "https://opencouncil.ca/wp-content/uploads/2024/08/Belleville_AMP_Final.pdf",
+      "page": 118,
+      "years": 140,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "The Blue Mountains: Town of The Blue Mountains Asset Management Plan 2025",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2026-03/2025%20Asset%20Management%20Plan.pdf",
+      "page": 26,
+      "years": 70,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Cornwall: 2025 Asset Management Plan City of Cornwall",
+      "url": "https://media-003-ca.cdn.govstack.com/cornwall-ca/media/zf1flyyr/2025-asset-management-plan.pdf",
+      "page": 354,
+      "years": 81.5,
+      "note": "Asset management plan (planning life). Compared with an image of the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

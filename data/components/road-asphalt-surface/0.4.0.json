@@ -1,0 +1,184 @@
+{
+  "id": "road-asphalt-surface",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Road surface, asphalt"
+  ],
+  "aliases": [
+    "HCB surface",
+    "hot mix asphalt surface",
+    "wearing course"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      15,
+      75
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Evaluate asphalt cracks and existing sealant (summer and winter)",
+      "frequency": "P6M",
+      "reference": "UFM 3-270-01 O&M Manual: Asphalt and Concrete Pavement Maintenance and Repair",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_270_01_2026.pdf",
+      "page": 71,
+      "checklist": "Chapter 9 Asphalt Crack Sealing, 9-2.1 Field Evaluations"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Amherstburg: Tangible Capital Assets Policy, Appendix A: TCA Categories, Life Years, and Thresholds",
+      "url": "https://media-001-ca.cdn.govstack.com/amherstburg-006-ca/media/vjvhyh1g/2026-08-10-tangible-capital-assets-policy-rm.pdf",
+      "page": 7,
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Brockton: Policy F06-2009-03 Capital Asset Amortization",
+      "url": "https://brockton.ca/media/xsyhwhoe/policy-f06-2009-03-capital-asset-amortization.pdf",
+      "page": 2,
+      "years": 35,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Chapple: Schedule A - By-law 1873: Asset Useful Life - General Guidelines",
+      "url": "https://chapple.civicweb.net/document/32784/",
+      "page": 1,
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Madawaska: By-Law 21-2025 Tangible Capital Asset Policy (Finance Policy 4-02)",
+      "url": "https://greatermadawaska.civicweb.net/document/95484",
+      "page": 16,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 10,
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Severn: By-law 2019-04, Corporate Policy Manual: Tangible Capital Asset Policy, Useful Life Guide",
+      "url": "https://severn.civicweb.net/document/10628/",
+      "page": 402,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Trent Lakes: 5.17 Capital Asset Policy",
+      "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+      "page": 10,
+      "years": 25,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Amherstburg: Asset Management Plan Town of Amherstburg 2025",
+      "url": "https://www.amherstburg.ca/media/w5qhko4r/2025-amp-final-2025-06-30-rm-with-appendices.pdf",
+      "page": 36,
+      "years": [
+        25,
+        75
+      ],
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Chatham-Kent: Detailed Asset Management Plan: Roads 2025",
+      "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Roads.pdf",
+      "page": 24,
+      "years": 15,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Chatham-Kent: Detailed Asset Management Plan: Roads 2025",
+      "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Roads.pdf",
+      "page": 24,
+      "years": 25,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Meaford: Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+      "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+      "page": 39,
+      "years": 25,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Meaford: Municipality of Meaford Asset Management Plan - Core Assets (Appendix 1 to Report CAO2022-28)",
+      "url": "https://meaford.ca/wp-content/uploads/2026/06/cao-2022-28-appendix-1-asset-management-plan-core-assets.pdf",
+      "page": 40,
+      "years": 30,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Middlesex: County of Middlesex Asset Management Plan: Core Assets",
+      "url": "https://www.middlesex.ca/sites/default/files/2022-06/County%20of%20Middlesex%20Asset%20Management%20Plan%20Core%20Assets.pdf",
+      "page": 12,
+      "years": 18,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Prescott and Russell: The United Counties of Prescott and Russell's 2025 Asset Management Plan",
+      "url": "https://en.prescott-russell.on.ca/UserFiles/Servers/Server_2375121/File/Finances/UCPR_2025_Asset_Management_Plan_Accessible.pdf",
+      "page": 47,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

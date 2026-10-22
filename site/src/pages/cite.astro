@@ -1,0 +1,47 @@
+---
+import Docs from '../layouts/Docs.astro';
+import { bibtex as toBibtex } from '../lib/cite';
+import Copy from '../components/Copy.astro';
+import { loadComponents } from '../lib/data';
+const e = loadComponents()[0].latest;
+const name = e.names[0];
+const bibtex = toBibtex(e);
+const attribution = `${name}, v${e.version}, unfinished.one, ${e.versioned_url}, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).`;
+---
+<Docs title="Cite · unfinished.one" description="How to cite unfinished.one entries: permanent version links, a citation string, BibTeX and CC BY 4.0 attribution." canonical="https://unfinished.one/cite">
+  <h1>How to cite</h1>
+  <p class="lede">Cite the version you used. Version links never change, so a reader can always see the exact numbers you relied on.</p>
+
+  <h2 id="links">Links</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>URL</th><th>Points to</th></tr></thead>
+      <tbody>
+        <tr><td><code>/c/&lt;id&gt;/v/&lt;version&gt;</code></td><td>One version. Never changes. <strong>Cite this.</strong></td></tr>
+        <tr><td><code>/c/&lt;id&gt;</code></td><td>The latest version. Changes when the entry is revised.</td></tr>
+        <tr><td><code>/api/c/&lt;id&gt;/&lt;version&gt;.json</code></td><td>One version as JSON.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Every entry page has its own citation and BibTeX under <em>Cite this</em>, with a copy button. The examples below use <a href={`/c/${e.id}`}>{name}</a>.</p>
+
+  <h2 id="citation">Citation</h2>
+  <p>Format: <code>unfinished.one (year reviewed). Name, v&lt;version&gt;. &lt;version URL&gt;</code></p>
+  <Copy label="Example" text={e.citation} />
+
+  <h2 id="bibtex">BibTeX</h2>
+  <Copy label="Example" text={bibtex} />
+
+  <h2 id="attribution">Attribution under CC BY 4.0</h2>
+  <p>You may copy, adapt and redistribute the data, including commercially, if you:</p>
+  <ul>
+    <li>credit unfinished.one,</li>
+    <li>link to the entry (preferably the version link) and to the licence, and</li>
+    <li>say if you changed the data, for example by adjusting values or combining entries.</li>
+  </ul>
+  <Copy label="Example attribution" text={attribution} />
+  <p>The licence lets you give attribution in any reasonable manner for your medium. We also ask that you show the confidence grade next to each value.</p>
+
+  <h2 id="agents">For agents</h2>
+  <p>Every MCP result includes <code>canonical_url</code>, <code>version</code>, <code>citation</code> (which contains the version link), <code>licence</code> and <code>confidence</code>. JSON entries also include <code>versioned_url</code>. Show the user the grade and cite the version link. See <a href="/agents">Agents</a>.</p>
+</Docs>

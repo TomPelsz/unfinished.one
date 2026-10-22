@@ -1,0 +1,156 @@
+{
+  "id": "supply-return-fan",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3040"
+  },
+  "names": [
+    "Supply or return fan"
+  ],
+  "aliases": [
+    "SF",
+    "RF",
+    "inline fan",
+    "supply fan",
+    "return fan"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Shut down or re-sequence equipment that is not needed",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check belt tension and alignment",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect pulleys; clean and lubricate as needed",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check dampers close fully; outside air dampers airtight when closed",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check actuator and linkage operation; clean, lubricate, adjust",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check fan blades rotate correctly; clean when needed",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check filters for gaps; replace when dirty",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect for moisture or growth on surfaces and ducts; check odours and complaints",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Check electrical connections are tight",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect ductwork; refasten loose connections and repair leaks",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Coils: confirm filters have been kept clean",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect and repair or replace damaged duct insulation",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Fans and Blowers (notice of proposed rulemaking), 89 FR 3714, January 19, 2024",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-01-19/pdf/2023-28976.pdf",
+      "page": 75,
+      "code": "IV.F.6",
+      "label": "Equipment Lifetime: GFBs, \"15 years in the commercial sector based on the expected lifetimes of HVAC equipment\"",
+      "years": 15,
+      "note": "Printed page 3788. Commercial-sector lifetime for general fans and blowers (all fan types). Proposed rule; the 15 years is borrowed from HVAC equipment lifetimes, not fan data."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

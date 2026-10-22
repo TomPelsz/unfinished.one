@@ -1,0 +1,77 @@
+{
+  "id": "watermain-ductile-iron",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Watermain, ductile iron"
+  ],
+  "aliases": [
+    "DI watermain",
+    "ductile iron pipe"
+  ],
+  "service_life": {
+    "median_years": 60,
+    "range_years": [
+      50,
+      75
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Barrie: City of Barrie Corporate Asset Management Plan: Proposed Levels of Service",
+      "url": "https://www.barrie.ca/Corporate-Asset-Management-Plan.pdf",
+      "page": 148,
+      "label": "Watermain - Ductile Iron",
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Barrie: City of Barrie Corporate Asset Management Plan: Proposed Levels of Service",
+      "url": "https://www.barrie.ca/Corporate-Asset-Management-Plan.pdf",
+      "page": 148,
+      "label": "Watermain - Ductile Iron with Cathodic Protection",
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 17,
+      "label": "Water Mains - Ductile Iron",
+      "years": 60,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kingston: Tangible Capital Assets Policy",
+      "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+      "page": 15,
+      "label": "Water Utility - Water Pipes: DI",
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

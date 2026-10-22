@@ -1,0 +1,177 @@
+{
+  "id": "generator-natural-gas",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D5090"
+  },
+  "names": [
+    "Generator, natural gas standby"
+  ],
+  "aliases": [
+    "gas generator",
+    "natural gas generator"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Visual inspection",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check coolant heater",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check coolant level",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check oil level",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check charge-air piping",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check and clean air cleaner",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check battery charger",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check coolant concentration",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check drive belt tension",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Drain exhaust condensate",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check starting batteries",
+      "frequency": "P1M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Change oil and filter",
+      "frequency": "P6M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Change coolant filter",
+      "frequency": "P6M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Clean crankcase breather",
+      "frequency": "P6M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Check radiator hoses",
+      "frequency": "P6M",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    },
+    {
+      "task": "Clean cooling systems",
+      "frequency": "P1Y",
+      "reference": "UFM 3-540-07 Operation and Maintenance (O&M): Generators",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_540_07_2026.pdf",
+      "page": 42,
+      "checklist": "Table 6-1 Typical Generator Maintenance Schedule"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 15,
+      "code": "HUD CNA 3.6.2.4",
+      "label": "Emergency/auxiliary generator",
+      "years": 25,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row does not name the fuel."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

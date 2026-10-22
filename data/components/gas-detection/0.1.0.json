@@ -1,0 +1,75 @@
+{
+  "id": "gas-detection",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Gas detection system"
+  ],
+  "aliases": [
+    "CO detector",
+    "NO2 detection",
+    "refrigerant leak detector",
+    "gas detector"
+  ],
+  "service_life": {
+    "median_years": 10,
+    "range_years": [
+      10,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 310,
+      "code": "5.9.4",
+      "label": "Gas sensors and detectors: 15 years",
+      "years": 15,
+      "note": "Printed page 310. Fuel installations section. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 48,
+      "code": "FACT",
+      "label": "Gas detectors (fixed) - applies from the 2015 and subsequent income years",
+      "years": 10,
+      "note": "Printed page 48. Fixed gas detectors. Same life under REFR p.52, SCIA p.53 and WATR p.57. Printed DV 20%, SL 13.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 52,
+      "code": "REFR",
+      "label": "Gas detectors (fixed) - applies from the 2015 and subsequent income years",
+      "years": 10,
+      "note": "Printed page 52. Fixed (refrigerant) gas detectors. Refrigeration category. Printed DV 20%, SL 13.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

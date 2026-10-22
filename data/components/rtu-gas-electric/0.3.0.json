@@ -1,0 +1,98 @@
+{
+  "id": "rtu-gas-electric",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Rooftop unit, gas heat / DX cooling"
+  ],
+  "aliases": [
+    "RTU",
+    "packaged rooftop unit",
+    "gas electric RTU",
+    "rooftop unit"
+  ],
+  "service_life": {
+    "median_years": 21,
+    "range_years": [
+      15,
+      30
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 13,
+      "code": "HUD CNA 3.4.3.1.11",
+      "label": "Package HVAC roof top",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row covers packaged rooftop HVAC units without separating gas heat from heat pumps."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Air Cooled, Three-Phase, Small Commercial Air Conditioners and Heat Pumps With a Cooling Capacity of Less Than 65,000 Btu/h (NOPR), 87 FR 18290, March 30, 2022",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2022-03-30/pdf/2022-06450.pdf",
+      "page": 11,
+      "label": "\"the average lifetimes of 19 years for air conditioners and 16.2 years for heat pumps\"",
+      "years": 19,
+      "note": "Printed page 18300. class: three-phase commercial air conditioners <65,000 Btu/h (single-package and split). Small packaged rooftop units fall here; split systems do too. Carried over from the September 2020 NODA/RFI. Proposed rule, not final."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Air-Cooled Commercial Package Air Conditioners and Heat Pumps (direct final rule), 89 FR 44052, May 20, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-20/pdf/2024-08546.pdf",
+      "page": 41,
+      "code": "IV.F.6",
+      "label": "Equipment Lifetime: \"DOE assumed a mean lifetime of 21 years for small equipment classes\"",
+      "years": 21,
+      "note": "Printed page 44092. class: small ACUAC/ACUHP (>=65,000 and <135,000 Btu/h), air conditioners and heat pumps alike. Carried over from the January 2016 DFR (which gave 21.1 years). Also in the LCC inputs summary table, p.39 (printed 44090)."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Air-Cooled Commercial Package Air Conditioners and Heat Pumps (direct final rule), 89 FR 44052, May 20, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-20/pdf/2024-08546.pdf",
+      "page": 41,
+      "code": "IV.F.6",
+      "label": "Equipment Lifetime: \"a mean lifetime of 23 years for large equipment classes\"",
+      "years": 23,
+      "note": "Printed page 44092. class: large ACUAC/ACUHP (>=135,000 and <240,000 Btu/h). Carried over from the January 2016 DFR (which gave 22.6 years)."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Air-Cooled Commercial Package Air Conditioners and Heat Pumps (direct final rule), 89 FR 44052, May 20, 2024",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2024-05-20/pdf/2024-08546.pdf",
+      "page": 41,
+      "code": "IV.F.6",
+      "label": "Equipment Lifetime: \"For very large equipment classes, DOE created a new distribution with an assumed mean lifetime of 30 years\"",
+      "years": 30,
+      "note": "Printed page 44092. class: very large ACUAC/ACUHP (>=240,000 and <760,000 Btu/h); new in this rule (2016 DFR used 33.7 years). Very large units are less typical rooftop units."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

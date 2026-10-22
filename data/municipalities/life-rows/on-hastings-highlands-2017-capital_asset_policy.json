@@ -1,0 +1,156 @@
+{
+  "document": {
+    "id": "on-hastings-highlands-2017-capital_asset_policy",
+    "municipality": "on-hastings-highlands",
+    "document_type": "capital_asset_policy",
+    "title": "FIN-04 Capital Assets Policy (By-law 2017-040)",
+    "year": 2017,
+    "prepared_by": null,
+    "url": "https://www.hastingshighlands.ca/media/vhmfgspi/capital-assets-policy_2017.pdf",
+    "sha256": "e6e1b0fced03fe8a26011ddfcdb798899736856ff87e8ebf5bf0e95a3e960f09",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r1",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r2",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r3",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r4",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Fire protection",
+      "systems": [
+        "D40"
+      ]
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r5",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior construction",
+      "systems": [
+        "C10"
+      ]
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r6",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, Electrical",
+      "systems": [
+        "D20",
+        "D50"
+      ]
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r7",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 5,
+      "life_years_max": 7,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-hastings-highlands-2017-capital_asset_policy-r8",
+      "page": 6,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    }
+  ]
+}

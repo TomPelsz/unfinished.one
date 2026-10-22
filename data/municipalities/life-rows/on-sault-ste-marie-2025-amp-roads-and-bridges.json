@@ -1,0 +1,51 @@
+{
+  "document": {
+    "id": "on-sault-ste-marie-2025-amp-roads-and-bridges",
+    "municipality": "on-sault-ste-marie",
+    "document_type": "AMP",
+    "title": "Roads and Bridges Asset Management Plan, City of Sault Ste. Marie",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://saultstemarie.ca/wp-content/uploads/2025/07/RPT-City-of-Sault-Ste-Marie-Roads-Bridges-Asset-Management-Plan-Final-June-2025.pdf",
+    "sha256": "ee3e7b3aa8ea35dbc66879d9b5bbb275a0696a7f21d8d5c4853899528273c535",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-sault-ste-marie-2025-amp-roads-and-bridges-r1",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 58,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-sault-ste-marie-2025-amp-roads-and-bridges-r2",
+      "page": 17,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "pump-base-mounted",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D3040"
+  },
+  "names": [
+    "Pump, base-mounted end suction"
+  ],
+  "aliases": [
+    "end suction pump",
+    "base mounted pump",
+    "HWP",
+    "CHWP"
+  ],
+  "service_life": {
+    "median_years": 17.5,
+    "range_years": [
+      10,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Shut down or re-sequence pumps that are not needed",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Lubricate bearings per manufacturer",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check packing for wear and repack as needed",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check pump/motor coupling alignment",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check and secure all pump mountings",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Inspect bearings and drive belts for wear; adjust, repair or replace",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check motor condition by temperature or vibration analysis",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 12,
+      "code": "HUD CNA 3.4.2.2.8",
+      "label": "Hydronic/Water Circulating Pumps",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD's row covers hydronic circulating pumps of any mounting."
+    },
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 245,
+      "code": "5.5.4",
+      "label": "Storage cylinders, valves and pumps: 20 years",
+      "years": 20,
+      "note": "Printed page 245. Heating and cooling system pumps (cylinders and valves not mapped). Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Pumps (final rule), 81 FR 4368, January 26, 2016",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2016-01-26/pdf/2016-00324.pdf",
+      "page": 27,
+      "code": "IV.F.2.g",
+      "label": "Equipment Lifetime: \"The average across all equipment classes was 15 years\"",
+      "years": 15,
+      "note": "Printed page 4394. All-class average for commercial and industrial clean-water pumps; brine pumps are outside DOE scope (clean water only) so the brine-pump match is loose."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 51,
+      "code": "PUMP",
+      "label": "Centrifugal pumps",
+      "years": 10,
+      "note": "Printed page 51. Pumping sets (where not industry specified). End-suction base-mounted pumps are centrifugal pumps. Printed DV 20%, SL 13.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

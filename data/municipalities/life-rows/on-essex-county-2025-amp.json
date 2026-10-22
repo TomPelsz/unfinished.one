@@ -1,0 +1,177 @@
+{
+  "document": {
+    "id": "on-essex-county-2025-amp",
+    "municipality": "on-essex-county",
+    "document_type": "AMP",
+    "title": "County of Essex 2025 Asset Management Plan",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.countyofessex.ca/media/yuvjaiu4/2025-asset-management-plan_20250611_ua.pdf",
+    "sha256": "5d670913c9bb5f39c182a7994a53de388d7905e5660726aeb63a711ae4635211",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-essex-county-2025-amp-r1",
+      "page": 42,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 12,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways, asphalt",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r2",
+      "page": 42,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r3",
+      "page": 42,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 12,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r4",
+      "page": 42,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 12,
+      "life_years_max": 40,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r5",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Bridge deck",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r6",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r7",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 80,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r8",
+      "page": 60,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "on-essex-county-2025-amp-r9",
+      "page": 74,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    }
+  ]
+}

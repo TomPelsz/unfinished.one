@@ -1,0 +1,203 @@
+{
+  "document": {
+    "id": "on-lanark-2022-amp",
+    "municipality": "on-lanark",
+    "document_type": "AMP",
+    "title": "Asset Management Plan 2022",
+    "year": 2022,
+    "prepared_by": null,
+    "url": "https://www.lanarkcounty.ca/wp-content/uploads/2025/06/2022-Asset-Management-Plan.pdf",
+    "sha256": "139fcfd7308fb8a89ee0a25de31aae9b9ee39a730af7bd64d1bc37b1836f2d62",
+    "retrieved_on": "2026-10-22"
+  },
+  "rows": [
+    {
+      "id": "on-lanark-2022-amp-r1",
+      "page": 56,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r2",
+      "page": 78,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 100,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Bridge, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r3",
+      "page": 78,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 90,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Bridge, concrete",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r4",
+      "page": 78,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 115,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Bridge, steel",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r5",
+      "page": 78,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 166,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r6",
+      "page": 115,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-lanark-2022-amp-r7",
+      "page": 115,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-lanark-2022-amp-r8",
+      "page": 115,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-lanark-2022-amp-r9",
+      "page": 133,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Traffic signal",
+      "systems": [
+        "G4090"
+      ]
+    },
+    {
+      "id": "on-lanark-2022-amp-r10",
+      "page": 167,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-lanark-2022-amp-r11",
+      "page": 167,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "planning",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "text_check",
+      "label": "Parking lot, asphalt",
+      "systems": []
+    }
+  ]
+}

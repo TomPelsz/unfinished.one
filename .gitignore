@@ -1,0 +1,9 @@
+node_modules/
+build/
+site/dist/
+site/.astro/
+mcp/.wrangler/
+.DS_Store
+.env
+.dev.vars
+__pycache__/

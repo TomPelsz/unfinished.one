@@ -1,0 +1,135 @@
+{
+  "document": {
+    "id": "bc-lantzville-2019-capital_asset_policy",
+    "municipality": "bc-lantzville",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 6000-2 Tangible Capital Assets",
+    "year": 2019,
+    "prepared_by": null,
+    "url": "https://www.lantzville.ca/cms/wpattachments/wpID725atID4717.pdf",
+    "sha256": "267313a84f1b8560fa26fff69c33b4491d0c884e7445c64e760fc37a06a5b368",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r1",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 60,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r2",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r3",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r4",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r5",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r6",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Plumbing, HVAC, Electrical",
+      "systems": [
+        "D20",
+        "D30",
+        "D50"
+      ]
+    },
+    {
+      "id": "bc-lantzville-2019-capital_asset_policy-r7",
+      "page": 11,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "not found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "image_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "furnace-gas",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3020"
+  },
+  "names": [
+    "Furnace, gas-fired"
+  ],
+  "aliases": [
+    "furnace",
+    "forced air furnace",
+    "gas furnace"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      15,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check combustion air supply and vent system before heating season",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 128,
+      "checklist": "6-22 Fully condensing furnace maintenance"
+    },
+    {
+      "task": "Check vent pipe is not blocked",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 128,
+      "checklist": "6-22 Fully condensing furnace maintenance"
+    },
+    {
+      "task": "Inspect and clean washable filter",
+      "frequency": "P2M",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 129,
+      "checklist": "6-22 Fully condensing furnace maintenance"
+    },
+    {
+      "task": "Check and clean blower wheel",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 129,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Check fan and limit controls",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Check wiring for loose connections",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Check supply voltage and blower motor amps",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Check intake and exhaust lines and condensate line",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Clean heat exchangers and burners",
+      "frequency": "P1Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    },
+    {
+      "task": "Oil direct-drive blower motor with oil ports",
+      "frequency": "P2Y",
+      "reference": "TM 5-642 Operation and Maintenance: Small Heating Systems",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_642.pdf",
+      "page": 130,
+      "checklist": "6-24 Pulse combustion furnace maintenance"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 12,
+      "code": "HUD CNA 3.4.3.1.4",
+      "label": "Gas furnace/air handler",
+      "years": 20,
+      "note": "Same life for family and elderly properties. US multifamily housing. The municipal rows say furnace without naming the fuel."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "The Blue Mountains: POL.COR.19.04 Tangible Capital Assets Policy",
+      "url": "https://www.thebluemountains.ca/sites/default/files/2022-01/POL-COR-19-04-Tangible-Capital-Assets-Policy.pdf",
+      "page": 11,
+      "label": "Furnace",
+      "years": 15,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Grey Highlands: By-law No. 2026-052, Tangible Capital Asset Policy A09-F-03",
+      "url": "https://greyhighlands.civicweb.net/document/406218/",
+      "page": 11,
+      "label": "Furnace",
+      "years": 15,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Meaford: By-law 2020-83, Tangible Capital Asset Policy, Appendix A Estimated Useful Lives",
+      "url": "https://meaford.civicweb.net/document/103944/",
+      "page": 17,
+      "label": "HVAC - Furnace",
+      "years": [
+        15,
+        25
+      ],
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program for Certain Industrial Equipment: Energy Conservation Standards for Small, Large, and Very Large Air-Cooled Commercial Package Air Conditioning and Heating Equipment and Commercial Warm Air Furnaces (direct final rule), 81 FR 2420, January 15, 2016",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2016-01-15/pdf/2015-33067.pdf",
+      "page": 4,
+      "label": "\"the average lifetime of the equipment, which is estimated to be 23 years for both gas-fired and oil-fired CWAFs\"",
+      "years": 23,
+      "note": "Printed page 2423. class: commercial warm air furnaces >=225,000 Btu/h input, gas-fired and oil-fired. Commercial, mostly weatherized/rooftop-mounted; residential furnaces are covered separately (consumer furnace rule). Lifetime derived from the CUAC lifetime (section IV.F.6.b, p.60, printed 2479)."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Furnaces (final rule), 88 FR 87502, December 18, 2023",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-12-18/pdf/2023-25514.pdf",
+      "page": 70,
+      "code": "IV.F.6",
+      "label": "\"DOE estimates the average product lifetime to be 21.5 years for NWGFs and MHGFs\"",
+      "years": 21.5,
+      "note": "Printed page 87571. residential: non-weatherized gas furnaces and mobile home gas furnaces; national average. Regional averages 22.5 years (North) and 20.2 years (rest of country) in the same paragraph. Also p.2 (printed 87503)."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Furnace tasks come from Army TM 5-642 (1990); equipment and practice may have changed since."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

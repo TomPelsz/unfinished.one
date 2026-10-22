@@ -1,0 +1,83 @@
+---
+// Replacement-year calculator: pick a component, enter the year it went in, and get the year it is
+// due, the window the sources allow, and a sentence with its citation to paste into a capital plan.
+// Everything runs in the page from the data embedded below; ?c=<id>&y=<year> pre-fills it.
+import Library from '../layouts/Library.astro';
+import { loadCatalogue } from '../lib/data';
+import { byGroup } from '../lib/groups';
+import { commonName } from '../lib/answer';
+
+const catalogue = loadCatalogue().filter((c: any) => c.entry);
+const groups = byGroup(catalogue);
+const data = Object.fromEntries(catalogue.map((c: any) => {
+  const e = c.entry;
+  return [c.id, {
+    name: commonName(c.id, c.name), median: e.service_life.median_years, lo: e.service_life.range_years[0], hi: e.service_life.range_years[1],
+    spread: e.service_life.range_basis === 'source_spread', grade: e.confidence.grade, sources: new Set(e.basis.map((b: any) => b.url ?? b.title)).size,
+    version: e.version, url: e.versioned_url,
+  }];
+}));
+---
+<Library title="Replacement year calculator: when is it due? · unfinished.one" description="Enter a component and the year it was installed to get its expected replacement year from sourced service lives, with a citation to paste into a capital plan." canonical="https://unfinished.one/calculator">
+  <style>
+    .calc { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 12px 16px; margin: 0 0 20px; }
+    .calc label { display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+    .calc select, .calc input { font: inherit; font-size: 15px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; width: 100%; }
+    .calc select:focus, .calc input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent); border-color: var(--accent); }
+    .result { border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin: 0 0 20px; }
+    /* The result is written by the script below, so its inner styles must be global. */
+    .result :global(.due) { font-size: 2rem; font-weight: 650; line-height: 1.1; margin: 0 0 4px; }
+    .result :global(.copy) { margin-bottom: 0; }
+    @media (max-width: 560px) { .calc { grid-template-columns: 1fr; } }
+  </style>
+  <h1>Replacement year calculator</h1>
+  <p class="lede">When is it due? Pick a component and the year it went in. The answer uses the library's sourced service life and comes with a citation you can paste into a capital plan.</p>
+
+  <form class="calc" data-calc onsubmit="return false">
+    <label>Component
+      <select name="c">
+        {groups.map((g) => <optgroup label={g.name}>{g.items.map((c: any) => <option value={c.id}>{data[c.id].name}</option>)}</optgroup>)}
+      </select>
+    </label>
+    <label>Year installed
+      <input name="y" type="number" inputmode="numeric" min="1850" max="2100" step="1" placeholder="e.g. 2012" />
+    </label>
+  </form>
+
+  <div class="result" data-result aria-live="polite">
+    <p class="muted">Enter the year it was installed.</p>
+  </div>
+
+  <p class="muted small">Service lives here are published planning, design and accounting lives, not a prediction for one unit: condition, use and maintenance move the real date. For a whole asset register, <a href="/api/lives.csv">download every life as CSV</a> and add the median to each install year.</p>
+
+  <script is:inline type="application/json" id="calc-data" set:html={JSON.stringify(data)}></script>
+  <script is:inline>
+    (() => {
+      const data = JSON.parse(document.getElementById('calc-data').textContent);
+      const form = document.querySelector('[data-calc]');
+      const out = document.querySelector('[data-result]');
+      const now = new Date().getFullYear();
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+      const params = new URLSearchParams(location.search);
+      if (data[params.get('c')]) form.c.value = params.get('c');
+      if (/^\d{4}$/.test(params.get('y') || '')) form.y.value = params.get('y');
+      const render = () => {
+        const id = form.c.value, d = data[id], y = Number(form.y.value);
+        const q = new URLSearchParams({ c: id });
+        if (y) q.set('y', String(y));
+        history.replaceState(null, '', '?' + q);
+        if (!y || y < 1850 || y > 2100) { out.innerHTML = '<p class="muted">Enter the year it was installed.</p>'; return; }
+        const due = Math.round(y + d.median), early = Math.round(y + d.lo), late = Math.round(y + d.hi);
+        const left = due - now;
+        const status = left > 0 ? `${left} ${left === 1 ? 'year' : 'years'} from now` : left === 0 ? 'this year' : `${-left} ${left === -1 ? 'year' : 'years'} past the median life`;
+        const window = early === late ? '' : d.spread ? `Sources state ${d.lo}–${d.hi} years, so ${early}–${late}.` : `80% of units last ${d.lo}–${d.hi} years, so ${early}–${late}.`;
+        const one = d.sources === 1 ? ' This life rests on one source; treat it as that source’s figure.' : '';
+        const cite = `Replacement planned for ${due}: installed ${y}, service life ${d.median} years (unfinished.one, ${d.name}, v${d.version}, ${d.url}).`;
+        out.innerHTML = `<p class="due">${due}</p><p>${esc(d.name)}, installed ${y}, median life ${d.median} years: due ${status}. ${esc(window)}${esc(one)} Confidence <a class="grade grade-${d.grade}" href="/about#confidence">${d.grade}</a> · <a href="/c/${id}">sources</a></p>`
+          + `<p class="copy-label">For your capital plan</p><div class="copy"><pre><code>${esc(cite)}</code></pre><button type="button" class="copy-btn" data-copy="${esc(cite)}">Copy</button></div>`;
+      };
+      form.addEventListener('input', render);
+      render();
+    })();
+  </script>
+</Library>

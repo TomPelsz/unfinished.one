@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ab-vulcan-county",
+    "name": "Vulcan County",
+    "province": "AB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 4237,
+    "statcan_csd": "4805001",
+    "website": "https://www.vulcancounty.ab.ca/",
+    "source": "https://www.alberta.ca/municipal-profiles"
+  },
+  {
+    "id": "ab-canmore",
+    "name": "Canmore, Town of",
+    "province": "AB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 15990,
+    "statcan_csd": "4815023",
+    "website": "https://www.canmore.ca/",
+    "source": "https://www.alberta.ca/municipal-profiles"
+  },
+  {
+    "id": "ab-westlock",
+    "name": "Westlock, Town of",
+    "province": "AB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 4921,
+    "statcan_csd": "4813031",
+    "website": "https://www.westlock.ca/",
+    "source": "https://www.alberta.ca/municipal-profiles"
+  },
+  {
+    "id": "ab-lloydminster",
+    "name": "Lloydminster, City of",
+    "province": "AB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 31582,
+    "statcan_csd": "4810039",
+    "website": "https://www.lloydminster.ca/",
+    "source": "https://www.alberta.ca/municipal-profiles"
+  },
+  {
+    "id": "ab-leduc",
+    "name": "Leduc, City of",
+    "province": "AB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 34094,
+    "statcan_csd": "4811016",
+    "website": "https://www.leduc.ca/",
+    "source": "https://www.alberta.ca/municipal-profiles"
+  }
+]

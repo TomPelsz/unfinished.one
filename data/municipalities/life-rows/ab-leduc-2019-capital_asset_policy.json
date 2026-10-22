@@ -1,0 +1,97 @@
+{
+  "document": {
+    "id": "ab-leduc-2019-capital_asset_policy",
+    "municipality": "ab-leduc",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 12.02:11 Tangible Capital Assets Financial Reporting Policy",
+    "year": 2019,
+    "prepared_by": null,
+    "url": "https://www.leduc.ca/wp-content/uploads/2025/10/Leduc-Tangible-Capital-Assets-Financial-Reporting.pdf",
+    "sha256": "8b3edb5f1bdc45f01d972c24c88d62416c900a6a20d860188f77b55180007130",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "ab-leduc-2019-capital_asset_policy-r1",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-leduc-2019-capital_asset_policy-r2",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-leduc-2019-capital_asset_policy-r3",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-leduc-2019-capital_asset_policy-r4",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "ab-leduc-2019-capital_asset_policy-r5",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "bridge-concrete",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Bridge, concrete"
+  ],
+  "aliases": [
+    "concrete bridge"
+  ],
+  "service_life": {
+    "median_years": 45,
+    "range_years": [
+      45,
+      45
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Water-flush decks, drains, bearings, joints, seats and rails (spring)",
+      "frequency": "P1Y",
+      "reference": "UFC 3-310-08 Non-Expeditionary Bridge Inspection, Maintenance, and Repair",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_310_08_2018.pdf",
+      "page": 45,
+      "checklist": "8-2 Industry Practice (bridge maintenance)"
+    },
+    {
+      "task": "Routine bridge inspection (NBIS)",
+      "frequency": "P2Y",
+      "reference": "UFC 3-310-08 Non-Expeditionary Bridge Inspection, Maintenance, and Repair",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_310_08_2018.pdf",
+      "page": 19,
+      "checklist": "3-2.2.1.2 Routine Inspection"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Napanee: By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+      "url": "https://greaternapanee.civicweb.net/document/45679",
+      "page": 17,
+      "label": "LA45 Bridge - Concrete - Precast Girder",
+      "years": 45,
+      "note": "Capital asset policy (amortization period). Compared with an image of the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "dhw-recirculation-pump",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D2020"
+  },
+  "names": [
+    "Domestic hot water recirculation pump"
+  ],
+  "aliases": [
+    "DHW recirc pump",
+    "recirc pump"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.1",
+      "label": "DHW circulating pumps",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

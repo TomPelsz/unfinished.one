@@ -1,0 +1,50 @@
+{
+  "id": "door-exterior-hollow-metal",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "B2030"
+  },
+  "names": [
+    "Exterior door, hollow metal"
+  ],
+  "aliases": [
+    "HM door",
+    "steel door",
+    "man door"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 97,
+      "code": "2.6.4",
+      "label": "External windows and doors (including glazed/louvred components): 25 years",
+      "years": 25,
+      "note": "Printed page 97. External windows and doors, material not stated. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,32 @@
+---
+// Range band with the median marked, on a 0-based year axis. The band is a p10-p90 spread of units,
+// or (range_basis "source_spread") the shortest and longest life the sources state.
+interface Props { median: number; range: [number, number]; basis?: string }
+const { median, range: [lo, hi], basis = 'p10_p90' } = Astro.props;
+const spread = basis === 'source_spread';
+const step = hi > 100 ? 20 : hi > 50 ? 10 : 5;
+const max = Math.ceil((hi * 1.15) / step) * step;
+const W = 600, left = 8, right = 592;
+const x = (y: number) => left + (y / max) * (right - left);
+const ticks = Array.from({ length: max / step + 1 }, (_, i) => i * step);
+---
+<svg class="lifebar" viewBox={`0 0 ${W} 74`} role="img" aria-label={spread ? `Service life: median ${median} years; sources state ${lo} to ${hi} years` : `Service life: median ${median} years, 80% of units between ${lo} and ${hi} years`}>
+  <g class="axis">
+    {ticks.map((t) => <g><line x1={x(t)} x2={x(t)} y1="40" y2="46" /><text x={x(t)} y="62" text-anchor="middle">{t}</text></g>)}
+    <line x1={left} x2={right} y1="40" y2="40" />
+  </g>
+  <rect class="band" x={x(lo) - (hi === lo ? 3 : 0)} y="14" width={Math.max(x(hi) - x(lo), 6)} height="20" rx="4" />
+  <line class="median" x1={x(median)} x2={x(median)} y1="11" y2="40" />
+  {x(hi) - x(lo) < 40
+    ? <text class="lbl" x={(x(lo) + x(hi)) / 2} y="6" text-anchor="middle">{lo === hi ? lo : `${lo}–${hi}`}</text>
+    : <><text class="lbl" x={x(lo)} y="6" text-anchor="middle">{lo}</text><text class="lbl" x={x(hi)} y="6" text-anchor="middle">{hi}</text></>}
+</svg>
+<p class="muted small" style="margin-top: -4px">{spread ? (lo === hi ? 'Years in service. One stated life so far; the band will widen as sources are added.' : 'Years in service. The band runs from the shortest to the longest life the sources state, so it shows how much they disagree, not how long 80% of units last. The line is the median of the stated lives.') : 'Years in service. The band holds 80% of units (p10 to p90); the line is the median.'}</p>
+<style>
+  .lifebar { width: 100%; height: auto; display: block; margin: 4px 0 8px; overflow: visible; }
+  .lifebar .axis line { stroke: var(--line); stroke-width: 1.5; }
+  .lifebar .axis text { fill: var(--muted); font: 12px system-ui, sans-serif; }
+  .lifebar .band { fill: var(--accent); fill-opacity: 0.18; stroke: var(--accent); stroke-width: 1.5; }
+  .lifebar .median { stroke: var(--fg); stroke-width: 3; }
+  .lifebar .lbl { fill: var(--muted); font: 12px system-ui, sans-serif; }
+</style>

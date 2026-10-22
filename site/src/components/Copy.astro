@@ -1,0 +1,10 @@
+---
+// A code block with a copy button. The button is wired up by the small script in Base.astro.
+interface Props { text: string; label?: string }
+const { text, label } = Astro.props;
+---
+{label && <p class="copy-label">{label}</p>}
+<div class="copy">
+  <pre><code>{text}</code></pre>
+  <button type="button" class="copy-btn" data-copy={text} aria-label={label ? `Copy ${label}` : 'Copy'}>Copy</button>
+</div>

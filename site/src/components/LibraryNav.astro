@@ -1,0 +1,111 @@
+---
+// The library's left-hand list: every catalogue component by group, with its grade and median life,
+// a search box, and the current component marked. Pages are separate static pages, so the list
+// keeps its search text and scroll position between them in sessionStorage.
+import { loadCatalogue, loadWithdrawn } from '../lib/data';
+import { byGroup, isInfrastructure } from '../lib/groups';
+interface Props { current?: string }
+const { current } = Astro.props;
+const catalogue = loadCatalogue();
+const withdrawn = new Set(loadWithdrawn().map((w: any) => w.id));
+const groups = byGroup(catalogue);
+const sections = [
+  { name: 'Buildings', groups: groups.filter((g) => !isInfrastructure(g.id)) },
+  { name: 'Infrastructure', groups: groups.filter((g) => isInfrastructure(g.id)) },
+];
+const written = catalogue.filter((c) => c.entry).length;
+const years = (n: number) => (Number.isInteger(n) ? n : Number(n.toFixed(1)));
+---
+<nav class="libnav" aria-label="Components" data-libnav>
+  <label class="visually-hidden" for="libnav-q">Search components</label>
+  <input id="libnav-q" class="libnav-q" type="search" placeholder={`Filter ${catalogue.length} components`} autocomplete="off" />
+  <div class="libnav-list" data-libnav-list>
+    {sections.map((s) => (
+      <>
+        <p class="libnav-section">{s.name}</p>
+        {s.groups.map((g) => (
+          <section class="libnav-group">
+            <p class="libnav-head"><span>{g.name}</span><span class="muted">{g.items.filter((c) => c.entry).length}/{g.items.length}</span></p>
+            <ul>
+              {g.items.map((c) => (
+                <li data-search={[c.name, ...c.aliases, c.uniformat, c.id].join(' ').toLowerCase()}>
+                  <a href={`/c/${c.id}`} aria-current={c.id === current ? 'page' : undefined} class={c.entry ? undefined : 'planned'}>
+                    <i class={c.entry ? `dot grade-${c.entry.confidence.grade}` : 'dot'} aria-hidden="true"></i>
+                    <span class="nm">{c.name}</span>
+                    <span class={!c.entry && withdrawn.has(c.id) ? 'yr wd' : 'yr'}>{c.entry ? years(c.entry.service_life.median_years) : withdrawn.has(c.id) ? 'withdrawn' : ''}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </>
+    ))}
+    <p class="libnav-empty muted small" hidden data-libnav-empty>No component matches.</p>
+  </div>
+  <p class="libnav-key muted small"><span><i class="dot grade-C" aria-hidden="true"></i>written, by grade</span><span><i class="dot" aria-hidden="true"></i>not written</span><span>{written} of {catalogue.length}</span></p>
+</nav>
+<script is:inline>
+  (() => {
+    const nav = document.querySelector('[data-libnav]');
+    if (!nav) return;
+    const q = nav.querySelector('input');
+    const list = nav.querySelector('[data-libnav-list]');
+    const empty = nav.querySelector('[data-libnav-empty]');
+    const store = { get: (k) => { try { return sessionStorage.getItem(k); } catch { return null; } }, set: (k, v) => { try { sessionStorage.setItem(k, v); } catch {} } };
+    const filter = () => {
+      const v = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const g of list.querySelectorAll('.libnav-group')) {
+        let n = 0;
+        for (const li of g.querySelectorAll('li')) {
+          const hit = !v || li.dataset.search.includes(v);
+          li.hidden = !hit;
+          if (hit) n++;
+        }
+        g.hidden = n === 0;
+        shown += n;
+      }
+      for (const s of list.querySelectorAll('.libnav-section')) {
+        let el = s.nextElementSibling, any = false;
+        while (el && el.classList.contains('libnav-group')) { if (!el.hidden) any = true; el = el.nextElementSibling; }
+        s.hidden = !any;
+      }
+      empty.hidden = shown > 0;
+      store.set('libnav-q', q.value);
+    };
+    q.value = store.get('libnav-q') || '';
+    filter();
+    q.addEventListener('input', filter);
+    const saved = Number(store.get('libnav-scroll'));
+    if (saved) list.scrollTop = saved;
+    const cur = list.querySelector('[aria-current="page"]');
+    if (cur) {
+      const a = cur.getBoundingClientRect(), b = list.getBoundingClientRect();
+      if (a.top < b.top || a.bottom > b.bottom) cur.scrollIntoView({ block: 'center' });
+    }
+    addEventListener('pagehide', () => store.set('libnav-scroll', String(list.scrollTop)));
+  })();
+</script>
+<style>
+  .libnav { display: flex; flex-direction: column; min-height: 0; }
+  .libnav-q { width: 100%; padding: 8px 10px; font: inherit; font-size: 15px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; margin: 0 0 8px; }
+  .libnav-list { overflow-y: auto; min-height: 0; flex: 1; padding-right: 4px; }
+  .libnav-section { margin: 14px 0 2px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .libnav-section:first-child { margin-top: 2px; }
+  .libnav-head { display: flex; justify-content: space-between; margin: 10px 0 2px; font-size: 14px; font-weight: 600; }
+  .libnav ul { list-style: none; margin: 0; padding: 0; }
+  .libnav li { margin: 0; }
+  .libnav li a { display: grid; grid-template-columns: 12px 1fr auto; align-items: center; gap: 8px; padding: 3px 6px; border-radius: 5px; color: var(--fg); text-decoration: none; font-size: 14px; line-height: 1.35; }
+  .libnav li a.planned { color: var(--muted); }
+  .libnav li a:hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
+  .libnav li a[aria-current] { background: color-mix(in srgb, var(--accent) 18%, transparent); font-weight: 600; }
+  .libnav .yr { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .libnav .yr.wd { font-size: 11px; font-style: italic; }
+  .libnav .dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px dashed var(--line); display: inline-block; }
+  .libnav .dot[class*='grade-'] { border-style: solid; border-color: currentColor; background: currentColor; }
+  .libnav-key { display: flex; flex-wrap: wrap; gap: 2px 12px; margin: 8px 0 0; padding-top: 8px; border-top: 1px solid var(--line); line-height: 1.5; }
+  .libnav-key span { white-space: nowrap; }
+  .libnav-key .dot { vertical-align: -1px; margin-right: 4px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>

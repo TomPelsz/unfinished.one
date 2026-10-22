@@ -1,0 +1,48 @@
+{
+  "id": "water-meter",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Water meter"
+  ],
+  "aliases": [
+    "customer water meter"
+  ],
+  "service_life": {
+    "median_years": 15.5,
+    "range_years": [
+      15.5,
+      15.5
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 43,
+      "code": "BDFO",
+      "label": "Meters (water)",
+      "years": 15.5,
+      "note": "Printed page 43. Water meters in a building fit-out. BDFO Building fit-out (when in books separately from building cost). Printed DV 13%, SL 8.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

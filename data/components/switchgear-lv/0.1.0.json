@@ -1,0 +1,256 @@
+{
+  "id": "switchgear-lv",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D5010"
+  },
+  "names": [
+    "Switchgear, low voltage"
+  ],
+  "aliases": [
+    "switchgear",
+    "main switchboard",
+    "MSB",
+    "switchboard"
+  ],
+  "service_life": {
+    "median_years": 30,
+    "range_years": [
+      25,
+      35
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check warning signs are in place",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Inspect enclosure for damage, openings and corrosion",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Clear blocked air passages",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Investigate unusual odors",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Inspect electrical connections for degradation and tightness",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Inspect insulation for discoloration",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Inspect equipment grounding conductors and connections",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Check indicating lights",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Clean equipment",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Tighten electrical connections",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Verify equipment grounding",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Infrared scan",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 173,
+      "checklist": "Table 21-1 Typical secondary distribution maintenance"
+    },
+    {
+      "task": "Overcurrent test critical-load molded-case breakers",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Contact resistance test critical-load breakers",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 175,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Operate each breaker by its handle",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 175,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Measure and record neutral currents",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 175,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Perform harmonics analysis",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 175,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Inspect barriers and shutters",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Test phase bus insulation",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Inspect drawout contacts for wear and discoloration",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Inspect, adjust and lubricate breaker linkages",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Test power breaker trip and close operation",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Insulation resistance test",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 174,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    },
+    {
+      "task": "Calibrate protective devices",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 175,
+      "checklist": "Table 21-2 Low voltage switchgear, switchboards, and panelboards"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 275,
+      "code": "5.7.4",
+      "label": "Low voltage (LV) main switchgear and switchboards: 35 years",
+      "years": 35,
+      "note": "Printed page 275. LV main switchgear and switchboards. Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 34,
+      "code": "POWR",
+      "label": "Switchgear",
+      "years": 25,
+      "note": "Printed page 34. Power generation and electrical reticulation category; voltage not stated (network switchgear, which includes low voltage). Printed DV 8%, SL 6%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "storm-sewer-pvc",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "G3030"
+  },
+  "names": [
+    "Storm sewer, PVC"
+  ],
+  "aliases": [
+    "PVC storm main"
+  ],
+  "service_life": {
+    "median_years": 110,
+    "range_years": [
+      110,
+      110
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Cornwall: 2025 Asset Management Plan City of Cornwall",
+      "url": "https://media-003-ca.cdn.govstack.com/cornwall-ca/media/zf1flyyr/2025-asset-management-plan.pdf",
+      "page": 336,
+      "years": 110,
+      "note": "Asset management plan (planning life). Compared with an image of the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

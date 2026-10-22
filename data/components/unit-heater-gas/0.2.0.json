@@ -1,0 +1,112 @@
+{
+  "id": "unit-heater-gas",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Unit heater, gas-fired"
+  ],
+  "aliases": [
+    "gas unit heater",
+    "UH"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      20,
+      20
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Gas safety inspection and servicing of gas appliances",
+      "frequency": "P1Y",
+      "reference": "Good estate management for schools: Compliance tracker",
+      "url": "https://assets.publishing.service.gov.uk/media/5f84b003e90e077041376d18/Compliance_Tracker.xlsx",
+      "checklist": "Compliance tracker, sheet \"Tracker\", ref 20"
+    },
+    {
+      "task": "Check firebox liner for cracks and leaks",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Check gas lines for leaks",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Check flue for obstructions and leaks",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Clean bottom of flue (breeching)",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Clean fans and motors",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Check controls and safeties",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    },
+    {
+      "task": "Lubricate",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 492,
+      "checklist": "HVAC-UHT-02-01Y Unit Heater - Gas or Oil"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Greater Napanee: By-law 2012-11, Tangible Capital Asset Policy, Appendix B Asset Useful Lives",
+      "url": "https://greaternapanee.civicweb.net/document/45679",
+      "page": 16,
+      "label": "E20 Mechanical - Boilers, Fire Panel/Alarm, Unit Heaters, HVAC",
+      "years": 20,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page. The row names unit heaters among other mechanical items, without the fuel."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data.",
+    "Written for schools in England; several rows are statutory safety checks under UK law rather than equipment maintenance.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

@@ -1,0 +1,30 @@
+---
+import Docs from '../layouts/Docs.astro';
+import { loadChanges, daySummary } from '../lib/changes';
+import Item from '../components/ChangeItem.astro';
+const days = loadChanges();
+---
+<Docs title="Changes · unfinished.one" description="Every new entry, revised value, withdrawal and municipal document added to unfinished.one, by day." canonical="https://unfinished.one/changes">
+  <link slot="head" rel="alternate" type="application/rss+xml" title="unfinished.one changes" href="/changes.xml" />
+  <style>
+    .day h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+    .day h2 span { font-size: 14px; font-weight: 400; color: var(--muted); }
+    .log { list-style: none; padding: 0; }
+    .log :global(li) { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 12px; margin: 0 0 6px; font-size: 15px; }
+    .log :global(.tag) { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); padding-top: 3px; }
+    .log :global(.tag.new) { color: var(--accent); } .log :global(.tag.withdrawn), .log :global(.tag.removed) { color: var(--d); }
+    @media (max-width: 560px) { .log :global(li) { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+  <h1>Changes</h1>
+  <p class="lede">Every entry published, value revised, entry withdrawn and municipal document added, built from the data itself. Old versions stay at their permanent links. <a href="/changes.xml">Follow by RSS</a>.</p>
+  {days.map((d) => (
+    <section class="day">
+      <h2 id={d.date} data-toc={d.date}>{d.date} <span>{daySummary(d)}</span></h2>
+      {[d.changes.filter((c) => c.kind !== 'updated'), d.changes.filter((c) => c.kind === 'updated')].map((list, i) => list.length > 0 && (
+        i === 1 && list.length > 12
+          ? <details><summary>{list.length} entries updated</summary><ul class="log">{list.map((c) => <Item c={c} />)}</ul></details>
+          : <ul class="log">{list.map((c) => <Item c={c} />)}</ul>
+      ))}
+    </section>
+  ))}
+</Docs>

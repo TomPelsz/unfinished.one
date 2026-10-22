@@ -1,0 +1,123 @@
+{
+  "id": "sewage-ejector",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "D2030"
+  },
+  "names": [
+    "Sewage ejector pump"
+  ],
+  "aliases": [
+    "ejector pump",
+    "lift station"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      50,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Hose down pumps to remove sludge",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 143,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Pull pumps; check seal oil, seals, bearings, cable, impeller and volute",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 143,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Megohm test between pump body and power leads",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 143,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Reinstall pumps and check rotation direction",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 143,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Check check valves work",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 144,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Check running amps against nameplate and overload settings",
+      "frequency": "P6M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 144,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Remove sediment and sludge from wet pit or sump",
+      "frequency": "P3M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 144,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Clean float switches and check pump sequence",
+      "frequency": "P3M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 144,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    },
+    {
+      "task": "Check control panel for moisture or corrosion",
+      "frequency": "P3M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 144,
+      "checklist": "Table 18-3 Sewage lift station and sewage sump unit"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 9,
+      "code": "HUD CNA 3.4.1.1.7",
+      "label": "Sewage Ejectors",
+      "years": 50,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD's 50 years for sewage ejectors may describe the basin and piping rather than the pump. Pump lives need a second source.",
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-21"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "platform-lift",
+  "version": "0.2.0",
+  "status": "withdrawn",
+  "withdrawn_reason": "Its only sources were outside North America, which the library no longer uses. No US or Canadian source is available yet.",
+  "classification": {
+    "uniformat": "D1010"
+  },
+  "names": [
+    "Vertical platform lift"
+  ],
+  "last_reviewed": "2026-10-22"
+}

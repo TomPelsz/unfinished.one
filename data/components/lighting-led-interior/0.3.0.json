@@ -1,0 +1,98 @@
+{
+  "id": "lighting-led-interior",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D5020"
+  },
+  "names": [
+    "Interior lighting, LED"
+  ],
+  "aliases": [
+    "LED fixture",
+    "light fixture",
+    "luminaire"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      10,
+      30
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect fixtures and controls for dirt, degraded lenses and faulty controls",
+      "frequency": "P6M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 284,
+      "checklist": "9.12.6 Lighting Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 14,
+      "code": "HUD CNA 3.4.4.3.3",
+      "label": "Lighting- interior common space",
+      "years": [
+        25,
+        30
+      ],
+      "note": "Family properties 25 years, elderly 30. US multifamily housing. HUD's row is interior common-space lighting and does not name the lamp technology."
+    },
+    {
+      "type": "public_document",
+      "life_type": "design",
+      "title": "Design standards: employer's requirements – Technical Manual (ER-DFE-XX-XX-T-X-0201, revision A-C01)",
+      "by": "Department for Education (England)",
+      "url": "https://assets.publishing.service.gov.uk/media/6971f649d8adeaf266040501/ER-DFE-XX-XX-T-X-0201-Technical_Manual-A-C01.pdf",
+      "page": 294,
+      "code": "5.8.4",
+      "label": "Internal luminaires, emergency lighting fittings and lighting controls: 25 years",
+      "years": 25,
+      "note": "Printed page 294. Interior LED luminaires (LED required, p.302) and emergency lighting fittings; batteries dealt with separately (5.8.15). Minimum life expectancy (design requirement) for DfE-funded school buildings. Minimum design requirements placed on contractors for school buildings, not observed replacement ages. Section 5.1.4 (sanitaryware) refers to CIBSE Guide M Appendix 12.A1 'in general'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "General depreciation rates (IR265), July 2021",
+      "by": "Inland Revenue (Te Tari Taake), New Zealand",
+      "url": "https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir265/ir265-2021.pdf",
+      "page": 43,
+      "code": "BDFO",
+      "label": "Light fittings",
+      "years": 10,
+      "note": "Printed page 43. Light fittings, lamp type not stated; building fit-out so interior. BDFO Building fit-out (when in books separately from building cost). Printed DV 20%, SL 13.5%. Tax depreciation lives set by the Commissioner of Inland Revenue for New Zealand income tax, not engineering or asset-management lives; they are banded and often short (e.g. reticulation piping 25 years). The July 2021 edition was the newest PDF reachable; the online Depreciation Rate Finder may hold later determinations."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Future Buildings Standard: final stage impact assessment (RPC-MHCLG-25104-IA), 24 March 2026",
+      "by": "Ministry of Housing, Communities and Local Government (UK)",
+      "url": "https://assets.publishing.service.gov.uk/media/69c16a6113101e9908704acb/Future_Buildings_Standard_Impact_Assessment.pdf",
+      "page": 77,
+      "code": "Appendix B",
+      "label": "\"20 years for light fittings and ventilation equipment\"",
+      "years": 20,
+      "note": "Printed page 77. One value for two groups. Light fittings in new buildings are LED (the IA applies LED cost learning). 'Ventilation equipment' is generic; mapped to the ventilation component types it clearly includes. Assumption for new non-domestic buildings in England; the IA says the lifetimes are in line with BS EN 15459 (Annex/Appendix E), but they are stated as the department's own modelling assumptions, not a reproduced table. Round-number economic-appraisal assumptions, not observed lives. Same values as the January 2021 Future Buildings Standard consultation IA (separate file), so the two are not independent."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "HUD's row is interior common-space lighting in general and does not name the technology; LED drivers and modules often fail before the fixture body. A source specific to LED fixtures is needed.",
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

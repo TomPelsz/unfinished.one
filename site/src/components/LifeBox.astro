@@ -1,0 +1,35 @@
+---
+// One system's municipal accounting lives as a box plot row: whisker from the lowest to the
+// highest stated life, a band over the middle half (ranges count at their midpoint), a median tick.
+interface Props { system: any; scaleMax: number; axis?: boolean; label?: string }
+const { system: s, scaleMax: max, axis = false, label } = Astro.props;
+const W = 600, left = 8, right = 592, mid = 12, H = axis ? 46 : 24;
+const x = (y: number) => left + (Math.min(y, max) / max) * (right - left);
+const ticks = Array.from({ length: Math.floor(max / 20) + 1 }, (_, i) => i * 20);
+const summary = `${label ?? s.code}: ${s.low} to ${s.high} years, middle half ${s.q1} to ${s.q3}, median ${s.median}, from ${s.sources} distinct tables`;
+---
+<svg class="box" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={summary}>
+  <title>{summary}</title>
+  {ticks.map((t) => <line class="grid" x1={x(t)} x2={x(t)} y1="0" y2={mid + 10} />)}
+  <line class="whisker" x1={x(s.low)} x2={x(s.high)} y1={mid} y2={mid} />
+  <line class="cap" x1={x(s.low)} x2={x(s.low)} y1={mid - 5} y2={mid + 5} />
+  <line class="cap" x1={x(s.high)} x2={x(s.high)} y1={mid - 5} y2={mid + 5} />
+  <rect class="iqr" x={x(s.q1)} y={mid - 7} width={Math.max(x(s.q3) - x(s.q1), 3)} height="14" rx="4" />
+  <line class="median" x1={x(s.median)} x2={x(s.median)} y1={mid - 9} y2={mid + 9} />
+  {axis && (
+    <g class="axis">
+      <line x1={left} x2={right} y1={mid + 14} y2={mid + 14} />
+      {ticks.map((t) => <text x={x(t)} y={mid + 31} text-anchor="middle">{t}</text>)}
+    </g>
+  )}
+</svg>
+<style>
+  .box { width: 100%; height: auto; display: block; overflow: visible; }
+  .box .grid { stroke: var(--line); stroke-width: 1; }
+  .box .axis line { stroke: var(--line); stroke-width: 1.5; }
+  .box .axis text { fill: var(--muted); font: 12px system-ui, sans-serif; }
+  .box .whisker, .box .cap { stroke: var(--muted); stroke-width: 2; stroke-linecap: round; }
+  .box .iqr { fill: var(--accent); fill-opacity: 0.4; stroke: var(--accent); stroke-width: 1.5; }
+  .box .median { stroke: var(--fg); stroke-width: 3; stroke-linecap: round; }
+  .box:hover .iqr { fill-opacity: 0.6; }
+</style>

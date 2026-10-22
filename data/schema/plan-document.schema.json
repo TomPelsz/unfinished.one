@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unfinished.one/schema/plan-document.schema.json",
+  "title": "unfinished.one Municipal Plan Index: plan document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "municipality",
+    "document_type",
+    "title",
+    "year",
+    "url",
+    "found_via",
+    "notes"
+  ],
+  "properties": {
+    "municipality": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[a-z0-9]+)+$"
+    },
+    "document_type": {
+      "enum": [
+        "AMP",
+        "capital_asset_policy"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1990,
+      "maximum": 2100
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "found_via": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reason"
+      ],
+      "description": "Set when the plan does not go through automatic extraction as is: skipped or blocked for a reason, or read by hand and found to have no component lives.",
+      "properties": {
+        "status": {
+          "enum": [
+            "skipped",
+            "blocked",
+            "no_component_lives"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "shared"
+      ],
+      "description": "Set when this document shares its useful-life table with others. Documents with the same lineage id are counted as one source. shared is \"values\" when the lives are identical and \"layout\" when only the form or row list is shared. See pipeline/tca-templates.md.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "shared": {
+          "enum": [
+            "values",
+            "layout"
+          ]
+        }
+      }
+    },
+    "lives_from": {
+      "type": "string",
+      "format": "uri",
+      "description": "Set on a plan whose lives come from another document on file, usually the municipality's own capital asset policy (the plan says so, or reproduces its table). The plan's rows then count with that document's, not as a separate source."
+    },
+    "part": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Set when a municipality publishes its plan as several documents (one per service area, say): a short slug naming this one, e.g. \"transportation\". Transcribed rows for it are keyed \"<municipality>/<part>\"."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+---
+import Library from '../layouts/Library.astro';
+import GradeLegend from '../components/GradeLegend.astro';
+import { loadCatalogue } from '../lib/data';
+import { byGroup, isInfrastructure } from '../lib/groups';
+const catalogue = loadCatalogue();
+const groups = byGroup(catalogue);
+const building = catalogue.filter((c) => !isInfrastructure(c.group)).length;
+---
+<Library title="unfinished.one" canonical="https://unfinished.one/">
+  <style>
+    .hero { margin: 0 0 24px; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 2.6rem); letter-spacing: -0.02em; margin-bottom: 12px; }
+    .hero h1 span { color: var(--muted); font-weight: 400; }
+    .grades { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px 2px; margin: 0 0 28px; }
+    .grades h2 { border: 0; margin: 0 0 8px; padding: 0; font-size: 1rem; }
+    .coverage { display: grid; gap: 10px; margin: 0 0 12px; }
+    .coverage .row { display: grid; grid-template-columns: 11rem 1fr; gap: 12px; align-items: center; }
+    .coverage .label { font-size: 14px; color: var(--muted); }
+    .coverage .label b { color: var(--fg); font-weight: 600; }
+    .cells { display: flex; flex-wrap: wrap; gap: 3px; }
+    .cell { width: 14px; height: 14px; border-radius: 3px; border: 1.5px dashed var(--line); display: block; }
+    .cell:hover, .cell:focus-visible { border-color: var(--muted); outline: none; }
+    .cell.done { border-style: solid; border-color: currentColor; background: currentColor; }
+    .key { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+    .key .cell { display: inline-block; vertical-align: -3px; margin-right: 6px; width: 12px; height: 12px; }
+    @media (max-width: 560px) { .coverage .row { grid-template-columns: 1fr; gap: 4px; } }
+  </style>
+
+  <section class="hero">
+    <h1>unfinished<span>.one</span></h1>
+    <p class="lede">The open reference library for built assets: how long building components and municipal infrastructure last, and how to maintain them. Every answer carries its source, a confidence grade and a permanent link, for people writing capital plans and for the agents helping them.</p>
+    <p class="muted">Pick a component from the list, or search it. <a href="/lives">Compare municipal lives</a> · <a href="/calculator">Replacement year calculator</a> · <a href="/api/lives.csv">Every life as CSV</a> · <a href="/agents">Use it from an agent</a></p>
+  </section>
+
+  <section class="grades" id="grades">
+    <h2>Confidence grades</h2>
+    <GradeLegend />
+    <p class="muted small">Most entries are grade C today. <a href="/about#confidence">What the grades mean</a></p>
+  </section>
+
+  <h2 id="coverage">Coverage</h2>
+  <p>The catalogue covers the {building} building components and {catalogue.length - building} infrastructure assets that municipalities and facility teams own most often. Each square is one component.</p>
+  <div class="key"><span><i class="cell done grade-C" aria-hidden="true"></i>written, coloured by confidence grade</span><span><i class="cell" aria-hidden="true"></i>not written yet</span></div>
+  <div class="coverage">
+    {groups.map((g) => (
+      <div class="row">
+        <span class="label"><b>{g.name}</b> {g.items.filter((c) => c.entry).length}/{g.items.length}</span>
+        <div class="cells">
+          {g.items.map((c) => (
+            <a class={c.entry ? `cell done grade-${c.entry.confidence.grade}` : 'cell'} href={`/c/${c.id}`} title={`${c.name}${c.entry ? ` · grade ${c.entry.confidence.grade}` : ' · not written yet'}`} aria-label={`${c.name}, ${c.entry ? `grade ${c.entry.confidence.grade}` : 'not written yet'}`}></a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</Library>

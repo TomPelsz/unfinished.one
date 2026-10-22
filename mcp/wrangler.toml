@@ -1,0 +1,5 @@
+name = "unfinished-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+routes = [{ pattern = "mcp.unfinished.one", custom_domain = true }]

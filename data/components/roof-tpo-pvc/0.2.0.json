@@ -1,0 +1,91 @@
+{
+  "id": "roof-tpo-pvc",
+  "version": "0.2.0",
+  "classification": {
+    "uniformat": "B3010"
+  },
+  "names": [
+    "Roof, TPO or PVC single-ply"
+  ],
+  "aliases": [
+    "TPO",
+    "PVC roof",
+    "single ply"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Keep TPO roof surface clean for reflectivity",
+      "frequency": "P6M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 45,
+      "checklist": "ARCS-RFS-01-06M Roof Inspection - Built Up Type"
+    },
+    {
+      "task": "Check gutters, roof drains and downspouts are attached, sealed and clear",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Check drain grates, strainers and screens; replace missing ones",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Test downspout heaters, if fitted",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    },
+    {
+      "task": "Check for scouring where downspouts discharge onto lower roofs",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 547,
+      "checklist": "PLMB-DRN-01-01Y Roof Drains, Downspout, and Gutter Inspection"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 8,
+      "code": "HUD CNA 3.3.4.2.4",
+      "label": "Low slope-Thermoplastic membrane, (TPO, vinyl)",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

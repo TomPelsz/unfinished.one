@@ -1,0 +1,78 @@
+---
+// One municipality: its capital asset policies and asset management plans, and every approved life row
+// from them, each linked to the page it comes from.
+import Plans from '../../layouts/Plans.astro';
+import { loadLifeRows, loadMunicipalities, loadPlans, loadTcaPolicies, SITE } from '../../lib/data';
+import { systemName } from '../../lib/uniformat';
+
+export function getStaticPaths() {
+  const docs = [...loadTcaPolicies(), ...loadPlans().filter((p: any) => p.url)];
+  const all = loadMunicipalities();
+  const byId = new Map(all.map((m: any) => [m.id, m]));
+  const rows = loadLifeRows();
+  return [...new Set(docs.map((d: any) => d.municipality))].filter((id) => byId.has(id)).map((id) => ({
+    params: { id },
+    props: {
+      m: byId.get(id),
+      upper: byId.get(byId.get(id).upper_tier),
+      docs: docs.filter((d: any) => d.municipality === id),
+      rows: rows.filter((r: any) => r.municipality === id),
+    },
+  }));
+}
+const { m, upper, docs, rows } = Astro.props;
+const PROVINCES: Record<string, string> = { ON: 'Ontario', BC: 'British Columbia', AB: 'Alberta' };
+const TIER: Record<string, string> = { single: 'Single-tier municipality', lower: 'Lower-tier municipality', upper: m.province === 'BC' ? 'Regional district' : 'Upper-tier municipality' };
+const TYPE: Record<string, string> = { capital_asset_policy: 'Capital asset policy', AMP: 'Asset management plan' };
+const CHECK: Record<string, string> = { page: 'editor', image_check: 'page image', text_check: 'page text' };
+const years = (r: any) => (r.min === r.max ? r.min : `${r.min}–${r.max}`);
+const fmt = (n: number | null) => (n == null ? null : n.toLocaleString('en-CA'));
+---
+<Plans title={`${m.name} · unfinished.one`} description={`Capital asset policies, asset management plans and the asset lives they state for ${m.name}.`} canonical={`${SITE}/m/${m.id}`} current={m.id}>
+  <p class="muted small" style="margin-bottom: 4px">{PROVINCES[m.province]} · {TIER[m.tier]}{upper && <> in <a href={`/m/${upper.id}`}>{upper.name}</a></>}{fmt(m.population_2021) && <> · population {fmt(m.population_2021)} (2021)</>}</p>
+  <h1>{m.name.split(', ')[0]}</h1>
+  {m.website && <p class="muted small"><a href={m.website}>Municipal website</a></p>}
+
+  <h2>Documents</h2>
+  <ul class="docs">
+    {docs.map((d: any) => (
+      <li>
+        <p><strong>{d.url ? <a href={d.url}>{d.title}</a> : d.title}</strong>{d.year && <span class="muted"> · {d.year}</span>}</p>
+        <p class="muted small">{TYPE[d.document_type] ?? d.document_type}{d.lineage && <> · shares {d.lineage.shared === 'values' ? 'its life table' : 'its table layout'} with other municipalities (<a href="/plans#policies">{d.lineage.id}</a>)</>}{d.lives_from && <> · its lives come from {docs.find((x: any) => x.url === d.lives_from)?.title ?? 'another document'}, so its rows count with that document's</>}{d.extraction && <> · {d.extraction.reason}</>}</p>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Stated lives</h2>
+  {rows.length === 0 ? <p class="muted">No life rows from these documents are published yet.</p> : (
+    <>
+      <p>{rows.length} {rows.length === 1 ? 'row' : 'rows'}, each linked to its page. Labels are ours: the component or system a row describes, not the document's wording. Policies give accounting lives (amortization periods); plans give planning lives. Neither is a measured replacement age.</p>
+      {docs.filter((d: any) => rows.some((r: any) => r.document.url === d.url)).map((d: any) => (
+        <section>
+          <h3>{d.title}</h3>
+          <div class="scroll">
+            <table>
+              <thead><tr><th>Asset</th><th class="num">Years</th><th>System</th><th>Checked against</th><th class="num">Page</th></tr></thead>
+              <tbody>
+                {rows.filter((r: any) => r.document.url === d.url).map((r: any) => (
+                  <tr>
+                    <td>{r.label}</td>
+                    <td class="num">{years(r)}</td>
+                    <td class="small">{r.systems.length ? r.systems.map((c: string) => systemName(c)).join(', ') : <span class="muted">—</span>}</td>
+                    <td class="small muted">{CHECK[r.review_method] ?? r.review_method}</td>
+                    <td class="num"><a href={`${r.document.url}#page=${r.page}`}>p{r.page}</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))}
+    </>
+  )}
+  <style>
+    .docs { list-style: none; padding: 0; }
+    .docs li { border-top: 1px solid var(--line); padding: 10px 0 2px; margin: 0; }
+    .docs li p { margin: 0 0 4px; }
+  </style>
+</Plans>

@@ -1,0 +1,82 @@
+{
+  "id": "bridge-steel",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Bridge, steel"
+  ],
+  "aliases": [
+    "steel bridge"
+  ],
+  "service_life": {
+    "median_years": 75,
+    "range_years": [
+      75,
+      115
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Water-flush decks, drains, bearings, joints, seats and rails (spring)",
+      "frequency": "P1Y",
+      "reference": "UFC 3-310-08 Non-Expeditionary Bridge Inspection, Maintenance, and Repair",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_310_08_2018.pdf",
+      "page": 45,
+      "checklist": "8-2 Industry Practice (bridge maintenance)"
+    },
+    {
+      "task": "Routine bridge inspection (NBIS)",
+      "frequency": "P2Y",
+      "reference": "UFC 3-310-08 Non-Expeditionary Bridge Inspection, Maintenance, and Repair",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufc_3_310_08_2018.pdf",
+      "page": 19,
+      "checklist": "3-2.2.1.2 Routine Inspection"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+      "page": 12,
+      "label": "Bridges - Steel",
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Elgin: Elgin County 2025 Asset Management Plan",
+      "url": "https://www.elgincounty.ca/wp-content/uploads/2026/02/Elgin-County-Asset-Management-Plan.pdf",
+      "page": 10,
+      "label": "Steel bridges",
+      "years": 75,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Lanark: Asset Management Plan 2022",
+      "url": "https://www.lanarkcounty.ca/wp-content/uploads/2025/06/2022-Asset-Management-Plan.pdf",
+      "page": 78,
+      "label": "Bridges - Steel (most common)",
+      "years": 115,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "These are Ontario accounting lives from municipal capital asset policies, not planning or observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

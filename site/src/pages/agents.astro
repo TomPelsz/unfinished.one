@@ -1,0 +1,81 @@
+---
+import Docs from '../layouts/Docs.astro';
+import Copy from '../components/Copy.astro';
+import { SITE } from '../lib/data';
+const MCP = 'https://mcp.unfinished.one/mcp';
+const claudeCode = `claude mcp add --transport http unfinished ${MCP}`;
+const mcpJson = JSON.stringify({ mcpServers: { unfinished: { type: 'http', url: MCP } } }, null, 2);
+const desktopBridge = JSON.stringify({ mcpServers: { unfinished: { command: 'npx', args: ['-y', 'mcp-remote', MCP] } } }, null, 2);
+const curl = `curl -s ${MCP} \\
+  -H 'Content-Type: application/json' \\
+  -H 'Accept: application/json, text/event-stream' \\
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_service_life","arguments":{"id":"rtu-gas-electric"}}}'`;
+const tools = [
+  ['search_components', 'Find components by name, alias or Uniformat code.'],
+  ['get_component', 'The full entry: service life, PM tasks, sources, confidence and open questions.'],
+  ['get_service_life', 'Median and range of life in years, with what the range means (p10–p90 of units, or the spread of stated lives), optionally adjusted by named modifiers.'],
+  ['estimate_remaining_life', 'Remaining years and a replacement year range from an install year. A planning estimate, not a condition assessment.'],
+  ['get_pm_schedule', 'Work orders by interval and dated visits from a start date, with coinciding intervals merged into one visit. Ready to set up in a CMMS.'],
+  ['get_pm_tasks', 'Preventive maintenance tasks with ISO 8601 frequencies, optionally filtered by criticality.'],
+  ['map_classification', 'Match an asset register name (“RTU-3 Lennox 2009”) or a Uniformat code to the catalogue, with a score and whether an entry exists yet.'],
+  ['get_municipal_lives', 'Useful lives Ontario municipalities set for a building system (e.g. D30 HVAC) in their capital asset policies, each linked to the page it was checked against. Accounting lives, not observed ones.'],
+  ['list_open_questions', 'Known gaps and disagreements, for one component or all.'],
+];
+---
+<Docs title="Agents · unfinished.one" description="Connect an AI agent to unfinished.one: the MCP server, the JSON API and llms.txt." canonical="https://unfinished.one/agents">
+  <h1>For agents</h1>
+  <p class="lede">The library is built to be read by software. Use the MCP server, the JSON API or <a href="/llms.txt">llms.txt</a>. All three are public, read-only and need no key.</p>
+
+  <h2 id="mcp">MCP server</h2>
+  <p>Streamable HTTP, read-only, no authentication.</p>
+  <Copy label="Server URL" text={MCP} />
+
+  <h3>Claude Code</h3>
+  <Copy label="Terminal" text={claudeCode} />
+  <p>Or add it to a project’s <code>.mcp.json</code>:</p>
+  <Copy label=".mcp.json" text={mcpJson} />
+
+  <h3>Claude Desktop and claude.ai</h3>
+  <p>Add a custom connector in Settings → Connectors and paste the server URL. No OAuth settings are needed.</p>
+  <p>For a Claude Desktop build without custom connectors, bridge the remote server through <code>mcp-remote</code> in <code>claude_desktop_config.json</code> (needs Node.js):</p>
+  <Copy label="claude_desktop_config.json" text={desktopBridge} />
+
+  <h3>Other clients</h3>
+  <p>Any MCP client that supports Streamable HTTP can connect to the URL above; many accept the same <code>mcpServers</code> block as <code>.mcp.json</code>. The server is stateless, so a single JSON-RPC POST works without a session:</p>
+  <Copy label="curl" text={curl} />
+
+  <h3 id="tools">Tools</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Tool</th><th>Returns</th></tr></thead>
+      <tbody>{tools.map(([n, d]) => <tr><td><code>{n}</code></td><td>{d}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p>Every result includes <code>canonical_url</code>, <code>version</code>, <code>citation</code>, <code>licence</code> and <code>confidence</code>.</p>
+
+  <h2 id="api">JSON API</h2>
+  <p>Static JSON files, the same data the MCP server uses.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>URL</th><th>Returns</th></tr></thead>
+      <tbody>
+        <tr><td><a href="/api/components.json"><code>{SITE}/api/components.json</code></a></td><td>Latest version of every entry</td></tr>
+        <tr><td><code>{SITE}/api/c/&lt;id&gt;.json</code></td><td>Latest version of one entry</td></tr>
+        <tr><td><code>{SITE}/api/c/&lt;id&gt;/&lt;version&gt;.json</code></td><td>One fixed version</td></tr>
+        <tr><td><code>{SITE}/api/c/&lt;id&gt;/pm.csv</code></td><td>Maintenance tasks grouped by work order, for CMMS import (components with sourced tasks)</td></tr>
+        <tr><td><a href="/api/life-rows.json"><code>{SITE}/api/life-rows.json</code></a></td><td>Reviewed municipal accounting lives, by row and by Uniformat system</td></tr>
+        <tr><td><a href="/api/policies.json"><code>{SITE}/api/policies.json</code></a></td><td>The capital asset policies they come from</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="llms">llms.txt</h2>
+  <p><a href="/llms.txt"><code>{SITE}/llms.txt</code></a> is a plain-text summary for language models: what the library is, how to cite it, and a list of every entry with its median life and grade.</p>
+
+  <h2 id="rules">When you use a value</h2>
+  <ul>
+    <li>Show the user the entry link and its <a href="/about#confidence">confidence grade</a>. Grade D means expert estimate only.</li>
+    <li>Cite the version link (<code>/c/&lt;id&gt;/v/&lt;version&gt;</code>). See <a href="/cite">Cite</a>.</li>
+    <li>Mention open questions that bear on the answer.</li>
+  </ul>
+</Docs>

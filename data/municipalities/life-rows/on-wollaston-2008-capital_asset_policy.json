@@ -1,0 +1,158 @@
+{
+  "document": {
+    "id": "on-wollaston-2008-capital_asset_policy",
+    "municipality": "on-wollaston",
+    "document_type": "capital_asset_policy",
+    "title": "By-law 72-08, a by-law to create a Tangible Capital Assets Policy",
+    "year": 2008,
+    "prepared_by": null,
+    "url": "https://wollaston.ca/bfd_download/2008-0072-create-tangible-capital-assets-policy/",
+    "sha256": "e15ed21dcf6568b57aec69564f5cbc13606519177db1e86cb69f14e58c5d02c8",
+    "retrieved_on": "2026-10-21"
+  },
+  "rows": [
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r1",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 40,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Building (whole or not broken down)",
+      "systems": []
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r2",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "HVAC",
+      "systems": [
+        "D30"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r3",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Roofing",
+      "systems": [
+        "B30"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r4",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior construction",
+      "systems": [
+        "C10"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r5",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 5,
+      "life_years_max": 7,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Interior finishes",
+      "systems": [
+        "C30"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r6",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Plumbing, Electrical",
+      "systems": [
+        "D20",
+        "D50"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r7",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "facilities",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Fire protection",
+      "systems": [
+        "D40"
+      ]
+    },
+    {
+      "id": "on-wollaston-2008-capital_asset_policy-r8",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 15,
+      "life_years_max": 20,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-21",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    }
+  ]
+}
