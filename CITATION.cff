@@ -6,6 +6,11 @@ authors:
   - name: "unfinished.one"
     website: "https://unfinished.one"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23554482
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23554482
+    description: Zenodo archive, all releases
 url: "https://unfinished.one"
 keywords:
   - asset management

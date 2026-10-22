@@ -6,6 +6,9 @@ import { loadComponents } from '../lib/data';
 const e = loadComponents()[0].latest;
 const name = e.names[0];
 const bibtex = toBibtex(e);
+// The Zenodo concept DOI: resolves to the latest archived release of the whole dataset.
+const DOI = '10.5281/zenodo.23554482';
+const datasetCitation = `unfinished.one (${new Date().getFullYear()}). unfinished.one: open reference library of service lives and preventive maintenance for built assets [Data set]. Zenodo. https://doi.org/${DOI}`;
 const attribution = `${name}, v${e.version}, unfinished.one, ${e.versioned_url}, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).`;
 ---
 <Docs title="Cite · unfinished.one" description="How to cite unfinished.one entries: permanent version links, a citation string, BibTeX and CC BY 4.0 attribution." canonical="https://unfinished.one/cite">
@@ -31,6 +34,11 @@ const attribution = `${name}, v${e.version}, unfinished.one, ${e.versioned_url},
 
   <h2 id="bibtex">BibTeX</h2>
   <Copy label="Example" text={bibtex} />
+
+  <h2 id="dataset">The whole dataset</h2>
+  <p>If you use the library as a whole rather than particular entries, cite its archive on Zenodo. The DOI below always resolves to the latest release; each release also has its own DOI on its Zenodo page.</p>
+  <Copy label="Dataset citation" text={datasetCitation} />
+  <p class="muted small"><a href={`https://doi.org/${DOI}`}>doi.org/{DOI}</a> · <a href="https://github.com/TomPelsz/unfinished.one">Source on GitHub</a></p>
 
   <h2 id="attribution">Attribution under CC BY 4.0</h2>
   <p>You may copy, adapt and redistribute the data, including commercially, if you:</p>

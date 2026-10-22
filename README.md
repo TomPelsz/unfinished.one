@@ -1,5 +1,7 @@
 # unfinished.one
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23554482.svg)](https://doi.org/10.5281/zenodo.23554482)
+
 The open, agent-native reference library for built assets: how long building components and municipal infrastructure last, and how to maintain them. Every entry carries its sources, cited to the page, a confidence grade, its open questions and a permanent versioned link. Served as web pages, JSON and an MCP server.
 
 ## What is in it

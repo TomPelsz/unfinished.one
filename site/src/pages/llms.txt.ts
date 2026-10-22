@@ -26,7 +26,7 @@ Service lives here are published planning, design or accounting lives, not measu
 
 - [About](${SITE}/about): what the library is, confidence grades, neutrality, pre-release status
 - [Sourcing](${SITE}/sourcing): sourcing and provenance policy (draft, pending legal review)
-- [Cite](${SITE}/cite): version links, citation format, BibTeX, CC BY 4.0 attribution
+- [Cite](${SITE}/cite): version links, citation format, BibTeX, CC BY 4.0 attribution; the whole dataset is archived on Zenodo, DOI 10.5281/zenodo.23554482
 - [Agents](${SITE}/agents): connecting the MCP server, JSON API URLs
 - [Sources](${SITE}/sources): every document the entries cite
 - [Municipal plans](${SITE}/plans): Ontario municipal asset management plans and capital asset policies, with accounting lives compared by building system
