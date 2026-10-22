@@ -1,0 +1,210 @@
+{
+  "id": "bas-supervisory-controller",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Building automation supervisory controller"
+  ],
+  "aliases": [
+    "BAS controller",
+    "BMS controller",
+    "JACE",
+    "supervisory controller"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Verify control schedules suit season and occupancy",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Verify setpoints suit season and occupancy",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Calculate outside air volumes and compare to requirements",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Check setpoints and review the reason for each",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Check schedules and review the reason for each",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Check deadbands so simultaneous heating and cooling happens only by design",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Back up the BAS server",
+      "frequency": "P1M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 103,
+      "checklist": "CTRL-DDC-01-01M BAS Server"
+    },
+    {
+      "task": "Install operating system security patches",
+      "frequency": "P1M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 103,
+      "checklist": "CTRL-DDC-01-01M BAS Server"
+    },
+    {
+      "task": "Back up trend data",
+      "frequency": "P1M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 103,
+      "checklist": "CTRL-DDC-01-01M BAS Server"
+    },
+    {
+      "task": "Review system, security and application event logs; correct errors",
+      "frequency": "P1W",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 104,
+      "checklist": "CTRL-DDC-01-01W BAS Server"
+    },
+    {
+      "task": "Check automatic backups ran on schedule without errors",
+      "frequency": "P1W",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 104,
+      "checklist": "CTRL-DDC-01-01W BAS Server"
+    },
+    {
+      "task": "Clean up and defragment the server hard drive",
+      "frequency": "P3M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 107,
+      "checklist": "CTRL-DDC-01-03M BAS Server"
+    },
+    {
+      "task": "Replace backup media as its maker recommends",
+      "frequency": "P3M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 107,
+      "checklist": "CTRL-DDC-01-03M BAS Server"
+    },
+    {
+      "task": "Shut down and clean inside the server enclosure",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 105,
+      "checklist": "CTRL-DDC-01-01Y BAS Server"
+    },
+    {
+      "task": "Check internal cables are fully seated",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 105,
+      "checklist": "CTRL-DDC-01-01Y BAS Server"
+    },
+    {
+      "task": "Update the front-end software",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 105,
+      "checklist": "CTRL-DDC-01-01Y BAS Server"
+    },
+    {
+      "task": "Network devices: check wiring, power connections and condition; clean",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 112,
+      "checklist": "CTRL-DDC-03-01Y Network - Management Level"
+    },
+    {
+      "task": "Inspect routers, switches, firewalls and gateways; verify settings",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 112,
+      "checklist": "CTRL-DDC-03-01Y Network - Management Level"
+    },
+    {
+      "task": "Audit Ethernet connections against assigned ports; correct discrepancies",
+      "frequency": "P3M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 113,
+      "checklist": "CTRL-DDC-03-03M Network - Management Level"
+    },
+    {
+      "task": "Field networks: check terminators and repeaters are installed as specified",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 115,
+      "checklist": "CTRL-DDC-04-01Y Network - Building Level"
+    },
+    {
+      "task": "Field networks: check signal waveform and run a communications speed test",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 115,
+      "checklist": "CTRL-DDC-04-01Y Network - Building Level"
+    },
+    {
+      "task": "Run and review network diagnostic reports for errors",
+      "frequency": "P3M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 116,
+      "checklist": "CTRL-DDC-04-03M Network - Building Level"
+    },
+    {
+      "task": "Review alarm points: add missing, remove obsolete, fix nuisance alarms, set priorities",
+      "frequency": "P1M",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 123,
+      "checklist": "CTRL-DDC-08-01M Alarm Maintenance"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

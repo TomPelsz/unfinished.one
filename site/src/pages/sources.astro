@@ -6,7 +6,7 @@ import { loadComponents, loadTcaPolicies } from '../lib/data';
 const entries = loadComponents().map((c: any) => c.latest);
 const docs = new Map<string, any>();
 for (const e of entries) {
-  for (const b of e.basis) {
+  for (const b of e.basis ?? []) {
     const key = b.url ?? `${b.type}:${b.title ?? b.by}`;
     if (!docs.has(key)) docs.set(key, { title: b.title ?? b.type.replaceAll('_', ' '), by: b.by, url: b.url, life_type: b.life_type, rows: 0, entries: new Map() });
     const d = docs.get(key);

@@ -60,6 +60,15 @@ test('get_service_life says what its range means', () => {
   assert.deepEqual(r.ignored_modifiers, ['bogus']);
 });
 
+test('a maintenance-only entry gives no life and points to its tasks', () => {
+  const life = data('get_service_life', { id: 'ddc-field-controller' });
+  assert.equal(life.service_life, null);
+  assert.equal(life.maintenance_only, true);
+  assert.match(life.note, /No sourced service life/);
+  assert.equal(data('estimate_remaining_life', { id: 'ddc-field-controller', install_year: 2010 }).service_life, null);
+  assert.ok(data('get_pm_tasks', { id: 'ddc-field-controller' }).pm_tasks.length > 0);
+});
+
 test('estimate_remaining_life never goes below zero', () => {
   const r = data('estimate_remaining_life', { id: 'rtu-gas-electric', install_year: 1990, as_of_year: 2026 });
   assert.equal(r.remaining_years_median, 0);

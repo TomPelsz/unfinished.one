@@ -10,8 +10,9 @@ export function GET() {
   const withdrawn = new Set(loadWithdrawn().map((w: any) => w.id));
   const components = loadCatalogue().map((c: any) => ({
     t: c.name,
-    s: c.entry
+    s: c.entry?.service_life
       ? `${groupName(c.group)} · grade ${c.entry.confidence.grade} · median ${years(c.entry.service_life.median_years)} years`
+      : c.entry ? `${groupName(c.group)} · maintenance only, ${c.entry.pm_tasks.length} tasks`
       : `${groupName(c.group)} · ${withdrawn.has(c.id) ? 'withdrawn' : 'not written yet'}`,
     u: `/c/${c.id}`,
     k: [...c.aliases, c.uniformat, c.id].join(' '),

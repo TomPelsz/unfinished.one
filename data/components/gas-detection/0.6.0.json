@@ -1,0 +1,68 @@
+{
+  "id": "gas-detection",
+  "version": "0.6.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Gas detection system"
+  ],
+  "aliases": [
+    "CO detector",
+    "NO2 detection",
+    "refrigerant leak detector",
+    "gas detector"
+  ],
+  "service_life": {
+    "median_years": 10,
+    "range_years": [
+      10,
+      10
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Gas sensors: calibrate with a test gas canister and standard gas kit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Gas sensors: compare BAS reading and alarm with a calibrated handheld meter",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "UFM 3-601-02 Fire Protection Systems Inspection, Testing, and Maintenance (Unified Facilities Manual, 13 March 2026)",
+      "by": "U.S. Department of Defense (Unified Facilities Criteria program)",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_601_02_2026.pdf",
+      "page": 32,
+      "code": "Table 2-1",
+      "label": "Fire Detection and Alarm System ITM Tasks, frequency \"10 Years\": \"Carbon Monoxide Detectors\" - \"Replace detectors.\"",
+      "years": 10,
+      "note": "Printed page 25. CO detectors connected to the building fire alarm system (section 3-4 distinguishes these from single-station CO alarms). Covers the CO detector heads only; NO2, refrigerant and combustible-gas detectors and the gas detection controller are not addressed."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

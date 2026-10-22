@@ -1,0 +1,64 @@
+{
+  "id": "ahu-indoor",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D3040"
+  },
+  "names": [
+    "Air handling unit, indoor"
+  ],
+  "aliases": [
+    "AHU",
+    "air handler",
+    "air handling unit"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Check filters for gaps; replace when dirty",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect for moisture or growth on surfaces and ducts; check odours and complaints",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect ductwork; refasten loose connections and repair leaks",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Coils: confirm filters have been kept clean",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    },
+    {
+      "task": "Inspect and repair or replace damaged duct insulation",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 218,
+      "checklist": "9.8.11 Fans Checklist"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

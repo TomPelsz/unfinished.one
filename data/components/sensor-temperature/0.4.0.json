@@ -1,0 +1,119 @@
+{
+  "id": "sensor-temperature",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Temperature sensor"
+  ],
+  "aliases": [
+    "temp sensor",
+    "RTD",
+    "thermistor"
+  ],
+  "service_life": {
+    "median_years": 12.5,
+    "range_years": [
+      10,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check all sensors (temperature, pressure, humidity, flow) read expected values",
+      "frequency": "P6M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Calibrate all sensors (temperature, pressure, humidity, flow)",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Check sensor is secure, unobstructed and in the right place",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Check sensor voltage, current or resistance; adjust or replace if out of range",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Check its setpoint is reasonable and matches building documents",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Compare BAS reading with a calibrated handheld meter over five readings",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Calibrate or replace sensors reading outside their accuracy",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 13,
+      "code": "HUD CNA 3.4.3.2.2",
+      "label": "Heat sensors",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 13,
+      "code": "HUD CNA 3.4.3.2.3",
+      "label": "Outdoor temperature sensor",
+      "years": 10,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Only one source so far: HUD planning lives for US multifamily housing. Canadian and observed sources are needed.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

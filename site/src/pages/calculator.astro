@@ -7,7 +7,8 @@ import { loadCatalogue } from '../lib/data';
 import { byGroup } from '../lib/groups';
 import { commonName } from '../lib/answer';
 
-const catalogue = loadCatalogue().filter((c: any) => c.entry);
+// Only entries with a sourced life; maintenance-only entries have no life to add.
+const catalogue = loadCatalogue().filter((c: any) => c.entry?.service_life);
 const groups = byGroup(catalogue);
 const data = Object.fromEntries(catalogue.map((c: any) => {
   const e = c.entry;

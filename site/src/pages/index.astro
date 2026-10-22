@@ -6,6 +6,10 @@ import { byGroup, isInfrastructure } from '../lib/groups';
 const catalogue = loadCatalogue();
 const groups = byGroup(catalogue);
 const building = catalogue.filter((c) => !isInfrastructure(c.group)).length;
+// A square per component: filled in its grade's colour when it states a life, outlined when it has
+// sourced maintenance tasks only, dashed when nothing is written yet.
+const state = (c: any) => (c.entry?.service_life ? `grade ${c.entry.confidence.grade}` : c.entry ? 'maintenance only' : 'not written yet');
+const cellClass = (c: any) => (c.entry?.service_life ? `cell done grade-${c.entry.confidence.grade}` : c.entry ? 'cell pm' : 'cell');
 ---
 <Library title="unfinished.one" canonical="https://unfinished.one/">
   <style>
@@ -23,6 +27,7 @@ const building = catalogue.filter((c) => !isInfrastructure(c.group)).length;
     .cell:hover, .cell:focus-visible { border-color: var(--muted); outline: none; }
     .cell.done { border-style: solid; border-color: currentColor; background: currentColor; }
     .key { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+    .cell.pm { border-style: solid; border-color: var(--accent); }
     .key .cell { display: inline-block; vertical-align: -3px; margin-right: 6px; width: 12px; height: 12px; }
     @media (max-width: 560px) { .coverage .row { grid-template-columns: 1fr; gap: 4px; } }
   </style>
@@ -41,14 +46,14 @@ const building = catalogue.filter((c) => !isInfrastructure(c.group)).length;
 
   <h2 id="coverage">Coverage</h2>
   <p>The catalogue covers the {building} building components and {catalogue.length - building} infrastructure assets that municipalities and facility teams own most often. Each square is one component.</p>
-  <div class="key"><span><i class="cell done grade-C" aria-hidden="true"></i>written, coloured by confidence grade</span><span><i class="cell" aria-hidden="true"></i>not written yet</span></div>
+  <div class="key"><span><i class="cell done grade-C" aria-hidden="true"></i>written, coloured by confidence grade</span><span><i class="cell pm" aria-hidden="true"></i>maintenance tasks only, no sourced life yet</span><span><i class="cell" aria-hidden="true"></i>not written yet</span></div>
   <div class="coverage">
     {groups.map((g) => (
       <div class="row">
         <span class="label"><b>{g.name}</b> {g.items.filter((c) => c.entry).length}/{g.items.length}</span>
         <div class="cells">
           {g.items.map((c) => (
-            <a class={c.entry ? `cell done grade-${c.entry.confidence.grade}` : 'cell'} href={`/c/${c.id}`} title={`${c.name}${c.entry ? ` · grade ${c.entry.confidence.grade}` : ' · not written yet'}`} aria-label={`${c.name}, ${c.entry ? `grade ${c.entry.confidence.grade}` : 'not written yet'}`}></a>
+            <a class={cellClass(c)} href={`/c/${c.id}`} title={`${c.name} · ${state(c)}`} aria-label={`${c.name}, ${state(c)}`}></a>
           ))}
         </div>
       </div>

@@ -5,7 +5,7 @@ import { isInfrastructure } from '../lib/groups';
 const catalogue = loadCatalogue();
 const building = catalogue.filter((c: any) => !isInfrastructure(c.group)).length;
 const written = catalogue.filter((c: any) => c.entry).length;
-const gradeB = catalogue.filter((c: any) => c.entry?.confidence.grade === 'B').length;
+const gradeB = catalogue.filter((c: any) => c.entry?.confidence?.grade === 'B').length;
 import GradeLegend from '../components/GradeLegend.astro';
 ---
 <Docs title="About · unfinished.one" description="What unfinished.one is, why it is called unfinished, what the confidence grades mean and how it stays neutral." canonical="https://unfinished.one/about">

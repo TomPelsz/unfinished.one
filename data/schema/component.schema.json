@@ -305,12 +305,36 @@
     }
   },
   "else": {
+    "description": "A live entry. It states a service life with its basis and grade, or, when no source that meets the sourcing policy states a life yet, it is maintenance-only: sourced tasks and no life.",
     "required": [
-      "service_life",
       "pm_tasks",
-      "basis",
-      "confidence",
       "open_questions"
+    ],
+    "dependentRequired": {
+      "service_life": [
+        "basis",
+        "confidence"
+      ],
+      "basis": [
+        "service_life"
+      ],
+      "confidence": [
+        "service_life"
+      ]
+    },
+    "anyOf": [
+      {
+        "required": [
+          "service_life"
+        ]
+      },
+      {
+        "properties": {
+          "pm_tasks": {
+            "minItems": 1
+          }
+        }
+      }
     ]
   }
 }

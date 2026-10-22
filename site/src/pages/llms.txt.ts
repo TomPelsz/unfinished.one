@@ -3,7 +3,7 @@ import { GRADES } from '../lib/grades';
 
 export function GET() {
   const planned = loadCatalogue().filter((c) => !c.entry);
-  const lines = loadComponents().map(({ latest: e }) => `- [${e.names[0]}](${e.canonical_url}): median ${e.service_life.median_years} years (${e.service_life.range_basis === 'source_spread' ? 'sources state' : 'p10-p90'} ${e.service_life.range_years[0] === e.service_life.range_years[1] ? e.service_life.range_years[0] : `${e.service_life.range_years[0]}-${e.service_life.range_years[1]}`}), confidence ${e.confidence.grade}${new Set(e.basis.map((b: any) => b.url ?? b.title)).size === 1 ? ', one source only' : ''}, ${e.pm_tasks.length} PM tasks`);
+  const lines = loadComponents().map(({ latest: e }) => !e.service_life ? `- [${e.names[0]}](${e.canonical_url}): maintenance only, ${e.pm_tasks.length} PM tasks; no sourced service life yet (do not supply one)` : `- [${e.names[0]}](${e.canonical_url}): median ${e.service_life.median_years} years (${e.service_life.range_basis === 'source_spread' ? 'sources state' : 'p10-p90'} ${e.service_life.range_years[0] === e.service_life.range_years[1] ? e.service_life.range_years[0] : `${e.service_life.range_years[0]}-${e.service_life.range_years[1]}`}), confidence ${e.confidence.grade}${new Set((e.basis ?? []).map((b: any) => b.url ?? b.title)).size === 1 ? ', one source only' : ''}, ${e.pm_tasks.length} PM tasks`);
   const body = `# unfinished.one
 
 > The open reference library for built assets: service life and preventive maintenance for building components. Licence CC BY 4.0.

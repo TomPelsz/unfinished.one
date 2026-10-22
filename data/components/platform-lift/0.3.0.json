@@ -1,0 +1,33 @@
+{
+  "id": "platform-lift",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D1010"
+  },
+  "names": [
+    "Vertical platform lift"
+  ],
+  "aliases": [
+    "VPL",
+    "wheelchair lift",
+    "accessibility lift"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Inspect wheelchair and stair lifts",
+      "frequency": "P6M",
+      "reference": "NAVFAC MO-118 Inspection of Vertical Transportation Equipment",
+      "url": "https://nibs-s3-wbdg3-production.s3.us-east-1.amazonaws.com/NAVFAC/OPER/mo118.pdf",
+      "page": 165,
+      "checklist": "6.5 Handicapped Lifts"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced.",
+    "Elevator tasks come from NAVFAC MO-118 (1988), which restates the elevator code tests of its time; check them against the current ASME A17.1 and local requirements."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

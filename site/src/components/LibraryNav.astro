@@ -30,9 +30,9 @@ const years = (n: number) => (Number.isInteger(n) ? n : Number(n.toFixed(1)));
               {g.items.map((c) => (
                 <li data-search={[c.name, ...c.aliases, c.uniformat, c.id].join(' ').toLowerCase()}>
                   <a href={`/c/${c.id}`} aria-current={c.id === current ? 'page' : undefined} class={c.entry ? undefined : 'planned'}>
-                    <i class={c.entry ? `dot grade-${c.entry.confidence.grade}` : 'dot'} aria-hidden="true"></i>
+                    <i class={c.entry?.service_life ? `dot grade-${c.entry.confidence.grade}` : c.entry ? 'dot pm' : 'dot'} aria-hidden="true"></i>
                     <span class="nm">{c.name}</span>
-                    <span class={!c.entry && withdrawn.has(c.id) ? 'yr wd' : 'yr'}>{c.entry ? years(c.entry.service_life.median_years) : withdrawn.has(c.id) ? 'withdrawn' : ''}</span>
+                    <span class={(!c.entry && withdrawn.has(c.id)) || (c.entry && !c.entry.service_life) ? 'yr wd' : 'yr'}>{c.entry?.service_life ? years(c.entry.service_life.median_years) : c.entry ? 'tasks' : withdrawn.has(c.id) ? 'withdrawn' : ''}</span>
                   </a>
                 </li>
               ))}
@@ -43,7 +43,7 @@ const years = (n: number) => (Number.isInteger(n) ? n : Number(n.toFixed(1)));
     ))}
     <p class="libnav-empty muted small" hidden data-libnav-empty>No component matches.</p>
   </div>
-  <p class="libnav-key muted small"><span><i class="dot grade-C" aria-hidden="true"></i>written, by grade</span><span><i class="dot" aria-hidden="true"></i>not written</span><span>{written} of {catalogue.length}</span></p>
+  <p class="libnav-key muted small"><span><i class="dot grade-C" aria-hidden="true"></i>written, by grade</span><span><i class="dot pm" aria-hidden="true"></i>tasks only</span><span><i class="dot" aria-hidden="true"></i>not written</span><span>{written} of {catalogue.length}</span></p>
 </nav>
 <script is:inline>
   (() => {
@@ -103,6 +103,7 @@ const years = (n: number) => (Number.isInteger(n) ? n : Number(n.toFixed(1)));
   .libnav .yr { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
   .libnav .yr.wd { font-size: 11px; font-style: italic; }
   .libnav .dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px dashed var(--line); display: inline-block; }
+  .libnav .dot.pm { border-style: solid; border-color: var(--accent); }
   .libnav .dot[class*='grade-'] { border-style: solid; border-color: currentColor; background: currentColor; }
   .libnav-key { display: flex; flex-wrap: wrap; gap: 2px 12px; margin: 8px 0 0; padding-top: 8px; border-top: 1px solid var(--line); line-height: 1.5; }
   .libnav-key span { white-space: nowrap; }

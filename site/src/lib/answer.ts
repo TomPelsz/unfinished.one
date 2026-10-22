@@ -51,14 +51,20 @@ const span = ([lo, hi]: number[]) => (lo === hi ? yrs(lo) : `${yrs(lo)}–${yrs(
 // "Life expectancy" is how building owners search; municipalities say "useful life" for infrastructure.
 export const lifeTerm = (group?: string) => (group && isInfrastructure(group) ? 'useful life' : 'life expectancy');
 
+// A maintenance-only entry has sourced tasks but no sourced life yet.
+export const hasLife = (e: any) => Boolean(e?.service_life);
+
 export const pageTitle = (e: any, group?: string) =>
-  `${commonName(e.id, e.names[0])} ${lifeTerm(group)}: ${yrs(e.service_life.median_years)} years`;
+  hasLife(e)
+    ? `${commonName(e.id, e.names[0])} ${lifeTerm(group)}: ${yrs(e.service_life.median_years)} years`
+    : `${commonName(e.id, e.names[0])} maintenance: ${e.pm_tasks.length} tasks`;
 
 // One or two sentences, true to how the number was made: a single source is named as such, and a
 // spread of stated lives is not presented as a spread of real units.
 export function answer(e: any, sourceCount: number, group?: string) {
   const sl = e.service_life;
   const name = commonName(e.id, e.names[0]);
+  if (!sl) return `${e.pm_tasks.length} preventive maintenance tasks for ${/^[A-Z][a-z]/.test(name) ? name.charAt(0).toLowerCase() + name.slice(1) : name}, from published sources. No source that meets our sourcing policy states a service life yet.`;
   // "A condensing boiler", "An HDPE watermain": acronyms keep their capitals and take the article by sound.
   const acronym = /^[A-Z]{2,}\b/.test(name);
   const what = acronym ? name : name.charAt(0).toLowerCase() + name.slice(1);

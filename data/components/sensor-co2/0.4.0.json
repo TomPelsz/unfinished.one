@@ -1,0 +1,88 @@
+{
+  "id": "sensor-co2",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "CO2 sensor"
+  ],
+  "aliases": [
+    "carbon dioxide sensor",
+    "IAQ sensor"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Check all sensors (temperature, pressure, humidity, flow) read expected values",
+      "frequency": "P6M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Calibrate all sensors (temperature, pressure, humidity, flow)",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 204,
+      "checklist": "9.6.10 Building Controls Checklist"
+    },
+    {
+      "task": "Check sensor is secure, unobstructed and in the right place",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Check sensor voltage, current or resistance; adjust or replace if out of range",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Check its setpoint is reasonable and matches building documents",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Compare BAS reading with a calibrated handheld meter over five readings",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Calibrate or replace sensors reading outside their accuracy",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    },
+    {
+      "task": "Gas sensors: calibrate with a test gas canister and standard gas kit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 122,
+      "checklist": "CTRL-DDC-07-01Y Sensors - Electronic"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

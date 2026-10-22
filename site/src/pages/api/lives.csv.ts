@@ -5,7 +5,7 @@ import { csvResponse, toCsv } from '../../lib/csv';
 
 // One row per published entry: the life, its grade and sources, and the link to cite.
 export function GET() {
-  const rows = loadCatalogue().filter((c: any) => c.entry).map((c: any) => {
+  const rows = loadCatalogue().filter((c: any) => c.entry?.service_life).map((c: any) => {
     const e = c.entry;
     const sources = [...new Set(e.basis.map((b: any) => b.title ?? b.type))];
     return [c.id, commonName(c.id, c.name), c.name, groupName(c.group), e.classification.uniformat, e.service_life.median_years,

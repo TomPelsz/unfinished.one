@@ -1,0 +1,79 @@
+{
+  "id": "damper-actuator",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D3060"
+  },
+  "names": [
+    "Damper actuator"
+  ],
+  "aliases": [
+    "actuator"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Check actuator and linkage open and close fully without binding; adjust",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 127,
+      "checklist": "CTRL-END-01-01Y End Devices (pneumatic)"
+    },
+    {
+      "task": "Stroke through full range with a squeeze bulb and gauge",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 127,
+      "checklist": "CTRL-END-01-01Y End Devices (pneumatic)"
+    },
+    {
+      "task": "Pneumatic: listen and feel for air leaks at tubing joints",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 127,
+      "checklist": "CTRL-END-01-01Y End Devices (pneumatic)"
+    },
+    {
+      "task": "Check diaphragm actuators and other primary elements for condition and action",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 127,
+      "checklist": "CTRL-END-01-01Y End Devices (pneumatic)"
+    },
+    {
+      "task": "Check electrically controlled valves and dampers respond",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 127,
+      "checklist": "CTRL-END-01-01Y End Devices (pneumatic)"
+    },
+    {
+      "task": "Electronic: command through its range; check the equipment responds",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 128,
+      "checklist": "CTRL-END-01-01Y End Devices (electronic)"
+    },
+    {
+      "task": "Electronic: compare BAS status with what the device actually does",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 128,
+      "checklist": "CTRL-END-01-01Y End Devices (electronic)"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

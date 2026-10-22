@@ -14,8 +14,10 @@ const sources = (e: any) => new Set((e.basis ?? []).map((b: any) => b.url ?? b.t
 
 function diff(prev: any, e: any) {
   const out: string[] = [];
-  if (prev.service_life?.median_years !== e.service_life?.median_years) out.push(`median ${prev.service_life?.median_years} → ${e.service_life?.median_years} years`);
-  if (prev.confidence?.grade !== e.confidence?.grade) out.push(`grade ${prev.confidence?.grade} → ${e.confidence?.grade}`);
+  if (prev.service_life && !e.service_life) out.push('service life removed: no qualifying source left; maintenance only');
+  else if (!prev.service_life && e.service_life) out.push(`service life added: ${e.service_life.median_years} years, grade ${e.confidence.grade}`);
+  else if (prev.service_life?.median_years !== e.service_life?.median_years) out.push(`median ${prev.service_life?.median_years} → ${e.service_life?.median_years} years`);
+  if (prev.service_life && e.service_life && prev.confidence?.grade !== e.confidence?.grade) out.push(`grade ${prev.confidence?.grade} → ${e.confidence?.grade}`);
   if (sources(prev) !== sources(e)) out.push(`sources ${sources(prev)} → ${sources(e)}`);
   if ((prev.pm_tasks?.length ?? 0) !== (e.pm_tasks?.length ?? 0)) out.push(`maintenance tasks ${prev.pm_tasks?.length ?? 0} → ${e.pm_tasks?.length ?? 0}`);
   return out.length ? out.join(', ') : 'sources or wording revised';
@@ -29,7 +31,7 @@ export function loadChanges(): Day[] {
       const name = commonName(c.id, e.names[0]);
       const href = `/c/${c.id}/v/${e.version}`;
       if (e.status === 'withdrawn') all.push({ date: e.last_reviewed, kind: 'withdrawn', text: `${name} withdrawn (v${e.version}): ${e.withdrawn_reason}`, href: `/c/${c.id}` });
-      else if (i === 0 || asc[i - 1].status === 'withdrawn') all.push({ date: e.last_reviewed, kind: 'new', text: `${name} ${i === 0 ? 'published' : 'published again'} (v${e.version}): ${e.service_life.median_years} years, grade ${e.confidence.grade}${e.pm_tasks.length ? `, ${plural(e.pm_tasks.length, 'maintenance task')}` : ''}`, href });
+      else if (i === 0 || asc[i - 1].status === 'withdrawn') all.push({ date: e.last_reviewed, kind: 'new', text: `${name} ${i === 0 ? 'published' : 'published again'} (v${e.version}): ${e.service_life ? `${e.service_life.median_years} years, grade ${e.confidence.grade}${e.pm_tasks.length ? `, ${plural(e.pm_tasks.length, 'maintenance task')}` : ''}` : `maintenance only, ${plural(e.pm_tasks.length, 'task')}`}`, href });
       else all.push({ date: e.last_reviewed, kind: 'updated', text: `${name} v${e.version}: ${diff(asc[i - 1], e)}`, href });
     });
   }

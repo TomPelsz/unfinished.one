@@ -17,8 +17,9 @@ const catalogue = loadCatalogue();
 const lives = livesByComponent(new Map(catalogue.map((c: any) => [c.id, c.name])));
 const items = t.components.map((id: string) => {
   const c = catalogue.find((x: any) => x.id === id)!;
-  return { id, c, name: commonName(id, c.name), s: lives.get(id) };
-}).filter((i: any) => i.s || i.c.entry);
+  // The library's own life, when the entry states one (maintenance-only entries do not).
+  return { id, c, name: commonName(id, c.name), s: lives.get(id), own: c.entry?.service_life ? c.entry : null };
+}).filter((i: any) => i.s || i.own);
 const withLives = items.filter((i: any) => i.s);
 const allRows = withLives.flatMap((i: any) => i.s.entries.flatMap((e: any) => e.rows));
 const municipalities = new Set(allRows.map((r: any) => r.municipality));
@@ -53,7 +54,7 @@ const description = `${t.title}: ${allRows.length} stated lives from ${municipal
             <td class="num">{i.s ? `${i.s.median} years` : '—'}</td>
             <td class="num">{i.s ? yrs(i.s.low, i.s.high) : '—'}</td>
             <td class="num">{i.s ? i.s.sources : 0}</td>
-            <td class="num">{i.c.entry ? <><a href={`/c/${i.id}`}>{i.c.entry.service_life.median_years} years</a> <Grade grade={i.c.entry.confidence.grade} align="end" /></> : <span class="muted">not written</span>}</td>
+            <td class="num">{i.own ? <><a href={`/c/${i.id}`}>{i.own.service_life.median_years} years</a> <Grade grade={i.own.confidence.grade} align="end" /></> : <span class="muted">none yet</span>}</td>
           </tr>
         ))}
       </tbody>
@@ -64,7 +65,7 @@ const description = `${t.title}: ${allRows.length} stated lives from ${municipal
   {withLives.map((i: any) => (
     <section class="comp" id={i.id}>
       <h2>{i.name}</h2>
-      <p class="stat">{i.s.municipalities} {i.s.municipalities === 1 ? 'municipality states' : 'municipalities state'} a life in {i.s.sources} distinct {i.s.sources === 1 ? 'table' : 'tables'}: <strong>{yrs(i.s.low, i.s.high)} years</strong>, median {i.s.median}.{i.c.entry && <> Library entry: <a href={`/c/${i.id}`}>{i.c.entry.service_life.median_years} years</a>, grade {i.c.entry.confidence.grade}.</>}</p>
+      <p class="stat">{i.s.municipalities} {i.s.municipalities === 1 ? 'municipality states' : 'municipalities state'} a life in {i.s.sources} distinct {i.s.sources === 1 ? 'table' : 'tables'}: <strong>{yrs(i.s.low, i.s.high)} years</strong>, median {i.s.median}.{i.own && <> Library entry: <a href={`/c/${i.id}`}>{i.own.service_life.median_years} years</a>, grade {i.own.confidence.grade}.</>}</p>
       <LifeStrip system={i.s} scaleMax={scaleMax} label={i.name} />
       <details>
         <summary>All {i.s.entries.reduce((n: number, e: any) => n + e.rows.length, 0)} stated lives</summary>

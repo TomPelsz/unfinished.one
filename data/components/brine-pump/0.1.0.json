@@ -1,0 +1,47 @@
+{
+  "id": "brine-pump",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D3040"
+  },
+  "names": [
+    "Brine pump"
+  ],
+  "aliases": [
+    "ice plant pump",
+    "glycol pump"
+  ],
+  "pm_tasks": [
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check and secure all pump mountings",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    },
+    {
+      "task": "Check motor condition by temperature or vibration analysis",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 231,
+      "checklist": "9.9.11 Pumps Checklist"
+    }
+  ],
+  "open_questions": [
+    "No service life yet: no published source that meets the sourcing policy states one. The maintenance tasks are sourced."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-22"
+}

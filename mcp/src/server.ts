@@ -13,10 +13,11 @@ type Entry = {
   names: string[];
   aliases?: string[];
   classification: { uniformat: string; omniclass?: string };
-  service_life: { median_years: number; range_years: number[]; range_basis?: 'p10_p90' | 'source_spread'; modifiers?: { factor: string; effect_years: number }[] };
+  // Absent on a maintenance-only entry, with basis and confidence: tasks are sourced, a life is not yet.
+  service_life?: { median_years: number; range_years: number[]; range_basis?: 'p10_p90' | 'source_spread'; modifiers?: { factor: string; effect_years: number }[] };
   pm_tasks: { task: string; frequency: string; trade?: string; labour_h?: number; criticality?: 'low' | 'medium' | 'high'; reference?: string; url?: string; page?: number; checklist?: string }[];
-  basis: Record<string, unknown>[];
-  confidence: { grade: string; sample_size?: number | null };
+  basis?: Record<string, unknown>[];
+  confidence?: { grade: string; sample_size?: number | null };
   open_questions: string[];
   canonical_url: string;
   versioned_url: string;
@@ -31,7 +32,8 @@ const SERVER_INFO = { name: 'unfinished.one', version: '0.3.0' };
 const INSTRUCTIONS =
   'Reference data on building components: service life and preventive maintenance. ' +
   'Every result carries canonical_url, citation, licence, version and confidence. ' +
-  'When you use a value, show the user its canonical_url and confidence grade. Grade D means expert estimate only.';
+  'When you use a value, show the user its canonical_url and confidence grade. Grade D means expert estimate only. ' +
+  'Entries marked maintenance_only have sourced maintenance tasks but no sourced service life yet; never supply a life for them.';
 
 const byId = new Map(components.map((c) => [c.id, c]));
 
@@ -41,7 +43,15 @@ const cite = (e: Entry) => ({
   canonical_url: e.canonical_url,
   citation: e.citation,
   licence: e.licence,
-  confidence: e.confidence,
+  confidence: e.confidence ?? null,
+  ...(!e.service_life && { maintenance_only: true }),
+});
+
+// A maintenance-only entry has no life to give: say so, and point to the tasks that are sourced.
+const noLife = (e: Entry) => ({
+  ...cite(e),
+  service_life: null,
+  note: `No sourced service life for ${e.names[0]} yet: no published source that meets the sourcing policy states one. ${e.pm_tasks.length} maintenance tasks are sourced; use get_pm_tasks or get_pm_schedule.`,
 });
 
 const idArg = { id: { type: 'string', description: 'Component id from search_components, e.g. rtu-gas-electric' } };
@@ -62,7 +72,7 @@ const tools = [
         .filter((r) => r.score > 0)
         .sort((a, b) => b.score - a.score)
         .slice(0, 10)
-        .map(({ e, score }) => ({ ...cite(e), name: e.names[0], median_years: e.service_life.median_years, match: Number(score.toFixed(2)) }));
+        .map(({ e, score }) => ({ ...cite(e), name: e.names[0], median_years: e.service_life?.median_years ?? null, match: Number(score.toFixed(2)) }));
       return { results };
     },
   },
@@ -82,7 +92,8 @@ const tools = [
     },
     run: ({ id, modifiers = [] }: { id: string; modifiers?: string[] }) => {
       const e = entry(id);
-      const sources = new Set(e.basis.map((b) => (b.url ?? b.title) as string)).size;
+      if (!e.service_life) return noLife(e);
+      const sources = new Set((e.basis ?? []).map((b) => (b.url ?? b.title) as string)).size;
       return {
         ...cite(e),
         ...applyModifiers(e.service_life, modifiers),
@@ -102,6 +113,7 @@ const tools = [
     },
     run: ({ id, install_year, as_of_year = new Date().getUTCFullYear() }: { id: string; install_year: number; as_of_year?: number }) => {
       const e = entry(id);
+      if (!e.service_life) return noLife(e);
       const age = as_of_year - install_year;
       const [lo, hi] = e.service_life.range_years;
       return {
@@ -217,7 +229,7 @@ const tools = [
 ];
 
 // Shifts median and range by the named modifiers an entry lists; names it does not list are reported.
-export function applyModifiers(life: Entry['service_life'], names: string[]) {
+export function applyModifiers(life: NonNullable<Entry['service_life']>, names: string[]) {
   const available = life.modifiers ?? [];
   const applied = available.filter((m) => names.includes(m.factor));
   const unknown = names.filter((f) => !available.some((m) => m.factor === f));
