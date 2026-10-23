@@ -1,0 +1,121 @@
+{
+  "document": {
+    "id": "ns-lunenburg-district-2013-capital_asset_policy",
+    "municipality": "ns-lunenburg-district",
+    "document_type": "capital_asset_policy",
+    "title": "MODL Policy 047 Tangible Capital Assets Policy",
+    "year": 2013,
+    "prepared_by": null,
+    "url": "https://modl.ca/index.php?Itemid=1070&alias=7368-modl-policy-047-tangible-capital-assets&category_slug=policies&option=com_docman&view=download",
+    "sha256": "0d5cadd55a1f71327328dcb38e22090136f1e2f9bba8e7a3ff27d3036f48dccc",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r1",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r2",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r3",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r4",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sidewalk, concrete",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r5",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "ns-lunenburg-district-2013-capital_asset_policy-r6",
+      "page": 2,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    }
+  ]
+}

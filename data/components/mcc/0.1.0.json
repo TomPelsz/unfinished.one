@@ -1,0 +1,49 @@
+{
+  "id": "mcc",
+  "version": "0.1.0",
+  "classification": {
+    "uniformat": "D5010"
+  },
+  "names": [
+    "Motor control centre"
+  ],
+  "aliases": [
+    "MCC",
+    "motor control center"
+  ],
+  "service_life": {
+    "median_years": 10,
+    "range_years": [
+      10,
+      10
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Taking Stock of Your Water System: A Simple Asset Inventory for Very Small Drinking Water Systems (EPA-816-B-21-003), April 2022",
+      "by": "U.S. Environmental Protection Agency, Office of Water",
+      "url": "https://www.epa.gov/system/files/documents/2022-06/FINAL%20Taking%20Stock%20of%20Inventory%20STEP%20Guide_508.pdf",
+      "page": 7,
+      "code": "Electrical Systems",
+      "label": "\"Motor Controls/Variable Frequency Drives\" (Electrical Systems worksheet), Useful Life 10 years",
+      "years": 10,
+      "note": "Printed page 5. One combined row for motor controls and VFDs at water system facilities (pump stations, treatment). Mapped to both VFD and motor control centre; the row does not distinguish a motor control centre from individual starters."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

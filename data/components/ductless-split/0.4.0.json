@@ -1,0 +1,50 @@
+{
+  "id": "ductless-split",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Ductless mini-split heat pump"
+  ],
+  "aliases": [
+    "mini split",
+    "ductless split",
+    "DMS"
+  ],
+  "service_life": {
+    "median_years": 15.3,
+    "range_years": [
+      15.3,
+      15.3
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Updated Buildings Sector Appliance and Equipment Costs and Efficiencies (March 2023), Appendix A: EIA - Technology Forecast Updates - Residential and Commercial Building Technologies - Reference Case (Guidehouse and Leidos, March 3, 2023)",
+      "by": "U.S. Energy Information Administration; Appendix A prepared by Guidehouse and Leidos",
+      "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf",
+      "page": 47,
+      "code": "Residential Ductless Mini-Split Air-Source Heat Pumps",
+      "label": "Average Life (y) 15.3 (all years, typical and high efficiency); note 2: \"Assumed same lifespan and maintenance cost as air-source heat pumps given the technology is similar between air-source and ductless mini-split heat pumps, and ductwork itself is not expected to fail.\"",
+      "years": 15.3,
+      "note": "Printed page 43 (Appendix A). Residential 12 kBtu/h ductless mini-split heat pump. Weibull (15.88, 2, 1). Data-source sheet (PDF p.197, A-17) gives the life source as 'CACs and HPs EERE 2016 Direct Final Rule'; the transfer of that ducted-heat-pump life to mini-splits is the contractor's assumption. Light-commercial use is not stated."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

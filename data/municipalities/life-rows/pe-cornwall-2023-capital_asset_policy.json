@@ -1,0 +1,247 @@
+{
+  "document": {
+    "id": "pe-cornwall-2023-capital_asset_policy",
+    "municipality": "pe-cornwall",
+    "document_type": "capital_asset_policy",
+    "title": "Policy #2018-01 Tangible Capital Asset Policy (as amended by resolution COC-06-2023)",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://cornwallpe.ca/wp-content/uploads/2023/04/COC-06-2023-Tangible-Capital-Asset-Policy-Amendment.pdf",
+    "sha256": "b564abd31d2850bbb2e1f0e13dab5f724adfb89461b230be6abf1bd4de8b638c",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r1",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 30,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sidewalk, concrete",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r2",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r3",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r4",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r5",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r6",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r7",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r8",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r9",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r10",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r11",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 20,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r12",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water meter",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "pe-cornwall-2023-capital_asset_policy-r13",
+      "page": 3,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Fire hydrant",
+      "systems": [
+        "G3010"
+      ]
+    }
+  ]
+}

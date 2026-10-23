@@ -1,0 +1,13 @@
+[
+  {
+    "id": "nl-st-johns",
+    "name": "St. John's, City of",
+    "province": "NL",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 110525,
+    "statcan_csd": "1001519",
+    "website": "https://www.stjohns.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  }
+]

@@ -5,6 +5,8 @@
       "municipalities": [
         "ab-vulcan-county",
         "bc-parksville",
+        "nb-bathurst",
+        "ns-halifax",
         "on-amherstburg",
         "on-bancroft",
         "on-centre-hastings",
@@ -17,7 +19,7 @@
         "on-simcoe",
         "on-wollaston"
       ],
-      "rows": 18
+      "rows": 20
     },
     "B30": {
       "municipalities": [
@@ -37,6 +39,8 @@
         "bc-telkwa",
         "bc-tofino",
         "bc-tumbler-ridge",
+        "nb-bathurst",
+        "ns-halifax",
         "on-bancroft",
         "on-centre-hastings",
         "on-chapple",
@@ -58,7 +62,7 @@
         "on-welland",
         "on-wollaston"
       ],
-      "rows": 50
+      "rows": 53
     },
     "D30": {
       "municipalities": [
@@ -82,6 +86,8 @@
         "bc-telkwa",
         "bc-tofino",
         "bc-tumbler-ridge",
+        "nb-bathurst",
+        "ns-halifax",
         "on-amherstburg",
         "on-bancroft",
         "on-brockton",
@@ -109,7 +115,7 @@
         "on-welland",
         "on-wollaston"
       ],
-      "rows": 65
+      "rows": 68
     },
     "D50": {
       "municipalities": [
@@ -130,6 +136,8 @@
         "bc-telkwa",
         "bc-tofino",
         "bc-tumbler-ridge",
+        "nb-bathurst",
+        "ns-halifax",
         "on-amherstburg",
         "on-bancroft",
         "on-brockton",
@@ -151,7 +159,7 @@
         "on-welland",
         "on-wollaston"
       ],
-      "rows": 47
+      "rows": 50
     },
     "B20": {
       "municipalities": [
@@ -165,6 +173,8 @@
         "bc-sicamous",
         "bc-telkwa",
         "bc-tumbler-ridge",
+        "nb-bathurst",
+        "ns-halifax",
         "on-amherstburg",
         "on-chapple",
         "on-greater-madawaska",
@@ -178,7 +188,7 @@
         "on-the-blue-mountains",
         "on-trent-lakes"
       ],
-      "rows": 33
+      "rows": 35
     },
     "A10": {
       "municipalities": [
@@ -205,6 +215,7 @@
         "bc-telkwa",
         "bc-tofino",
         "bc-tumbler-ridge",
+        "ns-halifax",
         "on-brockton",
         "on-chapple",
         "on-greater-madawaska",
@@ -221,7 +232,7 @@
         "on-simcoe",
         "on-the-blue-mountains"
       ],
-      "rows": 31
+      "rows": 32
     },
     "C30": {
       "municipalities": [
@@ -302,35 +313,15 @@
       ],
       "rows": 9
     },
-    "G2010": {
-      "municipalities": [
-        "on-amherstburg",
-        "on-brockton",
-        "on-centre-hastings",
-        "on-chapple",
-        "on-greater-madawaska",
-        "on-greater-napanee",
-        "on-grey-highlands",
-        "on-kapuskasing",
-        "on-kenora",
-        "on-kingston",
-        "on-kirkland-lake",
-        "on-meaford",
-        "on-orillia",
-        "on-prince-edward",
-        "on-quinte-west",
-        "on-rainy-river",
-        "on-sarnia",
-        "on-severn",
-        "on-simcoe",
-        "on-the-blue-mountains",
-        "on-trent-lakes",
-        "on-welland"
-      ],
-      "rows": 112
-    },
     "G3020": {
       "municipalities": [
+        "mb-winnipeg",
+        "nb-bathurst",
+        "nl-st-johns",
+        "ns-barrington-district",
+        "ns-cape-breton",
+        "ns-guysborough-district",
+        "ns-lunenburg-district",
         "on-amherstburg",
         "on-brockton",
         "on-centre-hastings",
@@ -348,12 +339,17 @@
         "on-sarnia",
         "on-severn",
         "on-the-blue-mountains",
-        "on-welland"
+        "on-welland",
+        "pe-cornwall"
       ],
-      "rows": 56
+      "rows": 71
     },
     "G3010": {
       "municipalities": [
+        "mb-winnipeg",
+        "nb-bathurst",
+        "nl-st-johns",
+        "ns-cape-breton",
         "on-amherstburg",
         "on-brockton",
         "on-centre-hastings",
@@ -373,12 +369,79 @@
         "on-severn",
         "on-the-blue-mountains",
         "on-trent-lakes",
+        "on-welland",
+        "pe-cornwall",
+        "sk-mistusinne",
+        "sk-moose-jaw-no-161",
+        "sk-tisdale"
+      ],
+      "rows": 90
+    },
+    "G2010": {
+      "municipalities": [
+        "mb-niverville",
+        "mb-winnipeg",
+        "nb-bathurst",
+        "nb-dieppe",
+        "nl-st-johns",
+        "ns-barrington-district",
+        "ns-cape-breton",
+        "ns-guysborough-district",
+        "ns-halifax",
+        "ns-lunenburg-district",
+        "on-amherstburg",
+        "on-brockton",
+        "on-centre-hastings",
+        "on-chapple",
+        "on-greater-madawaska",
+        "on-greater-napanee",
+        "on-grey-highlands",
+        "on-kapuskasing",
+        "on-kenora",
+        "on-kingston",
+        "on-kirkland-lake",
+        "on-meaford",
+        "on-orillia",
+        "on-prince-edward",
+        "on-quinte-west",
+        "on-rainy-river",
+        "on-sarnia",
+        "on-severn",
+        "on-simcoe",
+        "on-the-blue-mountains",
+        "on-trent-lakes",
+        "on-welland",
+        "sk-mistusinne",
+        "sk-moose-jaw-no-161",
+        "sk-shellbrook-no-493",
+        "sk-tisdale"
+      ],
+      "rows": 154
+    },
+    "G4090": {
+      "municipalities": [
+        "mb-niverville",
+        "nb-bathurst",
+        "ns-cape-breton",
+        "on-amherstburg",
+        "on-greater-madawaska",
+        "on-grey-highlands",
+        "on-kenora",
+        "on-kingston",
+        "on-meaford",
+        "on-orillia",
+        "on-quinte-west",
+        "on-sarnia",
+        "on-simcoe",
+        "on-the-blue-mountains",
+        "on-trent-lakes",
         "on-welland"
       ],
-      "rows": 73
+      "rows": 21
     },
     "G3030": {
       "municipalities": [
+        "nb-bathurst",
         "on-amherstburg",
         "on-brockton",
         "on-chapple",
@@ -398,12 +461,19 @@
         "on-simcoe",
         "on-the-blue-mountains",
         "on-trent-lakes",
-        "on-welland"
+        "on-welland",
+        "pe-stratford"
       ],
-      "rows": 60
+      "rows": 62
     },
     "G2030": {
       "municipalities": [
+        "nb-bathurst",
+        "nb-dieppe",
+        "ns-barrington-district",
+        "ns-cape-breton",
+        "ns-guysborough-district",
+        "ns-lunenburg-district",
         "on-bancroft",
         "on-brockton",
         "on-centre-hastings",
@@ -425,12 +495,19 @@
         "on-the-blue-mountains",
         "on-trent-lakes",
         "on-welland",
-        "on-wollaston"
+        "on-wollaston",
+        "pe-cornwall",
+        "pe-stratford"
       ],
-      "rows": 29
+      "rows": 37
     },
     "G4020": {
       "municipalities": [
+        "nb-bathurst",
+        "nb-dieppe",
+        "ns-barrington-district",
+        "ns-guysborough-district",
+        "ns-lunenburg-district",
         "on-amherstburg",
         "on-brockton",
         "on-chapple",
@@ -453,25 +530,7 @@
         "on-trent-lakes",
         "on-welland"
       ],
-      "rows": 27
-    },
-    "G4090": {
-      "municipalities": [
-        "on-amherstburg",
-        "on-greater-madawaska",
-        "on-grey-highlands",
-        "on-kenora",
-        "on-kingston",
-        "on-meaford",
-        "on-orillia",
-        "on-quinte-west",
-        "on-sarnia",
-        "on-simcoe",
-        "on-the-blue-mountains",
-        "on-trent-lakes",
-        "on-welland"
-      ],
-      "rows": 18
+      "rows": 32
     },
     "G2020": {
       "municipalities": [
@@ -514,6 +573,16 @@
     "bc-salmo": 7,
     "bc-okanagan-similkameen": 5,
     "bc-comox-valley": 4,
+    "mb-winnipeg": 6,
+    "mb-niverville": 6,
+    "nb-bathurst": 28,
+    "nb-dieppe": 4,
+    "nl-st-johns": 9,
+    "ns-halifax": 8,
+    "ns-cape-breton": 10,
+    "ns-lunenburg-district": 6,
+    "ns-guysborough-district": 6,
+    "ns-barrington-district": 6,
     "on-sarnia": 21,
     "on-centre-hastings": 11,
     "on-wollaston": 8,
@@ -539,6 +608,12 @@
     "on-grey-highlands": 39,
     "on-meaford": 83,
     "on-amherstburg": 25,
-    "on-london": 5
+    "on-london": 5,
+    "pe-cornwall": 13,
+    "pe-stratford": 4,
+    "sk-moose-jaw-no-161": 6,
+    "sk-mistusinne": 6,
+    "sk-shellbrook-no-493": 5,
+    "sk-tisdale": 6
   }
 }

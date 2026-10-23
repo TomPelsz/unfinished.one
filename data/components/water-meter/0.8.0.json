@@ -1,0 +1,216 @@
+{
+  "id": "water-meter",
+  "version": "0.8.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Water meter"
+  ],
+  "aliases": [
+    "customer water meter"
+  ],
+  "service_life": {
+    "median_years": 20,
+    "range_years": [
+      10,
+      40
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Remove meter head; check mechanism, line and straightening vanes",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Check for water inside the meter; replace seals when needed",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Clean meter parts in the flow stream; check they spin freely",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Check front bearing for play; replace when needed",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Lubricate register clock and grease fittings without over-lubricating",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Check meter indicator; replace it if gears or bushings are worn",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 98,
+      "checklist": "Table 12-1 Domestic water system, Water Meter"
+    },
+    {
+      "task": "Check positive-displacement meter runs and listen for noise",
+      "frequency": "P1M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check meter mounting and alignment",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check velocity-type meter runs and listen for noise",
+      "frequency": "P1M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Clean meter pit and pump out water before the freezing season",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check large-flow side of compound meters",
+      "frequency": "P1M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check electrical connections of magnetic flow meters",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check, clean and pump out meter pit each fall against freezing",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    },
+    {
+      "task": "Check measuring unit for hot water damage",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 142,
+      "checklist": "Table 8-4 Maintenance Checklist for Water Meters"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Chapple: Township of Chapple 2025 Asset Management Plan",
+      "url": "https://chapple.on.ca/wp-content/uploads/2025/06/Chapple_2025-AMP-Final.pdf",
+      "page": 75,
+      "years": 40,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Norfolk County: 2025 Asset Management Plan",
+      "url": "https://www.norfolkcounty.ca/media/bgrja3po/attachment-1-2025-amp-final.pdf",
+      "page": 59,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Oxford: Oxford County Asset Management Plan 2025",
+      "url": "https://webresources.oxfordcounty.ca/documents/Oxford%20County%20Asset%20Management%20Plan-6-25.pdf",
+      "page": 221,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Peterborough: 2025 Asset Management Plan Water Services, The Corporation of The City of Peterborough",
+      "url": "https://www.peterborough.ca/media/120kfqhg/2025-waterservices_amp-final.pdf",
+      "page": 19,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Peterborough: 2025 Asset Management Plan Water Services, The Corporation of The City of Peterborough",
+      "url": "https://www.peterborough.ca/media/120kfqhg/2025-waterservices_amp-final.pdf",
+      "page": 19,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Haldimand County: 2025 Asset Management Plan",
+      "url": "https://media-001-ca.cdn.govstack.com/haldimandcounty-008-ca/media/cxnnlhik/fca-2025-asset-management-plan.pdf",
+      "page": 99,
+      "years": 20,
+      "note": "Asset management plan (planning life). Compared with an image of the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Circular No. A-76 Revised Supplemental Handbook: Performance of Commercial Activities, Appendix 3 Useful Life and Disposal Value (March 1996)",
+      "by": "Executive Office of the President, Office of Management and Budget (values estimated by the Defense Logistics Agency)",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A76/a076supp.pdf",
+      "page": 54,
+      "code": "FSC 6680",
+      "label": "Liquid and Gas Flow, Liquid Level and Mechanical Motion Measuring Instruments, Expected Useful Life 10 (years)",
+      "years": 10,
+      "note": "Printed page 50. Supply class for flow measuring instruments, which includes water meters but also gas flow meters and level and motion instruments. Not specific to customer water meters."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice.",
+    "Written for water systems on military installations; Table 8-4 covers the meter types found there, and its monthly checks are heavier than most utilities apply to small customer meters."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

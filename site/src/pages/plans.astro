@@ -22,15 +22,19 @@ const LINEAGE: Record<string, string> = {
   'quinte-west-2024': 'Quinte West 2024 table',
   'northern-general-guidelines': 'Northern “General Guidelines” form',
   'grey-county-rows': 'Grey County row set',
+  'sk-provincial-model': 'Saskatchewan model table',
+  'ns-tca-committee': 'Nova Scotia TCA committee class list',
+  'winnipeg-st-johns-class-list': 'Winnipeg / St. John’s class list',
   'four-row-consultant': 'Four-row consultant table',
 };
+const statements = policies.filter((p: any) => p.document_type === 'financial_statements').length;
 const tables = new Set(policies.map((p: any) => (p.lineage?.shared === 'values' ? p.lineage.id : p.municipality))).size;
 const lineages = new Set(policies.map((p: any) => p.lineage?.id ?? p.municipality)).size;
 const rowsBy = transcribedRows();
 const totalRows = [...rowsBy.values()].reduce((a, b) => a + b, 0);
 const lives = [...livesBySystem().values()];
-// This section is about the policies; plan rows are counted with the plans.
-const approvedRows = loadLifeRows().filter((r: any) => r.document.document_type === 'capital_asset_policy');
+// This section is about the policies (and financial statement notes, which state the same amortization lives); plan rows are counted with the plans.
+const approvedRows = loadLifeRows().filter((r: any) => r.document.document_type !== 'AMP');
 const reviewed = approvedRows.length;
 const byPage = approvedRows.filter((r: any) => r.review_method === 'page').length;
 const byImage = approvedRows.filter((r: any) => r.review_method === 'image_check').length;
@@ -108,13 +112,13 @@ const fmt = (n: number | null) => (n == null ? '—' : n.toLocaleString('en-CA')
   <p class="muted small">Know where a missing plan is published? Tell us at <a href="mailto:hello@unfinished.one">hello@unfinished.one</a>.</p>
 
   <h2 id="policies">Capital asset policies</h2>
-  <p>Large municipalities' plans give lives by asset segment ("building, 50 years"), not by component. Their tangible capital asset policies often do break buildings down: HVAC, roofing, elevators, electrical. These are accounting lives used for amortization, so they are recorded as such and never mixed with observed lives.</p>
+  <p>Large municipalities' plans give lives by asset segment ("building, 50 years"), not by component. Their tangible capital asset policies often do break buildings down: HVAC, roofing, elevators, electrical. These are accounting lives used for amortization, so they are recorded as such and never mixed with observed lives. Where a municipality publishes no policy, the note on capital assets in its financial statements gives the same amortization lives and is collected instead ({statements} so far). Some policies give infrastructure lives only.</p>
   <ul class="stats">
-    <li><strong>{policies.length}</strong><span>policies with building component lives</span></li>
+    <li><strong>{policies.length}</strong><span>policies and financial statement notes</span></li>
     <li><strong>{tables}</strong><span>distinct life tables</span></li>
     <li><strong>{lineages}</strong><span>independent lineages</span></li>
   </ul>
-  <p>Policies copy each other. Four Hastings County townships use one range table, which appears to be a US school-district list (its rows include “Classroom and office furniture” and “Buses”) with each value widened into a range. Greater Madawaska’s 2025 policy repeats Quinte West’s 2024 lives. Policies that share a table are cited as one source, so {policies.length} policies count as about {lineages} independent sources.</p>
+  <p>Policies copy each other. Four Hastings County townships use one range table, which appears to be a US school-district list (its rows include “Classroom and office furniture” and “Buses”) with each value widened into a range. Greater Madawaska’s 2025 policy repeats Quinte West’s 2024 lives. Policies that share a table are cited as one source, so {policies.length} documents count as about {lineages} independent sources.</p>
   <p>Where municipalities share a form but set their own numbers, they genuinely disagree. Within Grey County, building structure ranges from 40 to 100 years and sprinkler systems from 25 to 40.</p>
 
   {lives.length > 0 && (

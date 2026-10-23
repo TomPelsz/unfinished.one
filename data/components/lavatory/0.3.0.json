@@ -1,0 +1,50 @@
+{
+  "id": "lavatory",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D2010"
+  },
+  "names": [
+    "Lavatory and faucet"
+  ],
+  "aliases": [
+    "sink",
+    "faucet",
+    "lav"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Circular No. A-76 Revised Supplemental Handbook: Performance of Commercial Activities, Appendix 3 Useful Life and Disposal Value (March 1996)",
+      "by": "Executive Office of the President, Office of Management and Budget (values estimated by the Defense Logistics Agency)",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A76/a076supp.pdf",
+      "page": 52,
+      "code": "FSC 4510",
+      "label": "Plumbing Fixtures and Accessories, Expected Useful Life 15 (years)",
+      "years": 15,
+      "note": "Printed page 48. Supply class covering plumbing fixtures generally (fixture type not separated). Drinking fountains and water coolers are not mapped because their supply class is not certain."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

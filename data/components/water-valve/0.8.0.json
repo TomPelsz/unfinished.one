@@ -1,0 +1,230 @@
+{
+  "id": "water-valve",
+  "version": "0.8.0",
+  "classification": {
+    "uniformat": "G3010"
+  },
+  "names": [
+    "Watermain valve"
+  ],
+  "aliases": [
+    "gate valve",
+    "main valve",
+    "isolation valve"
+  ],
+  "service_life": {
+    "median_years": 50,
+    "range_years": [
+      35,
+      75.1
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Locate and operate distribution valve",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Lubricate valve stem packing; tighten or replace if leaking",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check stem alignment and for broken stem or worn nut",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check, inspect and lubricate valve bypass",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check and lubricate valve gears",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check and clean valve vault",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check butterfly valve stem for leaks",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Check butterfly valve operation and tight closure",
+      "frequency": "P1Y",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 124,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    },
+    {
+      "task": "Clean valve box, check corrosion and alignment",
+      "frequency": "P6M",
+      "reference": "UFM 3-230-02 Operation and Maintenance (O&M): Water Supply Systems",
+      "url": "https://www.wbdg.org/FFC/DOD/UFC/ufm_3_230_02_2026.pdf",
+      "page": 127,
+      "checklist": "Table 7-1 Valves and Accessories Maintenance Checklist"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Greater Sudbury: Enterprise Asset Management Plan (2023)",
+      "url": "https://www.greatersudbury.ca/city-hall/budget-and-finance/financial-reports-and-plans/pdf-documents/enterprise-asset-management-plan/",
+      "page": 26,
+      "years": 40,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kenora: AF-6-1 Tangible Capital Asset Policy (By-law 34-2026)",
+      "url": "https://listview.kenora.ca/Files/City%20Policy%20Manual/Administration%20and%20Finance/AF-6-1%20Tangible%20Capital%20Asset.pdf",
+      "page": 17,
+      "years": 75,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Kingston: Tangible Capital Assets Policy",
+      "url": "https://cityofkingston.ca/media/pljd1bhs/finance_policy_tangible-capital-asset-policy.pdf",
+      "page": 15,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "London: 2023 Corporate Asset Management Plan",
+      "url": "https://london.ca/sites/default/files/2023-10/Corporate%20Asset%20Management%20Plan%202023.pdf",
+      "page": 70,
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Prince Edward: FIN-12 Tangible Capital Assets Policy",
+      "url": "https://www.thecounty.ca/wp-content/uploads/2023/09/FIN-12-Tangible-Capital-Asset-Policy.pdf",
+      "page": 34,
+      "years": 40,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Trent Lakes: 5.17 Capital Asset Policy",
+      "url": "https://www.trentlakes.ca/media/fjaduus0/517_capital-asset-policy.pdf",
+      "page": 10,
+      "years": 50,
+      "note": "Capital asset policy (amortization period). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Environmental Services, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/11mjuktj/environmental_services_2025_amp.pdf",
+      "page": 10,
+      "years": 70,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Kirkland Lake: Asset Management Plan 2025 Town of Kirkland Lake",
+      "url": "https://kirklandlake.civicweb.net/document/32531/",
+      "page": 73,
+      "years": 48.7,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Oxford: Oxford County Asset Management Plan 2025",
+      "url": "https://webresources.oxfordcounty.ca/documents/Oxford%20County%20Asset%20Management%20Plan-6-25.pdf",
+      "page": 221,
+      "years": 40,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Peterborough: 2025 Asset Management Plan Water Services, The Corporation of The City of Peterborough",
+      "url": "https://www.peterborough.ca/media/120kfqhg/2025-waterservices_amp-final.pdf",
+      "page": 19,
+      "years": 60,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Trent Lakes: Municipality of Trent Lakes Asset Management Plan (Final Report, May 24, 2024)",
+      "url": "https://www.trentlakes.ca/media/bkejx2ag/2024-asset-management-plan.pdf",
+      "page": 69,
+      "years": 45,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Haldimand County: 2025 Asset Management Plan",
+      "url": "https://media-001-ca.cdn.govstack.com/haldimandcounty-008-ca/media/cxnnlhik/fca-2025-asset-management-plan.pdf",
+      "page": 99,
+      "years": 75.1,
+      "note": "Asset management plan (planning life). Compared with an image of the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Taking Stock of Your Water System: A Simple Asset Inventory for Very Small Drinking Water Systems (EPA-816-B-21-003), April 2022",
+      "by": "U.S. Environmental Protection Agency, Office of Water",
+      "url": "https://www.epa.gov/system/files/documents/2022-06/FINAL%20Taking%20Stock%20of%20Inventory%20STEP%20Guide_508.pdf",
+      "page": 7,
+      "code": "Valves",
+      "label": "\"Valves\" (Valves worksheet), Useful Life 35 years",
+      "years": 35,
+      "note": "Printed page 5. Distribution system valves in a small drinking water system. The table lists \"Mechanical Valves\" separately at 15 years; that row is not mapped."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

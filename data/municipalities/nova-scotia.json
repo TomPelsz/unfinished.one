@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ns-halifax",
+    "name": "Halifax Regional Municipality",
+    "province": "NS",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 439819,
+    "statcan_csd": "1209034",
+    "website": "https://www.halifax.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "ns-cape-breton",
+    "name": "Cape Breton Regional Municipality",
+    "province": "NS",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 93694,
+    "statcan_csd": "1217030",
+    "website": "https://www.cbrm.ns.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "ns-lunenburg-district",
+    "name": "Lunenburg, Municipality of the District of",
+    "province": "NS",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 25545,
+    "statcan_csd": "1206001",
+    "website": "https://www.modl.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "ns-guysborough-district",
+    "name": "Guysborough, Municipality of the District of",
+    "province": "NS",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 4585,
+    "statcan_csd": "1213004",
+    "website": "https://www.modg.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "ns-barrington-district",
+    "name": "Barrington, Municipality of the District of",
+    "province": "NS",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 6523,
+    "statcan_csd": "1201001",
+    "website": "https://www.barringtonmunicipality.com/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  }
+]

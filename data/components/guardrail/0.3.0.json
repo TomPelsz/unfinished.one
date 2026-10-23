@@ -1,0 +1,112 @@
+{
+  "id": "guardrail",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "G2010"
+  },
+  "names": [
+    "Guardrail"
+  ],
+  "aliases": [
+    "guide rail",
+    "roadside barrier"
+  ],
+  "service_life": {
+    "median_years": 30,
+    "range_years": [
+      15,
+      50
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+      "page": 13,
+      "years": 15,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Brantford: 2025 Asset Management Plan: Transportation, City of Brantford, Ontario",
+      "url": "https://media-004-ca.cdn.govstack.com/brantford-ca/media/fhon3a4l/transportation_2025_amp.pdf",
+      "page": 13,
+      "years": 20,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Chatham-Kent: Detailed Asset Management Plan: Roads 2025",
+      "url": "https://www.chatham-kent.ca/localgovernment/budget/Documents/DAMP%20Reports/2024/DAMP%20-%20Roads.pdf",
+      "page": 10,
+      "years": 40,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Kingston: City of Kingston 2024 Asset Management Plan, Volume 1: Infrastructure, Transportation, Transit, & Emergency Services",
+      "url": "https://getinvolved.cityofkingston.ca/46640/widgets/197062/documents/145814/download",
+      "page": 44,
+      "years": 30,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Norfolk County: 2025 Asset Management Plan",
+      "url": "https://www.norfolkcounty.ca/media/bgrja3po/attachment-1-2025-amp-final.pdf",
+      "page": 49,
+      "years": 50,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Oxford: Oxford County Asset Management Plan 2025",
+      "url": "https://webresources.oxfordcounty.ca/documents/Oxford%20County%20Asset%20Management%20Plan-6-25.pdf",
+      "page": 307,
+      "years": 30,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Oxford: Oxford County Asset Management Plan 2025",
+      "url": "https://webresources.oxfordcounty.ca/documents/Oxford%20County%20Asset%20Management%20Plan-6-25.pdf",
+      "page": 292,
+      "years": 30,
+      "note": "Asset management plan (planning life). Approved on text check: the label and value were found on the cited page."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Countermeasure Service Life Guide (FHWA-SA-21-026), March 2021",
+      "by": "U.S. Department of Transportation, Federal Highway Administration, Office of Safety",
+      "url": "https://highways.dot.gov/sites/fhwa.dot.gov/files/2022-05/FHWA-SA-21-021_Countermeasure_Serv_Life_Guide_1.pdf",
+      "page": 72,
+      "code": "Table 23",
+      "label": "Typical Service Lives for Roadside Countermeasures: \"Install Outside Guardrail/Barrier\" 25 (years)",
+      "years": 25,
+      "note": "Printed page 51. Roadside (outside) guardrail or barrier, any material. The same table gives 25 years for cable, concrete and steel median barrier and 10 years for end treatments and impact attenuation systems; Table 27 (p. 77, printed 56) gives 25 years for \"Replace Bridge Guardrail\". The life is the period of safety effect used in benefit-cost analysis, not a measured physical life."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "No preventive maintenance tasks are sourced yet."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

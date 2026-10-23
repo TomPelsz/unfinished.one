@@ -1,0 +1,15 @@
+[
+  {
+    "municipality": "nl-st-johns",
+    "document_type": "financial_statements",
+    "title": "2025 Consolidated Financial Statements (note 1, Tangible capital assets)",
+    "year": 2025,
+    "url": "https://www.stjohns.ca/media/acql3xu4/2025_consolidated-financial-statements_city-of-st-johns.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Audited statements for the year ended December 31, 2025; useful lives in note 1 on p13, read from the text layer. Buildings 10-60 only (no building components). Transcribed rows are the water/waste and transportation classes plus Parking spaces - garage 50-75. Same class names as the City of Winnipeg's financial statement note (different values).",
+    "lineage": {
+      "id": "winnipeg-st-johns-class-list",
+      "shared": "layout"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "municipality": "pe-cornwall",
+    "document_type": "capital_asset_policy",
+    "title": "Policy #2018-01 Tangible Capital Asset Policy (as amended by resolution COC-06-2023)",
+    "year": 2023,
+    "url": "https://cornwallpe.ca/wp-content/uploads/2023/04/COC-06-2023-Tangible-Capital-Asset-Policy-Amendment.pdf",
+    "found_via": "https://www.cornwallpe.ca/",
+    "notes": "Found by site crawl on 2026-10-22; PDF opened. Scanned with no text layer; read from rendered page images. p1 is the April 26, 2023 resolution amending Policy #2018-01 (adopted 2018); p2 the policy; Schedule A \"Estimated Useful Life of Assets\" on p3 (folio 2). Buildings are whole-class only: Town Buildings 50; Public Works Buildings 50; Recreation Buildings 50; Utility Buildings 50. Transcribed rows are the utility and sidewalk classes, with account codes as printed."
+  },
+  {
+    "municipality": "pe-stratford",
+    "document_type": "capital_asset_policy",
+    "title": "Policy # 2009-FA-02 Tangible Capital Asset Policy",
+    "year": 2009,
+    "url": "https://townofstratford.ca/wp-content/uploads/2025/11/wpdmactprocessdidMTIyLmhvdGxpbms.pdf",
+    "found_via": "https://www.townofstratford.ca/",
+    "notes": "Found by site crawl on 2026-10-22; PDF opened. Approval date October 14, 2009 (p1). Schedule A \"Estimated Useful Life of Assets and Amortization Rates\" on p8, read from the text layer. Buildings 40 only (no building components; Schedule B on p10 puts HVAC under Machinery and Equipment, 10). Transcribed rows are the infrastructure classes."
+  }
+]

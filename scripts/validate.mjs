@@ -126,8 +126,10 @@ for (const [dir, key] of [['tasks', 'tasks'], ['sources', 'rows']]) {
       } else {
         const [lo, hi] = Array.isArray(r.years) ? r.years : [r.years, r.years];
         if (!r.label || !(lo > 0) || !(hi >= lo)) errors.push(`${where}: needs a label and a positive life`);
+        if (r.lives_from && !/^https?:\/\//.test(r.lives_from)) errors.push(`${where}: lives_from must be the url of the document the life repeats`);
       }
     }
+    if (data.document?.lives_from && !/^https?:\/\//.test(data.document.lives_from)) errors.push('document.lives_from must be the url of the document the lives repeat');
     report(`pipeline/transcribed/${dir}/${file} (${data[key]?.length ?? 0} ${key})`, errors);
   }
 }

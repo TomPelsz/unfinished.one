@@ -1,0 +1,169 @@
+{
+  "document": {
+    "id": "nl-st-johns-2025-financial_statements",
+    "municipality": "nl-st-johns",
+    "document_type": "financial_statements",
+    "title": "2025 Consolidated Financial Statements (note 1, Tangible capital assets)",
+    "year": 2025,
+    "prepared_by": null,
+    "url": "https://www.stjohns.ca/media/acql3xu4/2025_consolidated-financial-statements_city-of-st-johns.pdf",
+    "sha256": "de7915afee17fcb4370a5dbe07aaff83701d785c9aa2c9992d77f1ebf2b34250",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "nl-st-johns-2025-financial_statements-r1",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r2",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r3",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 45,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r4",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r5",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r6",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 40,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r7",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 35,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r8",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 75,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Road base, granular",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "nl-st-johns-2025-financial_statements-r9",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

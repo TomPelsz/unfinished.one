@@ -1,0 +1,24 @@
+[
+  {
+    "municipality": "mb-winnipeg",
+    "document_type": "financial_statements",
+    "title": "2023 Annual Report (consolidated financial statements, note on tangible capital assets)",
+    "year": 2023,
+    "url": "https://legacy.winnipeg.ca/finance/files/2023AnnualReport.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Annual report for the fiscal year ended December 31, 2023; the significant-accounting-policies note on p61 lists straight-line useful lives, read from the text layer. Buildings 10 to 50 years only (no building components). Transcribed rows are the water and waste and transportation classes: Underground networks 50 to 100; Sewage treatment plants and lift stations 50 to 75; Water pumping stations and reservoirs 50 to 75; Flood stations and other infrastructure 20 to 75; Roads 10 to 50; Bridges and other structures 25 to 75. The City of St. John's (NL) financial statements use the same class names with different values.",
+    "lineage": {
+      "id": "winnipeg-st-johns-class-list",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "mb-niverville",
+    "document_type": "financial_statements",
+    "title": "2024 Consolidated Financial Statements (note on tangible capital assets)",
+    "year": 2024,
+    "url": "https://www.whereyoubelong.ca/wp-content/uploads/2025/07/Town-of-Niverville-2024-Consolidated-Financial-Statements.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Audited statements for the year ended December 31, 2024; useful lives in note i) on p12, read from the text layer. Buildings 25 to 40 years only (no building components). Transcribed rows are the infrastructure classes. The class split (road surface / road grade / bridges / underground networks / dams and other surface water structures) follows Appendix 2 of the provincial \"PSAB GAAP for Manitoba Municipalities Reference Manual - Tangible Capital Assets\" (2007), whose own lives are by pipe material (e.g. water mains plastic 25, ductile iron 75); no Manitoba municipal policy reproducing that material table was found online."
+  }
+]

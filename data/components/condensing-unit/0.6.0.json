@@ -1,0 +1,192 @@
+{
+  "id": "condensing-unit",
+  "version": "0.6.0",
+  "classification": {
+    "uniformat": "D3030"
+  },
+  "names": [
+    "Condensing unit, split system"
+  ],
+  "aliases": [
+    "CU",
+    "condensing unit",
+    "split AC outdoor unit"
+  ],
+  "service_life": {
+    "median_years": 21.2,
+    "range_years": [
+      15,
+      25
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Remove debris from air screen and clean under unit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 443,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Pressure wash condenser coil with coil cleaner and rinse",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Straighten coil fins with a fin comb",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check electrical connections for tightness",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check unit mounts and refrigerant line supports",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Clean and treat rusted areas; touch up paint",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Leak test refrigerant circuit",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check refrigerant charge",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Inspect disconnect switches and contactors for arcing or overheating",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check compressor crankcase heater",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Check condenser fan blades for dirt and wear",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    },
+    {
+      "task": "Run unit with gauges; check compressor, controls and refrigerant pressures",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 444,
+      "checklist": "HVAC-CND-01-01Y Condensing Unit - Refrigeration"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 12,
+      "code": "HUD CNA 3.4.3.1.2",
+      "label": "Electric AC condenser, pad or rooftop",
+      "years": 15,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Residential Central Air Conditioners and Heat Pumps (direct final rule), 82 FR 1786, January 6, 2017",
+      "by": "U.S. Department of Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2017-01-06/pdf/2016-29992.pdf",
+      "page": 34,
+      "code": "Table IV-16",
+      "label": "TABLE IV–16—AVERAGE LIFETIME BY REGION: Central Air Conditioners, National 21.2 (North 24.1, Hot-humid 18.0, Hot-dry 24.9)",
+      "years": 21.2,
+      "note": "Printed page 1819. Residential central air conditioners (<65,000 Btu/h), product class group covering split-system and single-package units; mapped to condensing-unit because split-system ACs (outdoor condensing unit + indoor coil) are the bulk of the class and Table V-2 (p.47, printed 1832) gives the same regional lifetimes for split-system central air conditioners. Value is for the whole split system, not the outdoor unit alone. National value used; regional range 18.0 (hot-humid) to 24.9 (hot-dry). Commercial split condensing units >=65,000 Btu/h not covered."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Purchasing Energy-Efficient Residential Central Air Conditioners (web page, modified 2026-09-25)",
+      "by": "U.S. Department of Energy, Federal Energy Management Program",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-residential-central-air-conditioners",
+      "code": "Table 1 assumptions (Hot-Humid/Southeast)",
+      "label": "Lifetime Energy Cost: The sum of the discounted values of annual energy cost with an average residential central air conditioner life of 18 years.",
+      "years": 18,
+      "note": "Residential central AC, single-phase, under 65,000 Btu/h; FEMP scope covers split systems, single package and gas/electric package units, and the example does not separate them. Hot-humid/Southeast states."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Purchasing Energy-Efficient Residential Central Air Conditioners (web page, modified 2026-09-25)",
+      "by": "U.S. Department of Energy, Federal Energy Management Program",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-residential-central-air-conditioners",
+      "code": "Table 2 assumptions (Hot-Dry/Southwest)",
+      "label": "Lifetime Energy Cost: The sum of the discounted values of annual energy cost with an average residential central air conditioner life of 25 years.",
+      "years": 25,
+      "note": "As above; hot-dry/Southwest states."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Purchasing Energy-Efficient Residential Central Air Conditioners (web page, modified 2026-09-25)",
+      "by": "U.S. Department of Energy, Federal Energy Management Program",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-residential-central-air-conditioners",
+      "code": "Table 3 assumptions (Northern)",
+      "label": "Lifetime Energy Cost: The sum of the discounted values of annual energy cost with an average residential central air conditioner life of 24 years.",
+      "years": 24,
+      "note": "As above; northern states."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

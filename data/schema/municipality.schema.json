@@ -27,7 +27,13 @@
       "enum": [
         "ON",
         "BC",
-        "AB"
+        "AB",
+        "SK",
+        "MB",
+        "NS",
+        "NB",
+        "PE",
+        "NL"
       ]
     },
     "tier": {

@@ -1,0 +1,123 @@
+{
+  "document": {
+    "id": "sk-mistusinne-2009-capital_asset_policy",
+    "municipality": "sk-mistusinne",
+    "document_type": "capital_asset_policy",
+    "title": "Policy #1.4 Accounting for Tangible Capital Assets Policy",
+    "year": 2009,
+    "prepared_by": null,
+    "url": "https://mistusinne.com/mrws/filedriver/Policies/1.4_-_Accounting_for_Tangible_Capital_Assets.pdf",
+    "sha256": "13ec69dd72536f443f70dcfff9d475db04a60e7f5d2f8c5d289849bf9c0f4fa8",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r1",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r2",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r3",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r4",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r5",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-mistusinne-2009-capital_asset_policy-r6",
+      "page": 15,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    }
+  ]
+}

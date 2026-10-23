@@ -1,0 +1,72 @@
+{
+  "id": "urinal",
+  "version": "0.5.0",
+  "classification": {
+    "uniformat": "D2010"
+  },
+  "names": [
+    "Urinal"
+  ],
+  "service_life": {
+    "median_years": 27.5,
+    "range_years": [
+      15,
+      40
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Check flushometer flush valves: flush time, diaphragm gasket condition and rating",
+      "frequency": "P1Y",
+      "reference": "Technical Operations and Maintenance Guidelines on Common Water Equipment",
+      "url": "https://www.energy.gov/cmei/femp/technical-operations-and-maintenance-guidelines-common-water-equipment",
+      "checklist": "Toilets and Urinals table"
+    },
+    {
+      "task": "Check automatic flush sensors; calibrate if double flushing",
+      "frequency": "P1Y",
+      "reference": "Technical Operations and Maintenance Guidelines on Common Water Equipment",
+      "url": "https://www.energy.gov/cmei/femp/technical-operations-and-maintenance-guidelines-common-water-equipment",
+      "checklist": "Toilets and Urinals table"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 11,
+      "code": "HUD CNA 3.4.1.3.5",
+      "label": "Toilets/bidets/urinals",
+      "years": 40,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "accounting",
+      "title": "Circular No. A-76 Revised Supplemental Handbook: Performance of Commercial Activities, Appendix 3 Useful Life and Disposal Value (March 1996)",
+      "by": "Executive Office of the President, Office of Management and Budget (values estimated by the Defense Logistics Agency)",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A76/a076supp.pdf",
+      "page": 52,
+      "code": "FSC 4510",
+      "label": "Plumbing Fixtures and Accessories, Expected Useful Life 15 (years)",
+      "years": 15,
+      "note": "Printed page 48. Supply class covering plumbing fixtures generally (fixture type not separated). Drinking fountains and water coolers are not mapped because their supply class is not certain."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Aimed at water efficiency in federal facilities, not full fixture maintenance."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

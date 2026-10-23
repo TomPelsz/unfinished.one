@@ -1,0 +1,59 @@
+[
+  {
+    "municipality": "ns-halifax",
+    "document_type": "financial_statements",
+    "title": "Consolidated Financial Statements, Year ended March 31, 2024 (note 1(o)(i) Tangible capital assets)",
+    "year": 2024,
+    "url": "https://cdn.halifax.ca/sites/default/files/documents/city-hall/budget-finances/march-31-2024-audited-financial-statements-cao-approved.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Audited consolidated financial statements, not a stand-alone policy; the accounting-policy note 1(o)(i) gives the amortization lives. Table \"Asset / Useful Life - Years\" on p15 (folio 10), read from the text layer. Buildings: Structure and electrical 40; Mechanical, roof, exterior architecture, and site work 20; Interior architecture 15. Also Land improvements: Bridges, docks, seawalls, and wharves 50; Roads and infrastructure: Road beds 40, Road surfaces 5 - 20, Infrastructure 20 - 30, Bridges 75; Ferries 2 - 30."
+  },
+  {
+    "municipality": "ns-cape-breton",
+    "document_type": "financial_statements",
+    "title": "Consolidated Financial Statements, March 31, 2022 (note 1(h) Tangible capital assets)",
+    "year": 2022,
+    "url": "https://cbrm.ns.ca/wp-content/uploads/2026/01/2022-2023-Final_Consolidated_Financial_Statements.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. The file name says 2022-2023 but the statements are for the year ended March 31, 2022 (p1). Audited financial statements, not a stand-alone policy; note 1(h) on p11 lists straight-line rates read from the text layer. Buildings 40 years only (no building components); Recreation facilities 5-40. Transcribed rows are the general fund infrastructure and the water fund (utility) classes: Streets 50, Sidewalks 20, Traffic lights 20, Sewer collection and disposal 50, Wharf - Sydney Marine Terminal 25; Water fund Structures and improvements 75, Mains 75, Services and other 50, Meters 20, Hydrants 50."
+  },
+  {
+    "municipality": "ns-lunenburg-district",
+    "document_type": "capital_asset_policy",
+    "title": "MODL Policy 047 Tangible Capital Assets Policy",
+    "year": 2013,
+    "url": "https://modl.ca/index.php?Itemid=1070&alias=7368-modl-policy-047-tangible-capital-assets&category_slug=policies&option=com_docman&view=download",
+    "found_via": "https://www.modl.ca/",
+    "notes": "Found by web search and site crawl on 2026-10-22; PDF opened. Effective/adopted February 12, 2013 (p1, clerk's annotation p11). Useful-life table on p2, introduced as \"The TCA committee of the Service Nova Scotia has suggested the useful lives provided in the table below. These guidelines are to be used both provincially and municipally\". Building rows are whole-class only: Municipal buildings 40; Building - Plant (includes integral component e.g. equipment or fixture that is fixed and part of the structure) 20-25. No building-component rows; transcribed rows are the infrastructure classes. Shared template: the Guysborough (H-21, 2010) and Barrington (Policy No. 63, 2010) policies use the same Service Nova Scotia class list; Barrington's infrastructure values are identical to MODL's, Guysborough uses single values (25/25/20).",
+    "lineage": {
+      "id": "ns-tca-committee",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "ns-guysborough-district",
+    "document_type": "capital_asset_policy",
+    "title": "Policy H-21 Tangible Capital Assets Policy",
+    "year": 2010,
+    "url": "https://modg.ca/sites/default/files/policies/Policy%20H-21%20Tangible%20Capital%20Assets.pdf",
+    "found_via": "https://www.modg.ca/",
+    "notes": "Found by web search and site crawl on 2026-10-22; PDF opened. Approval date March 10, 2010 (p1). Asset classes on p2, useful lives on p3, read from the text layer. Building rows are whole-class only: Municipal Buildings 40; Building plants 20; Operating plants 20. Same asset classes as the table MODL Policy 047 attributes to the Service Nova Scotia TCA committee (\"These guidelines are to be used both provincially and municipally\"); Guysborough uses single values (Street, roads and curbs 25; Traffic and Street Lights 25; Sidewalks 20) where MODL and Barrington give ranges; Sewer Lines 50, Lagoons 50 and Wharves 25 match.",
+    "lineage": {
+      "id": "ns-tca-committee",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "ns-barrington-district",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 63 Tangible Capital Assets Policy",
+    "year": 2010,
+    "url": "https://www.barringtonmunicipality.com/2648-no-63-tangible-capital-assets-policy-1/file",
+    "found_via": "https://www.barringtonmunicipality.com/",
+    "notes": "Found by site crawl on 2026-10-22; PDF opened. Notice to Council April 12, 2010; passed April 26, 2010 (p7). Appendix \"B\" useful lives on p5, read from the text layer. Building rows are whole-class only: Municipal Buildings 40; Buildings - Plants 20 - 25. Same asset classes as the table MODL Policy 047 attributes to the Service Nova Scotia TCA committee (\"These guidelines are to be used both provincially and municipally\"); infrastructure values identical to MODL Policy 047 (Streets, Roads & Curbs 25 - 30; Traffic & Street Lights 25 - 30; Sidewalks 20 - 25; Sewer Lines 50; Lagoons 50; Wharves 25), plus Ferries 30.",
+    "lineage": {
+      "id": "ns-tca-committee",
+      "shared": "values"
+    }
+  }
+]

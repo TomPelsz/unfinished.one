@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sk-moose-jaw-no-161",
+    "name": "Moose Jaw No. 161, Rural Municipality of",
+    "province": "SK",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 1207,
+    "statcan_csd": "4707038",
+    "website": "https://www.moosejawrm161.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "sk-mistusinne",
+    "name": "Mistusinne, Resort Village of",
+    "province": "SK",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 118,
+    "statcan_csd": "4707074",
+    "website": "https://mistusinne.com/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "sk-shellbrook-no-493",
+    "name": "Shellbrook No. 493, Rural Municipality of",
+    "province": "SK",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 1581,
+    "statcan_csd": "4716046",
+    "website": "https://www.rmofshellbrook.com/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "sk-tisdale",
+    "name": "Tisdale, Town of",
+    "province": "SK",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 2962,
+    "statcan_csd": "4714044",
+    "website": "https://www.tisdale.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  }
+]

@@ -21,7 +21,8 @@
     "document_type": {
       "enum": [
         "AMP",
-        "capital_asset_policy"
+        "capital_asset_policy",
+        "financial_statements"
       ]
     },
     "title": {

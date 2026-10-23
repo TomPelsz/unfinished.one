@@ -1,0 +1,20 @@
+[
+  {
+    "municipality": "nb-bathurst",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 2011-02 Tangible Capital Assets Policy",
+    "year": 2011,
+    "url": "https://bathurst.ca/en/secure_document/51/policy/file",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Bilingual (English/French). Effective August 15, 2011, approved by City Council; no amendment date filled in (p1). The policy lets the City Manager/Treasurer change the table without Council approval (p6). \"Table of Useful Life Estimates\" on pp7-9, checked against the text layer and a rendered image of p9. Buildings, Components (p7): Structural 70; Architectural Exteriors 20; Architectural Interiors 30; Building Mechanical 20; Building Electrical 30; Specialty Items & Equipment 25; Site Works 25; Roof 20 (a row \"Roussel O'Neil 35\" under Components names one building and was not transcribed; \"No Components\" rows for single named structures were also left out). Water and Wastewater Buildings (p9): Process Piping & Equipment 20; Process Electrical 30; Process Instrumentation 10; Building & Process Structural 60; Building Architectural 20; Building Electrical & Mechanical 25; Site Works 25; Roof 20. Transportation and water rows on p9 list alternative values separated by commas (Road Surface \"10, 15, 20\", Road Base \"60, 80\", Storm Sewers \"60, 80\", Street Lights \"20, 25, 60\", Watermains \"40, 60\", Sanitary Sewer \"40, 60, 80\"); these are transcribed as [lowest, highest] but are discrete choices, not stated ranges. The component split (structural, architectural exterior/interior, mechanical, electrical, specialty items and equipment, site works) is the same vocabulary the City of Fredericton's 2024 financial statements list for its building components (no per-component lives given there), and the water/wastewater process rows resemble the Ontario Quinte West / Greater Madawaska table; possibly a shared consultant layout."
+  },
+  {
+    "municipality": "nb-dieppe",
+    "document_type": "capital_asset_policy",
+    "title": "Policy A-32 Accounting for Tangible Capital Assets Policy",
+    "year": 2012,
+    "url": "https://www.dieppe.ca/media/m1fbss4r/politique-a-32-comptabilisation-des-immobilisations-corporelles.pdf",
+    "found_via": "https://www.dieppe.ca/en/media-manager/media-pages/policies/policy-a-32-accounting-for-tangible-capital-assets/",
+    "notes": "Found by site crawl on 2026-10-22; PDF opened. Adopted in Council June 25, 2012 (p11). French schedule on pp12-16, English schedule on pp17-21; English p20 checked on a rendered image. Buildings are one class only: Buildings 20-50 years (p18); Asset Betterments/Additions 15-40 (p18); Water and Sewer Buildings & Leasehold Improvement 20-50 (p20). No building-component rows; transcribed rows are the infrastructure classes on p20. The class/description/cost/threshold/life layout matches the common Alberta-style PSAB 3150 policy template."
+  }
+]

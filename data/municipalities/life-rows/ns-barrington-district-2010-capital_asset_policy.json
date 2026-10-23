@@ -1,0 +1,121 @@
+{
+  "document": {
+    "id": "ns-barrington-district-2010-capital_asset_policy",
+    "municipality": "ns-barrington-district",
+    "document_type": "capital_asset_policy",
+    "title": "Policy No. 63 Tangible Capital Assets Policy",
+    "year": 2010,
+    "prepared_by": null,
+    "url": "https://www.barringtonmunicipality.com/2648-no-63-tangible-capital-assets-policy-1/file",
+    "sha256": "62a80dc53b50b3c0c07dbfbdd9f695d9b1dcadb05ae01881fcc8510bcd383fda",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r1",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r2",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r3",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 30,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Site lighting",
+      "systems": [
+        "G4020"
+      ]
+    },
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r4",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 25,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sidewalk, concrete",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r5",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "ns-barrington-district-2010-capital_asset_policy-r6",
+      "page": 5,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    }
+  ]
+}

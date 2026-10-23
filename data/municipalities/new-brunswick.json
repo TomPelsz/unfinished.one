@@ -1,0 +1,24 @@
+[
+  {
+    "id": "nb-bathurst",
+    "name": "Bathurst, City of",
+    "province": "NB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 12157,
+    "statcan_csd": "1315011",
+    "website": "https://www.bathurst.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  },
+  {
+    "id": "nb-dieppe",
+    "name": "Dieppe, City of",
+    "province": "NB",
+    "tier": "single",
+    "upper_tier": null,
+    "population_2021": 28114,
+    "statcan_csd": "1307045",
+    "website": "https://www.dieppe.ca/",
+    "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000201"
+  }
+]

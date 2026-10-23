@@ -1,0 +1,83 @@
+{
+  "document": {
+    "id": "pe-stratford-2009-capital_asset_policy",
+    "municipality": "pe-stratford",
+    "document_type": "capital_asset_policy",
+    "title": "Policy # 2009-FA-02 Tangible Capital Asset Policy",
+    "year": 2009,
+    "prepared_by": null,
+    "url": "https://townofstratford.ca/wp-content/uploads/2025/11/wpdmactprocessdidMTIyLmhvdGxpbms.pdf",
+    "sha256": "a09a5e9de965dce25211bb0d2a13551cc62e7d27bb4ae287a36e9fde51f00b87",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "pe-stratford-2009-capital_asset_policy-r1",
+      "page": 8,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 25,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sidewalks and walkways",
+      "systems": [
+        "G2030"
+      ]
+    },
+    {
+      "id": "pe-stratford-2009-capital_asset_policy-r2",
+      "page": 8,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "pe-stratford-2009-capital_asset_policy-r3",
+      "page": 8,
+      "printed_page": null,
+      "asset_class": "stormwater",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Storm sewer",
+      "systems": [
+        "G3030"
+      ]
+    },
+    {
+      "id": "pe-stratford-2009-capital_asset_policy-r4",
+      "page": 8,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": 50,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    }
+  ]
+}

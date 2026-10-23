@@ -1,0 +1,54 @@
+[
+  {
+    "municipality": "sk-moose-jaw-no-161",
+    "document_type": "capital_asset_policy",
+    "title": "Schedule D Reporting of Tangible Assets Policy",
+    "year": null,
+    "url": "https://www.moosejawrm161.ca/wp-content/uploads/2019/03/Policy_-_Accounting_for_Tangible_Assets.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. No adoption date in the document (uploaded March 2019 per the URL). Threshold and useful-life table on p5, read from the text layer. Building rows are whole-class only: Buildings 40; Building Improvements 40; Engineered Structures 40. No building-component rows; transcribed rows are the infrastructure classes. Shared template: RM of Moose Jaw No. 161, Resort Village of Mistusinne, RM of Shellbrook No. 493 and Town of Tisdale use one Saskatchewan table (Land improvements 15; Buildings 40; Building improvements 40; Engineered Structures 40; road construction 40 / repaving 15; bridges 40 / upgrades; culverts; airports; water infrastructure). Mistusinne's table even keeps provincial \"Ferries\" rows, which suggests it comes from a Government of Saskatchewan model policy. Moose Jaw No. 161 and Mistusinne print identical lives; Shellbrook (culverts 20, bridge upgrades 10) and Tisdale (water infrastructure 45) change a few values.",
+    "lineage": {
+      "id": "sk-provincial-model",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "sk-mistusinne",
+    "document_type": "capital_asset_policy",
+    "title": "Policy #1.4 Accounting for Tangible Capital Assets Policy",
+    "year": 2009,
+    "url": "https://mistusinne.com/mrws/filedriver/Policies/1.4_-_Accounting_for_Tangible_Capital_Assets.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. \"The policy is effective January 1, 2009\" (p1); no later amendment date. Threshold and life table on pp14-15, read from the text layer. Building rows are whole-class only: Buildings 40; Building improvements 40; Engineered Structures 40 (p14). The table also keeps \"Ferries - vessels and towers 40\" and \"Ferries - upgrades 20\". Shared template: RM of Moose Jaw No. 161, Resort Village of Mistusinne, RM of Shellbrook No. 493 and Town of Tisdale use one Saskatchewan table (Land improvements 15; Buildings 40; Building improvements 40; Engineered Structures 40; road construction 40 / repaving 15; bridges 40 / upgrades; culverts; airports; water infrastructure). Mistusinne's table even keeps provincial \"Ferries\" rows, which suggests it comes from a Government of Saskatchewan model policy. Moose Jaw No. 161 and Mistusinne print identical lives; see RM of Moose Jaw No. 161.",
+    "lineage": {
+      "id": "sk-provincial-model",
+      "shared": "values"
+    }
+  },
+  {
+    "municipality": "sk-shellbrook-no-493",
+    "document_type": "capital_asset_policy",
+    "title": "Policy #2018-003 Accounting and Reporting Tangible Capital Assets",
+    "year": 2018,
+    "url": "https://www.rmofshellbrook.com/pdf/policies/Tangible-Capital-Assets.pdf",
+    "found_via": null,
+    "notes": "Found by web search on 2026-10-22; PDF opened. Issued and effective July 04, 2018 (p1). Life table on p5, read from the text layer. Building rows are whole-class only: Buildings 40; Building Improvements 40; Engineered Structures 40. Shared template: RM of Moose Jaw No. 161, Resort Village of Mistusinne, RM of Shellbrook No. 493 and Town of Tisdale use one Saskatchewan table (Land improvements 15; Buildings 40; Building improvements 40; Engineered Structures 40; road construction 40 / repaving 15; bridges 40 / upgrades; culverts; airports; water infrastructure). Mistusinne's table even keeps provincial \"Ferries\" rows, which suggests it comes from a Government of Saskatchewan model policy. Shellbrook drops the airport and water rows and uses Culverts 20 and Bridges - Upgrades 10.",
+    "lineage": {
+      "id": "sk-provincial-model",
+      "shared": "layout"
+    }
+  },
+  {
+    "municipality": "sk-tisdale",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Asset Policy As of January 1, 2015",
+    "year": 2015,
+    "url": "https://tisdale.ca/uploads/dm/36698/TangibleCapitalAssetPolicy2015.pdf",
+    "found_via": "https://www.tisdale.ca/",
+    "notes": "Found by site crawl on 2026-10-22; PDF opened. Scanned with no text layer; read from rendered page images. Dated \"As of January 1, 2015\" (p1). Schedule B \"Capital Asset Thresholds, Estimated Useful Lives and Amortization\" on p13: Buildings 40; Building improvements 40; Engineered Structures 40 (thresholds $50,000). Shared template: RM of Moose Jaw No. 161, Resort Village of Mistusinne, RM of Shellbrook No. 493 and Town of Tisdale use one Saskatchewan table (Land improvements 15; Buildings 40; Building improvements 40; Engineered Structures 40; road construction 40 / repaving 15; bridges 40 / upgrades; culverts; airports; water infrastructure). Mistusinne's table even keeps provincial \"Ferries\" rows, which suggests it comes from a Government of Saskatchewan model policy. Tisdale matches the template except Water infrastructure 45 (40 elsewhere).",
+    "lineage": {
+      "id": "sk-provincial-model",
+      "shared": "layout"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "id": "water-source-heat-pump",
+  "version": "0.4.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Water-source heat pump"
+  ],
+  "aliases": [
+    "WSHP",
+    "geothermal heat pump"
+  ],
+  "service_life": {
+    "median_years": 19,
+    "range_years": [
+      15,
+      21
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect piping for leaks and vibration",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 356,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Inspect wiring and tighten electrical contacts",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check fan for vibration or noise; lubricate fan and motor",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check refrigerant charge; leak test if low",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check temperature drop across condensing coil",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check condensing coil and hoses for water leaks",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Clean air intake and screens; change filters",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Clean coil surfaces and straighten fins",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check reversing valve switches correctly between heat and cool",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Check controls, thermostats, timers and delays",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    },
+    {
+      "task": "Clean and test condensate pump and alarm, if fitted",
+      "frequency": "P1Y",
+      "reference": "Public Buildings Service Preventive Maintenance Guide (Public Buildings Maintenance Standards)",
+      "url": "https://web.archive.org/web/20231003141600/https://origin-www.gsa.gov/system/files/GSA%20PBS%20Preventive%20Maintenance%20Guide%202022-01302023_0.pdf",
+      "page": 357,
+      "checklist": "HVAC-ACR-02-01Y Heat Pumps - Water Cooled (WSHP)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Water-Source Heat Pumps (request for information), 85 FR 27929, May 12, 2020",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-12/pdf/2020-09415.pdf",
+      "page": 11,
+      "code": "H",
+      "label": "equipment lifetime on a retirement function in the form of a Weibull probability distribution, with a mean of 19 years",
+      "years": 19,
+      "note": "Printed page 27939. Direct match: commercial water-source heat pumps (water-to-air, under 135,000 Btu/h). Value from the July 2015 final rule, restated in this RFI."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Updated Buildings Sector Appliance and Equipment Costs and Efficiencies (March 2023), Appendix A: EIA - Technology Forecast Updates - Residential and Commercial Building Technologies - Reference Case (Guidehouse and Leidos, March 3, 2023)",
+      "by": "U.S. Energy Information Administration; Appendix A prepared by Guidehouse and Leidos",
+      "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf",
+      "page": 145,
+      "code": "Commercial Ground-Source Heat Pumps",
+      "label": "Average Life (y) 21 (all years, typical and high efficiency)",
+      "years": 21,
+      "note": "Printed page 141 (Appendix A). Commercial 4-ton (48 kBtu/h) closed-loop ground-source water-to-air heat pump, the same unit type as a water-source heat pump (DOE regulates both as water-source heat pumps). Data-source sheet (PDF p.241, A-61) gives the life source as 'Guidehouse / Water-Source Unitary Heat Pumps EERE 2015 Final Rule'. That rule (80 FR 42614) used a 19-year mean, so the 21 years is the contractor's figure."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Purchasing Energy-Efficient Geothermal Heat Pumps (web page, modified 2026-09-15)",
+      "by": "U.S. Department of Energy, Federal Energy Management Program",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-geothermal-heat-pumps",
+      "code": "Tables 2 and 3 assumptions",
+      "label": "Lifetime Energy Cost: The sum of the discounted values of annual energy cost with an average residential geothermal heat pump life of 15 years.",
+      "years": 15,
+      "note": "Residential geothermal (ground-source) heat pumps, single-phase, open loop, closed loop and direct geoexchange (ENERGY STAR scope). Same water-to-air unit type as a water-source heat pump, but residential; commercial use is not stated. All three tables (Southeast, Southwest, Northern) use 15 years."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Written for GSA contracted O&M in US federal buildings; job plans are generic and defer to manufacturer instructions, and the fire extinguisher plans only point to NFPA 10."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

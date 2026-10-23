@@ -23,7 +23,7 @@ export function getStaticPaths() {
 const { m, upper, docs, rows } = Astro.props;
 const PROVINCES: Record<string, string> = { ON: 'Ontario', BC: 'British Columbia', AB: 'Alberta' };
 const TIER: Record<string, string> = { single: 'Single-tier municipality', lower: 'Lower-tier municipality', upper: m.province === 'BC' ? 'Regional district' : 'Upper-tier municipality' };
-const TYPE: Record<string, string> = { capital_asset_policy: 'Capital asset policy', AMP: 'Asset management plan' };
+const TYPE: Record<string, string> = { capital_asset_policy: 'Capital asset policy', financial_statements: 'Financial statements', AMP: 'Asset management plan' };
 const CHECK: Record<string, string> = { page: 'editor', image_check: 'page image', text_check: 'page text' };
 const years = (r: any) => (r.min === r.max ? r.min : `${r.min}–${r.max}`);
 const fmt = (n: number | null) => (n == null ? null : n.toLocaleString('en-CA'));

@@ -1,0 +1,246 @@
+{
+  "id": "crac-unit",
+  "version": "0.3.0",
+  "classification": {
+    "uniformat": "D3050"
+  },
+  "names": [
+    "Computer room air conditioner"
+  ],
+  "aliases": [
+    "CRAC",
+    "server room AC"
+  ],
+  "service_life": {
+    "median_years": 15,
+    "range_years": [
+      15,
+      15
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Inspect cabinet, isolators and supports; tighten loose fasteners",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check filters; replace as needed",
+      "frequency": "P1M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Leak-check refrigerant circuit; check charge and oil level",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check refrigerant charge and compressor oil level",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Clean condensate drain pan and drain lines",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check fan bearings for heat",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check fans for unusual noise or vibration",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check and tighten fan fasteners",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Lubricate fan sleeve bearings",
+      "frequency": "P1M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Lubricate fan ball bearings",
+      "frequency": "P3M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Lubricate fan roller bearings",
+      "frequency": "P1M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Inspect belts and pulleys",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Measure and adjust belt tension and alignment",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Clean dirt or scale from fan blades or wheel",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 117,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Inspect fan internals; repair coatings; rebalance if needed",
+      "frequency": "P1Y",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Check damper positions and adjust position switches",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Exercise dampers for free movement",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Inspect damper seals",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Clean damper operator and linkage; oil lightly",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Clean, inspect and lubricate damper bearings",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Record compressor head, suction and oil pressures and temperature",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Record compressor and fan motor amps and volts",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    },
+    {
+      "task": "Clean, inspect and calibrate controls and safety devices",
+      "frequency": "P4M",
+      "reference": "TM 5-692-1 Maintenance of Mechanical and Electrical Equipment at Command, Control, Communications, Computer, Intelligence, Surveillance, and Reconnaissance (C4ISR) Facilities: Recommended Maintenance Practices",
+      "url": "https://www.wbdg.org/FFC/ARMYCOE/COETM/tm_5_692_1.pdf",
+      "page": 118,
+      "checklist": "Table 14-2 Package air conditioning (DX) unit"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program for Certain Industrial Equipment: Energy Conservation Standards and Test Procedures for Commercial Heating, Air-Conditioning, and Water-Heating Equipment (final rule), 77 FR 28928, May 16, 2012",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2012-05-16/pdf/2012-10650.pdf",
+      "page": 31,
+      "code": "LCC inputs, g. Equipment Lifetime",
+      "label": "\"DOE used a distribution of lifetimes between 10 and 25 years, with an average of 15 years\"; Table V.7 (PDF p.29, printed 28956): \"DOE estimated CRAC equipment lifetime ranged between 10 and 25 years, with an average lifespan of 15 years\"",
+      "years": 15,
+      "note": "Printed page 28958. Direct match: all computer room air conditioner classes (the literature did not distinguish classes). The distribution spans 10 to 25 years."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Standards for Computer Room Air Conditioners and Air-Cooled, Three-Phase, Small Commercial Package Air Conditioning and Heating Equipment (notification of data availability and RFI), 85 FR 60642, September 25, 2020",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-09-25/pdf/2020-18778.pdf",
+      "page": 30,
+      "code": "III.D.1",
+      "label": "Equipment Lifetime: \"DOE used a 15-year lifetime for all CRAC equipment classes\"",
+      "years": 15,
+      "note": "Printed page 60671. Direct match: all computer room air conditioner classes."
+    }
+  ],
+  "confidence": {
+    "grade": "C",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data.",
+    "Some maintenance intervals come from TM 5-692-1, an Army manual for mission-critical (C4ISR) facilities; they may be tighter than typical commercial practice."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}

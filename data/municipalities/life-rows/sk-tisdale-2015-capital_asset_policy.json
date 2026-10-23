@@ -1,0 +1,123 @@
+{
+  "document": {
+    "id": "sk-tisdale-2015-capital_asset_policy",
+    "municipality": "sk-tisdale",
+    "document_type": "capital_asset_policy",
+    "title": "Tangible Capital Asset Policy As of January 1, 2015",
+    "year": 2015,
+    "prepared_by": null,
+    "url": "https://tisdale.ca/uploads/dm/36698/TangibleCapitalAssetPolicy2015.pdf",
+    "sha256": "399c36bf159f8be234d66a892d9ee17502b1f9af9034bfb8cb978fed39198221",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r1",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r2",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r3",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 40,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r4",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": 15,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r5",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": 35,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "sk-tisdale-2015-capital_asset_policy-r6",
+      "page": 13,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": 45,
+      "life_years_min": null,
+      "life_years_max": null,
+      "life_type": "accounting",
+      "text_check": "no text",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-22",
+      "review_method": "image_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    }
+  ]
+}

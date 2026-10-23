@@ -1,0 +1,119 @@
+{
+  "document": {
+    "id": "mb-winnipeg-2023-financial_statements",
+    "municipality": "mb-winnipeg",
+    "document_type": "financial_statements",
+    "title": "2023 Annual Report (consolidated financial statements, note on tangible capital assets)",
+    "year": 2023,
+    "prepared_by": null,
+    "url": "https://legacy.winnipeg.ca/finance/files/2023AnnualReport.pdf",
+    "sha256": "c5eba2b99fe255b793ff328761a2016c799e4e6c6fd5493c10e71b8cab3af4c3",
+    "retrieved_on": "2026-10-23"
+  },
+  "rows": [
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r1",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 100,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r2",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "wastewater",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Sanitary sewer",
+      "systems": [
+        "G3020"
+      ]
+    },
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r3",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "water",
+      "life_years_value": null,
+      "life_years_min": 50,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Water supply",
+      "systems": [
+        "G3010"
+      ]
+    },
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r4",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "other",
+      "life_years_value": null,
+      "life_years_min": 20,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Other asset",
+      "systems": []
+    },
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r5",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "roads",
+      "life_years_value": null,
+      "life_years_min": 10,
+      "life_years_max": 50,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    },
+    {
+      "id": "mb-winnipeg-2023-financial_statements-r6",
+      "page": 61,
+      "printed_page": null,
+      "asset_class": "bridges",
+      "life_years_value": null,
+      "life_years_min": 25,
+      "life_years_max": 75,
+      "life_type": "accounting",
+      "text_check": "found",
+      "extracted_by": "transcribed",
+      "reviewed_on": "2026-10-23",
+      "review_method": "text_check",
+      "label": "Roadways",
+      "systems": [
+        "G2010"
+      ]
+    }
+  ]
+}

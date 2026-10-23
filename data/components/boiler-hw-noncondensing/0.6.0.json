@@ -1,0 +1,366 @@
+{
+  "id": "boiler-hw-noncondensing",
+  "version": "0.6.0",
+  "classification": {
+    "uniformat": "D3020"
+  },
+  "names": [
+    "Boiler, hot water, non-condensing"
+  ],
+  "aliases": [
+    "atmospheric boiler",
+    "cast iron boiler",
+    "hot water boiler"
+  ],
+  "service_life": {
+    "median_years": 25,
+    "range_years": [
+      25,
+      26.9
+    ],
+    "range_basis": "source_spread"
+  },
+  "pm_tasks": [
+    {
+      "task": "Shut down or re-sequence boilers that are not needed",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 150,
+      "checklist": "9.2.12 Boiler Checklist"
+    },
+    {
+      "task": "Do an overall visual inspection: all equipment operating and safety systems in place",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 150,
+      "checklist": "9.2.12 Boiler Checklist"
+    },
+    {
+      "task": "Check burner for proper control and cleanliness",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 150,
+      "checklist": "9.2.12 Boiler Checklist"
+    },
+    {
+      "task": "Check motor condition: proper function and temperatures",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 150,
+      "checklist": "9.2.12 Boiler Checklist"
+    },
+    {
+      "task": "Check boiler room air temperature stays within design limits",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 150,
+      "checklist": "9.2.12 Boiler Checklist"
+    },
+    {
+      "task": "Keep daily boiler log: fuel used, flue gas temperature, makeup water, steam output; watch for variations",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check and clean or replace oil filters and strainers",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check oil is at proper temperature before burning",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Confirm the boiler water treatment system is working",
+      "frequency": "P1D",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Measure flue gas composition and temperature at selected firing positions",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check all relief valves for leaks",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Clean pilot and burner assemblies; look for mineral or corrosion buildup",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Stop fuel flow to check flame failure response, restart and observe flame",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Inspect system for water or steam leaks, defective valves and traps, corroded piping, insulation",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Inspect combustion air damper and fuel valve linkages for setting and tightness",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Inspect boiler for air leaks; check damper seals",
+      "frequency": "P1W",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Measure flue gas composition over the full firing range and compare with last month",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 151,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check combustion air openings to boiler room and boiler are adequate and clean",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check fuel system pressure gauge, pumps, filters and transfer lines; clean filters",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check belt tension and packing glands for leakage",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check for air leaks around access openings and flame scanner",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check blower belts for tightness and slippage",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check gaskets seal tightly; replace if not",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Inspect boiler insulation and casing for hot spots",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check pressure reducing/regulating valves operate properly",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Test boiler water quality for chemical balance",
+      "frequency": "P1M",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Clean water-side surfaces per manufacturer",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Clean fire-side surfaces per manufacturer",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Inspect and repair fire-side refractories",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Remove and recondition or replace relief valve",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Clean and recondition fuel system pumps, filters, pilot, oil preheaters, oil tanks",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Clean electrical terminals; check electronic controls and replace defective parts",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Check and repair hydraulic and pneumatic valves",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Adjust for optimal flue gas composition; record composition, firing position, temperature",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    },
+    {
+      "task": "Eddy current test tubes for wall thickness, as required",
+      "frequency": "P1Y",
+      "reference": "Operations & Maintenance Best Practices: A Guide to Achieving Operational Efficiency, Release 3.0",
+      "url": "https://www.energy.gov/sites/default/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf",
+      "page": 152,
+      "checklist": "Boiler Checklist (contd)"
+    }
+  ],
+  "basis": [
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.9",
+      "label": "Boilers, Gas Fired, Sectional",
+      "years": 25,
+      "note": "Same life for family and elderly properties. US multifamily housing. HUD does not separate condensing from non-condensing boilers; its gas-fired sectional and atmospheric rows describe non-condensing types. Its oil/gas/dual-fuel rows (30 years low MBH, 40 years high MBH) are not used because they do not say which kind."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "CNA e-Tool Estimated Useful Life Table",
+      "by": "U.S. Department of Housing and Urban Development",
+      "url": "https://www.hud.gov/sites/documents/eul_for_cna_e_tool.pdf",
+      "page": 10,
+      "code": "HUD CNA 3.4.1.2.12",
+      "label": "Boilers, Gas Fired Atmospheric",
+      "years": 25,
+      "note": "Same life for family and elderly properties. US multifamily housing."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Boilers (notice of proposed rulemaking), 88 FR 55128, August 14, 2023",
+      "by": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-14/pdf/2023-16476.pdf",
+      "page": 3,
+      "code": "I.A",
+      "label": "\"average lifetime of consumer boilers, which is estimated to be 26.9 years for gas-fired hot water boilers\"",
+      "years": 26.9,
+      "note": "Printed page 55130. Consumer (residential, under 300,000 Btu/h input) gas-fired hot-water boilers, condensing and non-condensing given the same lifetime. DOE's analysis includes consumer boilers installed in commercial buildings. Also in Table IV.9 (PDF p.34, printed 55161): 'GHW: 26.9 years'."
+    },
+    {
+      "type": "public_document",
+      "life_type": "planning",
+      "title": "Updated Buildings Sector Appliance and Equipment Costs and Efficiencies (March 2023), Appendix A: EIA - Technology Forecast Updates - Residential and Commercial Building Technologies - Reference Case (Guidehouse and Leidos, March 3, 2023)",
+      "by": "U.S. Energy Information Administration; Appendix A prepared by Guidehouse and Leidos",
+      "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf",
+      "page": 123,
+      "code": "Commercial Gas-Fired Boilers",
+      "label": "Average Life (y): 2018 installed base 25; 2022 typical (85% thermal efficiency) 25, high (99%) 25; same through 2050",
+      "years": 25,
+      "note": "Printed page 119 (Appendix A). Commercial packaged gas-fired hot-water boiler, 800 kBtu/h input (note 1: small 300-2,500 kBtu/h hot water class). The 85% 'typical' is non-condensing and the 99% 'high' is condensing; both carry 25 years. The 2012 installed-base column shows 30 years. The data-source sheet (PDF p.231, A-51) labels the life source only under the 2012 column, as 'Comm. Heating, AC, WH EERE 2009' (a DOE analysis); the 2018-and-later life cells have no separate label."
+    }
+  ],
+  "confidence": {
+    "grade": "B",
+    "sample_size": null
+  },
+  "open_questions": [
+    "Every source here is a published planning, design or accounting life. None is observed replacement data."
+  ],
+  "contributors": [
+    "unfinished.one editors"
+  ],
+  "last_reviewed": "2026-10-23"
+}
